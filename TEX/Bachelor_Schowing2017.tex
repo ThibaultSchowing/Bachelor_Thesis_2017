@@ -1,0 +1,99 @@
+\documentclass[11pt,a4paper]{report}
+
+% Packages 
+
+\usepackage[francais]{babel}
+\usepackage[utf8]{inputenc}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{afterpage}
+
+% Modification de commandes 
+
+\newcommand\blankpage{%
+	\null
+	\thispagestyle{empty}%
+	\addtocounter{page}{-1}%
+	\newpage}
+
+
+
+
+\graphicspath{ {img/} }
+
+
+\author{Thibault Schowing}
+
+\title{Amélioration de la productivité de cultures tropicales par des méthodes d'apprentissage automatique}
+
+
+
+
+
+\begin{document}
+	% Ordre de préférence:
+	% a) La page de couverture
+	% b) Le cahier des charges
+	% c) La table des matiè¨res
+	% d) Le résumé
+	% e) L'introduction
+	% f) Le corps du rapport
+	% g) La conclusion
+	% h) La bibliographie
+	% -i) La liste des symboles et abréviations utilisés
+	% -j) La liste des figures
+	% -k) Les annexes
+	% -l) Le journal de travail
+	
+	% Page de titre
+	\begin{titlepage}
+		\centering
+		
+		
+		\small{Haute Ecole d'Ingénierie et de Gestion du Canton de Vaud  \par}
+		\footnotesize{University of Applied Sciences Western Switzerland\par}
+		\vspace{1cm}
+		
+		\includegraphics[width=0.5\textwidth]{HEIG-VD_Logo}\par
+		
+		\vspace{1cm}
+		\Large{Amélioration de la productivité de cultures tropicales par des méthodes d'apprentissage automatique\par}
+		\vspace{1.5cm}
+		\small{Caractériser et prédire la qualité des cafés colombiens \par}
+		\vspace{2cm}
+		\small\textit{Thibault Schowing}\par
+		\small{Travail de Bachelor}\par
+		\small{\today\par}
+		
+		\vfill
+		Superviseur: Prof.~Carlos Andrès \textsc{Peña}\par
+		Expert: Sylvain Delerce \par
+		Expert: Daniel Jimenez
+		
+		
+	\end{titlepage}
+	
+	\afterpage{\blankpage}
+	\pagenumbering{gobble}
+
+	\include{acknowledgements}
+	
+	\afterpage{\blankpage}
+	
+	\include{summary}
+	
+	\afterpage{\blankpage}
+	
+	\pagenumbering{arabic}
+	\tableofcontents
+	
+	\afterpage{\blankpage}
+	
+	\include{body}
+	
+	
+\end{document}
