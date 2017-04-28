@@ -31,7 +31,7 @@ Le but de cette collaboration sur le long terme est de permettre au département
 En prenant par exemple les données de température maximale pour le mois de janvier 2011, en affectant pour chaque valeur une couleur, nous pouvons visualiser les données sous la forme d'une image comme sur la figure \ref{tmax_picture}.
 
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\includegraphics[scale=1]{tmax_picture_1}
 	\caption{\label{tmax_picture} Mise sous forme graphique du tableau des température maximales pour le mois de janvier 2011 }
 \end{figure}
@@ -61,7 +61,7 @@ La classification, définit simplement le fait de mettre un objet dans une certa
 La PCA, pour Analyse en Composante Principale en français, est une méthode qui consiste à transformer un jeu de variables corrélées en nouvelles variables dé-corrélées les unes des autres. Ces nouvelles variables sont appelées composantes principales et permettent de rendre l'information moins redondante. Pour faire plus simple, l'utilité de la Composante Principale est de réduire le nombre de variables tout en gardant un maximum d'information. La figure \ref{PCAdefinition} montre une représentation graphique de la composante principale. 
 
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\caption{\label{PCAdefinition} Description de l'Analyse en Composante Principale. (A) Description d'un objet simple de manière compliquée ( trois dimensions pour par exemple une ellipse en papier) (B) Trouver des nouvelles variables (axes de coordonnées) ortogonaux l'un à l'autre qui pointent dans les directions de la plus grande variance (C) Utiliser les nouvelles variables (axes) pour décrire l'objet d'une manière plus simple. }
 	\includegraphics[scale=0.5]{PCA_1}
 \end{figure}
@@ -74,7 +74,7 @@ La PCA, pour Analyse en Composante Principale en français, est une méthode qui
 
 PLS, originalement pour \textit{Partial Least Squares regression} puis plus récemment pour \textit{Projection to Latent Structures} est une méthode qui combine des propriétés de la PCA ainsi que de multiples régressions linéaires. Au lieu de trouver un hyperplan de la variance maximale, entre les variables dépendantes et indépendantes, cette méthode va trouver un modèle de régression linéaire en projetant les variables indépendantes et dépendantes dans un nouvel espace. Ce sont les variables latentes. Cette méthode est particulièrement utile lorsqu'il est nécessaire de prédire un jeu de variables dépendantes à partir d'un très grand jeu de variables indépendantes. 
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\includegraphics[scale=0.5]{PLS_1}
 	\caption{\label{PLSschema}Méthode PLS. X est représenté par son score t et Y par u. Une première estimation de U est multipliée à travers X pour obtenir une aproximation du poid $ \omega_t $. Le poid est normalisé pour être de longueur 1 et remultiplié à travers X pour produire t. A partir de t et de Y, le poid $ q^T $ est obtenu ce qui donne un nouveau vecteur u. Cette opération est répétée jusqu'à la convergence de t.}
 	%TODO citer le livre  http://www.umb.no/statisk/specmod/mbseminar/Westerhuis1998.pdf
@@ -90,11 +90,25 @@ PLS, originalement pour \textit{Partial Least Squares regression} puis plus réc
 La PLS multi block est une extension de la méthode PLS qui sépare les variables indépendantes en plusieurs blocks afin de leur donner une plus grande interpértabilité et plus d'informations sur la structure générale des données. Dans le cadre de ce projet, on peut imaginer séparer les données climatiques des données de sol par exemple.  
 L'exécution est très similaire à la méthode PLS classique. 
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\includegraphics[scale=0.5]{MBPLS_1}
 	\caption{\label{MBPLSschema} Méthode MBPLS. Un score de départ u est régressé sur tous les blocs $ X_b $ pour donner les poids variables du bloc $ w^T_b $ Les poids des variables de blocs sont normalisés à la longueur un et multipliés par les blocs pour donner les scores de blocs $ t_b $.  Les scores de blocs sont combinés dans le super bloc T. Un cycle PLS entre T et Y est effectué pour donner le poids superieur $ W^T_T $, qui est également normalisé à la longueur un, et le super score $ t_T $. L'opération est répétée jusqu'à la convergence de $ t_T $. }
 	%TODO citer le livre  http://www.umb.no/statisk/specmod/mbseminar/Westerhuis1998.pdf
 \end{figure}
+
+
+\subsection{Random Forest}
+
+La méthode Random Forest, ou \textit{forêts d'arbres décisionnels} en français, fait partie des méthodes ensemblistes, qui utilisent la combinaison de plusieurs modèles de base, d'apprentissage automatique. Elle combine les concepts de sous-espaces aléatoires et de bagging.\\
+
+Le bagging, ou \textit{bootstrap agregation}, consiste à sous-échantillonner (ou ré-échantillonner au hasard avec doublons) le training set et de faire générer à l’algorithme voulu un modèle pour chaque sous-échantillon. On utilise le bagging pour réduire la variance de la fonction de prédiction estimée. Le bagging semble bien fonctionner pour les procédures avec une grande variance et un petit biais, comme les arbres de décision.\\
+%TODO citer Hastie (pdf)
+
+Random Forest effectue donc un apprentissage sur de multiples arbres de décision entraînés sur des sous-ensembles de données légèrement différents.
+
+%TODO citer https://www.stat.berkeley.edu/~breiman/randomforest2001.pdf
+%TODO citer http://blog.octo.com/les-methodes-ensemblistes-pour-algorithmes-de-machine-learning/
+ 
 
 \section{Apprentissage supervisé}
 % knn, réseaux de neurones etc
