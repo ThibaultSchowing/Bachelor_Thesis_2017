@@ -1,0 +1,24 @@
+\begin{thebibliography}{1}
+
+\bibitem{EnsembleMethods}
+Issam~El Alaoui.
+\newblock Les méthodes ensemblistes pour algorithmes de machine learning.
+\newblock {\em Octo blog}, 2014.
+
+\bibitem{hastie_09_elements-of.statistical-learning}
+Trevor Hastie, Robert Tibshirani, and Jerome Friedman.
+\newblock {\em The elements of statistical learning: data mining, inference and
+  prediction}.
+\newblock Springer, 2 edition, 2009.
+
+\bibitem{Statistics01randomforests}
+Leo~Breiman Statistics and Leo Breiman.
+\newblock Random forests.
+\newblock In {\em Machine Learning}, pages 5--32, 2001.
+
+\bibitem{CEM:CEM515}
+Johan~A. Westerhuis, Theodora Kourti, and John~F. MacGregor.
+\newblock Analysis of multiblock and hierarchical pca and pls models.
+\newblock {\em Journal of Chemometrics}, 12(5):301--321, 1998.
+
+\end{thebibliography}

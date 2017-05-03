@@ -11,6 +11,7 @@
 \usepackage{makeidx}
 \usepackage{graphicx}
 \usepackage{afterpage}
+\usepackage{cite}
 
 \usepackage[section]{placeins}
 \usepackage{float}
@@ -103,6 +104,13 @@
 	\afterpage{\blankpage}
 	
 	\include{body}
+	
+	\include{Results}
+	
+	\include{Conclusion}
+	
+	\bibliography{mybib}{}
+	\bibliographystyle{plain}
 	
 	
 \end{document}

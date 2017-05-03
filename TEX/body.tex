@@ -8,25 +8,25 @@ A partir de données sur le climat, la qualité du sol et les pratiques cultural
 
 
 
-\section{Contexte du projet}
+\section{Problématique}
 Le sujet de ce Travail de Bachelor a été proposé par le « \textit{Centro Internacional de Agricultura Tropical }» (CIAT) qui travaille dans le but d’améliorer la productivité et la gestion de l’agriculture en zone tropicale, et dont les bureaux se trouvent à Cali, en Colombie.\\
 
-À 200 kilomètres de Cali, le comité des caféiculteurs de Risaralda souhaite pouvoir expliquer les différents traits de la qualité en bouche des cafés produits dans les différents secteurs de leur département. La filière café colombienne est en effet en concurrence avec d’autres pays exportateurs sur le marché international, et un des avantages comparatifs de la Colombie est que ses terroirs produisent des cafés de qualité et de caractères affirmés. Il est donc stratégique pour la fédération des caféiculteurs de Colombie d'être en mesure de faire valoir ces spécificités pour aller chercher la valeur ajoutée associée aux produits démarqués du lot.\\
+À 200 kilomètres de Cali, le comité des caféiculteurs de Risaralda souhaite pouvoir expliquer les différents traits de la qualité en bouche des cafés produits dans les différents secteurs de leur département. La filière café colombienne est en effet en concurrence avec d’autres pays exportateurs sur le marché international, et un des avantages comparatifs de la Colombie est que ses terroirs produisent des cafés de qualité et de caractères affirmés. Il est donc stratégique pour la fédération des caféiculteurs de Colombie d'être en mesure de faire valoir ces spécificités pour aller chercher la valeur ajoutée associée aux produits démarqués du lot.
 
 
-Ce projet a pour but de trouver des méthodes de modélisation afin d’identifier les caractéristiques du café spécifiques à chaque secteur de la région en se basant sur des analyses gustatives, des données climatiques et géographiques, et d’autres données de pratiques culturales.\\
+Ce projet a pour but de trouver des méthodes de modélisation afin d’identifier les caractéristiques du café spécifiques à chaque secteur de la région en se basant sur des analyses gustatives, des données climatiques et géographiques, et d’autres données de pratiques culturales.
 
 
-Dans un premier temps, l’objectif est de catégoriser les cafés en tentant de trouver des tendances gustatives par rapport aux conditions de culture. Dans un second temps, il faudra pouvoir prédire la qualité en bouche des cafés par rapport aux conditions environnementales.\\
+Dans un premier temps, l’objectif est de catégoriser les cafés en tentant de trouver des tendances gustatives par rapport aux conditions de culture. Dans un second temps, il faudra pouvoir prédire la qualité en bouche des cafés par rapport aux conditions environnementales.
 
 
-Le but de cette collaboration sur le long terme est de permettre au département de Risaralda de mettre en valeur la diversité de ses cafés, principalement à des fins de promotion auprès des acheteurs. \\
+Le but de cette collaboration sur le long terme est de permettre au département de Risaralda de mettre en valeur la diversité de ses cafés, principalement à des fins de promotion auprès des acheteurs. 
 
-
-\section{Contexte des données}
+\newpage
+\section{Données}
 \paragraph{Les données gustatives}sont très relatives aux sens et à la perception de chaque goutteur. Cependant, la SCAA, \textit{Speciality Coffee Association of America}, dispose d’un système de notation basé sur des hypothèses communautaires reconnues ce qui permet d’avoir une certaine régularité dans les données de dégustations. Les cafés sont notés sur 100 points répartis sur plusieurs critères: parfum/arôme, saveur, arrière-goût, acidité, corps, équilibre, douceur, clean-cup (absence de défauts marqués), uniformité et évaluation personnelle du testeur.  Chacun de ces critères est noté sur 10 mais aussi par des termes qualitatifs. Par exemple, la saveur, c’est-à-dire la combinaison de l’odeur et du goût, la première impression qu’on a en goûtant le café, peut être notée 7/10 et “Caramel”. 
 
-\paragraph{Les données climatiques}comprennent les températures maximales, minimales et moyennes, la variation de température pendant la journée (DTR) et les quantités de précipitations. Les moyennes de ces mesures ont été calculée pour chaque mois et extrapolées sur une grande partie du territoire, permettant ainsi d’accéder aux mesures selon l’emplacement désiré à environ 500 mètres près. \\
+\paragraph{Les données climatiques}comprennent les températures maximales, minimales et moyennes, la variation de température pendant la journée (DTR) et les quantités de précipitations. Les moyennes de ces mesures ont été calculée pour chaque mois et extrapolées sur une grande partie du territoire (à partir de stations météorologiques), permettant ainsi d’accéder aux mesures selon l’emplacement désiré à environ 500 mètres près. \\
 
 En prenant par exemple les données de température maximale pour le mois de janvier 2011, en affectant pour chaque valeur une couleur, nous pouvons visualiser les données sous la forme d'une image comme sur la figure \ref{tmax_picture}.
 
@@ -46,7 +46,7 @@ En prenant par exemple les données de température maximale pour le mois de jan
 \section{Régression et classification}
 La régression est un ensemble de méthodes statistique utilisées afin d'estimer les relations entre des variables, plus précisément entre variables indépendantes (entrées) et dépendantes (sorties). Afin d'estimer les relations entre les variables, des \textit{features} peuvent être extraites comme une moyenne ou la PCA (section \ref{PCAss}) par exemple.\\
 
-La classification, définit simplement le fait de mettre un objet dans une certaine classe ou une autre. 
+La classification, définit simplement le fait de mettre un objet dans une certaine classe ou une autre. Elle appartient à l'apprentissage non-supervisé qui consiste en méthodes permettant de diviser un groupe hétérogène de données en sous-groupes de données considérées comme étant les plus proches.  
 
 % https://georgemdallas.wordpress.com/2013/10/30/principal-component-analysis-4-dummies-eigenvectors-eigenvalues-and-dimension-reduction/
 
@@ -62,7 +62,7 @@ La PCA, pour Analyse en Composante Principale en français, est une méthode qui
 
 
 \begin{figure}[H]
-	\caption{\label{PCAdefinition} Description de l'Analyse en Composante Principale. (A) Description d'un objet simple de manière compliquée ( trois dimensions pour par exemple une ellipse en papier) (B) Trouver des nouvelles variables (axes de coordonnées) ortogonaux l'un à l'autre qui pointent dans les directions de la plus grande variance (C) Utiliser les nouvelles variables (axes) pour décrire l'objet d'une manière plus simple. }
+	\caption{\label{PCAdefinition} Description de l'Analyse en Composante Principale. (A) Description d'un objet simple de manière compliquée ( trois dimensions pour par exemple une ellipse en papier) (B) Trouver des nouvelles variables (axes de coordonnées) orthogonaux l'un à l'autre qui pointent dans les directions de la plus grande variance (C) Utiliser les nouvelles variables (axes) pour décrire l'objet d'une manière plus simple. }
 	\includegraphics[scale=0.5]{PCA_1}
 \end{figure}
 
@@ -76,8 +76,8 @@ PLS, originalement pour \textit{Partial Least Squares regression} puis plus réc
 
 \begin{figure}[H]
 	\includegraphics[scale=0.5]{PLS_1}
-	\caption{\label{PLSschema}Méthode PLS. X est représenté par son score t et Y par u. Une première estimation de U est multipliée à travers X pour obtenir une aproximation du poid $ \omega_t $. Le poid est normalisé pour être de longueur 1 et remultiplié à travers X pour produire t. A partir de t et de Y, le poid $ q^T $ est obtenu ce qui donne un nouveau vecteur u. Cette opération est répétée jusqu'à la convergence de t.}
-	%TODO citer le livre  http://www.umb.no/statisk/specmod/mbseminar/Westerhuis1998.pdf
+	\caption{\label{PLSschema}Méthode PLS. X est représenté par son score t et Y par u. Une première estimation de U est multipliée à travers X pour obtenir une aproximation du poid $ \omega_t $. Le poid est normalisé pour être de longueur 1 et remultiplié à travers X pour produire t. A partir de t et de Y, le poid $ q^T $ est obtenu ce qui donne un nouveau vecteur u. Cette opération est répétée jusqu'à la convergence de t.\cite{CEM:CEM515}}
+	% http://www.umb.no/statisk/specmod/mbseminar/Westerhuis1998.pdf
 \end{figure}
 
 \subsection{Multi Block PLS}
@@ -92,34 +92,75 @@ L'exécution est très similaire à la méthode PLS classique.
 
 \begin{figure}[H]
 	\includegraphics[scale=0.5]{MBPLS_1}
-	\caption{\label{MBPLSschema} Méthode MBPLS. Un score de départ u est régressé sur tous les blocs $ X_b $ pour donner les poids variables du bloc $ w^T_b $ Les poids des variables de blocs sont normalisés à la longueur un et multipliés par les blocs pour donner les scores de blocs $ t_b $.  Les scores de blocs sont combinés dans le super bloc T. Un cycle PLS entre T et Y est effectué pour donner le poids superieur $ W^T_T $, qui est également normalisé à la longueur un, et le super score $ t_T $. L'opération est répétée jusqu'à la convergence de $ t_T $. }
-	%TODO citer le livre  http://www.umb.no/statisk/specmod/mbseminar/Westerhuis1998.pdf
+	\caption{\label{MBPLSschema} Méthode MBPLS. Un score de départ u est régressé sur tous les blocs $ X_b $ pour donner les poids variables du bloc $ w^T_b $ Les poids des variables de blocs sont normalisés à la longueur un et multipliés par les blocs pour donner les scores de blocs $ t_b $.  Les scores de blocs sont combinés dans le super bloc T. Un cycle PLS entre T et Y est effectué pour donner le poids superieur $ W^T_T $, qui est également normalisé à la longueur un, et le super score $ t_T $. L'opération est répétée jusqu'à la convergence de $ t_T $. \cite{CEM:CEM515}}
+	% http://www.umb.no/statisk/specmod/mbseminar/Westerhuis1998.pdf
 \end{figure}
+
+
+
+
+
+ 
+\newpage
+\section{Apprentissage supervisé}
+% knn, réseaux de neurones etc
+Le but de l'apprentissage supervisé est d'expliquer des sorties (outputs) à partir d'entrées (inputs). Des règles sont calculées à partir de données d'apprentissage selon différents modèles. Par la suite, le modèle est utilisé pour catégoriser des nouvelles données.  
 
 
 \subsection{Random Forest}
 
-La méthode Random Forest, ou \textit{forêts d'arbres décisionnels} en français, fait partie des méthodes ensemblistes, qui utilisent la combinaison de plusieurs modèles de base, d'apprentissage automatique. Elle combine les concepts de sous-espaces aléatoires et de bagging.\\
+La méthode Random Forest, ou \textit{forêts d'arbres décisionnels} en français, fait partie des méthodes ensemblistes\cite{EnsembleMethods}, qui utilisent la combinaison de plusieurs modèles de base, d'apprentissage automatique. Elle combine les concepts de sous-espaces aléatoires et de bagging.\\
 
-Le bagging, ou \textit{bootstrap agregation}, consiste à sous-échantillonner (ou ré-échantillonner au hasard avec doublons) le training set et de faire générer à l’algorithme voulu un modèle pour chaque sous-échantillon. On utilise le bagging pour réduire la variance de la fonction de prédiction estimée. Le bagging semble bien fonctionner pour les procédures avec une grande variance et un petit biais, comme les arbres de décision.\\
-%TODO citer Hastie (pdf)
-
-Random Forest effectue donc un apprentissage sur de multiples arbres de décision entraînés sur des sous-ensembles de données légèrement différents.
-
-%TODO citer https://www.stat.berkeley.edu/~breiman/randomforest2001.pdf
-%TODO citer http://blog.octo.com/les-methodes-ensemblistes-pour-algorithmes-de-machine-learning/
- 
-
-\section{Apprentissage supervisé}
-% knn, réseaux de neurones etc
+Le bagging, ou \textit{bootstrap agregation}, consiste à sous-échantillonner (ou ré-échantillonner au hasard avec doublons) le training set et de faire générer à l’algorithme voulu un modèle pour chaque sous-échantillon. On utilise le bagging pour réduire la variance de la fonction de prédiction estimée. Le bagging semble bien fonctionner pour les procédures avec une grande variance et un petit biais, comme les arbres de décision. \cite{hastie_09_elements-of.statistical-learning}\\
 
 
+Random Forest effectue donc un apprentissage sur de multiples arbres de décision entraînés sur des sous-ensembles de données légèrement différents \cite{Statistics01randomforests}.
 
+
+\begin{figure}[H]
+	\includegraphics[scale=0.7]{RandomForestSimple}
+	\caption{\label{RandomForestSchema} Schéma simple du fonctionnement de Random Forest. \newline Source: \textit{https://www.youtube.com/watch?v=ajTc5y3OqSQ}}
+\end{figure}
+
+\subsection{Gradient Boosting}
+Gradient Boosting est une méthode de machine learning utilisée pour les problèmes de classification et de régression. 
+
+\newpage
 \section{Apprentissage non-supervisé}
-% som, 
+Contrairement à l'apprentissage supervisé, l'apprentissage non-supervisé tente de trouver des groupes dans des données hétérogènes. Le but est d'extraire des connaissances à partir de ces données.
+
+
+\subsection{SOM}
+
+Les différentes classes gustatives d'un café peuvent être considérées comme des entrées afin vérifier s'il est possible de regrouper différents cafés qui se distingueraient. Afin de trouver les différentes catégories de café, nous testerons les capacités de l'algorithme SOM (pour Self Organizing Map ou Cartes Auto Adaptatives en français) qui utilise un réseau de neurones pour étudier la répartition des données dans un espace de grande dimension. 
+
+Un bel exemple de SOM est celui de la carte de la pauvreté mondiale réalisé par le \textit{Department of Computer Science and Engineering} de l'université \textit{Helsinki University of Technology}. 
+
+\begin{figure}[H]
+	\includegraphics[scale=0.5]{SOMWordlPovertyMap}
+	\caption{\label{SOMPovertyMap} Pays organisés en SOM d'après des indicateurs de pauvreté. \newline Source: \textit{http://www.cis.hut.fi/research/som-research/worldmap.html}}
+\end{figure}
+
+\begin{figure}[H]
+	\includegraphics[scale=0.55]{worldmap}
+	\caption{\label{WorldPovertyMap} Pays correspondants à la carte SOM de la figure \ref{SOMPovertyMap} \newline Source: \textit{http://www.cis.hut.fi/research/som-research/worldmap.html}}
+\end{figure}
+
+
+% DRAFT 
+\subsection{DRAFT Classification multi-classes}
+%https://www.youtube.com/watch?v=6kzvrq-MIO0
+Dans ce projet, le but est de trouver différentes classes de café en trouvant différents points pour les différencier. Les classes de cafés ne seront pas binaires (bon / pas bon, amer ou pas) mais seront composées de multiples classes différentes. Les différents traits du goût (acidité, corps,...) et les différentes classes dans ces catégories (Acide malique ou acide phosphorique pour décrire l'acidité par exemple) composent le café comme différents mots composent le sujet d'un texte. \\
+
+
+Les algorithmes comme KNN, Logistic Regression et Naive Bayes sont naturellement multi-classes alors que d'autres comme les perceptrons, SVM ou le boosting sont essentiellement des classificateurs binaires. Il est tout de fois possible de combiner ces différents classificateurs binaires, avec des méthodes comme \textit{One Against All} ou \textit{All-Pairs} afin de les rendre multi-classe. \\
+
+
+% TODO - clustering and association http://machinelearningmastery.com/supervised-and-unsupervised-machine-learning-algorithms/
 
 
 
 
 
+% cross validation etc
 
