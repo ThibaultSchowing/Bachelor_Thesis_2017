@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.22)  2 MAY 2017 15:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.22)  16 MAY 2017 17:09
 entering extended mode
 **./Bachelor_Schowing2017.tex
 (Bachelor_Schowing2017.tex
@@ -600,7 +600,7 @@ G,.JBIG2,.JB2,.eps]
 File: img/HEIG-VD_Logo.png Graphic file (type png)
 
 <use img/HEIG-VD_Logo.png>
-Package pdftex.def Info: img/HEIG-VD_Logo.png used on input line 71.
+Package pdftex.def Info: img/HEIG-VD_Logo.png used on input line 70.
 (pdftex.def)             Requested size: 180.0pt x 55.89388pt.
  [1
 
@@ -649,7 +649,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 [2
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
@@ -657,48 +672,65 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 File: img/tmax_picture_1.png Graphic file (type png)
 
 <use img/tmax_picture_1.png>
-Package pdftex.def Info: img/tmax_picture_1.png used on input line 35.
+Package pdftex.def Info: img/tmax_picture_1.png used on input line 41.
 (pdftex.def)             Requested size: 254.75111pt x 165.61833pt.
- [3 <./img/tmax_picture_1.png>] [4]
+ [3]
+Overfull \hbox (2.47484pt too wide) in paragraph at lines 48--49
+[] \OT1/cmr/bx/n/10.95 Le systeme SICA \OT1/cmr/m/n/10.95 , pour \OT1/cmr/m/it
+/10.95 Sis-tema de In-for-macion Ca-fe-tera\OT1/cmr/m/n/10.95 , est un system
+e
+ []
+
+
+Overfull \hbox (2.23256pt too wide) in paragraph at lines 48--49
+\OT1/cmr/m/n/10.95 gere par la Federation Na-tio-nale des Cafeiculteurs (F
+NC), per-met-tant d'iden-
+ []
+
+[4 <./img/tmax_picture_1.png>]
 Chapitre 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
-
- []
-
-
-Overfull \hbox (4.48328pt too wide) in paragraph at lines 49--50
-\OT1/cmr/m/n/10.95 donnees en sous-groupes de donnees considerees comme et
-ant les plus proches. 
- []
-
-<img/PCA_1.png, id=49, 702.625pt x 261.97874pt>
-File: img/PCA_1.png Graphic file (type png)
- <use img/PCA_1.png>
-Package pdftex.def Info: img/PCA_1.png used on input line 66.
-(pdftex.def)             Requested size: 351.31163pt x 130.98904pt.
- [5
+[5
 
 ]
-[6 <./img/PCA_1.png>]
-Overfull \hbox (22.90605pt too wide) in paragraph at lines 75--76
-[]\OT1/cmr/m/n/10.95 PLS, ori-gi-na-le-ment pour \OT1/cmr/m/it/10.95 Par-tial L
-east Squares re-gres-sion \OT1/cmr/m/n/10.95 puis plus recemment
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
  []
 
-<img/PLS_1.png, id=58, 340.27126pt x 240.29774pt>
-File: img/PLS_1.png Graphic file (type png)
- <use img/PLS_1.png>
-Package pdftex.def Info: img/PLS_1.png used on input line 78.
-(pdftex.def)             Requested size: 170.13521pt x 120.14857pt.
 
-<img/MBPLS_1.png, id=59, 595.023pt x 396.2805pt>
-File: img/MBPLS_1.png Graphic file (type png)
- <use img/MBPLS_1.png>
-Package pdftex.def Info: img/MBPLS_1.png used on input line 94.
-(pdftex.def)             Requested size: 297.51077pt x 198.13976pt.
- [7 <./img/PLS_1.png>] [8 <./img/MBPLS_1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+
+ []
+
+<img/RandomForestSimple.jpg, id=52, 481.8pt x 361.35pt>
+File: img/RandomForestSimple.jpg Graphic file (type jpg)
+
+<use img/RandomForestSimple.jpg>
+Package pdftex.def Info: img/RandomForestSimple.jpg used on input line 75.
+(pdftex.def)             Requested size: 337.25769pt x 252.94327pt.
+ [6] [7 <./img/RandomForestSimple.jpg>]
+Overfull \hbox (4.84537pt too wide) in paragraph at lines 88--89
+[]\OT1/cmr/m/n/10.95 Les differentes classes gus-ta-tives d'un cafe peuvent ^
+etre considerees comme
+ []
+
+<img/SOMWordlPovertyMap.png, id=60, 728.7225pt x 428.60126pt>
+File: img/SOMWordlPovertyMap.png Graphic file (type png)
+
+<use img/SOMWordlPovertyMap.png>
+Package pdftex.def Info: img/SOMWordlPovertyMap.png used on input line 93.
+(pdftex.def)             Requested size: 364.36035pt x 214.3001pt.
+
+Overfull \hbox (4.36035pt too wide) in paragraph at lines 93--94
+[][] 
+ []
+
+<img/worldmap.png, id=61, 642.4pt x 401.5pt>
+File: img/worldmap.png Graphic file (type png)
+ <use img/worldmap.png>
+Package pdftex.def Info: img/worldmap.png used on input line 98.
+(pdftex.def)             Requested size: 353.32109pt x 220.82567pt.
+ [8 <./img/SOMWordlPovertyMap.png>] [9 <./img/worldmap.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
 
@@ -707,56 +739,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
-<img/RandomForestSimple.jpg, id=70, 481.8pt x 361.35pt>
-File: img/RandomForestSimple.jpg Graphic file (type jpg)
+<img/boosting1.png, id=70, 739.0812pt x 347.8596pt>
+File: img/boosting1.png Graphic file (type png)
+ <use img/boosting1.png>
+Package pdftex.def Info: img/boosting1.png used on input line 118.
+(pdftex.def)             Requested size: 369.5397pt x 173.92937pt.
 
-<use img/RandomForestSimple.jpg>
-Package pdftex.def Info: img/RandomForestSimple.jpg used on input line 121.
-(pdftex.def)             Requested size: 337.25769pt x 252.94327pt.
- [9] [10 <./img/RandomForestSimple.jpg>]
-Overfull \hbox (4.84537pt too wide) in paragraph at lines 134--135
-[]\OT1/cmr/m/n/10.95 Les differentes classes gus-ta-tives d'un cafe peuvent ^
-etre considerees comme
- []
-
-<img/SOMWordlPovertyMap.png, id=77, 728.7225pt x 428.60126pt>
-File: img/SOMWordlPovertyMap.png Graphic file (type png)
-
-<use img/SOMWordlPovertyMap.png>
-Package pdftex.def Info: img/SOMWordlPovertyMap.png used on input line 139.
-(pdftex.def)             Requested size: 364.36035pt x 214.3001pt.
-
-Overfull \hbox (4.36035pt too wide) in paragraph at lines 139--140
+Overfull \hbox (9.5397pt too wide) in paragraph at lines 118--119
 [][] 
  []
 
-<img/worldmap.png, id=78, 642.4pt x 401.5pt>
-File: img/worldmap.png Graphic file (type png)
- <use img/worldmap.png>
-Package pdftex.def Info: img/worldmap.png used on input line 144.
-(pdftex.def)             Requested size: 353.32109pt x 220.82567pt.
- [11 <./img/SOMWordlPovertyMap.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--156
+Overfull \hbox (4.66582pt too wide) in paragraph at lines 129--130
+\OT1/cmr/m/n/10.95 trai-nant plu-sieurs modeles sur des donnees re echantil
+lonnees (avec repetition)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  []
 
-) [12 <./img/worldmap.png>]
+[10 <./img/boosting1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+
+ []
+
+[11]
+Chapitre 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--142
+
+ []
+
+<img/PCA_1.png, id=78, 702.625pt x 261.97874pt>
+File: img/PCA_1.png Graphic file (type png)
+ <use img/PCA_1.png>
+Package pdftex.def Info: img/PCA_1.png used on input line 154.
+(pdftex.def)             Requested size: 351.31163pt x 130.98904pt.
+ [12
+
+])
+[13 <./img/PCA_1.png>]
 \openout2 = `Results.aux'.
 
- (Results.tex)
+ (Results.tex
+Chapitre 4.
+[14
+
+
+
+]
+Chapitre 5.
+) [15
+
+]
 \openout2 = `Conclusion.aux'.
 
- (Conclusion.tex)
-(Bachelor_Schowing2017.bbl) [13
+ (Conclusion.tex
+Chapitre 6.
+) [16
 
 
 
-
+] (Bachelor_Schowing2017.bbl) [17
 
 
 ] (Bachelor_Schowing2017.aux
@@ -764,24 +815,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 155--156
  ) 
 Here is how much of TeX's memory you used:
  4382 strings out of 493333
- 57597 string characters out of 3139193
- 128793 words of memory out of 3000000
- 7778 multiletter control sequences out of 15000+200000
+ 57556 string characters out of 3139193
+ 128808 words of memory out of 3000000
+ 7779 multiletter control sequences out of 15000+200000
  12005 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,6n,33p,915b,439s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,6n,33p,918b,439s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Bachelor_Schowing2017.pdf (20 pages, 463513 bytes).
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmti10.pfb>
+Output written on Bachelor_Schowing2017.pdf (24 pages, 394076 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
+ 125 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

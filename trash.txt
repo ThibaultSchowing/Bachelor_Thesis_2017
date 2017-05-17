@@ -1,0 +1,48 @@
+\subsection{Partial Least Square (PLS)}
+
+% https://www.youtube.com/watch?v=WKEGhyFx0Dg
+% https://www.utdallas.edu/~herve/abdi-wireCS-PLS2010.pdf
+
+PLS, originalement pour \textit{Partial Least Squares regression} puis plus récemment pour \textit{Projection to Latent Structures} est une méthode qui combine des propriétés de la PCA ainsi que de multiples régressions linéaires. Au lieu de trouver un hyperplan de la variance maximale, entre les variables dépendantes et indépendantes, cette méthode va trouver un modèle de régression linéaire en projetant les variables indépendantes et dépendantes dans un nouvel espace. Ce sont les variables latentes. Cette méthode est particulièrement utile lorsqu'il est nécessaire de prédire un jeu de variables dépendantes à partir d'un très grand jeu de variables indépendantes. 
+
+\begin{figure}[H]
+	\includegraphics[scale=0.5]{PLS_1}
+	\caption{\label{PLSschema}Méthode PLS. X est représenté par son score t et Y par u. Une première estimation de U est multipliée à travers X pour obtenir une aproximation du poid $ \omega_t $. Le poid est normalisé pour être de longueur 1 et remultiplié à travers X pour produire t. A partir de t et de Y, le poid $ q^T $ est obtenu ce qui donne un nouveau vecteur u. Cette opération est répétée jusqu'à la convergence de t.\cite{CEM:CEM515}}
+	% http://www.umb.no/statisk/specmod/mbseminar/Westerhuis1998.pdf
+\end{figure}
+
+\subsection{Multi Block PLS}
+% http://www.models.life.ku.dk/~courses/MBtoolbox/pres_IntroMultiBlock.pdf
+
+% https://books.google.ch/books?id=PPUbvBUvmWoC
+
+% http://www.umb.no/statisk/specmod/mbseminar/Westerhuis1998.pdf
+
+La PLS multi block est une extension de la méthode PLS qui sépare les variables indépendantes en plusieurs blocks afin de leur donner une plus grande interpértabilité et plus d'informations sur la structure générale des données. Dans le cadre de ce projet, on peut imaginer séparer les données climatiques des données de sol par exemple.  
+L'exécution est très similaire à la méthode PLS classique. 
+
+\begin{figure}[H]
+	\includegraphics[scale=0.5]{MBPLS_1}
+	\caption{\label{MBPLSschema} Méthode MBPLS. Un score de départ u est régressé sur tous les blocs $ X_b $ pour donner les poids variables du bloc $ w^T_b $ Les poids des variables de blocs sont normalisés à la longueur un et multipliés par les blocs pour donner les scores de blocs $ t_b $.  Les scores de blocs sont combinés dans le super bloc T. Un cycle PLS entre T et Y est effectué pour donner le poids superieur $ W^T_T $, qui est également normalisé à la longueur un, et le super score $ t_T $. L'opération est répétée jusqu'à la convergence de $ t_T $. \cite{CEM:CEM515}}
+	% http://www.umb.no/statisk/specmod/mbseminar/Westerhuis1998.pdf
+\end{figure}
+
+
+
+
+
+ 
+\newpage
+
+\section{Régression et classification}
+La régression est un ensemble de méthodes statistiques utilisées afin d'estimer les relations entre des variables, plus précisément entre variables indépendantes (entrées) et dépendantes (sorties). Afin d'estimer les relations entre les variables, des \textit{features} peuvent être extraites comme une moyenne ou la PCA (section \ref{PCAss}) par exemple.\\
+
+La classification, définit simplement le fait de mettre un objet dans une certaine classe ou une autre. Elle appartient à l'apprentissage non-supervisé qui consiste en méthodes permettant de diviser un groupe hétérogène de données en sous-groupes de données considérées comme étant les plus proches.  
+
+% https://georgemdallas.wordpress.com/2013/10/30/principal-component-analysis-4-dummies-eigenvectors-eigenvalues-and-dimension-reduction/
+
+% http://mengnote.blogspot.ch/2013/05/an-intuitive-explanation-of-pca.html
+
+% ftp://statgen.ncsu.edu/pub/thorne/molevoclass/AtchleyOct19.pdf
+
+% https://www.analyticsvidhya.com/blog/2015/08/comprehensive-guide-regression/
