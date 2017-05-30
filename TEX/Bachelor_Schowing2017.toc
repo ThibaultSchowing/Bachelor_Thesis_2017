@@ -7,7 +7,7 @@
 \contentsline {paragraph}{Les donn\IeC {\'e}es climatiques}{3}
 \contentsline {paragraph}{Les donn\IeC {\'e}es de qualit\IeC {\'e} de sol}{4}
 \contentsline {paragraph}{Le syst\IeC {\`e}me SICA}{4}
-\contentsline {chapter}{\numberline {2}Processus de mod\IeC {\'e}lisation}{5}
+\contentsline {chapter}{\numberline {2}M\IeC {\'e}thodes de mod\IeC {\'e}lisation}{5}
 \contentsline {section}{\numberline {2.1}Rappel des objectifs}{5}
 \contentsline {section}{\numberline {2.2}Apprentissage supervis\IeC {\'e}}{6}
 \contentsline {subsection}{\numberline {2.2.1}Random Forest}{6}
@@ -20,8 +20,9 @@
 \contentsline {section}{\numberline {3.1}Pre-processing}{12}
 \contentsline {section}{\numberline {3.2}Data mining}{12}
 \contentsline {subsection}{\numberline {3.2.1}Principal Component Analysis (PCA)}{12}
-\contentsline {chapter}{\numberline {4}Analyse des r\IeC {\'e}sultats}{14}
-\contentsline {section}{\numberline {4.1}Observations, clustering}{14}
-\contentsline {section}{\numberline {4.2}Pr\IeC {\'e}diction}{14}
-\contentsline {chapter}{\numberline {5}Discussion}{15}
-\contentsline {chapter}{\numberline {6}Conclusion}{16}
+\contentsline {paragraph}{Observation de la PCA pour les variables climatiques et de d\IeC {\'e}gustations}{13}
+\contentsline {chapter}{\numberline {4}Analyse des r\IeC {\'e}sultats}{15}
+\contentsline {section}{\numberline {4.1}Observations, clustering}{15}
+\contentsline {section}{\numberline {4.2}Pr\IeC {\'e}diction}{15}
+\contentsline {chapter}{\numberline {5}Discussion}{16}
+\contentsline {chapter}{\numberline {6}Conclusion}{17}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.22)  17 MAY 2017 14:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.22)  30 MAY 2017 14:39
 entering extended mode
 **./Bachelor_Schowing2017.tex
 (Bachelor_Schowing2017.tex
@@ -773,37 +773,64 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--132
 [11]
 Chapitre 3.
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--142
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--144
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
 <img/PCA_1.png, id=78, 702.625pt x 261.97874pt>
 File: img/PCA_1.png Graphic file (type png)
  <use img/PCA_1.png>
-Package pdftex.def Info: img/PCA_1.png used on input line 154.
+Package pdftex.def Info: img/PCA_1.png used on input line 159.
 (pdftex.def)             Requested size: 351.31163pt x 130.98904pt.
  [12
 
-])
-[13 <./img/PCA_1.png>]
+]
+Overfull \hbox (26.00787pt too wide) in paragraph at lines 164--165
+[] \OT1/cmr/bx/n/10.95 Ob-ser-va-tion de la PCA pour les va-riables cli-ma-tiqu
+es et de degustations
+ []
+
+
+Overfull \hbox (29.27417pt too wide) in paragraph at lines 164--165
+\OT1/cmr/m/n/10.95 Les differents types de va-riables, c'est-a-dire les donn
+ees cli-ma-tiques (temperatures,
+ []
+
+<img/PCA_Climat_All_1.png, id=83, 391.4625pt x 276.03125pt>
+File: img/PCA_Climat_All_1.png Graphic file (type png)
+
+<use img/PCA_Climat_All_1.png>
+Package pdftex.def Info: img/PCA_Climat_All_1.png used on input line 168.
+(pdftex.def)             Requested size: 352.31299pt x 248.42581pt.
+ [13 <./img/PCA_1.png>]) [14 <./img/PCA_Climat_All_1.png>]
 \openout2 = `Results.aux'.
 
  (Results.tex
 Chapitre 4.
-[14
+[15
 
 
 
 ]
 Chapitre 5.
-) [15
+) [16
 
 ]
 \openout2 = `Conclusion.aux'.
 
  (Conclusion.tex
 Chapitre 6.
-) [16
+) [17
 
 
 
@@ -814,19 +841,19 @@ ndecafeteros.org/clientes/es/servicios[]para[]el[]cafetero/sistema[]de[]informa
 cion[]sica-
  []
 
-) [17
+) [18
 
 
 ] (Bachelor_Schowing2017.aux (acknowledgements.aux) (summary.aux)
 (body.aux) (Results.aux) (Conclusion.aux)) ) 
 Here is how much of TeX's memory you used:
- 4383 strings out of 493333
- 57574 string characters out of 3139193
- 128808 words of memory out of 3000000
- 7780 multiletter control sequences out of 15000+200000
+ 4389 strings out of 493333
+ 57723 string characters out of 3139193
+ 128819 words of memory out of 3000000
+ 7785 multiletter control sequences out of 15000+200000
  12005 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,6n,33p,918b,439s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,6n,33p,924b,439s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/
 type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
@@ -835,9 +862,9 @@ m/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Bachelor_Schowing2017.pdf (24 pages, 395070 bytes).
+Output written on Bachelor_Schowing2017.pdf (25 pages, 415906 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
+ 131 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

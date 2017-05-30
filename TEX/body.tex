@@ -26,7 +26,7 @@ Le but de cette collaboration sur le long terme est de permettre au département
 \section{Extraction des Données}
 \paragraph{Les données gustatives}sont très relatives aux sens et à la perception de chaque goutteur. Cependant, la SCAA, \textit{Speciality Coffee Association of America}, dispose d’un système de notation basé sur des hypothèses communautaires reconnues ce qui permet d’avoir une certaine régularité dans les données de dégustations. Les cafés sont notés sur 100 points répartis sur plusieurs critères: parfum/arôme, saveur, arrière-goût, acidité, corps, équilibre, douceur, clean-cup (absence de défauts marqués), uniformité et évaluation personnelle du testeur.  Chacun de ces critères est noté sur 10 mais aussi par des termes qualitatifs. Par exemple, la saveur, c’est-à-dire la combinaison de l’odeur et du goût, la première impression qu’on a en goûtant le café, peut être notée 7/10 et “Caramel”. \\
 
-Le premier échantillon de données reçu contenait toutes ces informations de manière uniforme mais il s'est avéré que la partie mandante n'avait pas pu uniformiser les données brutes dans les délais. Ainsi, les données finalement reçues variaient beaucoup d'un document à l'autre, d'une part dans les données de dégustations mais aussi dans les méta-données permettant d'identifier précisément de quelle café il s'agissait. Il a donc fallut effectuer un tri et ne garder que la masse qu'il était possible d'utiliser. Les critères sont les suivants: Identification possible du café grâce au numéro SICA ou au numéro d'identité du caféiculteur, présence des défauts physiques du café, présence des caractéristiques gustatives de manière uniforme.\\
+Le premier échantillon de données reçu contenait toutes ces informations de manière uniforme mais il s'est avéré que la partie mandante n'avait pas pu uniformiser les données brutes dans les délais. Ainsi, les données finalement reçues variaient beaucoup d'un document à l'autre, d'une part dans les données de dégustations présentes et dans le type de document mais aussi dans les méta-données permettant d'identifier précisément de quelle café il s'agissait. Il a donc fallut effectuer un tri et ne garder que la masse qu'il était possible d'utiliser. Les critères permettant de garder une dégustation ou non sont les suivants: Identification possible du café grâce au numéro SICA ou au numéro d'identité du caféiculteur, présence des défauts physiques du café, présence des caractéristiques gustatives de manière uniforme.\\
 
  
 
@@ -48,7 +48,7 @@ Les données climatiques sont données de 2011 à 2016. il faudra cependant fair
 \paragraph{Le système SICA}, pour \textit{Sistema de Información Cafetera}, est un système géré par la Fédération Nationale des Caféiculteurs (FNC), permettant d'identifier chaque parcelle de production de café en Colombie\cite{SICA}. Il est important car c'est ce numéro qui permet, via les services de la FNC, d'avoir un identifiant unique pour chaque parcelle et d'y associer des informations la concernant.  
 
 
-\chapter{Processus de modélisation}
+\chapter{Méthodes de modélisation}
 \section{Rappel des objectifs}\label{obj}
 Ce projet a deux principaux objectifs. Le premier est de trouver s'il existe différents groupes de café ayant des relations entre les conditions de culture et les caractéristiques physiques ou sensorielles. On cherche donc dans cette première partie à caractériser les cafés. On peut ici parler de clustering.  Le second objectif serait de prédire les caractéristiques physiques ou sensorielles à partir des données sur les conditions de culture. Nous avons donc ici plusieurs possibilités de manières d'agir. Par exemple, si le clustering a réussi à diviser les cafés en différentes classes, on cherchera à prédire dans quelle classe se situe un nouveau café. Plus spécifiquement, on pourra se concentrer sur certains attributs du café, par exemple l'acidité, afin d'estimer quelle sera la note attribuée. 
 
@@ -65,7 +65,7 @@ Le but de l'apprentissage supervisé est d'expliquer des sorties (outputs) à pa
 
 La méthode Random Forest, ou \textit{forêts d'arbres décisionnels} en français, fait partie des méthodes ensemblistes\cite{EnsembleMethods}, qui utilisent la combinaison de plusieurs modèles de base, d'apprentissage automatique. Elle combine les concepts de sous-espaces aléatoires et de bagging.\\
 
-Le bagging\label{bagging}, ou \textit{bootstrap agregation}, consiste à sous-échantillonner (ou ré-échantillonner au hasard avec doublons) le training set et de faire générer à l’algorithme voulu un modèle pour chaque sous-échantillon. On utilise le bagging pour réduire la variance de la fonction de prédiction estimée. Le bagging semble bien fonctionner pour les procédures avec une grande variance et un petit biais, comme les arbres de décision. \cite{hastie_09_elements-of.statistical-learning}\\
+Le bagging\label{bagging}, ou \textit{bootstrap agregation}, consiste à sous-échantillonner (ou ré-échantillonner au hasard avec doublons) le set d'entrainement et de faire générer à l’algorithme voulu un modèle pour chaque sous-échantillon. On utilise le bagging pour réduire la variance de la fonction de prédiction estimée. Le bagging semble bien fonctionner pour les procédures avec une grande variance et un petit biais, comme les arbres de décision. \cite{hastie_09_elements-of.statistical-learning}\\
 
 
 Random Forest effectue donc un apprentissage sur de multiples arbres de décision entraînés sur des sous-ensembles de données légèrement différents \cite{Statistics01randomforests}.
@@ -137,10 +137,15 @@ La première consiste à diviser le set de données en deux et en utilisant une 
 
 
 \section{Pre-processing}
+Description du dataset (rapidement, le reste dans un codebook)\\
+
 Mise en forme du dataset, une sortie à la fois vs plusieurs sorties etc \\
 On considère les données gustatives et les défauts physiques comme des sorties -> les prendre un par un ou tous ensemble\\
 
-Description du set, différentes parties des données, éventuelles données manquantes
+Description du set, différentes parties des données, éventuelles données manquantes\\
+
+
+
 
 
 \section{Data mining}
@@ -155,6 +160,13 @@ La PCA, pour Analyse en Composantes Principales en français, est une méthode q
 \end{figure}
 
 On pourra ici éliminer les variables n'ayant pas une eigenvalue suffisamment importante afin de se concentrer sur les variables les plus importantes afin de réduire le nombre de dimension du dataset. 
+
+\paragraph{Observation de la PCA pour les variables climatiques et de dégustations} Les différents types de variables, c'est-à-dire les données climatiques (températures, précipitations) ou les données de dégustations, on été réduits un par un sur 3 dimensions afin de pouvoir les visualiser sur un graphique et d'observer les différences entre les deux années disponibles. 
+
+\begin{figure}[H]
+	\caption{\label{PCAClimatAll} PCA sur les données climatiques (Tmin, Tmax, Tmean, DTR et Prec) }
+	\includegraphics[scale=0.9]{PCA_Climat_All_1}
+\end{figure}
 
 % https://georgemdallas.wordpress.com/2013/10/30/principal-component-analysis-4-dummies-eigenvectors-eigenvalues-and-dimension-reduction/
 
