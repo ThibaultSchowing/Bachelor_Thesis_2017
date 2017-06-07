@@ -4,6 +4,7 @@
 \chapter{Introduction}
 \section{Question de recherche}
 
+%TODO enlever le "pratiques culturales", on a pas de données
 A partir de données sur le climat, la qualité du sol et les pratiques culturales, est-il possible d’expliquer et de prédire les différents traits de la qualité en bouche des cafés du département de Risaralda ?
 
 
@@ -23,14 +24,18 @@ Dans un premier temps, l’objectif est de catégoriser les cafés en tentant de
 Le but de cette collaboration sur le long terme est de permettre au département de Risaralda de mettre en valeur la diversité de ses cafés, principalement à des fins de promotion auprès des acheteurs. 
 
 \newpage
-\section{Extraction des Données}
-\paragraph{Les données gustatives}sont très relatives aux sens et à la perception de chaque goutteur. Cependant, la SCAA, \textit{Speciality Coffee Association of America}, dispose d’un système de notation basé sur des hypothèses communautaires reconnues ce qui permet d’avoir une certaine régularité dans les données de dégustations. Les cafés sont notés sur 100 points répartis sur plusieurs critères: parfum/arôme, saveur, arrière-goût, acidité, corps, équilibre, douceur, clean-cup (absence de défauts marqués), uniformité et évaluation personnelle du testeur.  Chacun de ces critères est noté sur 10 mais aussi par des termes qualitatifs. Par exemple, la saveur, c’est-à-dire la combinaison de l’odeur et du goût, la première impression qu’on a en goûtant le café, peut être notée 7/10 et “Caramel”. \\
+\section{Extraction, description et contextualisation des données}
 
-Le premier échantillon de données reçu contenait toutes ces informations de manière uniforme mais il s'est avéré que la partie mandante n'avait pas pu uniformiser les données brutes dans les délais. Ainsi, les données finalement reçues variaient beaucoup d'un document à l'autre, d'une part dans les données de dégustations présentes et dans le type de document mais aussi dans les méta-données permettant d'identifier précisément de quelle café il s'agissait. Il a donc fallut effectuer un tri et ne garder que la masse qu'il était possible d'utiliser. Les critères permettant de garder une dégustation ou non sont les suivants: Identification possible du café grâce au numéro SICA ou au numéro d'identité du caféiculteur, présence des défauts physiques du café, présence des caractéristiques gustatives de manière uniforme.\\
+\subsection{Le système SICA}Le système SICA, pour \textit{Sistema de Información Cafetera}, est un système géré par la Fédération Nationale des Caféiculteurs (FNC), permettant d'identifier chaque parcelle de production de café en Colombie\cite{SICA}. Il est important car c'est ce numéro qui permet, via les services de la FNC, d'avoir un identifiant unique pour chaque parcelle et d'y associer des informations la concernant.  
+
+\subsection{Données gustatives}
+Les données gustatives sont très relatives aux sens et à la perception de chaque goutteur. Cependant, la SCAA, \textit{Speciality Coffee Association of America}, dispose d’un système de notation basé sur des hypothèses communautaires reconnues ce qui permet d’avoir une certaine régularité dans les données de dégustations. Les cafés sont notés sur 100 points répartis sur plusieurs critères: parfum/arôme, saveur, arrière-goût, acidité, corps, équilibre, douceur, clean-cup (absence de défauts marqués), uniformité et évaluation personnelle du testeur.  Chacun de ces critères est noté sur 10 mais aussi par des termes qualitatifs. Par exemple, la saveur, c’est-à-dire la combinaison de l’odeur et du goût, la première impression qu’on a en goûtant le café, peut être notée 7/10 et “Caramel”. \\
+
+Le premier échantillon de données reçu contenait toutes ces informations de manière uniforme mais il s'est avéré que la partie mandante n'avait pas pu uniformiser les données brutes dans les délais. Ainsi, les données finalement reçues variaient beaucoup d'un document à l'autre, d'une part dans les données de dégustations présentes et dans le type de document mais aussi dans les méta-données permettant d'identifier précisément de quelle café il s'agissait. Il a donc fallut effectuer un tri et ne garder que la masse qu'il était possible d'utiliser. Les critères permettant de garder une dégustation ou non sont les suivants: Identification possible du café grâce au numéro SICA ou au numéro d'identité du caféiculteur, présence des défauts physiques du café, présence des caractéristiques gustatives de manière uniforme. La FNC a été sollicitée afin de compléter les données une fois celles-ci triées afin d'y ajouter les numéros SICA ou les numéros d'identité manquants, et d'y ajouter les coordonnées de chaque parcelle sous la forme de référence spatiale EPSG:3116 en suite converties en coordonnées GPS classiques degrés-décimaux.\\
 
  
-
-\paragraph{Les données climatiques}comprennent les températures maximales, minimales et moyennes, la variation de température pendant la journée (DTR) et les quantités de précipitations. Les moyennes de ces mesures ont été calculée pour chaque mois et extrapolées sur une grande partie du territoire (à partir de stations météorologiques), permettant ainsi d’accéder aux mesures selon l’emplacement désiré à environ 500 mètres près. \\
+\subsection{Données climatiques}
+Les données climatiques comprennent les températures maximales, minimales et moyennes, la variation de température pendant la journée (DTR) et les quantités de précipitations. Les moyennes de ces mesures ont été calculée pour chaque mois et extrapolées sur une grande partie du territoire (à partir de stations météorologiques), permettant ainsi d’accéder aux mesures selon l’emplacement désiré à environ 500 mètres près. \\
 
 En prenant par exemple les données de température maximale pour le mois de janvier 2011, en affectant pour chaque valeur une couleur, nous pouvons visualiser les données sous la forme d'une image comme sur la figure \ref{tmax_picture}.\\
 
@@ -42,10 +47,28 @@ Les données climatiques sont données de 2011 à 2016. il faudra cependant fair
 	\caption{\label{tmax_picture} Mise sous forme graphique du tableau des température maximales pour le mois de janvier 2011 }
 \end{figure}
 
-\paragraph{Les données de qualité de sol}sont subdivisées en profils. Chaque profil est séparé en une ou plusieurs couches d’une certaine profondeur dont sont renseignées les caractéristiques comme le pH, la gravimétrie ou encore le taux de matière organique. Les données proviennent d'un GIS (Geographical Information System), d'où il est possible de croiser les données point par point afin d'extraire le profil de sol correspondant à un set de coordonnées GPS. 
+\paragraph{Contexte climatique Colombien}La Colombie se trouvant à proximité de l'équateur, on y trouve que deux saisons: l'été ou saison sèche (de décembre à janvier et de juillet à août) puis l'hiver ou saison des pluies (d'avril à mai et de octobre à novembre). Le relief du pays ainsi que sa taille, font varier le climat de chaud et humide pour la partie amazonienne et la région des caraïbes, désertique pour la région de Guajira tout au nord et glacial pour les zones en haute altitude à plus de 3000 mètres. Le département de Risaralda se trouve dans le centre de la Colombie dans la région de l'Axe du café et jouit de conditions climatiques, géographiques et géologiques idéales pour la culture du café. Les températures oscillent entre 8 et 24 degrés mais un phénomène appelé \textit{El Niño} perturbe régulièrement le climat à l'échelle du continent. 
 
-%TODO
-\paragraph{Le système SICA}, pour \textit{Sistema de Información Cafetera}, est un système géré par la Fédération Nationale des Caféiculteurs (FNC), permettant d'identifier chaque parcelle de production de café en Colombie\cite{SICA}. Il est important car c'est ce numéro qui permet, via les services de la FNC, d'avoir un identifiant unique pour chaque parcelle et d'y associer des informations la concernant.  
+% http://www.actulatino.com/2016/01/14/colombie-el-nino-provoque-chaleur-et-secheresse-juan-manuel-santos-appelle-a-la-vigilance/
+
+% https://public.wmo.int/fr/medias/communiqu%C3%A9s-de-presse/d%E2%80%99une-intensit%C3%A9-exceptionnelle-l%E2%80%99%C3%A9pisode-el-ni%C3%B1o-amorc%C3%A9-son-d%C3%A9clin-mais
+
+
+\paragraph{El Niño}El Niño désigne un phénomène climatique qui se caractérise par une augmentation des températures de l'eau dans l'est du Pacifique sud due à une perturbation dans la circulation atmosphérique entre les pôles et l'équateur. Ces perturbations déplacent les zones de précipitations, modifient les routes des cyclones ou typhons provoquent à certains endroits de fortes précipitations et à d'autres de longues périodes de sécheresse. Même dans les zones tempérées, les périodes El Niño changent les habitudes climatiques. Durant l'été austral 2015-2016 s'est produit un des épisodes El Niño le plus fort jamais enregistré\cite{OMM}. Si une grande partie de l'Amérique du Sud a été victime de fortes précipitations, la Colombie, elle, a subit une longue période de sécheresse et l'Europe a connu des records de chaleur. Sur la figure \ref{Nino} on peut observer les différents pics correspondants à l'intensité du phénomène ainsi que pour son opposé, La Niña. 
+
+\begin{figure}[H]
+	\includegraphics[scale=0.25]{VariationElNino}
+	\caption{\label{Nino} Intensité du phénomène El Niño au cours des ans\newline Source: \textit{http://ggweather.com/enso/oni.htm}}
+\end{figure}
+
+\paragraph{Impact du réchauffement climatique} Outre les phases d'El Niño, il est nécessaire de rappeler que le climat mondiale se réchauffe et que des conséquences se font ressentir. Le Centre du Commerce International \cite{CCI} nous donne un aperçu des conséquences que ce réchauffement pourrait avoir pour la Colombie. "Les coûts de production sont susceptibles d'augmenter en raison des nouvelles conditions climatiques favorisant la prolifération des insectes, invasions et microbes pathogènes, et perturbant à l'équilibre naturel entre certains parasites et leurs prédateurs naturels. Les maladies se développeront vers de nouvelles zones. Les besoins en eau peuvent augmenter en raison de températures plus élevées causant plus d'évaporation, forçant de nombreux agriculteurs à recourir à l'irrigation. Dans certaines régions, les agriculteurs voudront transférer leur production de café à de plus hautes altitudes afin de chercher d'un meilleur environnement."(Guide de l'Exportateur de Café, CCI, 2011 \cite{GuideCafe})
+
+
+\subsection{Données de sols} 
+Les données de qualité de sol sont subdivisées en profils. Chaque profil est séparé en une ou plusieurs couches d’une certaine profondeur dont sont renseignées les caractéristiques comme le pH, la gravimétrie ou encore le taux de matière organique. Les données proviennent d'un GIS (Geographical Information System), d'où il est possible de croiser les données point par point afin d'extraire le profil de sol correspondant à un set de coordonnées GPS. 
+
+
+
 
 
 \chapter{Méthodes de modélisation}
@@ -137,38 +160,20 @@ La première consiste à diviser le set de données en deux et en utilisant une 
 
 
 \section{Pre-processing}
-Description du dataset (rapidement, le reste dans un codebook)\\
+%Description du dataset (rapidement, le reste dans un codebook)\\
 
-Mise en forme du dataset, une sortie à la fois vs plusieurs sorties etc \\
-On considère les données gustatives et les défauts physiques comme des sorties -> les prendre un par un ou tous ensemble\\
+%Mise en forme du dataset, une sortie à la fois vs plusieurs sorties etc \\
+%On considère les données gustatives et les défauts physiques comme des sorties -> les prendre un par un ou tous ensemble\\
 
-Description du set, différentes parties des données, éventuelles données manquantes\\
+%Description du set, différentes parties des données, éventuelles données manquantes\\
 
-
-
-
-
-\section{Data mining}
-Extraction de features etc 
-\subsection{Principal Component Analysis (PCA)}\label{PCAss}
-La PCA, pour Analyse en Composantes Principales en français, est une méthode qui consiste à transformer un jeu de variables corrélées en nouvelles variables dé-corrélées les unes des autres. Ces nouvelles variables sont appelées composantes principales et permettent de rendre l'information moins redondante. Pour faire plus simple, l'utilité de la Composante Principale est de réduire le nombre de variables tout en gardant un maximum d'information. La figure \ref{PCAdefinition} montre une représentation graphique de la composante principale. 
+Une grande partie de l'étape de préprocessing a été réalisée durant l'extraction des données. Il a en effet fallu extraire les données d'une manière uniforme et cohérente dès le départ afin de ne pas se retrouver avec des variables présentes uniquement dans certaines parties du set de données ou des variables incohérentes comme cela a été le cas de certains cafés qui avaient comme note de dégustation plus de cent points sur cent par exemple. Des éliminations ou des corrections ont été réalisées de manière automatisées ou manuelles afin de supprimer les erreurs. On notera parmi les corrections importantes le remplacement de virgules par des points, quelques erreurs de frappes (68.5 points sur 10 au lieu de 6.85 par exemple) ou encore des utilisations d'unités différentes. Le dataset résultant est décrit dans l'Annexe A de ce projet. Une fois cette étape de nettoyage réalisée, les premières informations ont pu être extraites des données.
 
 
-\begin{figure}[H]
-	\caption{\label{PCAdefinition} Description de l'Analyse en Composante Principale. (A) Description d'un objet simple de manière compliquée ( trois dimensions pour par exemple une ellipse en papier) (B) Trouver des nouvelles variables (axes de coordonnées) orthogonaux l'un à l'autre qui pointent dans les directions de la plus grande variance (C) Utiliser les nouvelles variables (axes) pour décrire l'objet d'une manière plus simple. }
-	\includegraphics[scale=0.5]{PCA_1}
-\end{figure}
 
-On pourra ici éliminer les variables n'ayant pas une eigenvalue suffisamment importante afin de se concentrer sur les variables les plus importantes afin de réduire le nombre de dimension du dataset. 
 
-\paragraph{Observation de la PCA pour les variables climatiques et de dégustations} Les différents types de variables, c'est-à-dire les données climatiques (températures, précipitations) ou les données de dégustations, on été réduits un par un sur 3 dimensions afin de pouvoir les visualiser sur un graphique et d'observer les différences entre les deux années disponibles. 
+ 
 
-\begin{figure}[H]
-	\caption{\label{PCAClimatAll} PCA sur les données climatiques (Tmin, Tmax, Tmean, DTR et Prec) }
-	\includegraphics[scale=0.9]{PCA_Climat_All_1}
-\end{figure}
-
-% https://georgemdallas.wordpress.com/2013/10/30/principal-component-analysis-4-dummies-eigenvectors-eigenvalues-and-dimension-reduction/
 
 
 
