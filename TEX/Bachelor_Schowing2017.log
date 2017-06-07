@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.22)  7 JUN 2017 11:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.22)  7 JUN 2017 14:38
 entering extended mode
 **./Bachelor_Schowing2017.tex
 (Bachelor_Schowing2017.tex
@@ -755,6 +755,12 @@ Overfull \hbox (9.5397pt too wide) in paragraph at lines 141--142
  []
 
 
+Overfull \hbox (2.78728pt too wide) in paragraph at lines 145--146
+\OT1/cmr/m/n/10.95 problemes de clas-si-fi-ca-tion et de regression. Elle fai
+t aussi par-tie des methodes
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
@@ -775,28 +781,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
-[13]
-Chapitre 3.
-) [14
-
-]
+) [13]
 \openout2 = `Results.aux'.
 
  (Results.tex
-Chapitre 4.
-<img/PCA_1.png, id=90, 702.625pt x 261.97874pt>
+Chapitre 3.
+<img/PCA_1.png, id=87, 702.625pt x 261.97874pt>
 File: img/PCA_1.png Graphic file (type png)
  <use img/PCA_1.png>
-Package pdftex.def Info: img/PCA_1.png used on input line 13.
+Package pdftex.def Info: img/PCA_1.png used on input line 30.
 (pdftex.def)             Requested size: 351.31163pt x 130.98904pt.
+ [14
 
-Overfull \hbox (26.00787pt too wide) in paragraph at lines 23--24
+
+
+]
+Overfull \hbox (26.00787pt too wide) in paragraph at lines 40--41
 [] \OT1/cmr/bx/n/10.95 Ob-ser-va-tion de la PCA pour les va-riables cli-ma-tiqu
 es et de degustations
  []
 
 
-Overfull \hbox (29.27417pt too wide) in paragraph at lines 23--24
+Overfull \hbox (29.27417pt too wide) in paragraph at lines 40--41
 \OT1/cmr/m/n/10.95 Les differents types de va-riables, c'est-a-dire les donn
 ees cli-ma-tiques (temperatures,
  []
@@ -805,47 +811,55 @@ ees cli-ma-tiques (temperatures,
 File: img/PCA_Climat_All_1.png Graphic file (type png)
 
 <use img/PCA_Climat_All_1.png>
-Package pdftex.def Info: img/PCA_Climat_All_1.png used on input line 26.
+Package pdftex.def Info: img/PCA_Climat_All_1.png used on input line 43.
 (pdftex.def)             Requested size: 352.31299pt x 248.42581pt.
- [15
-
-
-
- <./img/PCA_1.png>]
+ [15 <./img/PCA_1.png>]
 <img/PCA_TMEAN_1.png, id=96, 391.4625pt x 276.03125pt>
 File: img/PCA_TMEAN_1.png Graphic file (type png)
 
 <use img/PCA_TMEAN_1.png>
-Package pdftex.def Info: img/PCA_TMEAN_1.png used on input line 31.
+Package pdftex.def Info: img/PCA_TMEAN_1.png used on input line 48.
 (pdftex.def)             Requested size: 352.31299pt x 248.42581pt.
- [16 <./img/PCA_Climat_All_1.png>]
-<img/PCA_PREC_1.png, id=101, 391.4625pt x 276.03125pt>
-File: img/PCA_PREC_1.png Graphic file (type png)
 
-<use img/PCA_PREC_1.png>
-Package pdftex.def Info: img/PCA_PREC_1.png used on input line 36.
+<img/PCA_PREC_1.png, id=97, 391.4625pt x 276.03125pt>
+File: img/PCA_PREC_1.png Graphic file (type png)
+ <use img/PCA_PREC_1.png>
+Package pdftex.def Info: img/PCA_PREC_1.png used on input line 53.
 (pdftex.def)             Requested size: 352.31299pt x 248.42581pt.
- [17 <./img/PCA_TMEAN_1.png> <./img/PCA_PREC_1.png>]
-<img/Pereira_TMAX_2011_2016.png, id=107, 1232.605pt x 388.45125pt>
+
+[16 <./img/PCA_Climat_All_1.png> <./img/PCA_TMEAN_1.png>]
+<img/Pereira_TMAX_2011_2016.png, id=103, 1232.605pt x 388.45125pt>
 File: img/Pereira_TMAX_2011_2016.png Graphic file (type png)
 
 <use img/Pereira_TMAX_2011_2016.png>
-Package pdftex.def Info: img/Pereira_TMAX_2011_2016.png used on input line 44.
+Package pdftex.def Info: img/Pereira_TMAX_2011_2016.png used on input line 61.
 (pdftex.def)             Requested size: 369.78435pt x 116.53627pt.
 
-Overfull \hbox (9.78435pt too wide) in paragraph at lines 44--45
+Overfull \hbox (9.78435pt too wide) in paragraph at lines 61--62
 [][] 
  []
 
-[18 <./img/Pereira_TMAX_2011_2016.png>]
-Chapitre 5.
+<img/Pereira_PREC_2011_2016.png, id=104, 1229.59375pt x 388.45125pt>
+File: img/Pereira_PREC_2011_2016.png Graphic file (type png)
+
+<use img/Pereira_PREC_2011_2016.png>
+Package pdftex.def Info: img/Pereira_PREC_2011_2016.png used on input line 67.
+(pdftex.def)             Requested size: 368.88097pt x 116.53627pt.
+
+Overfull \hbox (8.88097pt too wide) in paragraph at lines 67--68
+[][] 
+ []
+
+[17 <./img/PCA_PREC_1.png> <./img/Pereira_TMAX_2011_2016.png>] [18 <./img/Perei
+ra_PREC_2011_2016.png>]
+Chapitre 4.
 ) [19
 
 ]
 \openout2 = `Conclusion.aux'.
 
  (Conclusion.tex
-Chapitre 6.
+Chapitre 5.
 ) [20
 
 
@@ -857,13 +871,13 @@ Chapitre 6.
 (acknowledgements.aux) (summary.aux) (body.aux) (Results.aux) (Conclusion.aux))
  ) 
 Here is how much of TeX's memory you used:
- 4415 strings out of 493333
- 58287 string characters out of 3139193
- 129873 words of memory out of 3000000
- 7807 multiletter control sequences out of 15000+200000
+ 4421 strings out of 493333
+ 58466 string characters out of 3139193
+ 129884 words of memory out of 3000000
+ 7812 multiletter control sequences out of 15000+200000
  12005 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,6n,33p,1253b,439s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,6n,33p,1263b,439s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
@@ -872,9 +886,9 @@ onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmti10.pfb>
-Output written on Bachelor_Schowing2017.pdf (28 pages, 627850 bytes).
+Output written on Bachelor_Schowing2017.pdf (28 pages, 675511 bytes).
 PDF statistics:
- 148 PDF objects out of 1000 (max. 8388607)
+ 150 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
