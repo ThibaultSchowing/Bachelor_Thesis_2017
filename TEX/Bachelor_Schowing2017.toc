@@ -1,54 +1,41 @@
 \select@language {french}
-\contentsline {chapter}{\numberline {1}Introduction}{2}
-\contentsline {section}{\numberline {1.1}Question de recherche}{2}
-<<<<<<< HEAD
-\contentsline {section}{\numberline {1.2}Contexte du projet}{2}
-\contentsline {section}{\numberline {1.3}Contexte des donn\IeC {\'e}es}{3}
-\contentsline {paragraph}{Les donn\IeC {\'e}es gustatives}{3}
-\contentsline {paragraph}{Les donn\IeC {\'e}es climatiques}{3}
-\contentsline {paragraph}{Les donn\IeC {\'e}es de qualit\IeC {\'e} de sol}{3}
-\contentsline {paragraph}{Le syst\IeC {\`e}me SICA}{3}
-\contentsline {chapter}{\numberline {2}Processus de mod\IeC {\'e}lisation}{4}
-\contentsline {section}{\numberline {2.1}R\IeC {\'e}gression}{4}
-\contentsline {subsection}{\numberline {2.1.1}Principal Component Analysis (PCA)}{4}
-=======
-\contentsline {section}{\numberline {1.2}Probl\IeC {\'e}matique}{2}
-\contentsline {section}{\numberline {1.3}Extraction, description et contextualisation des donn\IeC {\'e}es}{3}
-\contentsline {subsection}{\numberline {1.3.1}Le syst\IeC {\`e}me SICA}{3}
-\contentsline {subsection}{\numberline {1.3.2}Donn\IeC {\'e}es gustatives}{3}
-\contentsline {subsection}{\numberline {1.3.3}Donn\IeC {\'e}es climatiques}{4}
-\contentsline {paragraph}{Contexte climatique Colombien}{4}
-\contentsline {paragraph}{El Ni\IeC {\~n}o}{5}
-\contentsline {paragraph}{Impact du r\IeC {\'e}chauffement climatique}{5}
-\contentsline {subsection}{\numberline {1.3.4}Donn\IeC {\'e}es de sols}{6}
-\contentsline {chapter}{\numberline {2}M\IeC {\'e}thodes de mod\IeC {\'e}lisation}{7}
-\contentsline {section}{\numberline {2.1}Rappel des objectifs}{7}
-\contentsline {section}{\numberline {2.2}Apprentissage supervis\IeC {\'e}}{8}
-\contentsline {subsection}{\numberline {2.2.1}Random Forest}{8}
-\contentsline {section}{\numberline {2.3}Apprentissage non-supervis\IeC {\'e}}{10}
-\contentsline {subsection}{\numberline {2.3.1}SOM}{10}
-\contentsline {section}{\numberline {2.4}Optimisation}{12}
-\contentsline {subsection}{\numberline {2.4.1}Boosting}{12}
-\contentsline {subsection}{\numberline {2.4.2}Cross-Validation}{13}
-\contentsline {chapter}{\numberline {3}Analyse des donn\IeC {\'e}es}{14}
-\contentsline {section}{\numberline {3.1}Data Mining - Exploration de donn\IeC {\'e}es}{14}
-\contentsline {subsection}{\numberline {3.1.1}Pre-processing}{14}
-<<<<<<< Updated upstream
-\contentsline {subsection}{\numberline {3.1.2}Principal Component Analysis (PCA)}{14}
-\contentsline {paragraph}{Observation de la PCA pour les variables climatiques et de d\IeC {\'e}gustations}{15}
-\contentsline {subsection}{\numberline {3.1.3}Self-Organizing Map}{18}
-\contentsline {section}{\numberline {3.2}Pr\IeC {\'e}diction}{18}
-\contentsline {subsection}{\numberline {3.2.1}Random Forest}{18}
-\contentsline {chapter}{\numberline {4}Analyse des r\IeC {\'e}sultats}{19}
-\contentsline {chapter}{\numberline {5}Conclusion}{20}
->>>>>>> master
-=======
-\contentsline {subsection}{\numberline {3.1.2}Corr\IeC {\'e}lations entre variables}{15}
-\contentsline {subsection}{\numberline {3.1.3}Principal Component Analysis (PCA)}{17}
-\contentsline {paragraph}{Observation de la PCA pour les variables climatiques et de d\IeC {\'e}gustations}{18}
-\contentsline {subsection}{\numberline {3.1.4}Self-Organizing Map}{21}
-\contentsline {section}{\numberline {3.2}Pr\IeC {\'e}diction}{21}
-\contentsline {subsection}{\numberline {3.2.1}Random Forest}{21}
-\contentsline {chapter}{\numberline {4}Analyse des r\IeC {\'e}sultats}{22}
-\contentsline {chapter}{\numberline {5}Conclusion}{23}
->>>>>>> Stashed changes
+\contentsline {chapter}{\numberline {1}Introduction}{4}
+\contentsline {section}{\numberline {1.1}Question de recherche}{4}
+\contentsline {section}{\numberline {1.2}Contexte du projet}{4}
+\contentsline {section}{\numberline {1.3}Contexte des donn\IeC {\'e}es}{5}
+\contentsline {paragraph}{Les donn\IeC {\'e}es gustatives}{5}
+\contentsline {paragraph}{Les donn\IeC {\'e}es climatiques}{5}
+\contentsline {paragraph}{Les donn\IeC {\'e}es de qualit\IeC {\'e} de sol}{5}
+\contentsline {paragraph}{Le syst\IeC {\`e}me SICA}{5}
+\contentsline {chapter}{\numberline {2}Processus de mod\IeC {\'e}lisation}{6}
+\contentsline {section}{\numberline {2.1}R\IeC {\'e}gression}{6}
+\contentsline {subsection}{\numberline {2.1.1}Principal Component Analysis (PCA)}{6}
+\contentsline {section}{\numberline {2.2}Probl\IeC {\'e}matique}{6}
+\contentsline {section}{\numberline {2.3}Extraction, description et contextualisation des donn\IeC {\'e}es}{8}
+\contentsline {subsection}{\numberline {2.3.1}Le syst\IeC {\`e}me SICA}{8}
+\contentsline {subsection}{\numberline {2.3.2}Donn\IeC {\'e}es gustatives}{8}
+\contentsline {subsection}{\numberline {2.3.3}Donn\IeC {\'e}es climatiques}{9}
+\contentsline {paragraph}{Contexte climatique Colombien}{9}
+\contentsline {paragraph}{El Ni\IeC {\~n}o}{10}
+\contentsline {paragraph}{Impact du r\IeC {\'e}chauffement climatique}{10}
+\contentsline {subsection}{\numberline {2.3.4}Donn\IeC {\'e}es de sols}{11}
+\contentsline {chapter}{\numberline {3}M\IeC {\'e}thodes de mod\IeC {\'e}lisation}{12}
+\contentsline {section}{\numberline {3.1}Rappel des objectifs}{12}
+\contentsline {section}{\numberline {3.2}Apprentissage supervis\IeC {\'e}}{13}
+\contentsline {subsection}{\numberline {3.2.1}Random Forest}{13}
+\contentsline {section}{\numberline {3.3}Apprentissage non-supervis\IeC {\'e}}{15}
+\contentsline {subsection}{\numberline {3.3.1}SOM}{15}
+\contentsline {section}{\numberline {3.4}Optimisation}{17}
+\contentsline {subsection}{\numberline {3.4.1}Boosting}{17}
+\contentsline {subsection}{\numberline {3.4.2}Cross-Validation}{18}
+\contentsline {chapter}{\numberline {4}Analyse des donn\IeC {\'e}es}{20}
+\contentsline {section}{\numberline {4.1}Data Mining - Exploration de donn\IeC {\'e}es}{20}
+\contentsline {subsection}{\numberline {4.1.1}Pre-processing}{20}
+\contentsline {subsection}{\numberline {4.1.2}Corr\IeC {\'e}lations entre variables}{21}
+\contentsline {subsection}{\numberline {4.1.3}Principal Component Analysis (PCA)}{24}
+\contentsline {paragraph}{Observation de la PCA pour les variables climatiques et de d\IeC {\'e}gustations}{24}
+\contentsline {subsection}{\numberline {4.1.4}Self-Organizing Map}{27}
+\contentsline {section}{\numberline {4.2}Pr\IeC {\'e}diction}{27}
+\contentsline {subsection}{\numberline {4.2.1}Random Forest}{27}
+\contentsline {chapter}{\numberline {5}Analyse des r\IeC {\'e}sultats}{28}
+\contentsline {chapter}{\numberline {6}Conclusion}{29}
