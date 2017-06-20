@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.22)  20 JUN 2017 15:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.22)  20 JUN 2017 16:10
 entering extended mode
 **./Bachelor_Schowing2017.tex
 (Bachelor_Schowing2017.tex
@@ -513,37 +513,8 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthlast=\dimen120
 \titlewidthfirst=\dimen121
 )
-(Bachelor_Schowing2017.aux (acknowledgements.aux) (summary.aux) (body.aux
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2 <
-     <<<<<< HEAD
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-)
-Runaway definition?
--> \setcounter {page}{5} ======= \@writefile {toc}{\contentsline {sec\ETC.
-! File ended while scanning definition of \cp@body.
-<inserted text> 
-                }
-l.12 \@input{body.aux}
-                      
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
-(Results.aux
-
-LaTeX Warning: Label `PCAdefinition' multiply defined.
-
-) (Conclusion.aux))
+(Bachelor_Schowing2017.aux (acknowledgements.aux) (summary.aux) (body.aux)
+(Results.aux) (Conclusion.aux))
 \openout1 = `Bachelor_Schowing2017.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
@@ -568,16 +539,6 @@ Package frenchb.ldf Warning: OT1 encoding should not be used for French.
 (frenchb.ldf)                of your document, on input line 47.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
-Overfull \hbox (77.06644pt too wide) in paragraph at lines 2--13
-[]\OT1/cmr/m/n/10.95 <<<<<<< HEAD =======  >>>>>>> mas-ter     <<<<<<< HEAD    
-                                                             [][][][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--13
-
- []
-
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count107
 \scratchdimen=\dimen122
@@ -634,32 +595,34 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-) [1
-
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<img/HEIG-VD_Logo.png, id=6, 381.425pt x 118.4425pt>
+)
+<img/HEIG-VD_Logo.png, id=1, 381.425pt x 118.4425pt>
 File: img/HEIG-VD_Logo.png Graphic file (type png)
 
 <use img/HEIG-VD_Logo.png>
 Package pdftex.def Info: img/HEIG-VD_Logo.png used on input line 70.
 (pdftex.def)             Requested size: 180.0pt x 55.89388pt.
- [1 <./img/HEIG-VD_Logo.png>] [0
+ [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./img/HEIG-VD_Logo.png>] 
+[0
 
 ]
 \openout2 = `acknowledgements.aux'.
 
-
-(acknowledgements.tex) [1] [1
+ (acknowledgements.tex) [1] [1
 
 
 ]
 \openout2 = `summary.aux'.
 
- (summary.tex) [2] [0
+ (summary.tex)
+[2] [0
 
 
 ] (Bachelor_Schowing2017.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
@@ -667,226 +630,188 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1])
+))
 \tf@toc=\write3
 \openout3 = `Bachelor_Schowing2017.toc'.
 
- [2] [2
+ [1] [1
 
 ]
 \openout2 = `body.aux'.
 
-
-(body.tex [3]
+ (body.tex
 Chapitre 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
-[4
+[2
 
-] [5]
+]
 Chapitre 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-
- []
-
-[6
-
-] [7]
-Overfull \hbox (5.7797pt too wide) in paragraph at lines 70--70
+Overfull \hbox (5.7797pt too wide) in paragraph at lines 26--26
 |[]\OT1/cmr/bx/n/14.4 Extraction, des-crip-tion et contex-tua-li-sa-tion des
  []
 
 
-Overfull \hbox (2.23256pt too wide) in paragraph at lines 72--73
+Overfull \hbox (2.23256pt too wide) in paragraph at lines 28--29
 \OT1/cmr/m/n/10.95 gere par la Federation Na-tio-nale des Cafeiculteurs (F
 NC), per-met-tant d'iden-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+Overfull \hbox (17.90082pt too wide) in paragraph at lines 28--29
+\OT1/cmr/m/n/10.95 mettre a jour, consul-ter, ana-ly-ser, modeliser et vi-sua
+-li-ser les donnees geospatiales
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+[3
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
-[8]
-
-LaTeX Warning: Reference `tmax_picture' on page 9 undefined on input line 83.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
-
- []
-
-<img/tmax_picture_1.png, id=62, 254.75175pt x 165.61874pt>
+<img/tmax_picture_1.png, id=43, 254.75175pt x 165.61874pt>
 File: img/tmax_picture_1.png Graphic file (type png)
 
 <use img/tmax_picture_1.png>
-Package pdftex.def Info: img/tmax_picture_1.png used on input line 89.
+Package pdftex.def Info: img/tmax_picture_1.png used on input line 45.
 (pdftex.def)             Requested size: 254.75111pt x 165.61833pt.
- [9 <./img/tmax_picture_1.png>]
-
-LaTeX Warning: Reference `Nino' on page 10 undefined on input line 100.
-
-<img/VariationElNino.png, id=68, 1419.80438pt x 537.50812pt>
+ [4]
+<img/VariationElNino.png, id=48, 1419.80438pt x 537.50812pt>
 File: img/VariationElNino.png Graphic file (type png)
 
 <use img/VariationElNino.png>
-Package pdftex.def Info: img/VariationElNino.png used on input line 103.
+Package pdftex.def Info: img/VariationElNino.png used on input line 59.
 (pdftex.def)             Requested size: 354.95023pt x 134.3767pt.
- [10 <./img/VariationElNino.png>] [11]
+ [5 <./img/tmax_picture_1.png>] [6 <./img/VariationElNino.png>]
 Chapitre 3.
-[12
+[7
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
-<img/RandomForestSimple.jpg, id=80, 481.8pt x 361.35pt>
+<img/RandomForestSimple.jpg, id=61, 481.8pt x 361.35pt>
 File: img/RandomForestSimple.jpg Graphic file (type jpg)
 
 <use img/RandomForestSimple.jpg>
-Package pdftex.def Info: img/RandomForestSimple.jpg used on input line 141.
+Package pdftex.def Info: img/RandomForestSimple.jpg used on input line 97.
 (pdftex.def)             Requested size: 337.25769pt x 252.94327pt.
- [13] [14 <./img/RandomForestSimple.jpg>]
-
-LaTeX Warning: Reference `obj' on page 15 undefined on input line 149.
-
-
-Overfull \hbox (4.84537pt too wide) in paragraph at lines 154--155
+ [8] [9 <./img/RandomForestSimple.jpg>]
+Overfull \hbox (4.84537pt too wide) in paragraph at lines 110--111
 []\OT1/cmr/m/n/10.95 Les differentes classes gus-ta-tives d'un cafe peuvent ^
 etre considerees comme
  []
 
-<img/SOMWordlPovertyMap.png, id=87, 728.7225pt x 428.60126pt>
+<img/SOMWordlPovertyMap.png, id=68, 728.7225pt x 428.60126pt>
 File: img/SOMWordlPovertyMap.png Graphic file (type png)
 
 <use img/SOMWordlPovertyMap.png>
-Package pdftex.def Info: img/SOMWordlPovertyMap.png used on input line 159.
+Package pdftex.def Info: img/SOMWordlPovertyMap.png used on input line 115.
 (pdftex.def)             Requested size: 364.36035pt x 214.3001pt.
 
-Overfull \hbox (4.36035pt too wide) in paragraph at lines 159--160
+Overfull \hbox (4.36035pt too wide) in paragraph at lines 115--116
 [][] 
  []
 
-<img/worldmap.png, id=88, 642.4pt x 401.5pt>
+<img/worldmap.png, id=69, 642.4pt x 401.5pt>
 File: img/worldmap.png Graphic file (type png)
  <use img/worldmap.png>
-Package pdftex.def Info: img/worldmap.png used on input line 164.
+Package pdftex.def Info: img/worldmap.png used on input line 120.
 (pdftex.def)             Requested size: 353.32109pt x 220.82567pt.
-
-
-LaTeX Warning: Reference `SOMPovertyMap' on page 15 undefined on input line 165
-.
-
-
-LaTeX Warning: Reference `SOMPovertyMap' on page 15 undefined on input line 165
-.
-
-[15 <./img/SOMWordlPovertyMap.png>] [16 <./img/worldmap.png>]
-
-LaTeX Warning: Reference `bagging' on page 17 undefined on input line 177.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
+ [10 <./img/SOMWordlPovertyMap.png>] [11 <./img/worldmap.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
-<img/boosting1.png, id=97, 739.0812pt x 347.8596pt>
+<img/boosting1.png, id=78, 739.0812pt x 347.8596pt>
 File: img/boosting1.png Graphic file (type png)
  <use img/boosting1.png>
-Package pdftex.def Info: img/boosting1.png used on input line 184.
+Package pdftex.def Info: img/boosting1.png used on input line 140.
 (pdftex.def)             Requested size: 369.5397pt x 173.92937pt.
 
-Overfull \hbox (9.5397pt too wide) in paragraph at lines 184--185
+Overfull \hbox (9.5397pt too wide) in paragraph at lines 140--141
 [][] 
  []
 
 
-Overfull \hbox (2.78728pt too wide) in paragraph at lines 188--189
+Overfull \hbox (2.78728pt too wide) in paragraph at lines 144--145
 \OT1/cmr/m/n/10.95 problemes de clas-si-fi-ca-tion et de regression. Elle fai
 t aussi par-tie des methodes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--189
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
 
 
-Overfull \hbox (4.66582pt too wide) in paragraph at lines 195--196
+Overfull \hbox (4.66582pt too wide) in paragraph at lines 151--152
 \OT1/cmr/m/n/10.95 trai-nant plu-sieurs modeles sur des donnees re echantil
 lonnees (avec repetition)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
 
  []
 
-[17 <./img/boosting1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
+[12 <./img/boosting1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
 
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 211.
-
-<img/PCA_1.png, id=103, 702.625pt x 261.97874pt>
-File: img/PCA_1.png Graphic file (type png)
- <use img/PCA_1.png>
-Package pdftex.def Info: img/PCA_1.png used on input line 213.
-(pdftex.def)             Requested size: 702.62328pt x 261.9781pt.
-
-Overfull \hbox (342.62328pt too wide) in paragraph at lines 213--214
-[][] 
- []
-
-) [18] [19 <./img/PCA_1.png>]
+) [13]
 \openout2 = `Results.aux'.
 
  (Results.tex
@@ -896,7 +821,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
-<img/Dataset_1.png, id=111, 776.9025pt x 608.2725pt>
+<img/Dataset_1.png, id=87, 776.9025pt x 608.2725pt>
 File: img/Dataset_1.png Graphic file (type png)
  <use img/Dataset_1.png>
 Package pdftex.def Info: img/Dataset_1.png used on input line 26.
@@ -906,7 +831,7 @@ Overfull \hbox (28.45029pt too wide) in paragraph at lines 26--27
 [][] 
  []
 
-[20
+[14
 
 
 
@@ -916,7 +841,7 @@ Overfull \hbox (12.97687pt too wide) in paragraph at lines 33--34
 les va-riables. Premierement
  []
 
-<img/correlation_sorties1.png, id=115, 1136.245pt x 1193.45876pt>
+<img/correlation_sorties1.png, id=91, 1136.245pt x 1193.45876pt>
 File: img/correlation_sorties1.png Graphic file (type png)
 
 <use img/correlation_sorties1.png>
@@ -927,12 +852,12 @@ Overfull \hbox (37.6917pt too wide) in paragraph at lines 36--37
 [][] 
  []
 
-[21 <./img/Dataset_1.png (PNG copy)>]
+[15 <./img/Dataset_1.png (PNG copy)>]
 
-LaTeX Warning: Reference `correlation_entrees1.png' on page 22 undefined on inp
+LaTeX Warning: Reference `correlation_entrees1.png' on page 16 undefined on inp
 ut line 41.
 
-<img/correlation_entrees1.png, id=119, 1126.2075pt x 1183.42125pt>
+<img/correlation_entrees1.png, id=95, 1126.2075pt x 1183.42125pt>
 File: img/correlation_entrees1.png Graphic file (type png)
 
 <use img/correlation_entrees1.png>
@@ -943,10 +868,10 @@ Overfull \hbox (34.17854pt too wide) in paragraph at lines 45--46
 [][] 
  []
 
-[22 <./img/correlation_sorties1.png>] [23 <./img/correlation_entrees1.png>]
+[16 <./img/correlation_sorties1.png>] [17 <./img/correlation_entrees1.png>]
+<img/PCA_1.png, id=104, 702.625pt x 261.97874pt>
 File: img/PCA_1.png Graphic file (type png)
-
-<use img/PCA_1.png>
+ <use img/PCA_1.png>
 Package pdftex.def Info: img/PCA_1.png used on input line 70.
 (pdftex.def)             Requested size: 351.31163pt x 130.98904pt.
 
@@ -961,31 +886,28 @@ Overfull \hbox (29.27417pt too wide) in paragraph at lines 81--82
 ees cli-ma-tiques (temperatures,
  []
 
-<img/PCA_Climat_All_1.png, id=129, 391.4625pt x 276.03125pt>
+<img/PCA_Climat_All_1.png, id=105, 391.4625pt x 276.03125pt>
 File: img/PCA_Climat_All_1.png Graphic file (type png)
 
 <use img/PCA_Climat_All_1.png>
 Package pdftex.def Info: img/PCA_Climat_All_1.png used on input line 84.
 (pdftex.def)             Requested size: 352.31299pt x 248.42581pt.
- [24]
-<img/PCA_TMEAN_1.png, id=133, 391.4625pt x 276.03125pt>
+ [18 <./img/PCA_1.png>]
+<img/PCA_TMEAN_1.png, id=111, 391.4625pt x 276.03125pt>
 File: img/PCA_TMEAN_1.png Graphic file (type png)
 
 <use img/PCA_TMEAN_1.png>
 Package pdftex.def Info: img/PCA_TMEAN_1.png used on input line 89.
 (pdftex.def)             Requested size: 352.31299pt x 248.42581pt.
 
-<img/PCA_PREC_1.png, id=134, 391.4625pt x 276.03125pt>
+<img/PCA_PREC_1.png, id=112, 391.4625pt x 276.03125pt>
 File: img/PCA_PREC_1.png Graphic file (type png)
 
 <use img/PCA_PREC_1.png>
 Package pdftex.def Info: img/PCA_PREC_1.png used on input line 94.
 (pdftex.def)             Requested size: 352.31299pt x 248.42581pt.
- [25 <./img/PCA_Climat_All_1.png> <./img/PCA_TMEAN_1.png>]
-
-LaTeX Warning: Reference `Nino' on page 26 undefined on input line 99.
-
-<img/Pereira_TMAX_2011_2016.png, id=140, 1232.605pt x 388.45125pt>
+ [19 <./img/PCA_Climat_All_1.png> <./img/PCA_TMEAN_1.png>] <img/Pereira_TMAX_20
+11_2016.png, id=118, 1232.605pt x 388.45125pt>
 File: img/Pereira_TMAX_2011_2016.png Graphic file (type png)
 
 <use img/Pereira_TMAX_2011_2016.png>
@@ -997,7 +919,7 @@ Overfull \hbox (9.78435pt too wide) in paragraph at lines 102--103
 [][] 
  []
 
-<img/Pereira_PREC_2011_2016.png, id=141, 1229.59375pt x 388.45125pt>
+<img/Pereira_PREC_2011_2016.png, id=119, 1229.59375pt x 388.45125pt>
 File: img/Pereira_PREC_2011_2016.png Graphic file (type png)
 
 <use img/Pereira_PREC_2011_2016.png>
@@ -1009,21 +931,21 @@ Overfull \hbox (8.88097pt too wide) in paragraph at lines 108--109
 [][] 
  []
 
-[26 <./img/PCA_PREC_1.png> <./img/Pereira_TMAX_2011_2016.png>] [27 <./img/Perei
+[20 <./img/PCA_PREC_1.png> <./img/Pereira_TMAX_2011_2016.png>] [21 <./img/Perei
 ra_PREC_2011_2016.png>]
 Chapitre 5.
-) [28
+) [22
 
 ]
 \openout2 = `Conclusion.aux'.
 
  (Conclusion.tex
 Chapitre 6.
-) [29
+) [23
 
 
 
-] (Bachelor_Schowing2017.bbl) [30
+] (Bachelor_Schowing2017.bbl) [24
 
 
 ] (Bachelor_Schowing2017.aux
@@ -1031,14 +953,11 @@ Chapitre 6.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
  4440 strings out of 493333
  58961 string characters out of 3139193
- 132407 words of memory out of 3000000
+ 129917 words of memory out of 3000000
  7828 multiletter control sequences out of 15000+200000
  12005 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1051,9 +970,9 @@ onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmti10.pfb>
-Output written on Bachelor_Schowing2017.pdf (38 pages, 854170 bytes).
+Output written on Bachelor_Schowing2017.pdf (31 pages, 844911 bytes).
 PDF statistics:
- 189 PDF objects out of 1000 (max. 8388607)
+ 165 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
