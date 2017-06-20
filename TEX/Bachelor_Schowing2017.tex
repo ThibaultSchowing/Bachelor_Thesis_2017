@@ -11,6 +11,16 @@
 \usepackage{makeidx}
 \usepackage{graphicx}
 \usepackage{afterpage}
+\usepackage{cite}
+
+\usepackage[section]{placeins}
+\usepackage{float}
+
+% Evite les gros début de chapitre inutiles. 
+\usepackage{titlesec}
+\titleformat{\chapter}
+{\normalfont\LARGE\bfseries}{\thechapter}{1em}{}
+\titlespacing*{\chapter}{0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
 
 % Modification de commandes 
 
@@ -53,7 +63,6 @@
 	\begin{titlepage}
 		\centering
 		
-		
 		\small{Haute Ecole d'Ingénierie et de Gestion du Canton de Vaud  \par}
 		\footnotesize{University of Applied Sciences Western Switzerland\par}
 		\vspace{1cm}
@@ -79,7 +88,7 @@
 	
 	\afterpage{\blankpage}
 	\pagenumbering{gobble}
-
+	
 	\include{acknowledgements}
 	
 	\afterpage{\blankpage}
@@ -94,6 +103,13 @@
 	\afterpage{\blankpage}
 	
 	\include{body}
+	
+	\include{Results}
+	
+	\include{Conclusion}
+	
+	\bibliography{mybib}{}
+	\bibliographystyle{plain}
 	
 	
 \end{document}

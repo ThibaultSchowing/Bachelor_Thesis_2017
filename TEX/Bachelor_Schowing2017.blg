@@ -1,0 +1,19 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Bachelor_Schowing2017.aux
+A level-1 auxiliary file: acknowledgements.aux
+A level-1 auxiliary file: summary.aux
+A level-1 auxiliary file: body.aux
+A level-1 auxiliary file: Results.aux
+A level-1 auxiliary file: Conclusion.aux
+The style file: plain.bst
+Database file #1: mybib.bib
+Warning--entry type for "SICA" isn't style-file defined
+--line 62 of file mybib.bib
+Warning--entry type for "EJE" isn't style-file defined
+--line 69 of file mybib.bib
+Warning--entry type for "CCI" isn't style-file defined
+--line 83 of file mybib.bib
+Warning--to sort, need author or key in EJE
+Warning--to sort, need author or key in SICA
+Warning--to sort, need author or key in CCI
+Warning--empty journal in OMM
+(There were 7 warnings)

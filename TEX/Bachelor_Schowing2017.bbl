@@ -1,0 +1,42 @@
+\begin{thebibliography}{1}
+
+\bibitem{CCI}
+Centre du commerce international, http://www.intracen.org.
+
+\bibitem{EJE}
+Informations générales sur la colombie, www.colombia.com.
+
+\bibitem{SICA}
+Sistema information cafetera, www.federaciondecafeteros.org.
+
+\bibitem{EnsembleMethods}
+Issam~El Alaoui.
+\newblock Les méthodes ensemblistes pour algorithmes de machine learning.
+\newblock {\em Octo blog}, 2014.
+
+\bibitem{GuideCafe}
+Centre du~commerce international.
+\newblock {\em Guide de l’exportateur de café. - 3éme éd.}
+\newblock Centre du commerce international, Unité des publications, Palais des
+  Nations, Genève, Switzerland. Phone: +41-22 730 01 11, Fax: +41-22 733 44
+  39, Email: itcreg@intracen.org, URL: http://www.intracen.org, 3 edition,
+  2011.
+
+\bibitem{hastie_09_elements-of.statistical-learning}
+Trevor Hastie, Robert Tibshirani, and Jerome Friedman.
+\newblock {\em The elements of statistical learning: data mining, inference and
+  prediction}.
+\newblock Springer, 2 edition, 2009.
+
+\bibitem{OMM}
+OMMpublic.wmo.int.
+\newblock D’une intensité exceptionnelle, l’épisode el niño a amorcé
+  son déclin, mais ses effets perdurent.
+\newblock 2016.
+
+\bibitem{Statistics01randomforests}
+Leo~Breiman Statistics and Leo Breiman.
+\newblock Random forests.
+\newblock In {\em Machine Learning}, pages 5--32, 2001.
+
+\end{thebibliography}

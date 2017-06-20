@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.22)  23 APR 2017 12:40
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.22)  7 JUN 2017 14:38
+>>>>>>> master
 entering extended mode
 **./Bachelor_Schowing2017.tex
 (Bachelor_Schowing2017.tex
@@ -485,43 +489,72 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@partial=\box28
 \AP@footins=\box29
 )
-(Bachelor_Schowing2017.aux (acknowledgements.aux) (summary.aux) (body.aux))
+("C:\Program Files\MiKTeX 2.9\tex\latex\cite\cite.sty"
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\placeins\placeins.sty"
+Package: placeins 2005/04/18  v 2.2
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count106
+\float@exts=\toks24
+\float@box=\box30
+\@float@everytoks=\toks25
+\@floatcapt=\box31
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box32
+\beforetitleunit=\skip53
+\aftertitleunit=\skip54
+\ttl@plus=\dimen117
+\ttl@minus=\dimen118
+\ttl@toksa=\toks26
+\titlewidth=\dimen119
+\titlewidthlast=\dimen120
+\titlewidthfirst=\dimen121
+)
+(Bachelor_Schowing2017.aux (acknowledgements.aux) (summary.aux) (body.aux)
+(Results.aux) (Conclusion.aux))
 \openout1 = `Bachelor_Schowing2017.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Info: Redefining \degres on input line 37.
-LaTeX Info: Redefining \dots on input line 37.
-LaTeX Info: Redefining \up on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Info: Redefining \degres on input line 47.
+LaTeX Info: Redefining \dots on input line 47.
+LaTeX Info: Redefining \up on input line 47.
 
 
 Package frenchb.ldf Warning: OT1 encoding should not be used for French.
 (frenchb.ldf)                Add \usepackage[T1]{fontenc} to the preamble
-(frenchb.ldf)                of your document, on input line 37.
+(frenchb.ldf)                of your document, on input line 47.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count106
-\scratchdimen=\dimen117
-\scratchbox=\box30
-\nofMPsegments=\count107
-\nofMParguments=\count108
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count109
-\MPscratchDim=\dimen118
-\MPnumerator=\count110
-\makeMPintoPDFobject=\count111
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count107
+\scratchdimen=\dimen122
+\scratchbox=\box33
+\nofMPsegments=\count108
+\nofMParguments=\count109
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count110
+\MPscratchDim=\dimen123
+\MPnumerator=\count111
+\makeMPintoPDFobject=\count112
+\everyMPtoPDFconversion=\toks28
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -571,7 +604,7 @@ G,.JBIG2,.JB2,.eps]
 File: img/HEIG-VD_Logo.png Graphic file (type png)
 
 <use img/HEIG-VD_Logo.png>
-Package pdftex.def Info: img/HEIG-VD_Logo.png used on input line 61.
+Package pdftex.def Info: img/HEIG-VD_Logo.png used on input line 70.
 (pdftex.def)             Requested size: 180.0pt x 55.89388pt.
  [1
 
@@ -613,6 +646,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  (body.tex
 Chapitre 1.
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
@@ -624,10 +658,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--15
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+[2
+
+]
+Overfull \hbox (5.7797pt too wide) in paragraph at lines 27--27
+|[]\OT1/cmr/bx/n/14.4 Extraction, des-crip-tion et contex-tua-li-sa-tion des
+ []
+
+
+Overfull \hbox (2.23256pt too wide) in paragraph at lines 29--30
+\OT1/cmr/m/n/10.95 gere par la Federation Na-tio-nale des Cafeiculteurs (F
+NC), per-met-tant d'iden-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+>>>>>>> master
 
  []
 
 
+<<<<<<< HEAD
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
@@ -636,10 +692,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 20--21
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+>>>>>>> master
 
  []
 
 [3]
+<<<<<<< HEAD
 Chapitre 2.
 
 LaTeX Warning: No positions in optional float specifier.
@@ -682,6 +747,222 @@ cmti10.pfb>
 Output written on Bachelor_Schowing2017.pdf (11 pages, 129042 bytes).
 PDF statistics:
  72 PDF objects out of 1000 (max. 8388607)
+=======
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
+<img/tmax_picture_1.png, id=43, 254.75175pt x 165.61874pt>
+File: img/tmax_picture_1.png Graphic file (type png)
+
+<use img/tmax_picture_1.png>
+Package pdftex.def Info: img/tmax_picture_1.png used on input line 46.
+(pdftex.def)             Requested size: 254.75111pt x 165.61833pt.
+ [4 <./img/tmax_picture_1.png>]
+<img/VariationElNino.png, id=49, 1419.80438pt x 537.50812pt>
+File: img/VariationElNino.png Graphic file (type png)
+
+<use img/VariationElNino.png>
+Package pdftex.def Info: img/VariationElNino.png used on input line 60.
+(pdftex.def)             Requested size: 354.95023pt x 134.3767pt.
+ [5 <./img/VariationElNino.png>] [6]
+Chapitre 2.
+[7
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+
+ []
+
+<img/RandomForestSimple.jpg, id=61, 481.8pt x 361.35pt>
+File: img/RandomForestSimple.jpg Graphic file (type jpg)
+
+<use img/RandomForestSimple.jpg>
+Package pdftex.def Info: img/RandomForestSimple.jpg used on input line 98.
+(pdftex.def)             Requested size: 337.25769pt x 252.94327pt.
+ [8] [9 <./img/RandomForestSimple.jpg>]
+Overfull \hbox (4.84537pt too wide) in paragraph at lines 111--112
+[]\OT1/cmr/m/n/10.95 Les differentes classes gus-ta-tives d'un cafe peuvent ^
+etre considerees comme
+ []
+
+<img/SOMWordlPovertyMap.png, id=68, 728.7225pt x 428.60126pt>
+File: img/SOMWordlPovertyMap.png Graphic file (type png)
+
+<use img/SOMWordlPovertyMap.png>
+Package pdftex.def Info: img/SOMWordlPovertyMap.png used on input line 116.
+(pdftex.def)             Requested size: 364.36035pt x 214.3001pt.
+
+Overfull \hbox (4.36035pt too wide) in paragraph at lines 116--117
+[][] 
+ []
+
+<img/worldmap.png, id=69, 642.4pt x 401.5pt>
+File: img/worldmap.png Graphic file (type png)
+ <use img/worldmap.png>
+Package pdftex.def Info: img/worldmap.png used on input line 121.
+(pdftex.def)             Requested size: 353.32109pt x 220.82567pt.
+ [10 <./img/SOMWordlPovertyMap.png>] [11 <./img/worldmap.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+<img/boosting1.png, id=78, 739.0812pt x 347.8596pt>
+File: img/boosting1.png Graphic file (type png)
+ <use img/boosting1.png>
+Package pdftex.def Info: img/boosting1.png used on input line 141.
+(pdftex.def)             Requested size: 369.5397pt x 173.92937pt.
+
+Overfull \hbox (9.5397pt too wide) in paragraph at lines 141--142
+[][] 
+ []
+
+
+Overfull \hbox (2.78728pt too wide) in paragraph at lines 145--146
+\OT1/cmr/m/n/10.95 problemes de clas-si-fi-ca-tion et de regression. Elle fai
+t aussi par-tie des methodes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
+
+ []
+
+
+Overfull \hbox (4.66582pt too wide) in paragraph at lines 152--153
+\OT1/cmr/m/n/10.95 trai-nant plu-sieurs modeles sur des donnees re echantil
+lonnees (avec repetition)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+
+ []
+
+[12 <./img/boosting1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+
+ []
+
+) [13]
+\openout2 = `Results.aux'.
+
+ (Results.tex
+Chapitre 3.
+<img/PCA_1.png, id=87, 702.625pt x 261.97874pt>
+File: img/PCA_1.png Graphic file (type png)
+ <use img/PCA_1.png>
+Package pdftex.def Info: img/PCA_1.png used on input line 30.
+(pdftex.def)             Requested size: 351.31163pt x 130.98904pt.
+ [14
+
+
+
+]
+Overfull \hbox (26.00787pt too wide) in paragraph at lines 40--41
+[] \OT1/cmr/bx/n/10.95 Ob-ser-va-tion de la PCA pour les va-riables cli-ma-tiqu
+es et de degustations
+ []
+
+
+Overfull \hbox (29.27417pt too wide) in paragraph at lines 40--41
+\OT1/cmr/m/n/10.95 Les differents types de va-riables, c'est-a-dire les donn
+ees cli-ma-tiques (temperatures,
+ []
+
+<img/PCA_Climat_All_1.png, id=91, 391.4625pt x 276.03125pt>
+File: img/PCA_Climat_All_1.png Graphic file (type png)
+
+<use img/PCA_Climat_All_1.png>
+Package pdftex.def Info: img/PCA_Climat_All_1.png used on input line 43.
+(pdftex.def)             Requested size: 352.31299pt x 248.42581pt.
+ [15 <./img/PCA_1.png>]
+<img/PCA_TMEAN_1.png, id=96, 391.4625pt x 276.03125pt>
+File: img/PCA_TMEAN_1.png Graphic file (type png)
+
+<use img/PCA_TMEAN_1.png>
+Package pdftex.def Info: img/PCA_TMEAN_1.png used on input line 48.
+(pdftex.def)             Requested size: 352.31299pt x 248.42581pt.
+
+<img/PCA_PREC_1.png, id=97, 391.4625pt x 276.03125pt>
+File: img/PCA_PREC_1.png Graphic file (type png)
+ <use img/PCA_PREC_1.png>
+Package pdftex.def Info: img/PCA_PREC_1.png used on input line 53.
+(pdftex.def)             Requested size: 352.31299pt x 248.42581pt.
+
+[16 <./img/PCA_Climat_All_1.png> <./img/PCA_TMEAN_1.png>]
+<img/Pereira_TMAX_2011_2016.png, id=103, 1232.605pt x 388.45125pt>
+File: img/Pereira_TMAX_2011_2016.png Graphic file (type png)
+
+<use img/Pereira_TMAX_2011_2016.png>
+Package pdftex.def Info: img/Pereira_TMAX_2011_2016.png used on input line 61.
+(pdftex.def)             Requested size: 369.78435pt x 116.53627pt.
+
+Overfull \hbox (9.78435pt too wide) in paragraph at lines 61--62
+[][] 
+ []
+
+<img/Pereira_PREC_2011_2016.png, id=104, 1229.59375pt x 388.45125pt>
+File: img/Pereira_PREC_2011_2016.png Graphic file (type png)
+
+<use img/Pereira_PREC_2011_2016.png>
+Package pdftex.def Info: img/Pereira_PREC_2011_2016.png used on input line 67.
+(pdftex.def)             Requested size: 368.88097pt x 116.53627pt.
+
+Overfull \hbox (8.88097pt too wide) in paragraph at lines 67--68
+[][] 
+ []
+
+[17 <./img/PCA_PREC_1.png> <./img/Pereira_TMAX_2011_2016.png>] [18 <./img/Perei
+ra_PREC_2011_2016.png>]
+Chapitre 4.
+) [19
+
+]
+\openout2 = `Conclusion.aux'.
+
+ (Conclusion.tex
+Chapitre 5.
+) [20
+
+
+
+] (Bachelor_Schowing2017.bbl) [21
+
+
+] (Bachelor_Schowing2017.aux
+(acknowledgements.aux) (summary.aux) (body.aux) (Results.aux) (Conclusion.aux))
+ ) 
+Here is how much of TeX's memory you used:
+ 4421 strings out of 493333
+ 58466 string characters out of 3139193
+ 129884 words of memory out of 3000000
+ 7812 multiletter control sequences out of 15000+200000
+ 12005 words of font info for 44 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 40i,6n,33p,1263b,439s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmti10.pfb>
+Output written on Bachelor_Schowing2017.pdf (28 pages, 675511 bytes).
+PDF statistics:
+ 150 PDF objects out of 1000 (max. 8388607)
+>>>>>>> master
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
