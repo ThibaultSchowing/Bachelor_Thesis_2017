@@ -1,4 +1,12 @@
 \select@language {french}
-\contentsline {section}{\numberline {0.1}Introduction}{2}
-\contentsline {section}{\numberline {0.2}Extraction des donn\IeC {\'e}es}{2}
-\contentsline {section}{\numberline {0.3}Mod\IeC {\'e}lisation}{2}
+\contentsline {chapter}{\numberline {1}Introduction}{2}
+\contentsline {section}{\numberline {1.1}Question de recherche}{2}
+\contentsline {section}{\numberline {1.2}Contexte du projet}{2}
+\contentsline {section}{\numberline {1.3}Contexte des donn\IeC {\'e}es}{3}
+\contentsline {paragraph}{Les donn\IeC {\'e}es gustatives}{3}
+\contentsline {paragraph}{Les donn\IeC {\'e}es climatiques}{3}
+\contentsline {paragraph}{Les donn\IeC {\'e}es de qualit\IeC {\'e} de sol}{3}
+\contentsline {paragraph}{Le syst\IeC {\`e}me SICA}{3}
+\contentsline {chapter}{\numberline {2}Processus de mod\IeC {\'e}lisation}{4}
+\contentsline {section}{\numberline {2.1}R\IeC {\'e}gression}{4}
+\contentsline {subsection}{\numberline {2.1.1}Principal Component Analysis (PCA)}{4}
