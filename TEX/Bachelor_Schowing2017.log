@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.22)  20 JUN 2017 16:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.22)  21 JUN 2017 10:48
 entering extended mode
 **./Bachelor_Schowing2017.tex
 (Bachelor_Schowing2017.tex
@@ -853,10 +853,6 @@ Overfull \hbox (37.6917pt too wide) in paragraph at lines 36--37
  []
 
 [15 <./img/Dataset_1.png (PNG copy)>]
-
-LaTeX Warning: Reference `correlation_entrees1.png' on page 16 undefined on inp
-ut line 41.
-
 <img/correlation_entrees1.png, id=95, 1126.2075pt x 1183.42125pt>
 File: img/correlation_entrees1.png Graphic file (type png)
 
@@ -932,33 +928,30 @@ Overfull \hbox (8.88097pt too wide) in paragraph at lines 108--109
  []
 
 [20 <./img/PCA_PREC_1.png> <./img/Pereira_TMAX_2011_2016.png>] [21 <./img/Perei
-ra_PREC_2011_2016.png>]
+ra_PREC_2011_2016.png>] [22]
 Chapitre 5.
-) [22
+) [23
 
 ]
 \openout2 = `Conclusion.aux'.
 
  (Conclusion.tex
 Chapitre 6.
-) [23
+) [24
 
 
 
-] (Bachelor_Schowing2017.bbl) [24
+] (Bachelor_Schowing2017.bbl) [25
 
 
 ] (Bachelor_Schowing2017.aux
 (acknowledgements.aux) (summary.aux) (body.aux) (Results.aux) (Conclusion.aux))
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 4440 strings out of 493333
- 58961 string characters out of 3139193
+ 4439 strings out of 493333
+ 58935 string characters out of 3139193
  129917 words of memory out of 3000000
- 7828 multiletter control sequences out of 15000+200000
+ 7827 multiletter control sequences out of 15000+200000
  12005 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,6n,33p,1263b,439s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -970,9 +963,9 @@ onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmti10.pfb>
-Output written on Bachelor_Schowing2017.pdf (31 pages, 844911 bytes).
+Output written on Bachelor_Schowing2017.pdf (32 pages, 845734 bytes).
 PDF statistics:
- 165 PDF objects out of 1000 (max. 8388607)
+ 168 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
