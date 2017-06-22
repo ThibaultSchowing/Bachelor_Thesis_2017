@@ -112,9 +112,27 @@ La PCA, pour Analyse en Composantes Principales en français, est une méthode q
 
 % PCA sur le café
 
-PCA_Coffee_Output1
+%PCA_Coffee_Output1
 
-\noindent Les données concernant le café sont aussi très différentes une fois 
+\noindent Les données concernant le café sont aussi très différentes une fois leurs dimensions réduites comme on peut le voir sur la figure \ref{PCA_Coffee_Output1}. 
+
+\begin{figure}[H]
+	\includegraphics[scale=0.7]{PCA_Coffee_Output1}
+	\caption{\label{PCA_Coffee_Output1} PCA des sorties, c'est-à-dire des données de dégustation et des défauts physiques du café.}
+\end{figure}
+
+\noindent Si on ne regarde que les points nous obtenons une répartition comme sur la figure \ref{PCA_Coffee_Output2}.
+\begin{figure}[H]
+	\includegraphics[scale=0.7]{PCA_Coffee_Output2}
+	\caption{\label{PCA_Coffee_Output2} PCA des résultats de dégustation du café.}
+\end{figure}
+
+
+
+
+
+
+
 
 \newpage
 \subsection{Self-Organizing Map}
@@ -133,6 +151,9 @@ PCA_Coffee_Output1
 %Il a été possible ou non de faire de la prédiction, confusion matrix etc
 %ce que les méthodes comme random forest ont donné
 Le but de cette section est d'analyser la possibilité de prédiction de la qualité des cafés à l'aide des données climatiques et de qualité de sols à disposition. Lorsque l'on parle de la qualité des cafés, on inclue autant les défauts physiques que les résultats de dégustation. 
+
+%TODO faire pour régression et classification -> specialty ou pas -> a ajouter au dataset
+
 
 \subsection{Random Forest}
 % analyser des variables séparément. Possibilité de prédir les défauts vs le "gout", les défauts spéarément - les gouts séparément etc 

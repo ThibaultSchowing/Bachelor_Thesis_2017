@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.22)  21 JUN 2017 10:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.22)  21 JUN 2017 21:50
 entering extended mode
 **./Bachelor_Schowing2017.tex
 (Bachelor_Schowing2017.tex
@@ -662,6 +662,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
  []
 
 
+Overfull \hbox (9.4109pt too wide) in paragraph at lines 21--22
+\OT1/cmr/m/n/10.95 Le but de cette col-la-bo-ra-tion sur le long terme est de p
+er-mettre au departement
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
@@ -882,26 +888,25 @@ Overfull \hbox (29.27417pt too wide) in paragraph at lines 81--82
 ees cli-ma-tiques (temperatures,
  []
 
-<img/PCA_Climat_All_1.png, id=105, 391.4625pt x 276.03125pt>
+<img/PCA_Climat_All_1.png, id=105, 388.45125pt x 276.03125pt>
 File: img/PCA_Climat_All_1.png Graphic file (type png)
 
 <use img/PCA_Climat_All_1.png>
 Package pdftex.def Info: img/PCA_Climat_All_1.png used on input line 84.
-(pdftex.def)             Requested size: 352.31299pt x 248.42581pt.
+(pdftex.def)             Requested size: 349.60287pt x 248.42581pt.
  [18 <./img/PCA_1.png>]
-<img/PCA_TMEAN_1.png, id=111, 391.4625pt x 276.03125pt>
+<img/PCA_TMEAN_1.png, id=111, 396.48125pt x 276.03125pt>
 File: img/PCA_TMEAN_1.png Graphic file (type png)
 
 <use img/PCA_TMEAN_1.png>
 Package pdftex.def Info: img/PCA_TMEAN_1.png used on input line 89.
-(pdftex.def)             Requested size: 352.31299pt x 248.42581pt.
-
-<img/PCA_PREC_1.png, id=112, 391.4625pt x 276.03125pt>
+(pdftex.def)             Requested size: 356.82982pt x 248.42581pt.
+ <img/PCA_PREC_1.png, id=112, 385.44pt x 276.03125pt>
 File: img/PCA_PREC_1.png Graphic file (type png)
 
 <use img/PCA_PREC_1.png>
 Package pdftex.def Info: img/PCA_PREC_1.png used on input line 94.
-(pdftex.def)             Requested size: 352.31299pt x 248.42581pt.
+(pdftex.def)             Requested size: 346.89279pt x 248.42581pt.
  [19 <./img/PCA_Climat_All_1.png> <./img/PCA_TMEAN_1.png>] <img/Pereira_TMAX_20
 11_2016.png, id=118, 1232.605pt x 388.45125pt>
 File: img/Pereira_TMAX_2011_2016.png Graphic file (type png)
@@ -927,34 +932,48 @@ Overfull \hbox (8.88097pt too wide) in paragraph at lines 108--109
 [][] 
  []
 
-[20 <./img/PCA_PREC_1.png> <./img/Pereira_TMAX_2011_2016.png>] [21 <./img/Perei
-ra_PREC_2011_2016.png>] [22]
+[20 <./img/PCA_PREC_1.png> <./img/Pereira_TMAX_2011_2016.png>]
+<img/PCA_Coffee_Output1.png, id=125, 385.44pt x 276.03125pt>
+File: img/PCA_Coffee_Output1.png Graphic file (type png)
+
+<use img/PCA_Coffee_Output1.png>
+Package pdftex.def Info: img/PCA_Coffee_Output1.png used on input line 120.
+(pdftex.def)             Requested size: 269.80615pt x 193.22055pt.
+
+<img/PCA_Coffee_Output2.png, id=126, 382.42876pt x 276.03125pt>
+File: img/PCA_Coffee_Output2.png Graphic file (type png)
+
+<use img/PCA_Coffee_Output2.png>
+Package pdftex.def Info: img/PCA_Coffee_Output2.png used on input line 126.
+(pdftex.def)             Requested size: 267.69829pt x 193.22055pt.
+ [21 <./img/Pereira_PREC_2011_2016.png> <./img/PCA_Coffee_Output1.png>] [22 <./
+img/PCA_Coffee_Output2.png>] [23]
 Chapitre 5.
-) [23
+) [24
 
 ]
 \openout2 = `Conclusion.aux'.
 
  (Conclusion.tex
 Chapitre 6.
-) [24
+) [25
 
 
 
-] (Bachelor_Schowing2017.bbl) [25
+] (Bachelor_Schowing2017.bbl) [26
 
 
 ] (Bachelor_Schowing2017.aux
 (acknowledgements.aux) (summary.aux) (body.aux) (Results.aux) (Conclusion.aux))
  ) 
 Here is how much of TeX's memory you used:
- 4439 strings out of 493333
- 58935 string characters out of 3139193
- 129917 words of memory out of 3000000
- 7827 multiletter control sequences out of 15000+200000
+ 4451 strings out of 493333
+ 59265 string characters out of 3139193
+ 129941 words of memory out of 3000000
+ 7837 multiletter control sequences out of 15000+200000
  12005 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,6n,33p,1263b,439s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,7n,33p,1263b,439s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
@@ -963,9 +982,9 @@ onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmti10.pfb>
-Output written on Bachelor_Schowing2017.pdf (32 pages, 845734 bytes).
+Output written on Bachelor_Schowing2017.pdf (33 pages, 867102 bytes).
 PDF statistics:
- 168 PDF objects out of 1000 (max. 8388607)
+ 175 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -26,8 +26,8 @@
 \contentsline {subsection}{\numberline {4.1.2}Corr\IeC {\'e}lations entre variables}{15}
 \contentsline {subsection}{\numberline {4.1.3}Principal Component Analysis (PCA)}{18}
 \contentsline {paragraph}{Observation de la PCA pour les variables climatiques et de d\IeC {\'e}gustations}{18}
-\contentsline {subsection}{\numberline {4.1.4}Self-Organizing Map}{22}
-\contentsline {section}{\numberline {4.2}Pr\IeC {\'e}diction}{22}
-\contentsline {subsection}{\numberline {4.2.1}Random Forest}{22}
-\contentsline {chapter}{\numberline {5}Analyse des r\IeC {\'e}sultats}{23}
-\contentsline {chapter}{\numberline {6}Conclusion}{24}
+\contentsline {subsection}{\numberline {4.1.4}Self-Organizing Map}{23}
+\contentsline {section}{\numberline {4.2}Pr\IeC {\'e}diction}{23}
+\contentsline {subsection}{\numberline {4.2.1}Random Forest}{23}
+\contentsline {chapter}{\numberline {5}Analyse des r\IeC {\'e}sultats}{24}
+\contentsline {chapter}{\numberline {6}Conclusion}{25}
