@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.22)  21 JUN 2017 21:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.22)  27 JUN 2017 12:59
 entering extended mode
 **./Bachelor_Schowing2017.tex
 (Bachelor_Schowing2017.tex
@@ -823,17 +823,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--154
  (Results.tex
 Chapitre 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-<img/Dataset_1.png, id=87, 776.9025pt x 608.2725pt>
+<img/Dataset_1.png, id=87, 845.1575pt x 543.02875pt>
 File: img/Dataset_1.png Graphic file (type png)
  <use img/Dataset_1.png>
-Package pdftex.def Info: img/Dataset_1.png used on input line 26.
-(pdftex.def)             Requested size: 388.45029pt x 304.13551pt.
+Package pdftex.def Info: img/Dataset_1.png used on input line 20.
+(pdftex.def)             Requested size: 422.57771pt x 271.5137pt.
 
-Overfull \hbox (28.45029pt too wide) in paragraph at lines 26--27
+Overfull \hbox (62.57771pt too wide) in paragraph at lines 20--21
 [][] 
  []
 
@@ -842,7 +842,7 @@ Overfull \hbox (28.45029pt too wide) in paragraph at lines 26--27
 
 
 ]
-Overfull \hbox (12.97687pt too wide) in paragraph at lines 33--34
+Overfull \hbox (12.97687pt too wide) in paragraph at lines 27--28
 \OT1/cmr/m/n/10.95 ma-trices de correlation ont ete cal-culees pour toutes 
 les va-riables. Premierement
  []
@@ -851,10 +851,10 @@ les va-riables. Premierement
 File: img/correlation_sorties1.png Graphic file (type png)
 
 <use img/correlation_sorties1.png>
-Package pdftex.def Info: img/correlation_sorties1.png used on input line 36.
+Package pdftex.def Info: img/correlation_sorties1.png used on input line 30.
 (pdftex.def)             Requested size: 397.6917pt x 417.71683pt.
 
-Overfull \hbox (37.6917pt too wide) in paragraph at lines 36--37
+Overfull \hbox (37.6917pt too wide) in paragraph at lines 30--31
 [][] 
  []
 
@@ -863,117 +863,66 @@ Overfull \hbox (37.6917pt too wide) in paragraph at lines 36--37
 File: img/correlation_entrees1.png Graphic file (type png)
 
 <use img/correlation_entrees1.png>
-Package pdftex.def Info: img/correlation_entrees1.png used on input line 45.
+Package pdftex.def Info: img/correlation_entrees1.png used on input line 39.
 (pdftex.def)             Requested size: 394.17854pt x 414.20364pt.
 
-Overfull \hbox (34.17854pt too wide) in paragraph at lines 45--46
+Overfull \hbox (34.17854pt too wide) in paragraph at lines 39--40
 [][] 
  []
 
 [16 <./img/correlation_sorties1.png>] [17 <./img/correlation_entrees1.png>]
-<img/PCA_1.png, id=104, 702.625pt x 261.97874pt>
+<img/coffee_cultures_dot_puntajeTotal.jpg, id=104, 634.16925pt x 718.48425pt>
+File: img/coffee_cultures_dot_puntajeTotal.jpg Graphic file (type jpg)
+
+<use img/coffee_cultures_dot_puntajeTotal.jpg>
+Package pdftex.def Info: img/coffee_cultures_dot_puntajeTotal.jpg used on input
+ line 54.
+(pdftex.def)             Requested size: 380.50449pt x 431.09387pt.
+
+<img/Legend_Map1.jpg, id=105, 48.78226pt x 31.91925pt>
+File: img/Legend_Map1.jpg Graphic file (type jpg)
+
+<use img/Legend_Map1.jpg>
+Package pdftex.def Info: img/Legend_Map1.jpg used on input line 56.
+(pdftex.def)             Requested size: 48.78212pt x 31.91916pt.
+
+Overfull \hbox (20.50449pt too wide) in paragraph at lines 54--57
+[][] 
+ []
+
+[18 <./img/coffee_cultures_dot_puntajeTotal.jpg> <./img/Legend_Map1.jpg>]
+<img/PCA_1.png, id=110, 702.625pt x 261.97874pt>
 File: img/PCA_1.png Graphic file (type png)
  <use img/PCA_1.png>
-Package pdftex.def Info: img/PCA_1.png used on input line 70.
+Package pdftex.def Info: img/PCA_1.png used on input line 74.
 (pdftex.def)             Requested size: 351.31163pt x 130.98904pt.
-
-Overfull \hbox (26.00787pt too wide) in paragraph at lines 81--82
-[] \OT1/cmr/bx/n/10.95 Ob-ser-va-tion de la PCA pour les va-riables cli-ma-tiqu
-es et de degustations
- []
-
-
-Overfull \hbox (29.27417pt too wide) in paragraph at lines 81--82
-\OT1/cmr/m/n/10.95 Les differents types de va-riables, c'est-a-dire les donn
-ees cli-ma-tiques (temperatures,
- []
-
-<img/PCA_Climat_All_1.png, id=105, 388.45125pt x 276.03125pt>
-File: img/PCA_Climat_All_1.png Graphic file (type png)
-
-<use img/PCA_Climat_All_1.png>
-Package pdftex.def Info: img/PCA_Climat_All_1.png used on input line 84.
-(pdftex.def)             Requested size: 349.60287pt x 248.42581pt.
- [18 <./img/PCA_1.png>]
-<img/PCA_TMEAN_1.png, id=111, 396.48125pt x 276.03125pt>
-File: img/PCA_TMEAN_1.png Graphic file (type png)
-
-<use img/PCA_TMEAN_1.png>
-Package pdftex.def Info: img/PCA_TMEAN_1.png used on input line 89.
-(pdftex.def)             Requested size: 356.82982pt x 248.42581pt.
- <img/PCA_PREC_1.png, id=112, 385.44pt x 276.03125pt>
-File: img/PCA_PREC_1.png Graphic file (type png)
-
-<use img/PCA_PREC_1.png>
-Package pdftex.def Info: img/PCA_PREC_1.png used on input line 94.
-(pdftex.def)             Requested size: 346.89279pt x 248.42581pt.
- [19 <./img/PCA_Climat_All_1.png> <./img/PCA_TMEAN_1.png>] <img/Pereira_TMAX_20
-11_2016.png, id=118, 1232.605pt x 388.45125pt>
-File: img/Pereira_TMAX_2011_2016.png Graphic file (type png)
-
-<use img/Pereira_TMAX_2011_2016.png>
-Package pdftex.def Info: img/Pereira_TMAX_2011_2016.png used on input line 102.
-
-(pdftex.def)             Requested size: 369.78435pt x 116.53627pt.
-
-Overfull \hbox (9.78435pt too wide) in paragraph at lines 102--103
-[][] 
- []
-
-<img/Pereira_PREC_2011_2016.png, id=119, 1229.59375pt x 388.45125pt>
-File: img/Pereira_PREC_2011_2016.png Graphic file (type png)
-
-<use img/Pereira_PREC_2011_2016.png>
-Package pdftex.def Info: img/Pereira_PREC_2011_2016.png used on input line 108.
-
-(pdftex.def)             Requested size: 368.88097pt x 116.53627pt.
-
-Overfull \hbox (8.88097pt too wide) in paragraph at lines 108--109
-[][] 
- []
-
-[20 <./img/PCA_PREC_1.png> <./img/Pereira_TMAX_2011_2016.png>]
-<img/PCA_Coffee_Output1.png, id=125, 385.44pt x 276.03125pt>
-File: img/PCA_Coffee_Output1.png Graphic file (type png)
-
-<use img/PCA_Coffee_Output1.png>
-Package pdftex.def Info: img/PCA_Coffee_Output1.png used on input line 120.
-(pdftex.def)             Requested size: 269.80615pt x 193.22055pt.
-
-<img/PCA_Coffee_Output2.png, id=126, 382.42876pt x 276.03125pt>
-File: img/PCA_Coffee_Output2.png Graphic file (type png)
-
-<use img/PCA_Coffee_Output2.png>
-Package pdftex.def Info: img/PCA_Coffee_Output2.png used on input line 126.
-(pdftex.def)             Requested size: 267.69829pt x 193.22055pt.
- [21 <./img/Pereira_PREC_2011_2016.png> <./img/PCA_Coffee_Output1.png>] [22 <./
-img/PCA_Coffee_Output2.png>] [23]
+ [19 <./img/PCA_1.png>] [20]
 Chapitre 5.
-) [24
+) [21
 
 ]
 \openout2 = `Conclusion.aux'.
 
  (Conclusion.tex
 Chapitre 6.
-) [25
+) [22
 
 
 
-] (Bachelor_Schowing2017.bbl) [26
+] (Bachelor_Schowing2017.bbl) [23
 
 
 ] (Bachelor_Schowing2017.aux
 (acknowledgements.aux) (summary.aux) (body.aux) (Results.aux) (Conclusion.aux))
  ) 
 Here is how much of TeX's memory you used:
- 4451 strings out of 493333
- 59265 string characters out of 3139193
- 129941 words of memory out of 3000000
- 7837 multiletter control sequences out of 15000+200000
+ 4421 strings out of 493333
+ 58532 string characters out of 3139193
+ 129884 words of memory out of 3000000
+ 7812 multiletter control sequences out of 15000+200000
  12005 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,7n,33p,1263b,439s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,8n,33p,1263b,439s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
@@ -982,9 +931,9 @@ onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmti10.pfb>
-Output written on Bachelor_Schowing2017.pdf (33 pages, 867102 bytes).
+Output written on Bachelor_Schowing2017.pdf (30 pages, 790779 bytes).
 PDF statistics:
- 175 PDF objects out of 1000 (max. 8388607)
+ 153 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

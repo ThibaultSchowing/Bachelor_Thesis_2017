@@ -1,13 +1,7 @@
 \chapter{Analyse des données}
 
 
-
-
-
-
-
-
-\section{Data Mining - Exploration de données}
+\section{Data Mining - Analyse exploratoire}
 
 \subsection{Pre-processing}
 %Description du dataset (rapidement, le reste dans un codebook)\\
@@ -52,7 +46,17 @@ On observe que les données de sol sont parfois corrélées entre-elles mais pre
 %TODO garder un peu de place pour lorsqu'on ajoutera des données comme la pente, le soleil etc. 
 
 
+%TODO Cases des observations - peuvent être recyclées après
+\paragraph{Emplacement des fermes} L'emplacement des différents cafés par rapport aux nombre de points est présenté sur la figure \ref{FincaVSPoints}. La catégorie 1 (non représentée) correspond aux cafés avec plus de 90 points, la 2 aux cafés avec plus de 85, la 3 aux cafés avec plus de 80 et la 4 aux cafés en dessous de 80, ne correspondant donc pas à la qualité "Specialty". On peut y voir que l'emplacement dans le département n'as pas d'incidence sur les résultats, la répartition des différentes classes étant très uniforme. 
 
+
+\begin{figure}[H]
+	\includegraphics[scale=0.6]{coffee_cultures_dot_puntajeTotal}
+	\begin{figure}[H]
+		\includegraphics[scale=1]{Legend_Map1}
+	\end{figure}
+	\caption{\label{FincaVSPoints} Emplacement des fermes VS nombre de points SCAA}
+\end{figure}
 
 
 
@@ -77,55 +81,9 @@ La PCA, pour Analyse en Composantes Principales en français, est une méthode q
 
 % https://georgemdallas.wordpress.com/2013/10/30/principal-component-analysis-4-dummies-eigenvectors-eigenvalues-and-dimension-reduction/
 
-
-\paragraph{Observation de la PCA pour les variables climatiques et de dégustations} Les différents types de variables, c'est-à-dire les données climatiques (températures, précipitations) ou les données de dégustations, on été réduits un par un sur 3 dimensions afin de pouvoir les visualiser sur un graphique et d'observer les différences entre les deux années disponibles. Ceci permet de se faire une idée des différences.  
-
-\begin{figure}[H]
-	\includegraphics[scale=0.9]{PCA_Climat_All_1}
-	\caption{\label{PCAClimatAll} PCA sur les données climatiques (Tmin, Tmax, Tmean, DTR et Prec) }
-\end{figure}
-
-\begin{figure}[H]
-	\includegraphics[scale=0.9]{PCA_TMEAN_1}
-	\caption{\label{PCAClimatTmean} PCA sur les températures moyennes de chaque mois }
-\end{figure}
-
-\begin{figure}[H]
-	\includegraphics[scale=0.9]{PCA_PREC_1}
-	\caption{\label{PCAClimatPrec} PCA sur les précipitations moyennes de chaque mois }
-\end{figure}
-
-
-\noindent Sur les figures \ref{PCAClimatAll}, \ref{PCAClimatTmean} et \ref{PCAClimatPrec}, on observe assez facilement deux groupes plus ou moins distincts se dessiner, un par année. On peut déjà en déduire que les deux années on été différentes sur le plan climatique. Afin de visualiser cette différence, nous pouvons observer la variation de la température maximale à Pereira, ce que nous montre la figure \ref{Tmax_Pereira} ainsi que la variation des quantités de précipitations, ce que nous montre la figure \ref{PREC_Pereira}. On observe une évolution commune entre températures (augmentation) et précipitations (diminution) qui nous rappelle l'influence d'El Niño sur le climat (Voir figure \ref{Nino}).
-
-\begin{figure}[H]
-	\includegraphics[scale=0.3]{Pereira_TMAX_2011_2016}
-	\caption{\label{Tmax_Pereira} Variation des températures maximales à Pereira entre 2011 et 2016}
-\end{figure}
-
-
-\begin{figure}[H]
-	\includegraphics[scale=0.3]{Pereira_PREC_2011_2016}
-	\caption{\label{PREC_Pereira} Variation de la quantité de précipitations à Pereira entre 2011 et 2016}
-\end{figure}
-
-
-% PCA sur le café
-
-%PCA_Coffee_Output1
-
-\noindent Les données concernant le café sont aussi très différentes une fois leurs dimensions réduites comme on peut le voir sur la figure \ref{PCA_Coffee_Output1}. 
-
-\begin{figure}[H]
-	\includegraphics[scale=0.7]{PCA_Coffee_Output1}
-	\caption{\label{PCA_Coffee_Output1} PCA des sorties, c'est-à-dire des données de dégustation et des défauts physiques du café.}
-\end{figure}
-
-\noindent Si on ne regarde que les points nous obtenons une répartition comme sur la figure \ref{PCA_Coffee_Output2}.
-\begin{figure}[H]
-	\includegraphics[scale=0.7]{PCA_Coffee_Output2}
-	\caption{\label{PCA_Coffee_Output2} PCA des résultats de dégustation du café.}
-\end{figure}
+%TODO Les PCA sont fausses, utiliser les nouvelles faites avec R
+%TODO Attendre l'intégration des nouvelles variables par Silvia afin d'avoir un maximum de variables
+\paragraph{Observation de la PCA }
 
 
 
