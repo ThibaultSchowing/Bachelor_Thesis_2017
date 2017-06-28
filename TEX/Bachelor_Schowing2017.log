@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.22)  27 JUN 2017 12:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.22)  28 JUN 2017 16:14
 entering extended mode
 **./Bachelor_Schowing2017.tex
 (Bachelor_Schowing2017.tex
@@ -876,17 +876,17 @@ File: img/coffee_cultures_dot_puntajeTotal.jpg Graphic file (type jpg)
 
 <use img/coffee_cultures_dot_puntajeTotal.jpg>
 Package pdftex.def Info: img/coffee_cultures_dot_puntajeTotal.jpg used on input
- line 54.
+ line 57.
 (pdftex.def)             Requested size: 380.50449pt x 431.09387pt.
 
 <img/Legend_Map1.jpg, id=105, 48.78226pt x 31.91925pt>
 File: img/Legend_Map1.jpg Graphic file (type jpg)
 
 <use img/Legend_Map1.jpg>
-Package pdftex.def Info: img/Legend_Map1.jpg used on input line 56.
+Package pdftex.def Info: img/Legend_Map1.jpg used on input line 59.
 (pdftex.def)             Requested size: 48.78212pt x 31.91916pt.
 
-Overfull \hbox (20.50449pt too wide) in paragraph at lines 54--57
+Overfull \hbox (20.50449pt too wide) in paragraph at lines 57--60
 [][] 
  []
 
@@ -894,32 +894,32 @@ Overfull \hbox (20.50449pt too wide) in paragraph at lines 54--57
 <img/PCA_1.png, id=110, 702.625pt x 261.97874pt>
 File: img/PCA_1.png Graphic file (type png)
  <use img/PCA_1.png>
-Package pdftex.def Info: img/PCA_1.png used on input line 74.
+Package pdftex.def Info: img/PCA_1.png used on input line 77.
 (pdftex.def)             Requested size: 351.31163pt x 130.98904pt.
- [19 <./img/PCA_1.png>] [20]
+ [19 <./img/PCA_1.png>] [20] [21]
 Chapitre 5.
-) [21
+) [22
 
 ]
 \openout2 = `Conclusion.aux'.
 
  (Conclusion.tex
 Chapitre 6.
-) [22
+) [23
 
 
 
-] (Bachelor_Schowing2017.bbl) [23
+] (Bachelor_Schowing2017.bbl) [24
 
 
 ] (Bachelor_Schowing2017.aux
 (acknowledgements.aux) (summary.aux) (body.aux) (Results.aux) (Conclusion.aux))
  ) 
 Here is how much of TeX's memory you used:
- 4421 strings out of 493333
- 58532 string characters out of 3139193
- 129884 words of memory out of 3000000
- 7812 multiletter control sequences out of 15000+200000
+ 4420 strings out of 493333
+ 58522 string characters out of 3139193
+ 129873 words of memory out of 3000000
+ 7811 multiletter control sequences out of 15000+200000
  12005 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,8n,33p,1263b,439s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -931,9 +931,9 @@ onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmti10.pfb>
-Output written on Bachelor_Schowing2017.pdf (30 pages, 790779 bytes).
+Output written on Bachelor_Schowing2017.pdf (31 pages, 795808 bytes).
 PDF statistics:
- 153 PDF objects out of 1000 (max. 8388607)
+ 157 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
