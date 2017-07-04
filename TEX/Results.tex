@@ -224,7 +224,7 @@ L'analyse sur une version compacte des variables a donné les résultats présen
 
 
 \begin{figure}[H]
-	\caption{Températures et autres données environnementales}
+	\caption{SOM - Autres données}
 	\centering
 	\subfloat[Temp. Min. Average]{\includegraphics[width=.3\linewidth]{SOM/SOM_TminTotalAvg}}\hfill
 	\subfloat[Temp. Max. Average]{\includegraphics[width=.3\linewidth]{SOM/SOM_TmaxTotalAvg}}\hfill
@@ -248,7 +248,24 @@ L'analyse sur une version compacte des variables a donné les résultats présen
 	\subfloat[Defectos]{\includegraphics[width=.3\linewidth]{SOM/SOM_DefectosTotales}}
 \end{figure}
 
-On peut observer que les régions avec beaucoup de précipitations sont aussi celles qui ont le plus de cafés avec peu de points. 
+
+
+\begin{figure}[H]
+	\caption{\label{SecondSOMASNM}Altitude et défauts lors d'une seconde exécution du réseau de neurones}
+	\centering
+	\subfloat[ASNM]{\includegraphics[width=.5\linewidth]{SOM/SOM_ASNM2}}\hfill
+	\subfloat[Defectos Totales]{\includegraphics[width=.5\linewidth]{SOM/SOM_DefectosTotales2}}
+	\newline
+
+	\centering
+	\subfloat[ASNM]{\includegraphics[width=.5\linewidth]{SOM/SOM_ASNM2}}\hfill
+	\subfloat[Puntaje Total]{\includegraphics[width=.5\linewidth]{SOM/SOM_PuntajeTotal}}\hfill
+	\newline
+	\centering 
+	\subfloat[Coffee Class Position]{\includegraphics[width=.5\linewidth]{SOM/SOM_Umatrix_Points_Category}}
+\end{figure}
+
+On peut observer que les régions avec beaucoup de précipitations sont aussi celles qui ont le plus de cafés avec peu de points. Lors d'une seconde exécution du réseau on a pu observer une relation proche entre les défauts et l'altitude comme montré sur la figure \ref{SecondSOMASNM}. Cette relation n'était pas clairement visible lors de la première exécution. Le fait est déjà connu que le café qui pousse en altitude est de meilleure qualité. On observe sur la figure \ref{AltPts} que la zone en bas à gauche, là où l'altitude est la plus haute, correspond à une zone possédant peu de cafés ayant eu le score 0. 
 
 \newpage
 \subsection{Perceptron Multi-couches}

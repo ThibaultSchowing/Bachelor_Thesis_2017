@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.22)  4 JUL 2017 10:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.22)  4 JUL 2017 14:20
 entering extended mode
 **./Bachelor_Schowing2017.tex
 (Bachelor_Schowing2017.tex
@@ -535,26 +535,7 @@ Package caption Info: float package is loaded.
 \sf@top=\skip56
 \sf@bottom=\skip57
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
-Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
-
-
-! Package subcaption Error: This package can't be used in cooperation
-(subcaption)                with the subfig package.
-
-See the subcaption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63 \subcaption@CheckCompatibility
-                                   
-If you do not understand this error, please take a closer look
-at the documentation of the `subcaption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen125
 \extrarowheight=\dimen126
@@ -582,26 +563,26 @@ LaTeX Warning: Label `' multiply defined.
 ) (Conclusion.aux))
 \openout1 = `Bachelor_Schowing2017.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Info: Redefining \degres on input line 50.
-LaTeX Info: Redefining \dots on input line 50.
-LaTeX Info: Redefining \up on input line 50.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Info: Redefining \degres on input line 51.
+LaTeX Info: Redefining \dots on input line 51.
+LaTeX Info: Redefining \up on input line 51.
 
 
 Package frenchb.ldf Warning: OT1 encoding should not be used for French.
 (frenchb.ldf)                Add \usepackage[T1]{fontenc} to the preamble
-(frenchb.ldf)                of your document, on input line 50.
+(frenchb.ldf)                of your document, on input line 51.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -668,7 +649,7 @@ Package caption Info: End \AtBeginDocument code.
 <img/HEIG-VDLogo.png, id=1, 381.425pt x 118.4425pt>
 File: img/HEIG-VDLogo.png Graphic file (type png)
  <use img/HEIG-VDLogo.png>
-Package pdftex.def Info: img/HEIG-VDLogo.png used on input line 73.
+Package pdftex.def Info: img/HEIG-VDLogo.png used on input line 74.
 (pdftex.def)             Requested size: 180.0pt x 55.89388pt.
 
 [1
@@ -797,20 +778,25 @@ File: img/VariationElNino.png Graphic file (type png)
 <use img/VariationElNino.png>
 Package pdftex.def Info: img/VariationElNino.png used on input line 59.
 (pdftex.def)             Requested size: 354.95023pt x 134.3767pt.
- [5 <./img/tmax_picture_1.png>] [6 <./img/VariationElNino.png>] <img/triangulo-
-del-suelo.png, id=58, 517.935pt x 424.58624pt>
+ [5 <./img/tmax_picture_1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+
+ []
+
+[6 <./img/VariationElNino.png>]
+<img/triangulo-del-suelo.png, id=58, 517.935pt x 424.58624pt>
 File: img/triangulo-del-suelo.png Graphic file (type png)
 
 <use img/triangulo-del-suelo.png>
-Package pdftex.def Info: img/triangulo-del-suelo.png used on input line 73.
+Package pdftex.def Info: img/triangulo-del-suelo.png used on input line 74.
 (pdftex.def)             Requested size: 362.55202pt x 297.20834pt.
 
-Overfull \hbox (2.55202pt too wide) in paragraph at lines 73--74
+Overfull \hbox (2.55202pt too wide) in paragraph at lines 74--75
 [][] 
  []
 
 
-Underfull \hbox (badness 7631) in paragraph at lines 74--74
+Underfull \hbox (badness 7631) in paragraph at lines 75--75
 \OT1/cmr/m/n/10.95 Source : \OT1/cmr/m/it/10.95 http ://www.construnatura.com/e
 sp/articulo/agricultura-ecol-
  []
@@ -820,12 +806,12 @@ Chapitre 3.
 [8
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
@@ -833,10 +819,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--98
 File: img/RandomForestSimple.jpg Graphic file (type jpg)
 
 <use img/RandomForestSimple.jpg>
-Package pdftex.def Info: img/RandomForestSimple.jpg used on input line 104.
+Package pdftex.def Info: img/RandomForestSimple.jpg used on input line 105.
 (pdftex.def)             Requested size: 337.25769pt x 252.94327pt.
  [9] [10 <./img/RandomForestSimple.jpg>]
-Overfull \hbox (4.84537pt too wide) in paragraph at lines 117--118
+Overfull \hbox (4.84537pt too wide) in paragraph at lines 118--119
 []\OT1/cmr/m/n/10.95 Les differentes classes gus-ta-tives d'un cafe peuvent ^
 etre considerees comme
  []
@@ -845,62 +831,62 @@ etre considerees comme
 File: img/SOMWordlPovertyMap.png Graphic file (type png)
 
 <use img/SOMWordlPovertyMap.png>
-Package pdftex.def Info: img/SOMWordlPovertyMap.png used on input line 122.
+Package pdftex.def Info: img/SOMWordlPovertyMap.png used on input line 123.
 (pdftex.def)             Requested size: 364.36035pt x 214.3001pt.
 
-Overfull \hbox (4.36035pt too wide) in paragraph at lines 122--123
+Overfull \hbox (4.36035pt too wide) in paragraph at lines 123--124
 [][] 
  []
 
 <img/worldmap.png, id=74, 642.4pt x 401.5pt>
 File: img/worldmap.png Graphic file (type png)
  <use img/worldmap.png>
-Package pdftex.def Info: img/worldmap.png used on input line 127.
+Package pdftex.def Info: img/worldmap.png used on input line 128.
 (pdftex.def)             Requested size: 353.32109pt x 220.82567pt.
  [11 <./img/SOMWordlPovertyMap.png>] [12 <./img/worldmap.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
 
 <img/boosting1.png, id=84, 739.0812pt x 347.8596pt>
 File: img/boosting1.png Graphic file (type png)
  <use img/boosting1.png>
-Package pdftex.def Info: img/boosting1.png used on input line 147.
+Package pdftex.def Info: img/boosting1.png used on input line 148.
 (pdftex.def)             Requested size: 369.5397pt x 173.92937pt.
 
-Overfull \hbox (9.5397pt too wide) in paragraph at lines 147--148
+Overfull \hbox (9.5397pt too wide) in paragraph at lines 148--149
 [][] 
  []
 
 
-Overfull \hbox (2.78728pt too wide) in paragraph at lines 151--152
+Overfull \hbox (2.78728pt too wide) in paragraph at lines 152--153
 \OT1/cmr/m/n/10.95 problemes de clas-si-fi-ca-tion et de regression. Elle fai
 t aussi par-tie des methodes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
 
 
-Overfull \hbox (4.66582pt too wide) in paragraph at lines 158--159
+Overfull \hbox (4.66582pt too wide) in paragraph at lines 159--160
 \OT1/cmr/m/n/10.95 trai-nant plu-sieurs modeles sur des donnees re echantil
 lonnees (avec repetition)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
 [13 <./img/boosting1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
  []
 
@@ -1307,26 +1293,59 @@ Package pdftex.def Info: img/SOM/SOM_DefectosTotales.png used on input line 248
  [26 <./img/SOM/SOM_Prec1.png> <./img/SOM/SOM_Prec2.png> <./img/SOM/SOM_Prec3.p
 ng> <./img/SOM/SOM_Prec4.png> <./img/SOM/SOM_Prec5.png> <./img/SOM/SOM_Prec6.pn
 g> <./img/SOM/SOM_Prec7.png> <./img/SOM/SOM_Prec8.png> <./img/SOM/SOM_Prec9.png
-> <./img/SOM/SOM_Prec10.png> <./img/SOM/SOM_PrecTotalAvg.png>] [27 <./img/SOM/S
-OM_TminTotalAvg.png> <./img/SOM/SOM_TmaxTotalAvg.png> <./img/SOM/SOM_TmeanTotal
-Avg.png> <./img/SOM/SOM_DtrTotalAvg.png> <./img/SOM/SOM_ASNM.png> <./img/SOM/SO
-M_Slope.png> <./img/SOM/SOM_Franco.png> <./img/SOM/SOM_Arenoso.png> <./img/SOM/
-SOM_Arcilloso.png> <./img/SOM/SOM_Limoso.png> <./img/SOM/SOM_Cascajoso.png> <./
-img/SOM/SOM_pHAvg.png> <./img/SOM/SOM_OrgAvg.png> <./img/SOM/SOM_OrientationDeg
-rees.png> <./img/SOM/SOM_DefectosTotales.png>] [28]
+> <./img/SOM/SOM_Prec10.png> <./img/SOM/SOM_PrecTotalAvg.png>] <img/SOM/SOM_ASN
+M2.png, id=205, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_ASNM2.png Graphic file (type png)
+
+<use img/SOM/SOM_ASNM2.png>
+Package pdftex.def Info: img/SOM/SOM_ASNM2.png used on input line 256.
+(pdftex.def)             Requested size: 180.0pt x 104.11528pt.
+
+<img/SOM/SOM_DefectosTotales2.png, id=206, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_DefectosTotales2.png Graphic file (type png)
+
+<use img/SOM/SOM_DefectosTotales2.png>
+Package pdftex.def Info: img/SOM/SOM_DefectosTotales2.png used on input line 25
+7.
+(pdftex.def)             Requested size: 180.0pt x 104.11528pt.
+File: img/SOM/SOM_ASNM2.png Graphic file (type png)
+ <use img/SOM/SOM_ASNM2.png>
+Package pdftex.def Info: img/SOM/SOM_ASNM2.png used on input line 261.
+(pdftex.def)             Requested size: 180.0pt x 104.11528pt.
+File: img/SOM/SOM_PuntajeTotal.png Graphic file (type png)
+
+<use img/SOM/SOM_PuntajeTotal.png>
+Package pdftex.def Info: img/SOM/SOM_PuntajeTotal.png used on input line 262.
+(pdftex.def)             Requested size: 180.0pt x 104.11528pt.
+File: img/SOM/SOM_Umatrix_Points_Category.png Graphic file (type png)
+
+<use img/SOM/SOM_Umatrix_Points_Category.png>
+Package pdftex.def Info: img/SOM/SOM_Umatrix_Points_Category.png used on input 
+line 265.
+(pdftex.def)             Requested size: 180.0pt x 113.95435pt.
+ [27 <./img/SOM/SOM_TminTotalAvg.png> <./img/SOM/SOM_TmaxTotalAvg.png> <./img/S
+OM/SOM_TmeanTotalAvg.png> <./img/SOM/SOM_DtrTotalAvg.png> <./img/SOM/SOM_ASNM.p
+ng> <./img/SOM/SOM_Slope.png> <./img/SOM/SOM_Franco.png> <./img/SOM/SOM_Arenoso
+.png> <./img/SOM/SOM_Arcilloso.png> <./img/SOM/SOM_Limoso.png> <./img/SOM/SOM_C
+ascajoso.png> <./img/SOM/SOM_pHAvg.png> <./img/SOM/SOM_OrgAvg.png> <./img/SOM/S
+OM_OrientationDegrees.png> <./img/SOM/SOM_DefectosTotales.png>]
+
+LaTeX Warning: Reference `AltPts' on page 28 undefined on input line 268.
+
+[28 <./img/SOM/SOM_ASNM2.png> <./img/SOM/SOM_DefectosTotales2.png>] [29]
 Chapitre 5.
-) [29
+) [30
 
 ]
 \openout2 = `Conclusion.aux'.
 
  (Conclusion.tex
 Chapitre 6.
-) [30
+) [31
 
 
 
-] (Bachelor_Schowing2017.bbl) [31
+] (Bachelor_Schowing2017.bbl) [32
 
 
 ] (Bachelor_Schowing2017.lof
@@ -1357,25 +1376,28 @@ h/som-research/worldmap.html []
 \tf@lof=\write4
 \openout4 = `Bachelor_Schowing2017.lof'.
 
- [32
+ [33
 
-] (Bachelor_Schowing2017.lot)
+] [34] (Bachelor_Schowing2017.lot)
 \tf@lot=\write5
 \openout5 = `Bachelor_Schowing2017.lot'.
 
- [33
+ [35
 
 ] (Bachelor_Schowing2017.aux
 (acknowledgements.aux) (summary.aux) (body.aux) (Results.aux) (Conclusion.aux))
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5883 strings out of 493333
- 86332 string characters out of 3139193
- 161486 words of memory out of 3000000
- 9210 multiletter control sequences out of 15000+200000
+ 5889 strings out of 493333
+ 86443 string characters out of 3139193
+ 161068 words of memory out of 3000000
+ 9216 multiletter control sequences out of 15000+200000
  12005 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,10n,51p,1263b,439s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1387,9 +1409,9 @@ onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmti10.pfb>
-Output written on Bachelor_Schowing2017.pdf (40 pages, 3758086 bytes).
+Output written on Bachelor_Schowing2017.pdf (42 pages, 3843072 bytes).
 PDF statistics:
- 270 PDF objects out of 1000 (max. 8388607)
+ 280 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 276 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 286 words of extra memory for PDF output out of 10000 (max. 10000000)
 

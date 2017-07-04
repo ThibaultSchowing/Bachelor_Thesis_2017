@@ -42,7 +42,7 @@
 \contentsline {subfigure}{\numberline {(i)}{\ignorespaces {Prec9}}}{26}
 \contentsline {subfigure}{\numberline {(j)}{\ignorespaces {Prec10}}}{26}
 \contentsline {subfigure}{\numberline {(k)}{\ignorespaces {Average}}}{26}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Temp\IeC {\'e}ratures et autres donn\IeC {\'e}es environnementales\relax }}{27}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces SOM - Autres donn\IeC {\'e}es\relax }}{27}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Temp. Min. Average}}}{27}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Temp. Max. Average}}}{27}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Temp. Mean. Average}}}{27}
@@ -58,5 +58,11 @@
 \contentsline {subfigure}{\numberline {(m)}{\ignorespaces {Organic}}}{27}
 \contentsline {subfigure}{\numberline {(n)}{\ignorespaces {Orientation}}}{27}
 \contentsline {subfigure}{\numberline {(o)}{\ignorespaces {Defectos}}}{27}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Altitude et d\IeC {\'e}fauts lors d'une seconde ex\IeC {\'e}cution du r\IeC {\'e}seau de neurones\relax }}{28}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {ASNM}}}{28}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Defectos Totales}}}{28}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {ASNM}}}{28}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Puntaje Total}}}{28}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Coffee Class Position}}}{28}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
