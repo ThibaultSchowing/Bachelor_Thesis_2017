@@ -11,25 +11,33 @@
 \contentsline {paragraph}{El Ni\IeC {\~n}o}{5}
 \contentsline {paragraph}{Impact du r\IeC {\'e}chauffement climatique}{6}
 \contentsline {subsection}{\numberline {2.1.4}Donn\IeC {\'e}es de sols}{6}
-\contentsline {chapter}{\numberline {3}M\IeC {\'e}thodes de mod\IeC {\'e}lisation}{7}
-\contentsline {section}{\numberline {3.1}Rappel des objectifs}{7}
-\contentsline {section}{\numberline {3.2}Apprentissage supervis\IeC {\'e}}{8}
-\contentsline {subsection}{\numberline {3.2.1}Random Forest}{8}
-\contentsline {section}{\numberline {3.3}Apprentissage non-supervis\IeC {\'e}}{10}
-\contentsline {subsection}{\numberline {3.3.1}SOM}{10}
-\contentsline {section}{\numberline {3.4}Optimisation}{12}
-\contentsline {subsection}{\numberline {3.4.1}Boosting}{12}
-\contentsline {subsection}{\numberline {3.4.2}Cross-Validation}{13}
-\contentsline {chapter}{\numberline {4}Analyse des donn\IeC {\'e}es}{14}
-\contentsline {section}{\numberline {4.1}Data Mining - Analyse exploratoire}{14}
-\contentsline {subsection}{\numberline {4.1.1}Pre-processing}{14}
-\contentsline {subsection}{\numberline {4.1.2}Corr\IeC {\'e}lations entre variables}{15}
-\contentsline {paragraph}{Emplacement des fermes}{17}
-\contentsline {subsection}{\numberline {4.1.3}Principal Component Analysis (PCA)}{19}
-\contentsline {paragraph}{Observation de la PCA }{19}
-\contentsline {subsection}{\numberline {4.1.4}Self-Organizing Map}{20}
-\contentsline {subsection}{\numberline {4.1.5}Perceptron Multi-couches}{21}
-\contentsline {section}{\numberline {4.2}Pr\IeC {\'e}diction}{21}
-\contentsline {subsection}{\numberline {4.2.1}Random Forest}{21}
-\contentsline {chapter}{\numberline {5}Analyse des r\IeC {\'e}sultats}{22}
-\contentsline {chapter}{\numberline {6}Conclusion}{23}
+\contentsline {chapter}{\numberline {3}M\IeC {\'e}thodes de mod\IeC {\'e}lisation}{8}
+\contentsline {section}{\numberline {3.1}Rappel des objectifs}{8}
+\contentsline {section}{\numberline {3.2}Apprentissage supervis\IeC {\'e}}{9}
+\contentsline {subsection}{\numberline {3.2.1}Random Forest}{9}
+\contentsline {section}{\numberline {3.3}Apprentissage non-supervis\IeC {\'e}}{11}
+\contentsline {subsection}{\numberline {3.3.1}SOM}{11}
+\contentsline {section}{\numberline {3.4}Optimisation}{13}
+\contentsline {subsection}{\numberline {3.4.1}Boosting}{13}
+\contentsline {subsection}{\numberline {3.4.2}Cross-Validation}{14}
+\contentsline {chapter}{\numberline {4}Analyse des donn\IeC {\'e}es}{15}
+\contentsline {section}{\numberline {4.1}Data Mining - Analyse exploratoire}{15}
+\contentsline {subsection}{\numberline {4.1.1}Pre-processing}{15}
+\contentsline {subsection}{\numberline {4.1.2}Emplacement des fermes}{16}
+\contentsline {subsection}{\numberline {4.1.3}Corr\IeC {\'e}lations entre variables}{18}
+\contentsline {subsection}{\numberline {4.1.4}Principal Component Analysis (PCA)}{20}
+\contentsline {paragraph}{R\IeC {\'e}sultats de la PCA}{20}
+\contentsline {paragraph}{Premi\IeC {\`e}re composante}{22}
+\contentsline {paragraph}{Seconde composante}{22}
+\contentsline {paragraph}{Troisi\IeC {\`e}me composante}{22}
+\contentsline {paragraph}{Quatri\IeC {\`e}me composante}{22}
+\contentsline {paragraph}{Cinqui\IeC {\`e}me composante}{22}
+\contentsline {paragraph}{Sixi\IeC {\`e}me composante}{23}
+\contentsline {subsection}{\numberline {4.1.5}Self-Organizing Map}{24}
+\contentsline {subsubsection}{U-Matrix}{24}
+\contentsline {subsubsection}{Composants}{25}
+\contentsline {subsection}{\numberline {4.1.6}Perceptron Multi-couches}{28}
+\contentsline {section}{\numberline {4.2}Pr\IeC {\'e}diction}{28}
+\contentsline {subsection}{\numberline {4.2.1}Random Forest}{28}
+\contentsline {chapter}{\numberline {5}Analyse des r\IeC {\'e}sultats}{29}
+\contentsline {chapter}{\numberline {6}Conclusion}{30}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.22)  28 JUN 2017 16:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.22)  4 JUL 2017 10:31
 entering extended mode
 **./Bachelor_Schowing2017.tex
 (Bachelor_Schowing2017.tex
@@ -501,56 +501,121 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks25
 \@floatcapt=\box31
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen117
+\captionmargin@=\dimen118
+\captionwidth=\dimen119
+\caption@tempdima=\dimen120
+\caption@indent=\dimen121
+\caption@parindent=\dimen122
+\caption@hangindent=\dimen123
+)
+\c@ContinuedFloat=\count107
+Package caption Info: float package is loaded.
+)
+\c@KVtest=\count108
+\sf@farskip=\skip53
+\sf@captopadj=\dimen124
+\sf@capskip=\skip54
+\sf@nearskip=\skip55
+\c@subfigure=\count109
+\c@subfigure@save=\count110
+\c@lofdepth=\count111
+\c@subtable=\count112
+\c@subtable@save=\count113
+\c@lotdepth=\count114
+\sf@top=\skip56
+\sf@bottom=\skip57
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+
+
+! Package subcaption Error: This package can't be used in cooperation
+(subcaption)                with the subfig package.
+
+See the subcaption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \subcaption@CheckCompatibility
+                                   
+If you do not understand this error, please take a closer look
+at the documentation of the `subcaption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen125
+\extrarowheight=\dimen126
+\NC@list=\toks26
+\extratabsurround=\skip58
+\backup@length=\skip59
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box32
-\beforetitleunit=\skip53
-\aftertitleunit=\skip54
-\ttl@plus=\dimen117
-\ttl@minus=\dimen118
-\ttl@toksa=\toks26
-\titlewidth=\dimen119
-\titlewidthlast=\dimen120
-\titlewidthfirst=\dimen121
+\beforetitleunit=\skip60
+\aftertitleunit=\skip61
+\ttl@plus=\dimen127
+\ttl@minus=\dimen128
+\ttl@toksa=\toks27
+\titlewidth=\dimen129
+\titlewidthlast=\dimen130
+\titlewidthfirst=\dimen131
 )
 (Bachelor_Schowing2017.aux (acknowledgements.aux) (summary.aux) (body.aux)
-(Results.aux) (Conclusion.aux))
+(Results.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+) (Conclusion.aux))
 \openout1 = `Bachelor_Schowing2017.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Info: Redefining \degres on input line 47.
-LaTeX Info: Redefining \dots on input line 47.
-LaTeX Info: Redefining \up on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Info: Redefining \degres on input line 50.
+LaTeX Info: Redefining \dots on input line 50.
+LaTeX Info: Redefining \up on input line 50.
 
 
 Package frenchb.ldf Warning: OT1 encoding should not be used for French.
 (frenchb.ldf)                Add \usepackage[T1]{fontenc} to the preamble
-(frenchb.ldf)                of your document, on input line 47.
+(frenchb.ldf)                of your document, on input line 50.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count107
-\scratchdimen=\dimen122
+\scratchcounter=\count115
+\scratchdimen=\dimen132
 \scratchbox=\box33
-\nofMPsegments=\count108
-\nofMParguments=\count109
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count110
-\MPscratchDim=\dimen123
-\MPnumerator=\count111
-\makeMPintoPDFobject=\count112
-\everyMPtoPDFconversion=\toks28
+\nofMPsegments=\count116
+\nofMParguments=\count117
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count118
+\MPscratchDim=\dimen133
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
+\everyMPtoPDFconversion=\toks29
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -596,16 +661,20 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-<img/HEIG-VD_Logo.png, id=1, 381.425pt x 118.4425pt>
-File: img/HEIG-VD_Logo.png Graphic file (type png)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
 
-<use img/HEIG-VD_Logo.png>
-Package pdftex.def Info: img/HEIG-VD_Logo.png used on input line 70.
+<img/HEIG-VDLogo.png, id=1, 381.425pt x 118.4425pt>
+File: img/HEIG-VDLogo.png Graphic file (type png)
+ <use img/HEIG-VDLogo.png>
+Package pdftex.def Info: img/HEIG-VDLogo.png used on input line 73.
 (pdftex.def)             Requested size: 180.0pt x 55.89388pt.
- [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./img/HEIG-VD_Logo.png>] 
-[0
+[1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./img/HEIG-VDLogo.png>] [
+0
 
 ]
 \openout2 = `acknowledgements.aux'.
@@ -616,11 +685,11 @@ Package pdftex.def Info: img/HEIG-VD_Logo.png used on input line 70.
 ]
 \openout2 = `summary.aux'.
 
- (summary.tex)
-[2] [0
+ (summary.tex) [2] [0
 
 
-] (Bachelor_Schowing2017.toc
+]
+(Bachelor_Schowing2017.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 3.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
@@ -728,83 +797,90 @@ File: img/VariationElNino.png Graphic file (type png)
 <use img/VariationElNino.png>
 Package pdftex.def Info: img/VariationElNino.png used on input line 59.
 (pdftex.def)             Requested size: 354.95023pt x 134.3767pt.
- [5 <./img/tmax_picture_1.png>] [6 <./img/VariationElNino.png>]
+ [5 <./img/tmax_picture_1.png>] [6 <./img/VariationElNino.png>] <img/triangulo-
+del-suelo.png, id=58, 517.935pt x 424.58624pt>
+File: img/triangulo-del-suelo.png Graphic file (type png)
+
+<use img/triangulo-del-suelo.png>
+Package pdftex.def Info: img/triangulo-del-suelo.png used on input line 73.
+(pdftex.def)             Requested size: 362.55202pt x 297.20834pt.
+
+Overfull \hbox (2.55202pt too wide) in paragraph at lines 73--74
+[][] 
+ []
+
+
+Underfull \hbox (badness 7631) in paragraph at lines 74--74
+\OT1/cmr/m/n/10.95 Source : \OT1/cmr/m/it/10.95 http ://www.construnatura.com/e
+sp/articulo/agricultura-ecol-
+ []
+
+[7 <./img/triangulo-del-suelo.png>]
 Chapitre 3.
-[7
+[8
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
-<img/RandomForestSimple.jpg, id=61, 481.8pt x 361.35pt>
+<img/RandomForestSimple.jpg, id=66, 481.8pt x 361.35pt>
 File: img/RandomForestSimple.jpg Graphic file (type jpg)
 
 <use img/RandomForestSimple.jpg>
-Package pdftex.def Info: img/RandomForestSimple.jpg used on input line 97.
+Package pdftex.def Info: img/RandomForestSimple.jpg used on input line 104.
 (pdftex.def)             Requested size: 337.25769pt x 252.94327pt.
- [8] [9 <./img/RandomForestSimple.jpg>]
-Overfull \hbox (4.84537pt too wide) in paragraph at lines 110--111
+ [9] [10 <./img/RandomForestSimple.jpg>]
+Overfull \hbox (4.84537pt too wide) in paragraph at lines 117--118
 []\OT1/cmr/m/n/10.95 Les differentes classes gus-ta-tives d'un cafe peuvent ^
 etre considerees comme
  []
 
-<img/SOMWordlPovertyMap.png, id=68, 728.7225pt x 428.60126pt>
+<img/SOMWordlPovertyMap.png, id=73, 728.7225pt x 428.60126pt>
 File: img/SOMWordlPovertyMap.png Graphic file (type png)
 
 <use img/SOMWordlPovertyMap.png>
-Package pdftex.def Info: img/SOMWordlPovertyMap.png used on input line 115.
+Package pdftex.def Info: img/SOMWordlPovertyMap.png used on input line 122.
 (pdftex.def)             Requested size: 364.36035pt x 214.3001pt.
 
-Overfull \hbox (4.36035pt too wide) in paragraph at lines 115--116
+Overfull \hbox (4.36035pt too wide) in paragraph at lines 122--123
 [][] 
  []
 
-<img/worldmap.png, id=69, 642.4pt x 401.5pt>
+<img/worldmap.png, id=74, 642.4pt x 401.5pt>
 File: img/worldmap.png Graphic file (type png)
  <use img/worldmap.png>
-Package pdftex.def Info: img/worldmap.png used on input line 120.
+Package pdftex.def Info: img/worldmap.png used on input line 127.
 (pdftex.def)             Requested size: 353.32109pt x 220.82567pt.
- [10 <./img/SOMWordlPovertyMap.png>] [11 <./img/worldmap.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+ [11 <./img/SOMWordlPovertyMap.png>] [12 <./img/worldmap.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
  []
 
-<img/boosting1.png, id=78, 739.0812pt x 347.8596pt>
+<img/boosting1.png, id=84, 739.0812pt x 347.8596pt>
 File: img/boosting1.png Graphic file (type png)
  <use img/boosting1.png>
-Package pdftex.def Info: img/boosting1.png used on input line 140.
+Package pdftex.def Info: img/boosting1.png used on input line 147.
 (pdftex.def)             Requested size: 369.5397pt x 173.92937pt.
 
-Overfull \hbox (9.5397pt too wide) in paragraph at lines 140--141
+Overfull \hbox (9.5397pt too wide) in paragraph at lines 147--148
 [][] 
  []
 
 
-Overfull \hbox (2.78728pt too wide) in paragraph at lines 144--145
+Overfull \hbox (2.78728pt too wide) in paragraph at lines 151--152
 \OT1/cmr/m/n/10.95 problemes de clas-si-fi-ca-tion et de regression. Elle fai
 t aussi par-tie des methodes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
-
- []
-
-
-Overfull \hbox (4.66582pt too wide) in paragraph at lines 151--152
-\OT1/cmr/m/n/10.95 trai-nant plu-sieurs modeles sur des donnees re echantil
-lonnees (avec repetition)
  []
 
 
@@ -812,22 +888,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--152
 
  []
 
-[12 <./img/boosting1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
+
+Overfull \hbox (4.66582pt too wide) in paragraph at lines 158--159
+\OT1/cmr/m/n/10.95 trai-nant plu-sieurs modeles sur des donnees re echantil
+lonnees (avec repetition)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
-) [13]
+[13 <./img/boosting1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
+
+ []
+
+) [14]
 \openout2 = `Results.aux'.
 
  (Results.tex
 Chapitre 4.
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-
- []
-
-<img/Dataset_1.png, id=87, 845.1575pt x 543.02875pt>
+<img/Dataset_1.png, id=92, 845.1575pt x 543.02875pt>
 File: img/Dataset_1.png Graphic file (type png)
  <use img/Dataset_1.png>
 Package pdftex.def Info: img/Dataset_1.png used on input line 20.
@@ -837,92 +919,466 @@ Overfull \hbox (62.57771pt too wide) in paragraph at lines 20--21
 [][] 
  []
 
-[14
+[15
 
 
 
-]
-Overfull \hbox (12.97687pt too wide) in paragraph at lines 27--28
+] <img/Map_North.jpg, id=96, 622.7265pt x 350.5095pt>
+File: img/Map_North.jpg Graphic file (type jpg)
+
+<use img/Map_North.jpg>
+Package pdftex.def Info: img/Map_North.jpg used on input line 30.
+(pdftex.def)             Requested size: 442.13892pt x 248.8635pt.
+ <img/Map_South.jpg, id=97, 735.34724pt x 414.95026pt>
+File: img/Map_South.jpg Graphic file (type jpg)
+
+<use img/Map_South.jpg>
+Package pdftex.def Info: img/Map_South.jpg used on input line 34.
+(pdftex.def)             Requested size: 441.21175pt x 248.97206pt.
+
+Overfull \hbox (82.13892pt too wide) in paragraph at lines 30--35
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--35
+
+ []
+
+
+Overfull \hbox (81.21175pt too wide) in paragraph at lines 30--35
+[] 
+ []
+
+<img/Legend_Map2.jpg, id=98, 145.14224pt x 58.41824pt>
+File: img/Legend_Map2.jpg Graphic file (type jpg)
+
+<use img/Legend_Map2.jpg>
+Package pdftex.def Info: img/Legend_Map2.jpg used on input line 37.
+(pdftex.def)             Requested size: 145.14188pt x 58.41809pt.
+ [16 <./img/Dataset_1.png (PNG copy)>]
+Overfull \vbox (50.8534pt too high) has occurred while \output is active []
+
+
+[17 <./img/Map_North.jpg> <./img/Map_South.jpg> <./img/Legend_Map2.jpg>]
+Overfull \hbox (12.97687pt too wide) in paragraph at lines 45--46
 \OT1/cmr/m/n/10.95 ma-trices de correlation ont ete cal-culees pour toutes 
 les va-riables. Premierement
  []
 
-<img/correlation_sorties1.png, id=91, 1136.245pt x 1193.45876pt>
+<img/correlation_sorties1.png, id=105, 1136.245pt x 1193.45876pt>
 File: img/correlation_sorties1.png Graphic file (type png)
 
 <use img/correlation_sorties1.png>
-Package pdftex.def Info: img/correlation_sorties1.png used on input line 30.
+Package pdftex.def Info: img/correlation_sorties1.png used on input line 48.
 (pdftex.def)             Requested size: 397.6917pt x 417.71683pt.
 
-Overfull \hbox (37.6917pt too wide) in paragraph at lines 30--31
+Overfull \hbox (37.6917pt too wide) in paragraph at lines 48--49
 [][] 
  []
 
-[15 <./img/Dataset_1.png (PNG copy)>]
-<img/correlation_entrees1.png, id=95, 1126.2075pt x 1183.42125pt>
-File: img/correlation_entrees1.png Graphic file (type png)
+<img/correlation_all1.png, id=106, 1133.23375pt x 1190.4475pt>
+File: img/correlation_all1.png Graphic file (type png)
 
-<use img/correlation_entrees1.png>
-Package pdftex.def Info: img/correlation_entrees1.png used on input line 39.
-(pdftex.def)             Requested size: 394.17854pt x 414.20364pt.
+<use img/correlation_all1.png>
+Package pdftex.def Info: img/correlation_all1.png used on input line 57.
+(pdftex.def)             Requested size: 396.63776pt x 416.66287pt.
 
-Overfull \hbox (34.17854pt too wide) in paragraph at lines 39--40
+Overfull \hbox (36.63776pt too wide) in paragraph at lines 57--58
 [][] 
  []
 
-[16 <./img/correlation_sorties1.png>] [17 <./img/correlation_entrees1.png>]
-<img/coffee_cultures_dot_puntajeTotal.jpg, id=104, 634.16925pt x 718.48425pt>
-File: img/coffee_cultures_dot_puntajeTotal.jpg Graphic file (type jpg)
-
-<use img/coffee_cultures_dot_puntajeTotal.jpg>
-Package pdftex.def Info: img/coffee_cultures_dot_puntajeTotal.jpg used on input
- line 57.
-(pdftex.def)             Requested size: 380.50449pt x 431.09387pt.
-
-<img/Legend_Map1.jpg, id=105, 48.78226pt x 31.91925pt>
-File: img/Legend_Map1.jpg Graphic file (type jpg)
-
-<use img/Legend_Map1.jpg>
-Package pdftex.def Info: img/Legend_Map1.jpg used on input line 59.
-(pdftex.def)             Requested size: 48.78212pt x 31.91916pt.
-
-Overfull \hbox (20.50449pt too wide) in paragraph at lines 57--60
-[][] 
- []
-
-[18 <./img/coffee_cultures_dot_puntajeTotal.jpg> <./img/Legend_Map1.jpg>]
-<img/PCA_1.png, id=110, 702.625pt x 261.97874pt>
+[18 <./img/correlation_sorties1.png>] [19 <./img/correlation_all1.png>]
+<img/PCA_1.png, id=116, 702.625pt x 261.97874pt>
 File: img/PCA_1.png Graphic file (type png)
  <use img/PCA_1.png>
-Package pdftex.def Info: img/PCA_1.png used on input line 77.
+Package pdftex.def Info: img/PCA_1.png used on input line 84.
 (pdftex.def)             Requested size: 351.31163pt x 130.98904pt.
- [19 <./img/PCA_1.png>] [20] [21]
+
+Overfull \hbox (28.49982pt too wide) in paragraph at lines 95--126
+ [][] 
+ []
+
+[20 <./img/PCA_1.png>]
+<img/PCA_AllVariables.png, id=121, 796.47563pt x 576.65437pt>
+File: img/PCA_AllVariables.png Graphic file (type png)
+
+<use img/PCA_AllVariables.png>
+Package pdftex.def Info: img/PCA_AllVariables.png used on input line 131.
+(pdftex.def)             Requested size: 398.23685pt x 288.32648pt.
+
+Overfull \hbox (38.23685pt too wide) in paragraph at lines 131--132
+[][] 
+ []
+
+[21]
+Overfull \hbox (29.20518pt too wide) in paragraph at lines 138--139
+[] \OT1/cmr/bx/n/10.95 Se-conde com-po-sante \OT1/cmr/m/n/10.95 La se-conde com
+-po-sante met en evidence les temperatures
+ []
+
+[22 <./img/PCA_AllVariables.png>] [23]
+<img/SOM/SOM_Umatrix.png, id=132, 492.84125pt x 315.1775pt>
+File: img/SOM/SOM_Umatrix.png Graphic file (type png)
+
+<use img/SOM/SOM_Umatrix.png>
+Package pdftex.def Info: img/SOM/SOM_Umatrix.png used on input line 165.
+(pdftex.def)             Requested size: 251.9989pt x 161.1568pt.
+
+<img/SOM/SOM_Umatrix_Points_Category.png, id=133, 497.86pt x 315.1775pt>
+File: img/SOM/SOM_Umatrix_Points_Category.png Graphic file (type png)
+
+<use img/SOM/SOM_Umatrix_Points_Category.png>
+Package pdftex.def Info: img/SOM/SOM_Umatrix_Points_Category.png used on input 
+line 172.
+(pdftex.def)             Requested size: 360.0pt x 227.9087pt.
+
+<img/SOM/SOM_Acidez.png, id=134, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_Acidez.png Graphic file (type png)
+
+<use img/SOM/SOM_Acidez.png>
+Package pdftex.def Info: img/SOM/SOM_Acidez.png used on input line 184.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_AromaFragrancia.png, id=135, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_AromaFragrancia.png Graphic file (type png)
+
+<use img/SOM/SOM_AromaFragrancia.png>
+Package pdftex.def Info: img/SOM/SOM_AromaFragrancia.png used on input line 185
+.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_Cuerpo.png, id=136, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_Cuerpo.png Graphic file (type png)
+
+<use img/SOM/SOM_Cuerpo.png>
+Package pdftex.def Info: img/SOM/SOM_Cuerpo.png used on input line 186.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_Balance.png, id=137, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_Balance.png Graphic file (type png)
+
+<use img/SOM/SOM_Balance.png>
+Package pdftex.def Info: img/SOM/SOM_Balance.png used on input line 188.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_Uniformidad.png, id=138, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_Uniformidad.png Graphic file (type png)
+
+<use img/SOM/SOM_Uniformidad.png>
+Package pdftex.def Info: img/SOM/SOM_Uniformidad.png used on input line 189.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_TazaLimpia.png, id=139, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_TazaLimpia.png Graphic file (type png)
+
+<use img/SOM/SOM_TazaLimpia.png>
+Package pdftex.def Info: img/SOM/SOM_TazaLimpia.png used on input line 190.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_Dulzor.png, id=140, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_Dulzor.png Graphic file (type png)
+
+<use img/SOM/SOM_Dulzor.png>
+Package pdftex.def Info: img/SOM/SOM_Dulzor.png used on input line 192.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_Sabor.png, id=141, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_Sabor.png Graphic file (type png)
+
+<use img/SOM/SOM_Sabor.png>
+Package pdftex.def Info: img/SOM/SOM_Sabor.png used on input line 193.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_SaborResidual.png, id=142, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_SaborResidual.png Graphic file (type png)
+
+<use img/SOM/SOM_SaborResidual.png>
+Package pdftex.def Info: img/SOM/SOM_SaborResidual.png used on input line 194.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_PuntajeCatador.png, id=143, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_PuntajeCatador.png Graphic file (type png)
+
+<use img/SOM/SOM_PuntajeCatador.png>
+Package pdftex.def Info: img/SOM/SOM_PuntajeCatador.png used on input line 197.
+
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_PuntajeTotal.png, id=144, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_PuntajeTotal.png Graphic file (type png)
+
+<use img/SOM/SOM_PuntajeTotal.png>
+Package pdftex.def Info: img/SOM/SOM_PuntajeTotal.png used on input line 198.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+ [24 <./img/SOM/SOM_Umatrix.png> <./img/SOM/SOM_Umatrix_Points_Category.png>]
+<img/SOM/SOM_Prec1.png, id=151, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_Prec1.png Graphic file (type png)
+
+<use img/SOM/SOM_Prec1.png>
+Package pdftex.def Info: img/SOM/SOM_Prec1.png used on input line 207.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_Prec2.png, id=152, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_Prec2.png Graphic file (type png)
+
+<use img/SOM/SOM_Prec2.png>
+Package pdftex.def Info: img/SOM/SOM_Prec2.png used on input line 208.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_Prec3.png, id=153, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_Prec3.png Graphic file (type png)
+
+<use img/SOM/SOM_Prec3.png>
+Package pdftex.def Info: img/SOM/SOM_Prec3.png used on input line 209.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_Prec4.png, id=154, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_Prec4.png Graphic file (type png)
+
+<use img/SOM/SOM_Prec4.png>
+Package pdftex.def Info: img/SOM/SOM_Prec4.png used on input line 211.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_Prec5.png, id=155, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_Prec5.png Graphic file (type png)
+
+<use img/SOM/SOM_Prec5.png>
+Package pdftex.def Info: img/SOM/SOM_Prec5.png used on input line 212.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_Prec6.png, id=156, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_Prec6.png Graphic file (type png)
+
+<use img/SOM/SOM_Prec6.png>
+Package pdftex.def Info: img/SOM/SOM_Prec6.png used on input line 213.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_Prec7.png, id=157, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_Prec7.png Graphic file (type png)
+
+<use img/SOM/SOM_Prec7.png>
+Package pdftex.def Info: img/SOM/SOM_Prec7.png used on input line 215.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_Prec8.png, id=158, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_Prec8.png Graphic file (type png)
+
+<use img/SOM/SOM_Prec8.png>
+Package pdftex.def Info: img/SOM/SOM_Prec8.png used on input line 216.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_Prec9.png, id=159, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_Prec9.png Graphic file (type png)
+
+<use img/SOM/SOM_Prec9.png>
+Package pdftex.def Info: img/SOM/SOM_Prec9.png used on input line 217.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_Prec10.png, id=160, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_Prec10.png Graphic file (type png)
+
+<use img/SOM/SOM_Prec10.png>
+Package pdftex.def Info: img/SOM/SOM_Prec10.png used on input line 220.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_PrecTotalAvg.png, id=161, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_PrecTotalAvg.png Graphic file (type png)
+
+<use img/SOM/SOM_PrecTotalAvg.png>
+Package pdftex.def Info: img/SOM/SOM_PrecTotalAvg.png used on input line 221.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+ [25 <./img/SOM/SOM_Acidez.png> <./img/SOM/SOM_AromaFragrancia.png> <./img/SOM/
+SOM_Cuerpo.png> <./img/SOM/SOM_Balance.png> <./img/SOM/SOM_Uniformidad.png> <./
+img/SOM/SOM_TazaLimpia.png> <./img/SOM/SOM_Dulzor.png> <./img/SOM/SOM_Sabor.png
+> <./img/SOM/SOM_SaborResidual.png> <./img/SOM/SOM_PuntajeCatador.png> <./img/S
+OM/SOM_PuntajeTotal.png>]
+<img/SOM/SOM_TminTotalAvg.png, id=176, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_TminTotalAvg.png Graphic file (type png)
+
+<use img/SOM/SOM_TminTotalAvg.png>
+Package pdftex.def Info: img/SOM/SOM_TminTotalAvg.png used on input line 229.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_TmaxTotalAvg.png, id=177, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_TmaxTotalAvg.png Graphic file (type png)
+
+<use img/SOM/SOM_TmaxTotalAvg.png>
+Package pdftex.def Info: img/SOM/SOM_TmaxTotalAvg.png used on input line 230.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_TmeanTotalAvg.png, id=178, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_TmeanTotalAvg.png Graphic file (type png)
+
+<use img/SOM/SOM_TmeanTotalAvg.png>
+Package pdftex.def Info: img/SOM/SOM_TmeanTotalAvg.png used on input line 231.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_DtrTotalAvg.png, id=179, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_DtrTotalAvg.png Graphic file (type png)
+
+<use img/SOM/SOM_DtrTotalAvg.png>
+Package pdftex.def Info: img/SOM/SOM_DtrTotalAvg.png used on input line 233.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_ASNM.png, id=180, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_ASNM.png Graphic file (type png)
+
+<use img/SOM/SOM_ASNM.png>
+Package pdftex.def Info: img/SOM/SOM_ASNM.png used on input line 234.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_Slope.png, id=181, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_Slope.png Graphic file (type png)
+
+<use img/SOM/SOM_Slope.png>
+Package pdftex.def Info: img/SOM/SOM_Slope.png used on input line 235.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_Franco.png, id=182, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_Franco.png Graphic file (type png)
+
+<use img/SOM/SOM_Franco.png>
+Package pdftex.def Info: img/SOM/SOM_Franco.png used on input line 237.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_Arenoso.png, id=183, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_Arenoso.png Graphic file (type png)
+
+<use img/SOM/SOM_Arenoso.png>
+Package pdftex.def Info: img/SOM/SOM_Arenoso.png used on input line 238.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_Arcilloso.png, id=184, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_Arcilloso.png Graphic file (type png)
+
+<use img/SOM/SOM_Arcilloso.png>
+Package pdftex.def Info: img/SOM/SOM_Arcilloso.png used on input line 239.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_Limoso.png, id=185, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_Limoso.png Graphic file (type png)
+
+<use img/SOM/SOM_Limoso.png>
+Package pdftex.def Info: img/SOM/SOM_Limoso.png used on input line 242.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_Cascajoso.png, id=186, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_Cascajoso.png Graphic file (type png)
+
+<use img/SOM/SOM_Cascajoso.png>
+Package pdftex.def Info: img/SOM/SOM_Cascajoso.png used on input line 243.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_pHAvg.png, id=187, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_pHAvg.png Graphic file (type png)
+
+<use img/SOM/SOM_pHAvg.png>
+Package pdftex.def Info: img/SOM/SOM_pHAvg.png used on input line 244.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_OrgAvg.png, id=188, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_OrgAvg.png Graphic file (type png)
+
+<use img/SOM/SOM_OrgAvg.png>
+Package pdftex.def Info: img/SOM/SOM_OrgAvg.png used on input line 246.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_OrientationDegrees.png, id=189, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_OrientationDegrees.png Graphic file (type png)
+
+<use img/SOM/SOM_OrientationDegrees.png>
+Package pdftex.def Info: img/SOM/SOM_OrientationDegrees.png used on input line 
+247.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+
+<img/SOM/SOM_DefectosTotales.png, id=190, 492.84125pt x 285.065pt>
+File: img/SOM/SOM_DefectosTotales.png Graphic file (type png)
+
+<use img/SOM/SOM_DefectosTotales.png>
+Package pdftex.def Info: img/SOM/SOM_DefectosTotales.png used on input line 248
+.
+(pdftex.def)             Requested size: 108.0011pt x 62.46655pt.
+ [26 <./img/SOM/SOM_Prec1.png> <./img/SOM/SOM_Prec2.png> <./img/SOM/SOM_Prec3.p
+ng> <./img/SOM/SOM_Prec4.png> <./img/SOM/SOM_Prec5.png> <./img/SOM/SOM_Prec6.pn
+g> <./img/SOM/SOM_Prec7.png> <./img/SOM/SOM_Prec8.png> <./img/SOM/SOM_Prec9.png
+> <./img/SOM/SOM_Prec10.png> <./img/SOM/SOM_PrecTotalAvg.png>] [27 <./img/SOM/S
+OM_TminTotalAvg.png> <./img/SOM/SOM_TmaxTotalAvg.png> <./img/SOM/SOM_TmeanTotal
+Avg.png> <./img/SOM/SOM_DtrTotalAvg.png> <./img/SOM/SOM_ASNM.png> <./img/SOM/SO
+M_Slope.png> <./img/SOM/SOM_Franco.png> <./img/SOM/SOM_Arenoso.png> <./img/SOM/
+SOM_Arcilloso.png> <./img/SOM/SOM_Limoso.png> <./img/SOM/SOM_Cascajoso.png> <./
+img/SOM/SOM_pHAvg.png> <./img/SOM/SOM_OrgAvg.png> <./img/SOM/SOM_OrientationDeg
+rees.png> <./img/SOM/SOM_DefectosTotales.png>] [28]
 Chapitre 5.
-) [22
+) [29
 
 ]
 \openout2 = `Conclusion.aux'.
 
  (Conclusion.tex
 Chapitre 6.
-) [23
+) [30
 
 
 
-] (Bachelor_Schowing2017.bbl) [24
+] (Bachelor_Schowing2017.bbl) [31
 
+
+] (Bachelor_Schowing2017.lof
+Overfull \hbox (22.084pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/n/10.95 Source : \OT1/cmr/m/it/10.95 http ://www.construnatura.com/
+esp/articulo/agricultura- 
+ []
+
+
+Overfull \hbox (27.93604pt too wide) in paragraph at lines 9--9
+ \OT1/cmr/m/n/10.95 Source : \OT1/cmr/m/it/10.95 http ://www.cis.hut.fi/researc
+h/som-research/worldmap.html []  
+ []
+
+
+Overfull \hbox (27.93604pt too wide) in paragraph at lines 10--10
+ \OT1/cmr/m/n/10.95 Source : \OT1/cmr/m/it/10.95 http ://www.cis.hut.fi/researc
+h/som-research/worldmap.html []  
+ []
+
+
+Overfull \hbox (27.93604pt too wide) in paragraph at lines 11--11
+ \OT1/cmr/m/n/10.95 Source : \OT1/cmr/m/it/10.95 http ://www.cis.hut.fi/researc
+h/som-research/worldmap.html []  
+ []
+
+)
+\tf@lof=\write4
+\openout4 = `Bachelor_Schowing2017.lof'.
+
+ [32
+
+] (Bachelor_Schowing2017.lot)
+\tf@lot=\write5
+\openout5 = `Bachelor_Schowing2017.lot'.
+
+ [33
 
 ] (Bachelor_Schowing2017.aux
 (acknowledgements.aux) (summary.aux) (body.aux) (Results.aux) (Conclusion.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 4420 strings out of 493333
- 58522 string characters out of 3139193
- 129873 words of memory out of 3000000
- 7811 multiletter control sequences out of 15000+200000
+ 5883 strings out of 493333
+ 86332 string characters out of 3139193
+ 161486 words of memory out of 3000000
+ 9210 multiletter control sequences out of 15000+200000
  12005 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,8n,33p,1263b,439s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,10n,51p,1263b,439s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiK
@@ -931,9 +1387,9 @@ onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmti10.pfb>
-Output written on Bachelor_Schowing2017.pdf (31 pages, 795808 bytes).
+Output written on Bachelor_Schowing2017.pdf (40 pages, 3758086 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
+ 270 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 276 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -16,6 +16,12 @@
 \usepackage[section]{placeins}
 \usepackage{float}
 
+\usepackage{subfig}
+\usepackage{subcaption}
+\usepackage{graphicx}
+
+\usepackage{array}
+
 % Evite les gros début de chapitre inutiles. 
 \usepackage{titlesec}
 \titleformat{\chapter}
@@ -29,9 +35,6 @@
 	\thispagestyle{empty}%
 	\addtocounter{page}{-1}%
 	\newpage}
-
-
-
 
 \graphicspath{ {img/} }
 
@@ -67,7 +70,7 @@
 		\footnotesize{University of Applied Sciences Western Switzerland\par}
 		\vspace{1cm}
 		
-		\includegraphics[width=0.5\textwidth]{HEIG-VD_Logo}\par
+		\includegraphics[width=0.5\textwidth]{HEIG-VDLogo}\par
 		
 		\vspace{1cm}
 		\Large{Amélioration de la productivité de cultures tropicales par des méthodes d'apprentissage automatique\par}
@@ -111,5 +114,8 @@
 	\bibliography{mybib}{}
 	\bibliographystyle{plain}
 	
+	\listoffigures
+	
+	\listoftables
 	
 \end{document}
