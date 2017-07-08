@@ -8,12 +8,9 @@ The style file: plain.bst
 Database file #1: mybib.bib
 Warning--entry type for "SICA" isn't style-file defined
 --line 62 of file mybib.bib
-Warning--entry type for "EJE" isn't style-file defined
---line 69 of file mybib.bib
 Warning--entry type for "CCI" isn't style-file defined
 --line 83 of file mybib.bib
-Warning--to sort, need author or key in EJE
 Warning--to sort, need author or key in SICA
 Warning--to sort, need author or key in CCI
 Warning--empty journal in OMM
-(There were 7 warnings)
+(There were 5 warnings)

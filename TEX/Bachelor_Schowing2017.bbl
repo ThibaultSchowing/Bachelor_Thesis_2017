@@ -3,9 +3,6 @@
 \bibitem{CCI}
 Centre du commerce international, http://www.intracen.org.
 
-\bibitem{EJE}
-Informations générales sur la colombie, www.colombia.com.
-
 \bibitem{SICA}
 Sistema information cafetera, www.federaciondecafeteros.org.
 
@@ -38,5 +35,10 @@ OMMpublic.wmo.int.
 Leo~Breiman Statistics and Leo Breiman.
 \newblock Random forests.
 \newblock In {\em Machine Learning}, pages 5--32, 2001.
+
+\bibitem{CEM:CEM515}
+Johan~A. Westerhuis, Theodora Kourti, and John~F. MacGregor.
+\newblock Analysis of multiblock and hierarchical pca and pls models.
+\newblock {\em Journal of Chemometrics}, 12(5):301--321, 1998.
 
 \end{thebibliography}

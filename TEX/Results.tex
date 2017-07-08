@@ -22,16 +22,44 @@ Une grande partie de l'étape de préprocessing a été réalisée durant l'extr
 \end{figure}
 
 
+\paragraph{Variables dépendantes\label{VarDep}} Les variables de sorties, ou dépendantes, sont composées des dix analyses de dégustation et éventuellement de la totalité des défauts physiques des grains. Sauf pour les défauts physiques des grains, qui sont éliminés avant la dégustation, les variables de sorties sont très corrélées entre elles et il a été discuté avec le responsable du comité  de sélectionner les variables les plus importantes. Ces variables sont \textit{Acidez}, \textit{Dulzor} et \textit{Puntaje Total} ainsi que la catégorie décrite dans le paragraphe suivant qui a été ajouté au set de données.  
+
+\paragraph{Catégories}
+Les cafés colombiens sont réputés excellents mais sur les 100 points attribuable lors des dégustations qu'est-ce que cela représente ? Le tableau \ref{categoriesCafe} nous donne une bonne idée de l'échelle représentée. Ces catégories seront utilisées dans le set de données pour tenter de réaliser une classification. 
+\begin{table}[H]
+	\centering
+	\caption{Catégories de cafés d'après le nombre de points \newline Source: http://www.scaa.org/?page=resources\&d=cupping-protocols \label{categoriesCafe}}
+	\begin{tabular}{llllcl}
+		\textbf{Total Score}   &  & \textbf{Quality Classification}   & \textbf{Specialty or not}  & \textbf{Category} \\
+		
+		90-100        &  & Outstanding              & Specialty         &  1                    \\
+		85-89.99      &  & Excellent                & Specialty         &  2                    \\
+		80-84.99      &  & Very Good                & Specialty         &  3                    \\
+		\textless80.0 &  & Below Specialty Quality & Not Specialty     &  4                   
+	\end{tabular}
+\end{table}
+
+
+
+
+
+
+
+
+
+\subsection{Analyse exploratoire}
+
+
 %TODO Cases des observations - peuvent être recyclées après
-\subsection{Emplacement des fermes}\label{EmpFermes} L'emplacement des différents cafés par rapport aux nombre de points est présenté sur la figure \ref{FincaVSPoints}. La catégorie 1 (non représentée) correspond aux cafés avec plus de 90 points, la 2 aux cafés avec plus de 85, la 3 aux cafés avec plus de 80 et la 4 aux cafés en dessous de 80, ne correspondant donc pas à la qualité "Specialty". On peut y voir que l'emplacement dans le département n'as pas d'incidence sur les résultats, la répartition des différentes classes étant très uniforme. 
+\subsubsection{Emplacement des fermes}\label{EmpFermes} L'emplacement des différents cafés par rapport aux nombre de points est présenté sur la figure \ref{FincaVSPoints}. La catégorie 1 (non représentée) correspond aux cafés avec plus de 90 points, la 2 aux cafés avec plus de 85, la 3 aux cafés avec plus de 80 et la 4 aux cafés en dessous de 80, ne correspondant donc pas à la qualité "Specialty". On peut y voir que l'emplacement dans le département n'as pas d'incidence sur les résultats, la répartition des différentes classes étant très uniforme. 
 
 
 \begin{figure}[H]
-	\includegraphics[scale=0.71]{Map_North}
+	\includegraphics[scale=0.59]{Map_North}
 	\newline
 	\newline
 	\newline
-	\includegraphics[scale=0.6]{Map_South}
+	\includegraphics[scale=0.5]{Map_South}
 	
 	\begin{figure}[H]
 		\includegraphics[scale=1]{Legend_Map2}
@@ -40,7 +68,7 @@ Une grande partie de l'étape de préprocessing a été réalisée durant l'extr
 \end{figure}
 
 
-\subsection{Corrélations entre variables}
+\subsubsection{Corrélations entre variables}
 
 Afin d'avoir une bonne vue d'ensemble sur les variables et leurs liens, les matrices de corrélation ont été calculées pour toutes les variables. Premièrement la corrélation entre les différentes sorties. Sur la figure \ref{correlation_sorties1} on peut observer que les défauts physiques des grains ne sont que très peu liés entre eux ou avec les résultats de dégustation. On remarque cependant que les données gustatives du café sont fortement liées entre elles. 
 
@@ -61,7 +89,6 @@ Afin d'avoir une bonne vue d'ensemble sur les variables et leurs liens, les matr
 
 \noindent On observe que les données de sol sont parfois corrélées entre-elles mais presque pas du tout avec les données climatiques. On peut donc déjà soulever que le climat n'a pas ou peu d'influence sur la texture, le pH ou le taux de matière organique du sol des zones étudiées. Les précipitations ont une influence importante sur les défauts physiques des grains, en revanche nous n'avons aucune variable qui a une corrélation marquée avec les points totaux et donc la qualité du café.   
 
-%TODO garder un peu de place pour lorsqu'on ajoutera des données comme la pente, le soleil etc.
 
 
 %TODO Parler des variétés de cafés et de quelques données les concernants (Moyennes de points, rendement par variété, altitude etc) 
@@ -74,9 +101,9 @@ Afin d'avoir une bonne vue d'ensemble sur les variables et leurs liens, les matr
 
 
 
-
+%TODO vérifier la version -> ne pas inclure les données de sorties !
 \newpage
-\subsection{Principal Component Analysis (PCA)}\label{PCAss}
+\subsubsection{Principal Component Analysis (PCA) et Clustering}\label{PCAss}
 La PCA, pour Analyse en Composantes Principales en français, est une méthode qui consiste à transformer un jeu de variables corrélées en nouvelles variables dé-corrélées les unes des autres. Ces nouvelles variables sont appelées composantes principales et permettent de rendre l'information moins redondante. Pour faire plus simple, l'utilité de la Composante Principale est de réduire le nombre de variables tout en gardant un maximum d'information. La figure \ref{PCAdefinition} montre une représentation graphique de la composante principale. 
 
 
@@ -87,77 +114,68 @@ La PCA, pour Analyse en Composantes Principales en français, est une méthode q
 
 \paragraph{Résultats de la PCA}
 
-L'analyse sur une version compacte des variables a donné les résultats présentés dans le tableau \ref{TablePCAResult1} et sur la figure \ref{FigurePCAResult1}. Une première analyse avait été effectuée sur le set de données complet, c'est-à-dire avec la totalité des données climatiques et non les moyennes, et les résultats se sont avérés similaires mais plus difficilement lisibles.  
+L'analyse sur une version compacte des variables a donné les résultats présentés dans le tableau \ref{TablePCAResult1} et sur la figure \ref{FigurePCAResult1}. Une première analyse avait été effectuée sur le set de données complet, c'est-à-dire avec la totalité des données climatiques et non les moyennes, et les résultats se sont avérés similaires mais plus difficilement lisibles. Il a donc été choisi de résumer les variables pour réaliser la PCA et le clustering.   
 
-\begin{table}[H]
+\begin{table}[]
 	\centering
-	
 	\begin{tabular}{lllllll}
-		Rotations       & PC1     & PC2     & PC3     & PC4     & PC5     & PC6     \\
-		DefectosTotales & -0.0920 & -0.0994 & 0.1126  & -0.0904 & \textbf{0.5291}  & -0.0355 \\
-		ASNM            & 0.0201  & \textbf{0.4183}  & 0.0638  & 0.0665  & -0.1267 & -0.0559 \\
-		Luminosidad     & -0.0062 & -0.0178 & 0.2202  & -0.1228 & 0.1213  & -0.1294 \\
-		PrecTotalAvg    & -0.0683 & -0.1792 & 0.1949  & -0.0507 & \textbf{0.5384}  & 0.1095  \\
-		TminTotalAvg    & -0.0013 & \textbf{-0.4599} & -0.0001 & -0.1085 & 0.0528  & 0.0128  \\
-		TmaxTotalAvg    & 0.0278  & \textbf{-0.4686} & -0.0531 & -0.0103 & -0.1613 & -0.0370 \\
-		TmeanTotalAvg   & 0.0167  & \textbf{-0.4782} & -0.0330 & -0.0506 & -0.0786 & -0.0178 \\
-		DtrTotalAvg     & 0.0555  & -0.3236 & -0.1028 & 0.1178  & -0.3796 & -0.0880 \\
-		OrientationNum  & -0.0080 & -0.0032 & 0.0477  & -0.0241 & 0.0614  & \textbf{0.4606}  \\
-		Slope           & 0.0071  & 0.0440  & -0.1277 & -0.0796 & -0.0342 & \textbf{0.4612}  \\
-		pH Avg         & 0.0207  & 0.0149  & \textbf{0.4099}  & -0.3280 & -0.1111 & 0.1129  \\
-		org Avg        & 0.0019  & 0.0427  & 0.2397  & -0.4616 & -0.1906 & -0.2169 \\
-		Franco          & 0.0329  & -0.0271 & \textbf{0.5335}  & -0.0635 & -0.2088 & 0.1439  \\
-		Arcilloso       & 0.0058  & -0.0156 & -0.2859 & -0.3538 & 0.0079  & 0.2955  \\
-		Limoso          & 0.0190  & -0.0752 & \textbf{0.4779}  & \textbf{0.2327}  & -0.1418 & 0.2242  \\
-		Arenoso         & -0.0303 & -0.0189 & 0.1254  & 0.0164  & 0.1284  & \textbf{-0.5509} \\
-		Cascajoso       & -0.0051 & 0.0766  & -0.1646 & \textbf{-0.6555} & -0.0585 & -0.0839 \\
-		Aroma.Fragancia & \textbf{0.3051}  & 0.0116  & -0.0013 & -0.0029 & 0.0028  & -0.0156 \\
-		Acidez          & \textbf{0.3067}  & 0.0140  & -0.0010 & -0.0050 & 0.0003  & -0.0127 \\
-		Cuerpo          & \textbf{0.3069}  & 0.0091  & 0.0012  & -0.0009 & 0.0053  & -0.0078 \\
-		Sabor           & \textbf{0.3069}  & 0.0114  & 0.0026  & 0.0000  & 0.0168  & -0.0109 \\
-		SaborResidual   & \textbf{0.3067}  & 0.0091  & 0.0009  & -0.0016 & 0.0093  & -0.0110 \\
-		Dulzor          & \textbf{0.2887}  & -0.0178 & 0.0033  & -0.0012 & 0.1144  & 0.0120  \\
-		Uniformidad     & \textbf{0.2794}  & -0.0051 & 0.0200  & 0.0050  & 0.1852  & 0.0340  \\
-		Balance         & \textbf{0.2922}  & 0.0016  & -0.0203 & -0.0151 & -0.0908 & -0.0432 \\
-		TazaLimpia      & \textbf{0.2749}  & -0.0172 & 0.0018  & -0.0133 & 0.1545  & 0.0004  \\
-		PuntajeCatador  & \textbf{0.3033}  & 0.0116  & -0.0014 & -0.0096 & 0.0124  & -0.0006 \\
-		PuntajeTotal    & \textbf{0.3089}  & 0.0009  & 0.0013  & -0.0047 & 0.0555  & -0.0037 \\
+		& PC1     & PC2     & PC3     & PC4     & PC5     & PC6     \\
+		ASNM           & \textbf{0.4125}  & 0.0766  & -0.0360 & 0.1766  & -0.1337 & 0.0397  \\
+		Luminosidad    & -0.0169 & 0.2320  & 0.1532  & -0.3178 & -0.2836 & 0.0157  \\
+		PrecTotalAvg   & -0.1714 & 0.1424  & 0.0222  & \textbf{-0.6767} & -0.0667 & 0.0926  \\
+		TminTotalAvg   & \textbf{-0.4589} & -0.0115 & 0.1086  & -0.1232 & 0.0013  & 0.0809  \\
+		TmaxTotalAvg   & \textbf{-0.4745} & -0.0334 & 0.0296  & 0.1501  & -0.0253 & -0.0329 \\
+		TmeanTotalAvg  & \textbf{-0.4803} & -0.0252 & 0.0631  & 0.0409  & -0.0149 & 0.0133  \\
+		DtrTotalAvg    & -0.3323 & -0.0517 & -0.0884 & \textbf{0.4712}  & -0.0529 & -0.1769 \\
+		OrientationNum & 0.0623  & 0.0592  & -0.0886 & -0.1839 & \textbf{0.3797}  & \textbf{-0.5662} \\
+		Slope          & 0.0657  & -0.1842 & 0.1179  & 0.1047  & 0.0434  & \textbf{0.6905}  \\
+		pH\_avg        & 0.0135  & 0.3892  & 0.3844  & -0.0168 & 0.1244  & 0.0679  \\
+		org\_avg       & 0.0493  & 0.1781  & \textbf{0.5036}  & 0.2176  & -0.1639 & -0.1841 \\
+		Franco         & -0.0157 & \textbf{0.5453}  & 0.1441  & 0.1921  & 0.1676  & 0.1108  \\
+		Arcilloso      & -0.0180 & -0.3026 & 0.2993  & -0.0844 & \textbf{0.4532}  & 0.1751  \\
+		Limoso         & -0.0754 & \textbf{0.5018}  & \textbf{-0.2016} & 0.1095  & 0.2726  & 0.1712  \\
+		Arenoso        & -0.0210 & 0.0645  & 0.0180  & 0.0048  & \textbf{-0.6303} & -0.0156 \\
+		Cascajoso      & 0.0760  & -0.2236 & \textbf{0.6130}  & 0.0095  & 0.0109  & \textbf{-0.2053}
 	\end{tabular}
-\caption{\label{TablePCAResult1}Tableau des rotations des six premiers composants de la PCA avec mise en évidence des variables les plus importantes par composante.}
+	\caption{\label{TablePCAResult1}Tableau des rotations des six premiers composants de la PCA avec mise en évidence des variables les plus importantes par composante.}
 \end{table}
 
 
 \begin{figure}[H]
-	\includegraphics[scale=0.5]{PCA_AllVariables}
-	\caption{\label{FigurePCAResult1} Résultats de la PCA sous forme graphique. }
+	\includegraphics[scale=1]{pca_simplified.pdf}
+	\caption{\label{FigurePCAResult2} Résultats de la PCA sous forme graphique. Réalisé avec une partie simplifiée des variables }
+\end{figure}
+
+\begin{figure}[H]
+	\includegraphics[scale=1]{pca_complete.pdf}
+	\caption{\label{FigurePCAResult1} Résultats de la PCA sous forme graphique. Réalisé avec la totalité des variables }
 \end{figure}
 
 
-\paragraph{Première composante} La première composante met en évidence les 11 variables des points attribués au café ce qui suggère que ces variables ont tendance à varier ensemble. Cette tendance était déjà mise en évidence dans la matrice de corrélation au point \ref{correlation_sorties1}. 
+\paragraph{Analyse des composantes} Le tableaux \ref{TablePCAResult1} montre l'importance des variables dans les différentes composantes de la PCA réalisée avec un  jeu de variables simplifié pour plus de lisibilité, après vérification que l'interprétabilité des deux tableaux était similaire. \\
 
-\paragraph{Seconde composante} La seconde composante met en évidence les températures et l'altitude qui sont fortement liées. On peut donc voir ce composant comme décrivant à quel point le café est cultivé dans un lieu haut et froid. 
+\noindent La première composante met en évidence les températures par rapport à l'altitude alors que la deuxième et la troisième mettent en évidence principalement les caractéristiques du sol. La quatrième montre une dé-corrélation entre les précipitations moyennes et les DTR et la cinquième composante montre une corrélation entre la texture argileuse du sol et son orientation à l'opposé à d'un sol sablonneux. La sixième composante met en évidence une relation entre l'orientation et et les sols rocailleux à l'opposé des sols pentus. 
 
-\paragraph{Troisième composante} La troisième composante met en évidence la texture limoneuse et franco du sol ainsi que le pH. Ce composant montre que les sols franco ont tendance à être plutot limoneux 
 
-\paragraph{Quatrième composante} Met en évidence qu'un sol limoneux n'est pas rocailleux ce qui est logique mais pas important pour notre analyse.
-
-\paragraph{Cinquième composante} Met en évidence que lorsque les précipitations augmentent, le pourcentage de grains déféctueux augmente lui aussi. Cette relation est visible sur la matrice de corrélation de la figure \ref{correlation_all1}. 
-
-\paragraph{Sixième composante} Met en évidence le fait que la pente et l'orientation sont inversement corrélés à la quantité de sable dans le sol. Plus la pente est élevée, moins le sol sera sablonneux. 
 
 % https://georgemdallas.wordpress.com/2013/10/30/principal-component-analysis-4-dummies-eigenvectors-eigenvalues-and-dimension-reduction/
 
 %https://onlinecourses.science.psu.edu/stat505/node/54
+\paragraph{Clustering} Afin de vérifier la présence de groupes d'individus parmi la population de café, nous réalisons un HCPC pour \textit{Hierarchical Clustering on Principal Components} à l'aide de la PCA. 
+
+\paragraph{Kruskal-Wallis}
+
 
 
 
 
 
 \newpage
-\subsection{Self-Organizing Map}
+\subsubsection{Self-Organizing Map}
 %TODO 
 
-\subsubsection{U-Matrix}
+\paragraph{U-Matrix, répartition des cafés par classes et composants} 
+La carte auto-organisatrice a été réalisée en incluant toutes les variables afin de voir où se placent les variables dépendantes par rapport aux variables indépendantes et de permettre d'observer d'éventuels clusters. 
 
 
 \begin{figure}[H]
@@ -173,9 +191,6 @@ L'analyse sur une version compacte des variables a donné les résultats présen
 	\caption{U-Matrix avec les points. En jaune les cafés de catégorie 2,en bleu catégorie 3 et en rouge catégorie 4. Les catégories sont expliquées au point \ref{EmpFermes}}
 	\label{}
 \end{figure}
-
-\subsubsection{Composants}
-
 
 
 \begin{figure}[H]
@@ -265,22 +280,27 @@ L'analyse sur une version compacte des variables a donné les résultats présen
 	\subfloat[Coffee Class Position]{\includegraphics[width=.5\linewidth]{SOM/SOM_Umatrix_Points_Category}}
 \end{figure}
 
-On peut observer que les régions avec beaucoup de précipitations sont aussi celles qui ont le plus de cafés avec peu de points. Lors d'une seconde exécution du réseau on a pu observer une relation proche entre les défauts et l'altitude comme montré sur la figure \ref{SecondSOMASNM}. Cette relation n'était pas clairement visible lors de la première exécution. Le fait est déjà connu que le café qui pousse en altitude est de meilleure qualité cependant ici on remarque que les cafés cultivés aux altitudes les plus hautes sont les plus sujets à une grande quantité de défauts. Les défauts physiques n'interviennent que peu dans la qualité finale du café mais peuvent avoir une influence en cas de mauvais tri. On observe sur la figure \ref{AltPts} que la zone en bas à gauche, là où l'altitude est la plus haute, correspond à une zone possédant peu de cafés ayant eu le score 0 et beaucoup ayant eu des scores entre 85 et 90. Cependant, des cafés ayant un nombre de points de moins de 80 points, en rouge ou compris entre 89 et 85, en bleu, sont présents plus ou moins de manière homogène sur la totalité de la carte, indépendamment de l'altitude.  
+\newpage
+\paragraph{Analyse des cartes}On peut observer que les régions avec beaucoup de précipitations sont aussi celles qui ont le plus de cafés avec peu de points. Lors d'une seconde exécution du réseau on a pu observer une relation proche entre les défauts et l'altitude comme montré sur la figure \ref{SecondSOMASNM}. Cette relation n'était pas clairement visible lors de la première exécution. Le fait est déjà connu que le café qui pousse en altitude est de meilleure qualité cependant ici on remarque que les cafés cultivés aux altitudes les plus hautes sont les plus sujets à une grande quantité de défauts. Les défauts physiques n'interviennent que peu dans la qualité finale du café mais peuvent avoir une influence en cas de mauvais tri. On observe sur la figure \ref{AltPts} que la zone en bas à gauche, là où l'altitude est la plus haute, correspond à une zone possédant peu de cafés ayant eu le score 0 et beaucoup ayant eu des scores entre 85 et 90. Cependant, des cafés ayant un nombre de points de moins de 80 points, en rouge ou compris entre 89 et 85, en bleu, sont présents plus ou moins de manière homogène sur la totalité de la carte, indépendamment de l'altitude.  
+
+
+
+
+
+
+
+
 
 \newpage
-\subsection{Perceptron Multi-couches}
-%TODO sur R, sélection de variables avec un MLP, importance des variables 
-%TODO tester avec le dataset complet etle dataset compact une fois complété
-Waiting for server time
 
-
-
-\section{Prédiction}
+\section{Résultats des analyses  }
 %Il a été possible ou non de faire de la prédiction, confusion matrix etc
 %ce que les méthodes comme random forest ont donné
-Le but de cette section est d'analyser la possibilité de prédiction de la qualité des cafés à l'aide des données climatiques et de qualité de sols à disposition. Lorsque l'on parle de la qualité des cafés, on inclue autant les défauts physiques que les résultats de dégustation. 
+Le but de cette section est d'analyser la possibilité de prédiction de la qualité des cafés à l'aide des données climatiques et de qualité de sols à disposition. La qualité du café fait références aux variables dépendantes citées dans la section \ref{VarDep}.
 
-%TODO faire pour régression et classification -> specialty ou pas -> a ajouter au dataset
+\subsection{Perceptron Multi-couches}
+%TODO sur R pour comparer avec les mêmes datasets
+Pendiente - pending
 
 
 \subsection{Random Forest}
@@ -288,7 +308,15 @@ Le but de cette section est d'analyser la possibilité de prédiction de la qual
 
 
 
-\chapter{Analyse des résultats}
+
+
+
+\subsection{Partial Least Squares}
+% analyser les résultats de prédiction ainsi que les corrélation fournies par PLS - au vus des résultats et de la corrélation entre les variables de sorties pas besoind 'utiliser MBPLS ça serait une perte de temps
+
+
+
+\chapter{Discussion des résultats}
 
 
 %Analyse globale des résultats, discussion sur les résultats 
