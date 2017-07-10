@@ -28,20 +28,23 @@
 \contentsline {subsection}{\numberline {4.1.1}Pre-processing}{18}
 \contentsline {paragraph}{Variables d\IeC {\'e}pendantes}{19}
 \contentsline {paragraph}{Cat\IeC {\'e}gories}{19}
+\contentsline {paragraph}{\IeC {\'E}limination des r\IeC {\'e}sultats avec z\IeC {\'e}ro points}{20}
 \contentsline {subsection}{\numberline {4.1.2}Analyse exploratoire}{20}
 \contentsline {subsubsection}{Emplacement des fermes}{20}
 \contentsline {subsubsection}{Corr\IeC {\'e}lations entre variables}{22}
-\contentsline {subsubsection}{Principal Component Analysis (PCA)}{24}
+\contentsline {subsubsection}{Principal Component Analysis (PCA) et Clustering}{24}
 \contentsline {paragraph}{R\IeC {\'e}sultats de la PCA}{24}
 \contentsline {paragraph}{Analyse des composantes}{26}
 \contentsline {paragraph}{Clustering}{26}
-\contentsline {paragraph}{Kruskal-Wallis}{26}
-\contentsline {subsubsection}{Self-Organizing Map}{27}
-\contentsline {paragraph}{U-Matrix, r\IeC {\'e}partition des caf\IeC {\'e}s par classes et composants}{27}
-\contentsline {paragraph}{Analyse des cartes}{32}
-\contentsline {section}{\numberline {4.2}R\IeC {\'e}sultats des analyses }{33}
-\contentsline {subsection}{\numberline {4.2.1}Perceptron Multi-couches}{33}
-\contentsline {subsection}{\numberline {4.2.2}Random Forest}{33}
-\contentsline {subsection}{\numberline {4.2.3}Partial Least Squares}{33}
-\contentsline {chapter}{\numberline {5}Discussion des r\IeC {\'e}sultats}{34}
-\contentsline {chapter}{\numberline {6}Conclusion}{35}
+\contentsline {paragraph}{Analyse des r\IeC {\'e}sultats de clustering}{33}
+\contentsline {subsubsection}{Self-Organizing Map}{34}
+\contentsline {paragraph}{U-Matrix, r\IeC {\'e}partition des caf\IeC {\'e}s par classes et composants}{34}
+\contentsline {paragraph}{Analyse des cartes}{39}
+\contentsline {section}{\numberline {4.2}R\IeC {\'e}sultats des analyses }{40}
+\contentsline {subsection}{\numberline {4.2.1}Perceptron Multi-couches}{40}
+\contentsline {subsection}{\numberline {4.2.2}Random Forest}{40}
+\contentsline {subsubsection}{M\IeC {\'e}thode utilis\IeC {\'e}e}{40}
+\contentsline {subsubsection}{R\IeC {\'e}sultats obtenus}{40}
+\contentsline {subsection}{\numberline {4.2.3}Partial Least Squares}{40}
+\contentsline {chapter}{\numberline {5}Discussion des r\IeC {\'e}sultats}{41}
+\contentsline {chapter}{\numberline {6}Conclusion}{42}

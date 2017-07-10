@@ -5,5 +5,9 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {4.1}{\ignorespaces Cat\IeC {\'e}gories de caf\IeC {\'e}s d'apr\IeC {\`e}s le nombre de points \newline Source: http://www.scaa.org/?page=resources\&d=cupping-protocols \relax }}{20}
 \contentsline {table}{\numberline {4.2}{\ignorespaces Tableau des rotations des six premiers composants de la PCA avec mise en \IeC {\'e}vidence des variables les plus importantes par composante.\relax }}{25}
+\contentsline {table}{\numberline {4.3}{\ignorespaces HCPC avec trois clusters compar\IeC {\'e}s \IeC {\`a} la sortie cat\IeC {\'e}gories\relax }}{29}
+\contentsline {table}{\numberline {4.4}{\ignorespaces HCPC avec trois clusters compar\IeC {\'e}s \IeC {\`a} la sortie Acidez\relax }}{30}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Tableau des clusters pour la sortie Puntaje Total\relax }}{31}
+\contentsline {table}{\numberline {4.6}{\ignorespaces Importance des variables lors de la r\IeC {\'e}alisation des clusters\relax }}{33}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
