@@ -21,53 +21,59 @@
 \contentsline {figure}{\numberline {4.7}{\ignorespaces HCPC et proposition de nombre de cluster \relax }}{27}
 \contentsline {figure}{\numberline {4.8}{\ignorespaces HCPC arbre 3D\relax }}{28}
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Saut d'inertie du dendogramme \relax }}{29}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces U-Matrix de la carte SOM\relax }}{34}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces U-Matrix avec les points. En jaune les caf\IeC {\'e}s de cat\IeC {\'e}gorie 2,en bleu cat\IeC {\'e}gorie 3 et en rouge cat\IeC {\'e}gorie 4. Les cat\IeC {\'e}gories sont expliqu\IeC {\'e}es au point \ref {EmpFermes}\relax }}{34}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Composants de qualit\IeC {\'e} - Variables de sortie\relax }}{35}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Acidez}}}{35}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Aroma-Fragrancia}}}{35}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Cuerpo}}}{35}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Balance}}}{35}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Uniformidad}}}{35}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Taza Limpia}}}{35}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {Dulzor}}}{35}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {Sabor}}}{35}
-\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {Sabor Residual}}}{35}
-\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {Puntaje Catador}}}{35}
-\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {Puntaje Total}}}{35}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Pr\IeC {\'e}cipitations\relax }}{36}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Prec1}}}{36}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Prec2}}}{36}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Prec3}}}{36}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Prec4}}}{36}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Prec5}}}{36}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Prec6}}}{36}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {Prec7}}}{36}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {Prec8}}}{36}
-\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {Prec9}}}{36}
-\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {Prec10}}}{36}
-\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {Average}}}{36}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces SOM - Autres donn\IeC {\'e}es\relax }}{37}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Temp. Min. Average}}}{37}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Temp. Max. Average}}}{37}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Temp. Mean. Average}}}{37}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Dtr Average}}}{37}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ASNM}}}{37}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Slope}}}{37}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {Franco}}}{37}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {Arenoso}}}{37}
-\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {Arcilloso}}}{37}
-\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {Limoso}}}{37}
-\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {Cascajoso}}}{37}
-\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {pH}}}{37}
-\contentsline {subfigure}{\numberline {(m)}{\ignorespaces {Organic}}}{37}
-\contentsline {subfigure}{\numberline {(n)}{\ignorespaces {Orientation}}}{37}
-\contentsline {subfigure}{\numberline {(o)}{\ignorespaces {Defectos}}}{37}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Altitude et d\IeC {\'e}fauts lors d'une seconde ex\IeC {\'e}cution du r\IeC {\'e}seau de neurones\relax }}{38}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {ASNM}}}{38}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Defectos Totales}}}{38}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {ASNM}}}{38}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Puntaje Total}}}{38}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Coffee Class Position}}}{38}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces U-Matrix de la carte SOM\relax }}{35}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces U-Matrix avec les points. En jaune les caf\IeC {\'e}s de cat\IeC {\'e}gorie 2,en bleu cat\IeC {\'e}gorie 3 et en rouge cat\IeC {\'e}gorie 4. Les cat\IeC {\'e}gories sont expliqu\IeC {\'e}es au point \ref {EmpFermes}\relax }}{35}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Composants de qualit\IeC {\'e} - Variables de sortie\relax }}{36}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Acidez}}}{36}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Aroma-Fragrancia}}}{36}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Cuerpo}}}{36}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Balance}}}{36}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Uniformidad}}}{36}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Taza Limpia}}}{36}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {Dulzor}}}{36}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {Sabor}}}{36}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {Sabor Residual}}}{36}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {Puntaje Catador}}}{36}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {Puntaje Total}}}{36}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Pr\IeC {\'e}cipitations\relax }}{37}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Prec1}}}{37}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Prec2}}}{37}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Prec3}}}{37}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Prec4}}}{37}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Prec5}}}{37}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Prec6}}}{37}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {Prec7}}}{37}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {Prec8}}}{37}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {Prec9}}}{37}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {Prec10}}}{37}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {Average}}}{37}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces SOM - Autres donn\IeC {\'e}es\relax }}{38}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Temp. Min. Average}}}{38}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Temp. Max. Average}}}{38}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Temp. Mean. Average}}}{38}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Dtr Average}}}{38}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ASNM}}}{38}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Slope}}}{38}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {Franco}}}{38}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {Arenoso}}}{38}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {Arcilloso}}}{38}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {Limoso}}}{38}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {Cascajoso}}}{38}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {pH}}}{38}
+\contentsline {subfigure}{\numberline {(m)}{\ignorespaces {Organic}}}{38}
+\contentsline {subfigure}{\numberline {(n)}{\ignorespaces {Orientation}}}{38}
+\contentsline {subfigure}{\numberline {(o)}{\ignorespaces {Defectos}}}{38}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Altitude et d\IeC {\'e}fauts lors d'une seconde ex\IeC {\'e}cution du r\IeC {\'e}seau de neurones\relax }}{39}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {ASNM}}}{39}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Defectos Totales}}}{39}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {ASNM}}}{39}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Puntaje Total}}}{39}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Coffee Class Position}}}{39}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Matrice de confusion de la classification avec Random Forest\relax }}{43}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces \relax }}{45}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Pr\IeC {\'e}diction de la variable d\IeC {\'e}pendante \textit {Puntaje Total}\relax }}{47}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces \relax }}{48}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Pr\IeC {\'e}diction de la variable ind\IeC {\'e}pendante \textit {Acidez}\relax }}{49}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces \relax }}{50}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

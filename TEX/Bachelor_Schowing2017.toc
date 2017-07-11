@@ -36,15 +36,18 @@
 \contentsline {paragraph}{R\IeC {\'e}sultats de la PCA}{24}
 \contentsline {paragraph}{Analyse des composantes}{26}
 \contentsline {paragraph}{Clustering}{26}
-\contentsline {paragraph}{Analyse des r\IeC {\'e}sultats de clustering}{33}
-\contentsline {subsubsection}{Self-Organizing Map}{34}
-\contentsline {paragraph}{U-Matrix, r\IeC {\'e}partition des caf\IeC {\'e}s par classes et composants}{34}
-\contentsline {paragraph}{Analyse des cartes}{39}
-\contentsline {section}{\numberline {4.2}R\IeC {\'e}sultats des analyses }{40}
-\contentsline {subsection}{\numberline {4.2.1}Perceptron Multi-couches}{40}
-\contentsline {subsection}{\numberline {4.2.2}Random Forest}{40}
-\contentsline {subsubsection}{M\IeC {\'e}thode utilis\IeC {\'e}e}{40}
-\contentsline {subsubsection}{R\IeC {\'e}sultats obtenus}{40}
-\contentsline {subsection}{\numberline {4.2.3}Partial Least Squares}{40}
-\contentsline {chapter}{\numberline {5}Discussion des r\IeC {\'e}sultats}{41}
-\contentsline {chapter}{\numberline {6}Conclusion}{42}
+\contentsline {paragraph}{Analyse des r\IeC {\'e}sultats de clustering}{34}
+\contentsline {subsubsection}{Self-Organizing Map}{35}
+\contentsline {paragraph}{U-Matrix, r\IeC {\'e}partition des caf\IeC {\'e}s par classes et composants}{35}
+\contentsline {paragraph}{Analyse des cartes}{40}
+\contentsline {section}{\numberline {4.2}R\IeC {\'e}sultats des analyses }{41}
+\contentsline {subsection}{\numberline {4.2.1}Perceptron Multi-couches}{41}
+\contentsline {subsection}{\numberline {4.2.2}Random Forest}{41}
+\contentsline {subsubsection}{M\IeC {\'e}thode utilis\IeC {\'e}e}{41}
+\contentsline {subsubsection}{R\IeC {\'e}sultats de classification}{42}
+\contentsline {subsubsection}{R\IeC {\'e}gression sur la variable d\IeC {\'e}pendante \textit {Puntaje Total}}{45}
+\contentsline {subsubsection}{R\IeC {\'e}gression sur la variable d\IeC {\'e}pendante \textit {Acidez}}{47}
+\contentsline {subsubsection}{R\IeC {\'e}gression sur la variable d\IeC {\'e}pendante \textit {Dulzor}}{50}
+\contentsline {subsection}{\numberline {4.2.3}Partial Least Squares}{52}
+\contentsline {chapter}{\numberline {5}Discussion des r\IeC {\'e}sultats}{53}
+\contentsline {chapter}{\numberline {6}Conclusion}{54}

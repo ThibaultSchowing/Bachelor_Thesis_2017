@@ -448,7 +448,7 @@ L'analyse sur une version compacte des variables a donné les résultats présen
 \end{table}
 
 
-
+\noindent Les variables participent presque toute activement à la séparation en partie (en prenant en compte les 5\% de probabilité critiques ) cependant la séparation n'apporte rien au set de donnée puis-qu'elle ne sépare en rien les différents types de cafés (note basse - note haute). 
 
 
 
@@ -611,19 +611,464 @@ Pendiente - pending
 
 \subsection{Random Forest}
 % analyser des variables séparément. Possibilité de prédir les défauts vs le "gout", les défauts spéarément - les gouts séparément etc 
+Ce chapitre présente comment la méthode Random Forest a été utilisée et les résultats produits. 
 \subsubsection{Méthode utilisée}
 % détails de la méthode, choix pour la cross validation, variables entrée/sortie 
+Afin de se faire la meilleure idée possible des possibilités de prédiction, quatre variables de sorties ont été testées. Le nombre total de points (Puntaje Total), l'acidité (Acidez), la douceur (Dulzor) et la catégorie, obtenue d'après le tableau à la section \ref{categoriesCafe}. \\
+
+\noindent La méthode Random Forest du package Caret a été utilisée avec une K-Fold Cross Validation ayant comme paramètre K = 10, répétée 3 fois. 
+
+\begin{lstlisting}[caption={Fonction d'entrainement et de test du modèle avec Random Forest},captionpos=b]
+	RFmodelCategory=train(x_cat,y_cat,method="rf",tunegrid=tunegrid_cat,trControl=trainControl(method="repeatedcv",number=10,repeats=3),tuneLength=10,importance = TRUE, proximity=T)
+\end{lstlisting}
 
 
-\subsubsection{Résultats obtenus}
+
+
+\newpage
+\subsubsection{Résultats de classification}
 % Nombre ,graphiques, analyses
+En première partie, la tentative de classification avec comme variable de sortie la catégorie. Nous avons pour le modèle:
+%TODO - refaire avec le bon dataset...
+\begin{itemize}
+	\item 490 échantillons \footnote{La totalité des échantillons ont été utilisés ici, y compris ceux possédant 0 points.}
+	\item 72 variables indépendantes
+	\item 3 classes ("2", "3", "4")
+\end{itemize}
+
+Re-échantillonnage des résultats parmi les paramètres de réglage:
+
+\begin{table}[H]
+	\centering
+	\caption{Réglage du modèle}
+	\label{RF_Class_Resampling}
+	\begin{tabular}{lll}
+		mtry & Accuracy  & Kappa      \\
+		2    & 0.4995912 & 0.08462730 \\
+		9    & 0.5117305 & 0.10653423 \\
+		17   & 0.5062583 & 0.09657805 \\
+		25   & 0.5109109 & 0.10608506 \\
+		33   & 0.5075520 & 0.10148125 \\
+		40   & 0.5014028 & 0.08705477 \\
+		48   & 0.5088592 & 0.10056043 \\
+		56   & 0.5095934 & 0.10397803 \\
+		64   & 0.5081794 & 0.10110968 \\
+		72   & 0.5061636 & 0.09829896           
+	\end{tabular}
+\end{table}
+
+\noindent On observe qu'avec un \textit{mtry}\footnote{À chaque split de l'arbre, l'algorithme va chercher \textit{mtry} variables dans le set. Chaque nouveau split sera composté de \textit{mtry} variables sélectionnées aléatoirement dans le set de donnée principal} de 9, l'\textit{Accuracy} est la meilleure .
+
+
+\begin{table}[H]
+	\centering
+	\caption{Les vingt variables les plus importantes par catégorie (sur 72)}
+	\label{RF_Class_Impvar}
+	\begin{tabular}{llll}
+		& 2      & 3      & 4      \\
+		ASNM      & 60.754 & 38.042 & 100.00 \\
+		prec9     & 64.442 & 8.963  & 90.27  \\
+		tmin5     & 1.302  & 30.008 & 87.63  \\
+		dtr7      & 86.974 & 69.378 & 54.59  \\
+		tmean1    & 12.041 & 42.173 & 86.82  \\
+		prec10    & 29.188 & 30.604 & 82.33  \\
+		tmin4     & 16.840 & 56.842 & 79.80  \\
+		tmax5     & 8.655  & 51.687 & 76.56  \\
+		tmin1     & 21.357 & 56.763 & 75.76  \\
+		tmax4     & 29.270 & 71.631 & 26.10  \\
+		tmean2    & 12.710 & 42.159 & 71.51  \\
+		tmean5    & 18.301 & 37.089 & 70.87  \\
+		dtr5      & 16.198 & 70.822 & 39.11  \\
+		tmax8     & 9.814  & 50.375 & 70.72  \\
+		dtr8      & 10.785 & 43.304 & 70.20  \\
+		tmax6     & 18.386 & 68.704 & 51.16  \\
+		prec6     & 40.057 & 25.298 & 68.17  \\
+		DtrTotal  & 13.864 & 67.471 & 36.17  \\
+		Cascajoso & 42.708 & 54.120 & 65.70  \\
+		tmax10    & 6.866  & 45.774 & 65.59  \\
+		&        &        &        \\
+		&        &        &       
+	\end{tabular}
+\end{table}
+
+\noindent Enfin après avoir construit le modèle, on peut le valider avec nos données de test. Nous obtenons les résultats suivants: 
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.4]{../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_models_perfs/ConfusionMatrix_RF_Classification_Result}
+	\caption{Matrice de confusion de la classification avec Random Forest}
+	\label{fig:confusionmatrixrfclassificationresult}
+\end{figure}
+
+\begin{minipage}{\linewidth}
+	
+	\begin{lstlisting}[showstringspaces=false,language=R, caption={Test du modèle de classification},captionpos=b]
+		
+		          Reference
+	Prediction  2  3  4
+		2   2  1  2
+		3   9 50 50
+		4   3 43 47
+		
+		
+		Overall Statistics
+		
+		Accuracy : 0.4783          
+		95% CI : (0.4085, 0.5486)
+		No Information Rate : 0.4783          
+		P-Value [Acc > NIR] : 0.52732         
+		
+		Kappa : 0.0416          
+		Mcnemar's Test P-Value : 0.06796         
+		
+ Statistics by Class:
+		
+                      Class: 2 Class: 3 Class: 4
+Sensitivity          0.142857   0.5319   0.4747
+Specificity          0.984456   0.4779   0.5741
+Pos Pred Value       0.400000   0.4587   0.5054
+Neg Pred Value       0.940594   0.5510   0.5439
+Prevalence           0.067633   0.4541   0.4783
+Detection Rate       0.009662   0.2415   0.2271
+Detection Prevalence 0.024155   0.5266   0.4493
+Balanced Accuracy    0.563657   0.5049   0.5244
+	\end{lstlisting}
+\end{minipage}
 
 
 
+
+
+%-------------------------------------------------------------------------
+
+\newpage
+\subsubsection{Régression sur la variable dépendante \textit{Puntaje Total}}
+\noindent Notre modèle contient: 
+\begin{itemize}
+	\item 448 échantillons
+	\item 72 variables indépendantes
+\end{itemize}
+
+
+\begin{table}[H]
+	\centering
+	\caption{Réglage du modèle}
+	\label{RF_Total_Resampling}
+	\begin{tabular}{llll}
+		mtry & RMSE     & Rsquared     \\
+		2    & 6.033466 & 0.03056280   \\
+		9    & 6.063304 & 0.03686526   \\
+		17   & 6.042679 & 0.04446260   \\
+		25   & 6.056445 & 0.04747083   \\
+		33   & 6.064986 & 0.05062423   \\
+		40   & 6.052046 & 0.05279225   \\
+		48   & 6.076724 & 0.05268180   \\
+		56   & 6.084703 & 0.05124400   \\
+		64   & 6.066546 & 0.05294682   \\
+		72   & 6.079099 & 0.05567081    
+	\end{tabular}
+\end{table}
+
+\noindent On observe qu'avec un \textit{mtry} de 2, la RMSE est la plus petite. Cependant, une fois testé le modèle donne l'erreur suivante: RMSE = 7.1726 et Rsquared = 0.00431. 
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_models_perfs/modele_Total_Regression}
+	\caption{}
+	\label{fig:modeletotalregression}
+\end{figure}
+
+\begin{minipage}{\linewidth}
+	
+	\begin{lstlisting}[showstringspaces=false,language=R, caption={Test du modèle de classification},captionpos=b]
+	Call:
+	randomForest(x = x, y = y, mtry = param$mtry, 
+	importance = TRUE,
+	proximity = ..3, tunegrid = ..1) 
+	
+	Type of random forest: regression
+	Number of trees: 500
+	No. of variables tried at each split: 2
+	
+	Mean of squared residuals: 38.38491
+	% Var explained: -9.59
+	
+	\end{lstlisting}
+\end{minipage}
+
+
+\begin{table}[H]
+	\centering
+	\caption{Les 20 variables les plus importantes du modèle.}
+	\label{RF_Total_Varimp}
+	\begin{tabular}{ll}
+		& Overall \\
+		tmean2       & 100.00  \\
+		tmax6        & 99.28   \\
+		tmean4       & 96.71   \\
+		tmax2        & 94.71   \\
+		tmax5        & 92.77   \\
+		PrecTotalAvg & 90.81   \\
+		tmax4        & 88.96   \\
+		dtr4         & 88.89   \\
+		tmin2        & 87.82   \\
+		DtrTotal     & 87.43   \\
+		tmin3        & 87.25   \\
+		tmin5        & 86.97   \\
+		tmean1       & 86.93   \\
+		tmean8       & 85.72   \\
+		tmax8        & 85.34   \\
+		TminTotalAvg & 84.71   \\
+		dtr2         & 84.71   \\
+		tmean10      & 84.42   \\
+		tmin1        & 83.93   \\
+		prec10       & 83.85  
+	\end{tabular}
+\end{table}
+
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_models_perfs/Pred_PuntajeTotal}
+	\caption{Prédiction de la variable dépendante \textit{Puntaje Total}}
+	\label{fig:predpuntajetotal}
+\end{figure}
+
+
+
+%-----------------------------------------------------------------------
+
+
+\newpage
+\subsubsection{Régression sur la variable dépendante \textit{Acidez}}
+\noindent Notre modèle contient: 
+\begin{itemize}
+	\item 448 échantillons
+	\item 72 variables indépendantes
+\end{itemize}
+
+
+\begin{table}[H]
+	\centering
+	\caption{Réglage du modèle}
+	\label{RF_Acidez_Resampling}
+	\begin{tabular}{llll}
+	    mtry & RMSE      & Rsquared   \\
+	    2    & 0.5523984 & 0.07780696 \\
+	    9    & 0.5587745 & 0.07205180 \\
+	    17   & 0.5591882 & 0.07332069 \\
+	    25   & 0.5614777 & 0.07128568 \\
+	    33   & 0.5601199 & 0.07188263 \\
+	    40   & 0.5602361 & 0.07391410 \\
+	    48   & 0.5608331 & 0.07075389 \\
+	    56   & 0.5599010 & 0.07333161 \\
+	    64   & 0.5604395 & 0.07236162 \\
+	    72   & 0.5607297 & 0.07082403
+	\end{tabular}
+\end{table}
+
+\noindent On observe qu'avec un \textit{mtry} de , la RMSE est la plus petite. Cependant, une fois entrainé le modèle donne l'erreur suivante: RMSE = 0.5587  et Rsquared = 0.0261. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_models_perfs/modele_Acidez_regression}
+	\caption{}
+	\label{fig:modeleacidezregression}
+\end{figure}
+
+
+\begin{minipage}{\linewidth}
+	
+	\begin{lstlisting}[showstringspaces=false,language=R, caption={Test du modèle de classification},captionpos=b]
+	Call:
+	randomForest(x = x, y = y, mtry = param$mtry, 
+	importance = TRUE,      
+	proximity = ..3, tunegrid = ..1) 
+	Type of random forest: regression
+	Number of trees: 500
+	No. of variables tried at each split: 2
+	
+	Mean of squared residuals: 0.3157974
+	% Var explained: -1.63
+	\end{lstlisting}
+\end{minipage}
+
+
+\begin{table}[H]
+	\centering
+	\caption{Les 20 variables les plus importantes du modèle.}
+	\label{RF_Acidez_Varimp}
+	\begin{tabular}{ll}
+	 & Overall \\
+	 dtr10         & 100.00  \\
+	 tmin9         & 98.16   \\
+	 tmean3        & 96.84   \\
+	 tmax8         & 96.40   \\
+	 tmax7         & 94.54   \\
+	 tmax6         & 93.25   \\
+	 tmin3         & 92.78   \\
+	 TmeanTotalAvg & 90.41   \\
+	 DtrTotalAvg   & 89.54   \\
+	 tmax3         & 89.17   \\
+	 TmaxTotalAvg  & 88.40   \\
+	 tmax5         & 87.07   \\
+	 tmax10        & 85.38   \\
+	 TminTotalAvg  & 84.12   \\
+	 dtr8          & 83.90   \\
+	 tmean10       & 83.73   \\
+	 tmin5         & 83.27   \\
+	 tmax1         & 82.81   \\
+	 tmean4        & 82.49   \\
+	 tmean9        & 81.66  
+	\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_models_perfs/Pred_ACidez}
+	\caption{Prédiction de la variable indépendante \textit{Acidez}}
+	\label{fig:predacidez}
+\end{figure}
+
+
+%TODO plot acidez vs altitude ou pas
+%LA RMSE est bonne ici -> regarder Rsquared, car pas dépendent de l'unité, si proche de 1 c'est bon sinon c'est dela merde ->  c'est toujours de la merde -> commentj'aie u peur d'un coup !
+
+
+%-----------------------------------------------------------------------
+
+
+\newpage
+\subsubsection{Régression sur la variable dépendante \textit{Dulzor}}
+\noindent Notre modèle contient: 
+\begin{itemize}
+	\item 439 échantillons
+	\item 72 variables indépendantes
+\end{itemize}
+
+
+\begin{table}[H]
+	\centering
+	\caption{Réglage du modèle}
+	\label{RF_Dulzor_Resampling}
+	\begin{tabular}{llll}
+	mtry & RMSE      & Rsquared   \\
+	2    & 0.7996682 & 0.02423378 \\
+	9    & 0.8030381 & 0.03690104 \\
+	17   & 0.8082138 & 0.04453890 \\
+	25   & 0.8112174 & 0.04482055 \\
+	33   & 0.8141780 & 0.04452465 \\
+	40   & 0.8163036 & 0.04853452 \\
+	48   & 0.8187376 & 0.04858482 \\
+	56   & 0.8211659 & 0.04628629 \\
+	64   & 0.8209675 & 0.04722086 \\
+	72   & 0.8226232 & 0.04976240
+	\end{tabular}
+\end{table}
+
+\noindent On observe qu'avec un \textit{mtry} de 2, la RMSE est la plus petite. Cependant, une fois entrainé le modèle donne l'erreur suivante: RMSE = 0.8747  et Rsquared = 0.0009. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\linewidth]{../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_models_perfs/modele_dulzor_regression}
+	\caption{}
+	\label{fig:modeledulzorregression}
+\end{figure}
+
+
+
+\begin{minipage}{\linewidth}
+	
+	\begin{lstlisting}[showstringspaces=false,language=R, caption={Test du modèle de classification},captionpos=b]
+Call:
+randomForest(x = x, y = y, mtry = param$mtry, 
+importance = TRUE,      
+proximity = ..3, tunegrid = ..1) 
+Type of random forest: regression
+Number of trees: 500
+No. of variables tried at each split: 2
+
+Mean of squared residuals: 0.7230219
+% Var explained: -9.25
+	\end{lstlisting}
+\end{minipage}
+
+
+\begin{table}[H]
+	\centering
+	\caption{Les 20 variables les plus importantes du modèle.}
+	\label{RF_Dulzor_Varimp}
+	\begin{tabular}{ll}
+              & Overall \\
+dtr4          & 100.00  \\
+tmax4         & 99.29   \\
+tmax9         & 96.55   \\
+tmin4         & 93.13   \\
+tmean4        & 92.17   \\
+TmaxTotal     & 91.49   \\
+tmin5         & 90.85   \\
+TmeanTotal    & 90.64   \\
+prec6         & 89.90   \\
+tmin2         & 89.84   \\
+dtr10         & 89.69   \\
+tmax6         & 89.17   \\
+tmax5         & 87.47   \\
+tmax7         & 87.16   \\
+dtr8          & 87.15   \\
+tmax2         & 86.37   \\
+dtr2          & 86.23   \\
+tmean1        & 85.78   \\
+TmeanTotalAvg & 85.08   \\
+DtrTotal      & 84.98
+	\end{tabular}
+\end{table}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\newpage
 
 \subsection{Partial Least Squares}
 % analyser les résultats de prédiction ainsi que les corrélation fournies par PLS - au vus des résultats et de la corrélation entre les variables de sorties pas besoind 'utiliser MBPLS ça serait une perte de temps
-
+aasdf
 
 
 \chapter{Discussion des résultats}
@@ -633,3 +1078,10 @@ Pendiente - pending
 %Données manquantes
 
 %Exemple: on sait que la fermentation du grain dans sa pulpe impacte sur la chimie de la graine et peut rendre le café plus ou moins acide -> pas de données sur la fermentation (temps, méthode etc) idem pour le séchage, le stockage, la récolte etc
+
+
+% L'objectif aurait été de définir des gouts (tastewheel ) - pas de données
+
+
+
+% todo -> améliorer les modèles, changer les index (RMSE, RSquared etc) - nécessite théorie
