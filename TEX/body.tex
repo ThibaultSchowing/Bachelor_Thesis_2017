@@ -182,22 +182,7 @@ Les différentes classes gustatives d'un café peuvent être considérées comme
 \newpage
 \section{Optimisation}
 
-\subsection{Boosting}
-Le principe du boosting est quelque peu différent du bagging (voir section \ref{bagging}). Les différents classifieurs sont pondérés de manière à ce qu’à chaque prédiction, les classificateurs ayant prédit correctement auront un poids plus fort que ceux dont la prédiction est incorrecte.\\
-
-
-\noindent Adaboost est un algorithme de boosting qui s’appuie sur ce principe, avec un paramètre de mise à jour adaptatif permettant de donner plus d’importance aux valeurs difficiles à prédire, donc en boostant les classificateurs qui réussissent quand d’autres ont échoué. Des variantes permettent de l’étendre à la classification multiclasses. Adaboost s’appuie sur des classificateurs existants et cherche à leur affecter les bons poids vis à vis de leurs performances\cite{EnsembleMethods}.\\
-
-
-\begin{figure}[H]
-	\includegraphics[scale=0.5]{boosting1}
-	\caption{\label{BoostingSchema}Schéma du fonctionnement du Boosting \newline Source: \textit{http://www.cis.hut.fi/research/som-research/worldmap.html}}
-\end{figure}
-
-\noindent Gradient Boosting est une méthode de machine learning utilisée pour les problèmes de classification et de régression. Elle fait aussi partie des méthodes ensemblistes, et est utilisée majoritairement avec des arbres de décision. L'idées est encore d'agréger plusieurs classificateurs ensemble mais cette fois en les créant itérativement.\\
-
-
-\noindent Le classifieur du gradient boosting est donc au final paramétré par les poids de pondération des différents mini-classifieurs, ainsi que par les paramètres des fonctions utilisées. Il s’agit donc d’explorer un espace de fonctions simples par une descente de gradient sur l’erreur\cite{EnsembleMethods}.
+%Boosting supprimé
 
 \subsection{Cross-Validation}
 

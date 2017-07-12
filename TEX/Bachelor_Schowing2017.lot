@@ -3,19 +3,22 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Cat\IeC {\'e}gories de caf\IeC {\'e}s d'apr\IeC {\`e}s le nombre de points \newline Source: http://www.scaa.org/?page=resources\&d=cupping-protocols \relax }}{20}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Tableau des rotations des six premiers composants de la PCA avec mise en \IeC {\'e}vidence des variables les plus importantes par composante.\relax }}{25}
-\contentsline {table}{\numberline {4.3}{\ignorespaces HCPC avec trois clusters compar\IeC {\'e}s \IeC {\`a} la sortie cat\IeC {\'e}gories\relax }}{29}
-\contentsline {table}{\numberline {4.4}{\ignorespaces HCPC avec trois clusters compar\IeC {\'e}s \IeC {\`a} la sortie Acidez\relax }}{30}
-\contentsline {table}{\numberline {4.5}{\ignorespaces Tableau des clusters pour la sortie Puntaje Total\relax }}{31}
-\contentsline {table}{\numberline {4.6}{\ignorespaces Importance des variables lors de la r\IeC {\'e}alisation des clusters\relax }}{33}
-\contentsline {table}{\numberline {4.7}{\ignorespaces R\IeC {\'e}glage du mod\IeC {\`e}le\relax }}{42}
-\contentsline {table}{\numberline {4.8}{\ignorespaces Les vingt variables les plus importantes par cat\IeC {\'e}gorie (sur 72)\relax }}{43}
-\contentsline {table}{\numberline {4.9}{\ignorespaces R\IeC {\'e}glage du mod\IeC {\`e}le\relax }}{45}
-\contentsline {table}{\numberline {4.10}{\ignorespaces Les 20 variables les plus importantes du mod\IeC {\`e}le.\relax }}{46}
-\contentsline {table}{\numberline {4.11}{\ignorespaces R\IeC {\'e}glage du mod\IeC {\`e}le\relax }}{47}
-\contentsline {table}{\numberline {4.12}{\ignorespaces Les 20 variables les plus importantes du mod\IeC {\`e}le.\relax }}{49}
-\contentsline {table}{\numberline {4.13}{\ignorespaces R\IeC {\'e}glage du mod\IeC {\`e}le\relax }}{50}
-\contentsline {table}{\numberline {4.14}{\ignorespaces Les 20 variables les plus importantes du mod\IeC {\`e}le.\relax }}{51}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Cat\IeC {\'e}gories de caf\IeC {\'e}s d'apr\IeC {\`e}s le nombre de points \newline Source: http://www.scaa.org/?page=resources\&d=cupping-protocols \relax }}{18}{table.caption.11}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Tableau des rotations des six premiers composants de la PCA avec mise en \IeC {\'e}vidence des variables les plus importantes par composante.\relax }}{23}{table.caption.17}
+\contentsline {table}{\numberline {4.3}{\ignorespaces HCPC avec trois clusters compar\IeC {\'e}s \IeC {\`a} la sortie cat\IeC {\'e}gories\relax }}{27}{table.caption.22}
+\contentsline {table}{\numberline {4.4}{\ignorespaces R\IeC {\'e}glage du mod\IeC {\`e}le\relax }}{37}{table.caption.30}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Les vingt variables les plus importantes par cat\IeC {\'e}gorie (sur 72) pour la classification\relax }}{38}{table.caption.31}
+\contentsline {table}{\numberline {4.6}{\ignorespaces R\IeC {\'e}glage du mod\IeC {\`e}le\relax }}{40}{table.caption.33}
+\contentsline {table}{\numberline {4.7}{\ignorespaces Les 20 variables les plus importantes du mod\IeC {\`e}le.\relax }}{41}{table.caption.35}
+\contentsline {table}{\numberline {4.8}{\ignorespaces R\IeC {\'e}glage du mod\IeC {\`e}le\relax }}{43}{table.caption.37}
+\contentsline {table}{\numberline {4.9}{\ignorespaces Les 20 variables les plus importantes du mod\IeC {\`e}le.\relax }}{44}{table.caption.39}
+\contentsline {table}{\numberline {4.10}{\ignorespaces R\IeC {\'e}glage du mod\IeC {\`e}le\relax }}{46}{table.caption.41}
+\contentsline {table}{\numberline {4.11}{\ignorespaces Les 20 variables les plus importantes du mod\IeC {\`e}le.\relax }}{47}{table.caption.43}
 \addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {B.1}{\ignorespaces HCPC avec trois clusters compar\IeC {\'e}s \IeC {\`a} la sortie Acidez\relax }}{59}{table.caption.53}
+\contentsline {table}{\numberline {B.2}{\ignorespaces Tableau des clusters pour la sortie Puntaje Total\relax }}{60}{table.caption.54}
+\contentsline {table}{\numberline {B.3}{\ignorespaces Importance des variables lors de la r\IeC {\'e}alisation des clusters\relax }}{61}{table.caption.55}
 \addvspace {10\p@ }

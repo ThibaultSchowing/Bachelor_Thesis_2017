@@ -20,11 +20,19 @@
 \usepackage{color}
 
 
+\usepackage[hidelinks]{hyperref}
+
+\usepackage{cleveref}
+
+
 \lstset{frame=tb,
 	language=R,
 	keywordstyle=\color{blue},
 	alsoletter={.}
 }
+
+\usepackage{enumitem}
+\renewcommand\descriptionlabel[1]{\textbf{#1 :}}
 
 \usepackage{subfig}
 \usepackage{graphicx}
@@ -33,6 +41,30 @@
 
 % Evite les gros début de chapitre inutiles. 
 \usepackage{titlesec}
+
+
+
+\makeatletter
+
+\newif\if@mainmatter \@mainmattertrue
+
+\newcommand\frontmatter{%
+	\cleardoublepage
+	\@mainmatterfalse
+	\pagenumbering{roman}}
+\newcommand\mainmatter{%
+	\cleardoublepage
+	\@mainmattertrue
+	\pagenumbering{arabic}}
+\newcommand\backmatter{%
+	\if@openright
+	\cleardoublepage
+	\else
+	\clearpage
+	\fi
+	% \@mainmatterfalse
+}
+\makeatother
 
 
 \titleformat{\chapter}
@@ -103,6 +135,8 @@
 	\afterpage{\blankpage}
 	\pagenumbering{gobble}
 	
+	\frontmatter
+	
 	\include{acknowledgements}
 	
 	\afterpage{\blankpage}
@@ -111,16 +145,21 @@
 	
 	\afterpage{\blankpage}
 	
-	\pagenumbering{arabic}
+	
 	\tableofcontents
 	
 	\afterpage{\blankpage}
 	
+	\mainmatter
 	\include{body}
 	
 	\include{Results}
 	
 	\include{Conclusion}
+	
+	\backmatter
+	
+	\include{annexes}
 	
 	\bibliography{mybib}{}
 	\bibliographystyle{plain}
@@ -128,5 +167,7 @@
 	\listoffigures
 	
 	\listoftables
+	
+	
 	
 \end{document}
