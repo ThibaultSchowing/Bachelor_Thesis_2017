@@ -27,6 +27,9 @@ Le sujet de ce Travail de Bachelor a été proposé par le « \textit{Centro Int
 
 \subsection{Le système SICA}Le système SICA, pour \textit{Sistema de Información Cafetera}, est un système géré par la Fédération Nationale des Caféiculteurs (FNC), permettant d'identifier chaque parcelle de production de café en Colombie. C'est un système d'information d'envergure national, accessible via internet permettant de mettre à jour, consulter, analyser, modéliser et visualiser les données géospatiales sur les producteurs et les fermes de beaucoup de caféiculteurs du pays. C'est l'outil d'information stratégique pour la conception, le développement, la cartographie et le suivi des politiques de compétitivité et de la durabilité du café colombien\cite{SICA}. Chaque ferme possède un identifiant SICA, qui sera utilisé dans ce travail comme identifiant unique pour définir un café. Il est important car c'est ce numéro qui permet, via les services de la FNC, d'avoir un identifiant unique pour chaque parcelle et d'y associer des informations la concernant.  
 
+\subsection{Données de pratiques culturales}
+Malheureusement, aucune données de ce type n'a été fournies pour la réalisation de cette analyse. Les seules données à disposition sont des données de pratiques culturales générales issue de la littérature ou d'expériences personnelles.
+
 \subsection{Données gustatives}
 Les données gustatives sont très relatives aux sens et à la perception de chaque goutteur. Cependant, la SCAA, \textit{Speciality Coffee Association of America}, dispose d’un système de notation basé sur des hypothèses communautaires reconnues ce qui permet d’avoir une certaine régularité dans les données de dégustations. Les cafés sont notés sur 100 points répartis sur plusieurs critères: parfum/arôme, saveur, arrière-goût, acidité, corps, équilibre, douceur, clean-cup (absence de défauts marqués), uniformité et évaluation personnelle du testeur.  Chacun de ces critères est noté sur 10 mais aussi par des termes qualitatifs. Par exemple, la saveur, c’est-à-dire la combinaison de l’odeur et du goût, la première impression qu’on a en goûtant le café, peut être notée 7/10 et “Caramel”. \\
 
@@ -48,6 +51,7 @@ Les données climatiques comprennent les températures maximales, minimales et m
 
 
 \begin{figure}[H]
+	\centering
 	\includegraphics[scale=1]{tmax_picture_1}
 	\caption{\label{tmax_picture} Mise sous forme graphique du tableau des température maximales pour le mois de janvier 2011 }
 \end{figure}
@@ -62,6 +66,7 @@ Les données climatiques comprennent les températures maximales, minimales et m
 \paragraph{El Niño}El Niño désigne un phénomène climatique qui se caractérise par une augmentation des températures de l'eau dans l'est du Pacifique sud due à une perturbation dans la circulation atmosphérique entre les pôles et l'équateur. Ces perturbations déplacent les zones de précipitations, modifient les routes des cyclones ou typhons provoquent à certains endroits de fortes précipitations et à d'autres de longues périodes de sécheresse. Même dans les zones tempérées, les périodes El Niño changent les habitudes climatiques. Durant l'été austral 2015-2016 s'est produit un des épisodes El Niño le plus fort jamais enregistré\cite{OMM}. Si une grande partie de l'Amérique du Sud a été victime de fortes précipitations, la Colombie, elle, a subit une longue période de sécheresse et l'Europe a connu des records de chaleur. Sur la figure \ref{Nino} on peut observer les différents pics correspondants à l'intensité du phénomène ainsi que pour son opposé, La Niña. 
 
 \begin{figure}[H]
+	\centering
 	\includegraphics[scale=0.25]{VariationElNino}
 	\caption{\label{Nino} Intensité du phénomène El Niño au cours des ans\newline Source: \textit{http://ggweather.com/enso/oni.htm}}
 \end{figure}
@@ -73,13 +78,163 @@ Les données climatiques comprennent les températures maximales, minimales et m
 Les données de qualité de sol sont subdivisées en profils. Chaque profil est séparé en une ou plusieurs couches d’une certaine profondeur dont sont renseignées les caractéristiques comme le pH, la texture ou encore le taux de matière organique. Les différentes textures sont présentées sur la figure \ref{TriangleTexture}. Afin d'avoir des données uniformes, les moyennes sur les 3 premières couches jusqu'à 1 mètre de profondeur ont été réalisées pour le pH et le niveau de matière organique alors que pour la texture, la somme des variable binaire a été effectuée. \\
 
 
-\noindent Les données proviennent d'un GIS (Geographical Information System), d'où il a été possible de croiser les données point par point afin d'extraire le profil de sol correspondant à un set de coordonnées GPS. Malheureusement les profils ne contiennent que pH, matière organique et texture. Des données très hétérogènes contenaient d'autres informations sur la composition chimique du sol mais leur structure et leur répartition irrégulière dans la zone de travail ont forcé à abandonner leur utilisation par manque de temps et de ressources.
+\noindent Les données proviennent d'un GIS \footnote{Geographical Information System}, d'où il a été possible de croiser les données point par point afin d'extraire le profil de sol correspondant à un set de coordonnées GPS. Malheureusement les profils ne contiennent que pH, matière organique et texture. Des données très hétérogènes contenaient d'autres informations sur la composition chimique du sol mais leur structure et leur répartition irrégulière dans la zone de travail ont forcé à abandonner leur utilisation par manque de temps et de ressources.
 
 % triangulo-del-suelo
 \begin{figure}[H]
-	\includegraphics[scale=0.7]{triangulo-del-suelo}
+	\centering
+	\includegraphics[scale=0.5]{triangulo-del-suelo}
 	\caption{\label{TriangleTexture} Triangle représentant les différentes textures de sols\newline Source: \textit{http://www.construnatura.com/esp/articulo/agricultura-ecol-gica/el-suelo-como-fuente-de-vida--propiedades--ii-}}
 \end{figure}
+
+
+
+
+%################################################################################################################
+
+\newpage
+\section{Quelques chiffres et informations sur les données}
+
+\paragraph{Emplacement des fermes}\label{EmpFermes} L'emplacement des différents cafés par rapport aux nombre de points est présenté sur la figure \ref{FincaVSPoints}. La catégorie 1 (non représentée) correspond aux cafés avec plus de 90 points, la 2 aux cafés avec plus de 85, la 3 aux cafés avec plus de 80 et la 4 aux cafés en dessous de 80, ne correspondant donc pas à la qualité "Specialty". On peut y voir que l'emplacement dans le département n'as pas d'incidence sur les résultats, la répartition des différentes classes étant très uniforme. Les différentes classes attribuée aux cafés sont expliquée au point \ref{categoriesCafe}.
+
+
+
+\begin{figure}[H]
+	\includegraphics[scale=0.59]{Map_North}
+	\caption{Emplacement des fermes avec coloration selon le nombre de points attribués au café. Nord.}
+\end{figure}
+
+\begin{figure}[H]
+	\includegraphics[scale=0.5]{Map_South}
+	
+	\begin{figure}[H]
+		\includegraphics[scale=1]{Legend_Map2}
+	\end{figure}
+	\caption{\label{FincaVSPoints} Emplacement des fermes avec coloration selon le nombre de points attribués au café. Sud.}
+\end{figure}
+
+
+\newpage
+\paragraph{Altitude et points} \footnote{Les sets de données utilisés ici peuvent différer, certaines données ont été extraites du set de base, contenant des données manquantes (pour certaines variables) et d'autres ont été extraites du set complet utilisé pour les calculs. Les données ne différent que très peu entre ces sets et l'impact est minimal pour le calcul de simple moyennes.}Les plantations sont réparties entre une altitude de 935 mètres et de 2001 mètres alors que nombre de points totaux attribués aux cafés varie entre 0 et 87.75. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/Exploration/plotAltitudeVsPuntajeTotal}
+	\caption{Nombre de points totaux vs altitude}
+	\label{fig:plotaltitudevspuntajetotal}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/Exploration/kdeplotPuntajeTotal}
+	\caption{Répartition des cafés par rapport au nombre de points total}
+	\label{fig:kdeplotpuntajetotal}
+\end{figure}
+
+
+
+\newpage
+\paragraph{Précipitations et températures} Les deux années présentes dans les données, 2011 et 2016 sont eux années différentes au niveau climatique, surtout au niveau des précipitations.  
+
+\begin{table}[H]
+	\centering
+	\caption{Précipitations par année}
+	\label{YearlyPrec1}
+	\begin{tabular}{lll}
+		2011 & count                               & 350.000000 \\
+		&mean & 192.985313                                      \\
+		&std  & 28.732351                                       \\
+		&min  & 108.813344                                     \\
+		&25\% & 172.463001                                     \\
+		&50\% & 199.349562                                      \\
+		&75\% & 212.438373                                      \\
+		&max  & 245.214644                                      \\
+	2016 & count                               & 396.000000 \\
+		&mean & 135.710853                                      \\
+		&std  & 24.468758                                      \\
+		&min  & 89.579520                                       \\
+		&25\% & 119.952117                                      \\
+		&50\% & 131.346726                                      \\
+		&75\% & 140.572487                                      \\
+		&max  & 189.482009                   
+	\end{tabular}
+\end{table}
+
+
+\begin{table}[H]
+	\centering
+	\caption{Températures moyennes par année}
+	\label{YearlyTmean}
+	\begin{tabular}{lll}
+		2011 & count                              & 350.000000 \\
+		&mean & 20.969629                                      \\
+		&std  & 1.195129                                       \\
+		&min  & 18.106276                                      \\
+		&25\% & 20.116997                                      \\
+		&50\% & 20.880830                                      \\
+		&75\% & 21.778835                                      \\
+		&max  & 26.238706                                      \\
+		2016 & count                              & 396.000000 \\
+		&mean & 21.169157                                      \\
+		&std  & 1.080422                                       \\
+		&min  & 18.105124                                      \\
+		&25\% & 20.549152                                      \\
+		&50\% & 21.305588                                      \\
+		&75\% & 21.918895                                      \\
+		&max  & 24.874828  
+	\end{tabular}
+\end{table}
+
+\newpage
+\paragraph{Points totaux des dégustations} Des différences sont visibles par années en ce qui concerne les moyenne des points. En effet, l'année 2011 possède beaucoup plus de cafés possédant zéro points que l'année 2016 par exemple.
+
+\begin{table}[H]
+	\centering
+	\caption{Points totaux par année}
+	\label{YearlyPuntajeTotal}
+	\begin{tabular}{llll}
+		2011 & count & 330.000000 &  \\
+		&mean & 65.870833 &    \\
+		&std & 30.274299 &    \\
+		&min & 0.000000 &    \\
+		&25\% & 76.000000 &    \\
+		&50\% & 79.000000 &    \\
+		&75\% & 82.000000 &    \\
+		&max & 85.500000 &    \\
+		2016 & count & 367.000000   \\
+		&mean & 78.203597 &    \\
+		&std & 11.202238 &    \\
+		&min & 0.000000 &    \\
+		&25\% & 77.375000 &    \\
+		&50\% & 81.250000 &    \\
+		&75\% & 83.750000 &    \\
+		&max & 87.750000& 
+	\end{tabular}
+\end{table}
+
+
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/Exploration/PointTotauxEtc}
+	\caption{Répartition des points totaux par année}
+	\label{fig:pointtotauxetc}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

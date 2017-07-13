@@ -57,21 +57,6 @@ Les cafés colombiens sont réputés excellents mais sur les 100 points attribua
 \subsection{Analyse exploratoire}
 
 
-\subsubsection{Emplacement des fermes}\label{EmpFermes} L'emplacement des différents cafés par rapport aux nombre de points est présenté sur la figure \ref{FincaVSPoints}. La catégorie 1 (non représentée) correspond aux cafés avec plus de 90 points, la 2 aux cafés avec plus de 85, la 3 aux cafés avec plus de 80 et la 4 aux cafés en dessous de 80, ne correspondant donc pas à la qualité "Specialty". On peut y voir que l'emplacement dans le département n'as pas d'incidence sur les résultats, la répartition des différentes classes étant très uniforme. 
-
-
-\begin{figure}[H]
-	\includegraphics[scale=0.59]{Map_North}
-	\newline
-	\newline
-	\newline
-	\includegraphics[scale=0.5]{Map_South}
-	
-	\begin{figure}[H]
-		\includegraphics[scale=1]{Legend_Map2}
-	\end{figure}
-	\caption{\label{FincaVSPoints} Emplacement des fermes avec coloration selon le nombre de points attribués au café.}
-\end{figure}
 
 
 \subsubsection{Corrélations entre variables}
@@ -98,7 +83,7 @@ Afin d'avoir une bonne vue d'ensemble sur les variables et leurs liens, les matr
 
 
 %TODO Parler des variétés de cafés et de quelques données les concernants (Moyennes de points, rendement par variété, altitude etc) 
-
+%TODO afficher des moyennes par année etc
 
 
 
@@ -109,7 +94,7 @@ Afin d'avoir une bonne vue d'ensemble sur les variables et leurs liens, les matr
 
 %TODO vérifier la version -> ne pas inclure les données de sorties !
 \newpage
-\subsubsection{Principal Component Analysis (PCA) et Clustering}\label{PCAss}
+\subsubsection{Principal Component Analysis (PCA)}\label{PCAss}
 La PCA, pour Analyse en Composantes Principales en français, est une méthode qui consiste à transformer un jeu de variables corrélées en nouvelles variables dé-corrélées les unes des autres. Ces nouvelles variables sont appelées composantes principales et permettent de rendre l'information moins redondante. Pour faire plus simple, l'utilité de la Composante Principale est de réduire le nombre de variables tout en gardant un maximum d'information. La figure \ref{PCAdefinition} montre une représentation graphique de la composante principale. 
 
 
@@ -157,10 +142,34 @@ L'analyse sur une version compacte des variables a donné les résultats présen
 \noindent La première composante met en évidence les températures par rapport à l'altitude alors que la deuxième et la troisième mettent en évidence principalement les caractéristiques du sol. La quatrième montre une dé-corrélation entre les précipitations moyennes et les DTR et la cinquième composante montre une corrélation entre la texture argileuse du sol et son orientation à l'opposé à d'un sol sablonneux. La sixième composante met en évidence une relation entre l'orientation et et les sols rocailleux à l'opposé des sols pentus. 
 
 
+\paragraph{PCA avec prcomp} Afin de visualiser au mieux les données dans la PCA, une autre PCA a été réalisée àl'aide d'un autre outil (prcomp) et chaque point a été coloré selon son année (figure \ref{fig:pcayear}) ou selon sa catégorie (figure \ref{fig:pcacat}). 
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/PCA/PCAYear}
+	\caption{PCA avec Prcomp: Coloration par année}
+	\label{fig:pcayear}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/PCA/PCACat}
+	\caption{PCA avec Prcomp: Coloration par catégorie}
+	\label{fig:pcacat}
+\end{figure}
+
+
+
+
+
+\noindent On peut observer que les deux années sont bien différenciées. Les premiers composants de la PCA montrent l'importance des variables climatiques et les différences entre années sont visibles sur ces graphiques. Les catégories sont aussi différemment réparties. En retournant sur les moyennes de chaque année (Voir description des données section \ref{YearlyPuntajeTotal}), on peut voir que l'année 2011 possède en effet moins de café en nombre mais plus de cafés ayant reçu la note de zéro. On peut aussi voir que les conditions climatiques sont différentes entre les deux années, surtout en termes de précipitations. La section \ref{SOM} montre les relations entre le climat et les défauts totaux, qui peuvent influencer la qualité finale du café.  %TODO
 % https://georgemdallas.wordpress.com/2013/10/30/principal-component-analysis-4-dummies-eigenvectors-eigenvalues-and-dimension-reduction/
 
 %https://onlinecourses.science.psu.edu/stat505/node/54
-\paragraph{Clustering} Afin de vérifier la présence éventuelle de groupes d'individus parmi la population de café, nous réalisons un HCPC, pour \textit{Hierarchical Clustering on Principal Components}, à l'aide de la PCA. La figure \ref{HCT_Suggest} nous montre l'arbre hiérarchique créé ainsi que le nombre de cluster proposé. \\
+\newpage
+\subsubsection{Clustering} Afin de vérifier la présence éventuelle de groupes d'individus parmi la population de café, nous réalisons un HCPC, pour \textit{Hierarchical Clustering on Principal Components}, à l'aide de la PCA. La figure \ref{HCT_Suggest} nous montre l'arbre hiérarchique créé ainsi que le nombre de cluster proposé. \\
 
 \begin{figure}[H]
 	\includegraphics[scale=0.45]{HierarchicalClustering_TreeAndSuggestedNbCluster.pdf}
@@ -170,7 +179,7 @@ L'analyse sur une version compacte des variables a donné les résultats présen
 
 
 \begin{figure}[H]
-	\includegraphics[scale=0.7]{HierarchicalClustering3D.pdf}
+	\includegraphics[scale=0.6]{HierarchicalClustering3D.pdf}
 	\caption{\label{HCT_3d} HCPC arbre 3D}
 \end{figure}
 
@@ -181,7 +190,7 @@ L'analyse sur une version compacte des variables a donné les résultats présen
 %http://www.sthda.com/english/wiki/hcpc-hierarchical-clustering-on-principal-components-hybrid-approach-2-2-unsupervised-machine-learning
 
 \begin{figure}[H]
-	\includegraphics[scale=0.65]{NbClusterSelectInertiaGain.pdf}
+	\includegraphics[scale=0.55]{NbClusterSelectInertiaGain.pdf}
 	\caption{\label{HCT_Inert} Saut d'inertie du dendogramme  }
 \end{figure}
 
@@ -215,8 +224,8 @@ L'analyse sur une version compacte des variables a donné les résultats présen
 
 
 
-\paragraph{Analyse des résultats de clustering}
-
+%\paragraph{Analyse des résultats de clustering}
+%TODO - vérifier
 
 
 
@@ -389,10 +398,6 @@ La carte auto-organisatrice a été réalisée en incluant toutes les variables 
 %ce que les méthodes comme random forest ont donné
 Le but de cette section est d'analyser la possibilité de prédiction de la qualité des cafés à l'aide des données climatiques et de qualité de sols à disposition. La qualité du café fait références aux variables dépendantes citées dans la section \ref{VarDep}.
 
-\subsection{Perceptron Multi-couches}
-%TODO sur R pour comparer avec les mêmes datasets
-Pendiente - pending
-
 
 \subsection{Random Forest}
 % analyser des variables séparément. Possibilité de prédir les défauts vs le "gout", les défauts spéarément - les gouts séparément etc 
@@ -404,7 +409,10 @@ Afin de se faire la meilleure idée possible des possibilités de prédiction, q
 \noindent La méthode Random Forest du package Caret a été utilisée avec une K-Fold Cross Validation ayant comme paramètre K = 10, répétée 3 fois. 
 
 \begin{lstlisting}[caption={Fonction d'entrainement et de test du modèle avec Random Forest},captionpos=b]
-	RFmodelCategory=train(x_cat,y_cat,method="rf",tunegrid=tunegrid_cat,trControl=trainControl(method="repeatedcv",number=10,repeats=3),tuneLength=10,importance = TRUE, proximity=T)
+	RFmodelCategory=train(x_cat,y_cat,method="rf",
+	tunegrid=tunegrid_cat,
+	trControl=trainControl(method="repeatedcv",number=10,repeats=3),
+	tuneLength=10,importance = TRUE, proximity=T)
 \end{lstlisting}
 
 
@@ -561,7 +569,7 @@ Balanced Accuracy    0.563657   0.5049   0.5244
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\linewidth]{../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_models_perfs/modele_Total_Regression}
-	\caption{}
+	\caption{Performances de la régression pour la variable \textit{Puntaje Total}}
 	\label{fig:modeletotalregression}
 \end{figure}
 
@@ -618,7 +626,7 @@ Balanced Accuracy    0.563657   0.5049   0.5244
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_models_perfs/Pred_PuntajeTotal}
-	\caption{Prédiction de la variable dépendante \textit{Puntaje Total}}
+	\caption{Comparaison des prédiction et des valeurs actuelle pour la variable \textit{Puntaje Total}}
 	\label{fig:predpuntajetotal}
 \end{figure}
 
@@ -660,7 +668,7 @@ Balanced Accuracy    0.563657   0.5049   0.5244
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\linewidth]{../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_models_perfs/modele_Acidez_regression}
-	\caption{}
+	\caption{Performances de la régression pour la variable \textit{Acidez}}
 	\label{fig:modeleacidezregression}
 \end{figure}
 
@@ -714,7 +722,7 @@ Balanced Accuracy    0.563657   0.5049   0.5244
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_models_perfs/Pred_ACidez}
-	\caption{Prédiction de la variable indépendante \textit{Acidez}}
+	\caption{Comparaison des prédiction et des valeurs actuelle pour la variable \textit{Acidez}}
 	\label{fig:predacidez}
 \end{figure}
 
@@ -759,7 +767,7 @@ Balanced Accuracy    0.563657   0.5049   0.5244
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\linewidth]{../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_models_perfs/modele_dulzor_regression}
-	\caption{}
+	\caption{Performances de la régression pour la variable \textit{Dulzor}}
 	\label{fig:modeledulzorregression}
 \end{figure}
 
@@ -815,7 +823,7 @@ DtrTotal      & 84.98
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_models_perfs/Pred_Dulzor}
-	\caption{}
+	\caption{Comparaison des prédiction et des valeurs actuelle pour la variable \textit{Dulzor}}
 	\label{fig:preddulzor}
 \end{figure}
 
@@ -849,18 +857,18 @@ Avec une \textit{accuracy} de seulement 0.47  (47\% d'échantillons classés cor
 
 %TODO finir RF et parler de RF avec les variables sans variance etc
 \subsection{Random Forest avec variables à haute variabilité}
-Afin de ne pas polluer le set avec des données inutilement redondantes et corrélées, un second modèle Random Forest a été entrainé avec les variables indépendantes qui avaient un taux de variabilité supérieur à un certain niveau. Le premier niveau a été placé à $10$, ce qui a pour effet de ne garder que $25$ variables. Le second a été placé à $20$, ce qui a pour effet de ne garder que $21$ variables. Les résultats se sont avérés tout aussi imprécis, voir par exemple les résultats de prédiction sur la figure \ref{fig:rfptotalvariability10} avec le seuil à 10 pour la variable \textit{Puntaje Total} et sur la figure \ref{fig:rfptotalvariability20} avec le seuil à 20.
+Afin de tester le modèle sans données inutilement redondantes et fortement corrélées, un second modèle Random Forest a été entrainé avec les variables indépendantes qui avaient un taux de variabilité supérieur à un certain niveau. Le premier niveau a été placé à $10$, ce qui a pour effet de ne garder que $25$ variables. Le second a été placé à $20$, ce qui a pour effet de ne garder que $21$ variables. Les résultats se sont avérés tout aussi imprécis, voir par exemple les résultats de prédiction sur la figure \ref{fig:rfptotalvariability10} avec le seuil à 10 pour la variable \textit{Puntaje Total} et sur la figure \ref{fig:rfptotalvariability20} avec le seuil à 20. Les cafés ayant un total de zéro points ont ici été gardés afin d'observer une éventuelle prédiction correspondante. Sur la figure \ref{fig:rfptotalvariability10} on peut observer qu'un des café ayant zéro points a été prédit à moins de 40 points. Les variables montrée dans le tableau \ref{tab:variability10Variables} sont celles utilisées pour créer le modèle avec un seuil de 10. On peut voir que les précipitations ont une grande importance et cela rejoint l'idée observée dans la section \ref{SOM} que la quantité de précipitations est importante pour la qualité du grain, cependant cela ne permet que d'avoir une approximation de la quantité de défauts physique du grain et non sur la qualité générale. 
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_models_perfs/RF_PTotal_Variability10}
-	\caption{}
+	\caption{Prédiction du total de points avec 25 variables indépendantes}
 	\label{fig:rfptotalvariability10}
 \end{figure}
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_models_perfs/RF_PTotal_Variability20}
-	\caption{}
+	\caption{Prédiction du total de points avec 21 variables indépendantes}
 	\label{fig:rfptotalvariability20}
 \end{figure}
 
@@ -868,7 +876,38 @@ Afin de ne pas polluer le set avec des données inutilement redondantes et corr�
 
 
 
-
+\begin{table}[H]
+	\centering
+	\caption{Variables à haute variabilité avec un coefficient de variabilité supérieur à 10}
+	\label{tab:variability10Variables}
+	\begin{tabular}{lll}
+		& \%IncMSE   & IncNodePurity \\
+		ASNM           & 5.0408727  & 15044.3045    \\
+		Luminosidad    & 5.4787179  & 3642.4806     \\
+		prec1          & 7.6033403  & 11395.8391    \\
+		prec2          & 8.4894841  & 12991.3588    \\
+		prec3          & 9.6477012  & 14018.6199    \\
+		prec4          & 7.6742913  & 16432.9873    \\
+		prec5          & 8.5170477  & 13554.8590    \\
+		prec6          & 9.3037427  & 14994.6836    \\
+		prec7          & 7.3229410  & 14325.6941    \\
+		prec8          & 9.0394682  & 13509.3978    \\
+		prec9          & 9.6867243  & 13287.9725    \\
+		prec10         & 12.0962566 & 17472.3424    \\
+		dtr5           & 10.2926692 & 16738.1273    \\
+		dtr10          & 9.1992584  & 15261.9880    \\
+		PrecTotal      & 12.0991208 & 15483.9130    \\
+		PrecTotalAvg   & 11.6456487 & 13780.0364    \\
+		OrientationNum & 2.4731816  & 10925.6272    \\
+		Slope          & 0.1353807  & 15492.9382    \\
+		org\_avg       & 2.7056077  & 6520.6197     \\
+		Franco         & 1.5936970  & 1931.0307     \\
+		Arcilloso      & -2.9621275 & 1746.0451     \\
+		Limoso         & 2.7839655  & 1631.1038     \\
+		Arenoso        & -1.5199547 & 831.4292      \\
+		Cascajoso      & -0.5423810 & 2330.3915    
+	\end{tabular}
+\end{table}
 
 
 
@@ -918,7 +957,7 @@ La prédiction avec Partial Least Squares ne donne pas de résultats plus convai
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS/ComparisonOfResponsesPuntajeTotal}
-	\caption{}
+	\caption{Comparaison des prédiction et des valeurs actuelle pour la variable Puntaje Total}
 	\label{fig:comparisonofresponsespuntajetotal}
 \end{figure}
 
@@ -926,7 +965,7 @@ La prédiction avec Partial Least Squares ne donne pas de résultats plus convai
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS/ComparisonOfResponsesAcidez}
-	\caption{}
+	\caption{Comparaison des prédiction et des valeurs actuelle pour la variable Acidez}
 	\label{fig:comparisonofresponsesacidez}
 \end{figure}
 
@@ -935,7 +974,7 @@ La prédiction avec Partial Least Squares ne donne pas de résultats plus convai
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS/ComparisonOfResponsesDulzor}
-	\caption{}
+	\caption{Comparaison des prédiction et des valeurs actuelle pour la variable Dulzor}
 	\label{fig:comparisonofresponsesdulzor}
 \end{figure}
 
@@ -960,3 +999,52 @@ La prédiction avec Partial Least Squares ne donne pas de résultats plus convai
 % Revenir sur les données 
 
 % todo -> améliorer les modèles, changer les index (RMSE, RSquared etc) - nécessite théorie
+
+% Portes qui s'ouvrent 
+
+%TODO - Relire et relire, revenir surle rapport et relire, penser au résumé etc
+
+Les différentes analyses réalisées, tant au niveau de l'apprentissage supervisé que non-supervisé n'ont pas permis de créer un modèle fiable de description ou de prédiction de la qualité du café. Cependant, certains résultats peuvent être mis en avant et certaines critiques peuvent être faites sur les données et les méthodes utilisées. \\
+
+%Relation avec la pluie
+\noindent Concernant les résultats exploitables, une relation a été observée entre la quantité de pluie durant l'année et le nombre de défauts physiques du grain. Plus il y a de pluie, plus il y a de grains ayant des défauts et plus il y a de cafés ayant la note zéro (voir section \ref{SOM}). Rappelons que les grains défectueux sont éliminés par un processus industriel permettant l'élimination des grains ayant une couleur ou une densité anormale. Cependant, certains défauts, comme la présence de trous dûs aux parasites (Broca, ou Broca de punto), sont plus difficilement détectables et peuvent amener un goût désagréable au café. Un seul grain peut modifier le goût d'une tasse ! On remarque aussi que l'année 2011 a beaucoup moins de cafés dont la note dépasse les 80 (voir figure \ref{fig:pointtotauxetc}), score minimal pour avoir ma mention \textit{Specialty Coffee}. Il est donc raisonnable de penser que les fortes quantités de pluie, nuisent à la qualité du café.  
+
+
+% Manque de données
+\noindent Premièrement, les données de qualités de sols ne contenant que le pH, le taux de matières organiques et la texture, toute les relations chimiques éventuelles entre les minéraux du sol et les arômes n'ont pas pu être explorées. La composition chimique du sol n'est pas la seule à avoir une influence possible sur la qualité et les saveurs du café. Les différents traitement du café une fois récoltés, comme la fermentation ou le séchage, peuvent avoir une grande influence mais malheureusement aucune donnée n'a été fournie à ce sujet non plus. \\
+
+\noindent Deuxièmement, les données de dégustation contenaient parfois, de manière difforme, des notes sur les arômes ou saveur du café. Ces données peuvent être décrite comme sur la figure \ref{fig:coffeeflavorwheel} et pourraient permettre de décrire d'une manière plus sensorielle le goût du café et et ainsi faire un éventuel lien avec les composants chimiques du sol et les pratiques culturales ou même le climat. Malheureusement le manque de données en nombre d'une part et d'uniformité d'autre part n'ont pas permis d'intégrer ces informations au set de données et donc d'en analyser les éventuelles corrélations.\\
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{img/coffee_flavor_wheel}
+	\caption{Roue des parfums du café}
+	\label{fig:coffeeflavorwheel}
+\end{figure}
+
+%parler des données d'Eric sur la plante du café, de la taille etc
+
+
+
+%Résultat
+\noindent Durant le projet, une réunion a été organisée avec Felipe Rincón, coordonnateur de gestion au comité départemental des caféiculteurs de Risaralda, qui est à l'origine des données sur le café que nous avons reçues. La possibilité m'a été donnée de poser des questions entre autre sur le processus de récolte et de centralisation des données, processus jusqu'alors inexistant. M. Rincón m'a alors confié que les différentes demandes effectuées pour mon travail ainsi que le résultat final de l'agglomération des données disponibles, l'ont poussé à commencer un processus de normalisation de la récolte des données.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

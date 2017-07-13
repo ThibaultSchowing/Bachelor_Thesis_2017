@@ -1,20 +1,163 @@
 \appendix
 
-\chapter{Description du dataset}
+\chapter{Description des données}
+\section{Dataset}
+Le dataset présenté ci-dessous a été réalisé en regroupant les informations de plusieurs classeurs Excel ainsi que de documents au format PDF. Il s'agit d'une version contenant la totalité des données nécessaire au pré-traitement comme les coordonnées géographiques, les noms des fermes etc. Des sous-sets ont été extraits selon les besoins afin de réaliser les calculs avec, par exemple, uniquement les valeurs numériques et une variable dépendante spécifique. 
+
+
+
+\begin{table}[H]
+	\centering
+	\caption{Dataset partie 1}
+	\label{my-label}
+	\begin{tabular}{ll}
+		SICA            & Numéro d'identification unique par parcelle        \\
+		Cedula          & Numéro de document d'identité du caféiculteur      \\
+		Municipio       & Municipio                                          \\
+		Vereda          & Vereda                                             \\
+		Finca           & Ferme                                              \\
+		EPSG:3116\_X    & Coordonnées                                        \\
+		EPSG:3116\_Y    & Coordonnées                                        \\
+		EPSG:4326\_Y    & Coordonnées                                        \\
+		EPSG:4326\_X    & Coordonnées                                        \\
+		Variedad        & Variété                                            \\
+		FechaAnalysis   & Date d'analyse                                     \\
+		year            & Année d'analyse                                    \\
+		Occurence       & Nombre d'occurrence du café                        \\
+		UV              & Pas d'information                                  \\
+		Olor            & Pas d'information                                  \\
+		Humedad         & Humidité                                           \\
+		Merma           & Ullage                                             \\
+		Pergamino       & Produit après lavage                               \\
+		Almendra        & Uniformité des grains                              \\
+		AlmendraTotal   & Total de grain                                     \\
+		AlmendraSana    & Total de grain sains                               \\
+		NegrosYVinagres & Défaut physique                                    \\
+		Broca           & Défaut physique                                    \\
+		\end{tabular}
+\end{table}
+\begin{table}[H]
+\centering
+\caption{Dataset partie 2}
+\label{my-label}
+\begin{tabular}{ll}
+		BrocaDePunto    & Défaut physique                                    \\
+		Veteado         & Défaut physique                                    \\
+		Mordido         & Défaut physique                                    \\
+		Inmaduro        & Défaut physique                                    \\
+		Flojo           & Défaut physique                                    \\
+		Sobresecado     & Défaut physique                                    \\
+		Arrugado        & Défaut physique                                    \\
+		Aplastado       & Défaut physique                                    \\
+		Cristalizado    & Défaut physique                                    \\
+		Reposado        & Défaut physique                                    \\
+		Granizo         & Défaut physique                                    \\
+		Conchas         & Défaut physique                                    \\
+		Partido         & Défaut physique                                    \\
+		Ambar           & Défaut physique                                    \\
+		DefectosTotales & Total des défauts                                  \\
+		ASNM            & Altitude  {[}mètres{]}                             \\
+		Luminosidad     & Luminosité (3 catégories)                          \\
+		prec1-10        & Précipitations sur 10 mois                         \\
+		tmin1-10        & Températures min sur 10 mois                       \\
+		tmax1-10        & Températures max sur 10 mois                       \\
+		tmean1-10       & Températures moyennes sur 10 mois                  \\
+		dtr1-10         & Diurnal Temperature Range sur 10 mois              \\
+		PrecTotal       & Total des précipitations                           \\
+		TminTotal       & Total des températures minimales                   \\
+		TmaxTotal       & Total des températures maximales                   \\
+		TmeanTotal      & Total des températures moyennes                    \\
+		DtrTotal        & Total des DTR                                      \\
+		PrecTotalAvg    & Moyenne des prec sur 10 mois                       \\
+		TminTotalAvg    & Moyenne des tmin sur 10 mois                       \\
+		TmaxTotalAvg    & Moyenne des tmax sur 10 mois                       \\
+		TmeanTotalAvg   & Moyenne des tmean sur 10 mois                      \\
+		DtrTotalAvg     & Moyenne des DTR sur 10 mois                        \\
+		OrientationNum  & Orientation N-S-E-W {[}8 catégories{]}             \\
+		Slope           & Pente {[}pourcentage{]}                            \\
+		Soil Profile    & Profil du sol                                      \\
+		Unidad\_c\_1    & Sous-profil                                        \\
+		pH\_avg         & pH moyen sur 1m                                    \\
+	\end{tabular}
+\end{table}
+\begin{table}[H]
+\centering
+\caption{Dataset partie 3}
+\label{my-label}
+\begin{tabular}{ll}
+		org\_avg        & Matière organique moyenne sur 1m {[}pourcentage{]} \\
+		Franco          & Sol Franco {[}0,1,2,3{]}                           \\
+		Arcilloso       & Sol Argilleux {[}0,1,2,3{]}                        \\
+		Limoso          & Sol Limoneux {[}0,1,2,3{]}                         \\
+		Arenoso         & Sol Sabloneux {[}0,1,2,3{]}                        \\
+		Cascajoso       & Sol Gravilloneux {[}0,1,2,3{]}                     \\
+		Taza1           & Tasse une (limpia ou non)                          \\
+		Taza2           & Tasse deux (limpia ou non)                         \\
+		Taza3           & Tasse trois (limpia ou non)                        \\
+		Taza4           & Tasse quatre (limpia ou non)                       \\
+		Taza5           & Tasse cinq (limpia ou non)                         \\
+		Aroma-Fragancia & Parfum-Arome {[}0-10 pts{]}                        \\
+		Acidez          & Acidité {[}0-10 pts{]}                             \\
+		Cuerpo          & Corps {[}0-10 pts{]}                               \\
+		Sabor           & Saveur {[}0-10 pts{]}                              \\
+		SaborResidual   & Saveur résiduelle {[}0-10 pts{]}                   \\
+		Dulzor          & Douceur  {[}0-10 pts{]}                            \\
+		Uniformidad     & Uniformité {[}0-10 pts{]}                          \\
+		Balance         & Equilibre {[}0-10 pts{]}                           \\
+		TazaLimpia      & Tasse "propre" {[}0-10 pts{]}                      \\
+		PuntajeCatador  & Points dégustateur {[}0-10 pts{]}                  \\
+		PuntajeTotal    & Points totaux {[}0-100 pts{]}                      \\
+		Category        & Catégorie {[}1,2,3,4{]}                           
+	\end{tabular}
+\end{table}
+ 
+
+\section{Données de dégustation brutes}
+Les nombreux fichiers sont disponibles dans les sources du projet. 
+
+\section{Données climatiques et géographiques brutes}
+Les données climatiques consistent en l'extrapolation de multiples points (stations météo) sur une partie du territoire. Ces données sont décrites dans le tableau \ref{ClimaticRawData}.
+
+
+\begin{table}[H]
+	\centering
+	\caption{Format des données climatiques brutes}
+	\label{ClimaticRawData}
+	\begin{tabular}{ll}
+		Nom de la colonne & Description (valeur par défaut)                       \\
+		NCOLS             & Nombre de colonnes (720)                              \\
+		NROWS             & Nombre de lignes (720)                                \\
+		XLLCORNER         & Longitude, coin inférieur gauche {[}Degré decimal{]}  \\
+		& (-77.50042)                                           \\
+		YLLCORNER         & Latitude, coin inférieur gauche {[}Degré decimal{]}   \\
+		& (3.500417)                                              \\
+		CELLSIZE          & Taille des cellules sur la carte {[}Degrés decimal{]} \\
+		& (-0.004166667)                                          \\
+		NODATA\_value     & Valeur « pas de données » (-9999)                     \\
+		Datas             & Données climatique concernée, tableau de 720 par 720                                                     
+	\end{tabular}
+\end{table}
 
 
 
 
 
+\begin{figure}[H]
+	\centering
+	\caption{Shapefile des différentes orientations (Nord - Sud - Est - Ouest) des points dans le département de Risaralda}
+	\label{fig:orientationrisaralda}
+	\includegraphics[width=1\linewidth]{../../Bachelor_Thesis_2017_Sources/Notebook/DataAnalysis/data/Slope_Orientation/Orientation_risaralda}
+	
+\end{figure}
 
 
-
-
-
-
-
-
-
+\begin{figure}[H]
+	\centering
+	\caption{Shapefile des différents profils de sol dans le département de Risaralda}
+	\label{fig:sigsoils}
+	\includegraphics[width=0.7\linewidth]{img/Exploration/SIGsoils}
+	
+\end{figure}
 
 
 
@@ -279,8 +422,7 @@
 
 
 \chapter{Partial Plots - résultats Random Forest}
-
-
+%TODO -> mettre dans les sources à un endroit claire et signaler leur présence...
 
 
 
