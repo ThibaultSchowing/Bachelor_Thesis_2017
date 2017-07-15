@@ -1,9 +1,11 @@
+
 \chapter{Analyse des données}
+\minitoc
 
-
+\newpage
 \section{Data Mining - Analyse exploratoire}
 
-\subsection{Pre-processing}
+\subsection{Pré-traitement}
 %Description du dataset (rapidement, le reste dans un codebook)\\
 
 %Mise en forme du dataset, une sortie à la fois vs plusieurs sorties etc \\
@@ -11,14 +13,14 @@
 
 %Description du set, différentes parties des données, éventuelles données manquantes\\
 
-Une grande partie de l'étape de préprocessing a été réalisée durant l'extraction des données. Il a en effet fallu extraire les données d'une manière uniforme et cohérente dès le départ afin de ne pas se retrouver avec des variables présentes uniquement dans certaines parties du set de données ou avec des variables incohérentes comme cela a été le cas de certains cafés qui avaient comme note de dégustation plus de cent points sur cent par exemple. Des éliminations ou des corrections ont été réalisées de manière automatisées ou manuelles afin de supprimer les erreurs. On notera parmi les corrections importantes le remplacement de virgules par des points, quelques erreurs de frappes (68.5 points sur 10 au lieu de 6.85 par exemple) ou encore des utilisations d'unités différentes. Le dataset résultant est décrit dans l'Annexe A de ce projet. Une fois cette étape de nettoyage réalisée, les premières informations ont pu être extraites des données.\\
+Une grande partie de l'étape de pré-traitement a été réalisée durant l'extraction des données. Il a en effet fallu les extraire d'une manière uniforme et cohérente dès le départ afin de ne pas se retrouver avec des variables présentes uniquement dans certaines parties du set de données ou avec des variables incohérentes comme cela a été le cas de certains cafés qui avaient comme note de dégustation plus de cent points sur cent par exemple. Des éliminations ou des corrections ont été réalisées de manière automatisées et manuelles afin de supprimer les erreurs. On notera parmi les corrections importantes le remplacement de virgules par des points, quelques erreurs de frappes (68.5 points sur 10 au lieu de 6.85 par exemple) ou encore des utilisations d'unités différentes selon les sources. Le dataset résultant est décrit dans l'Annexe A de ce projet. Une fois cette étape de d'extraction et de nettoyage réalisée, les premières informations ont pu être extraites des données.\\
 
 %TODO Annexe A
 
-\noindent Le schéma \ref{DatasetMaking} résume rapidement les différentes élimination d'observations au cours des étapes de construction du set de données. 
+\noindent Le schéma \ref{DatasetMaking} résume rapidement les différentes éliminations d'observations au cours des étapes de construction du set de données. 
 
 \begin{figure}[H]
-	\includegraphics[scale=0.5]{Dataset_1}
+	\includegraphics[scale=0.5]{Dataset_2}
 	\caption{\label{DatasetMaking} Étape de construction du set de données et pertes d'observations.}
 \end{figure}
 
@@ -29,10 +31,10 @@ Une grande partie de l'étape de préprocessing a été réalisée durant l'extr
 
 
 
-\paragraph{Variables dépendantes\label{VarDep}} Les variables de sorties, ou dépendantes, sont composées des dix analyses de dégustation et éventuellement de la totalité des défauts physiques des grains. Sauf pour les défauts physiques des grains, qui sont éliminés avant la dégustation, les variables de sorties sont très corrélées entre elles et il a été discuté avec le responsable du comité  de sélectionner les variables les plus importantes. Ces variables sont \textit{Acidez}, \textit{Dulzor} et \textit{Puntaje Total} ainsi que la catégorie décrite dans le paragraphe suivant qui a été ajouté au set de données.  
+\paragraph{Variables dépendantes\label{VarDep}} Les variables de sorties, ou dépendantes, sont composées des dix analyses de dégustation et éventuellement de la totalité des défauts physiques des grains. Sauf pour les défauts physiques des grains, qui sont éliminés avant la dégustation, les variables de sorties sont très corrélées entre elles et il a été discuté avec le responsable du comité des caféiculteurs de Risaralda, M. Felipe Rincón, de sélectionner les variables les plus importantes. Ces variables sont \textit{Acidez}, \textit{Dulzor} et \textit{Puntaje Total} ainsi que la catégorie décrite dans le paragraphe suivant qui a été ajouté au set de données.  
 
 \paragraph{Catégories}
-Les cafés colombiens sont réputés excellents mais sur les 100 points attribuable lors des dégustations qu'est-ce que cela représente ? Le tableau \ref{categoriesCafe} nous donne une bonne idée de l'échelle représentée. Ces catégories seront utilisées dans le set de données pour tenter de réaliser une classification. 
+Les cafés colombiens sont réputés excellents mais sur les 100 points attribuable lors des dégustations qu'est-ce que cela représente ? Le tableau \ref{categoriesCafe} nous donne une bonne idée de l'échelle de notation. Ces catégories seront utilisées dans le set de données pour tenter de réaliser une classification. 
 \begin{table}[H]
 	\centering
 	\caption{Catégories de cafés d'après le nombre de points \newline Source: http://www.scaa.org/?page=resources\&d=cupping-protocols \label{categoriesCafe}}
@@ -55,9 +57,6 @@ Les cafés colombiens sont réputés excellents mais sur les 100 points attribua
 
 
 \subsection{Analyse exploratoire}
-
-
-
 
 \subsubsection{Corrélations entre variables}
 
@@ -393,15 +392,15 @@ La carte auto-organisatrice a été réalisée en incluant toutes les variables 
 
 \newpage
 
-\section{Résultats des analyses  }
+\section{Résultats des prédictions  }
 %Il a été possible ou non de faire de la prédiction, confusion matrix etc
 %ce que les méthodes comme random forest ont donné
-Le but de cette section est d'analyser la possibilité de prédiction de la qualité des cafés à l'aide des données climatiques et de qualité de sols à disposition. La qualité du café fait références aux variables dépendantes citées dans la section \ref{VarDep}.
+Le but de cette section est d'analyser la possibilité de prédiction de la qualité des cafés\footnote{La qualité du café fait références aux variables dépendantes citées dans la section \ref{VarDep}.} à l'aide des données climatiques et de qualité de sols à disposition. Les méthodes Random Forest et Partial Least Squares seront utilisées.
 
 
 \subsection{Random Forest}
-% analyser des variables séparément. Possibilité de prédir les défauts vs le "gout", les défauts spéarément - les gouts séparément etc 
-Ce chapitre présente comment la méthode Random Forest a été utilisée et les résultats produits. 
+ 
+Cette section présente comment la méthode Random Forest a été utilisée et les résultats produits. 
 \subsubsection{Méthode utilisée}
 % détails de la méthode, choix pour la cross validation, variables entrée/sortie 
 Afin de se faire la meilleure idée possible des possibilités de prédiction, quatre variables de sorties ont été testées. Le nombre total de points (Puntaje Total), l'acidité (Acidez), la douceur (Dulzor) et la catégorie, obtenue d'après le tableau à la section \ref{categoriesCafe}. \\
@@ -977,58 +976,6 @@ La prédiction avec Partial Least Squares ne donne pas de résultats plus convai
 	\caption{Comparaison des prédiction et des valeurs actuelle pour la variable Dulzor}
 	\label{fig:comparisonofresponsesdulzor}
 \end{figure}
-
-
-
-
-
-
-
-
-\chapter{Discussion des résultats}
-
-
-%Analyse globale des résultats, discussion sur les résultats 
-%Données manquantes
-
-%Exemple: on sait que la fermentation du grain dans sa pulpe impacte sur la chimie de la graine et peut rendre le café plus ou moins acide -> pas de données sur la fermentation (temps, méthode etc) idem pour le séchage, le stockage, la récolte etc
-
-
-% L'objectif aurait été de définir des gouts (tastewheel ) - pas de données
-
-% Revenir sur les données 
-
-% todo -> améliorer les modèles, changer les index (RMSE, RSquared etc) - nécessite théorie
-
-% Portes qui s'ouvrent 
-
-%TODO - Relire et relire, revenir surle rapport et relire, penser au résumé etc
-
-Les différentes analyses réalisées, tant au niveau de l'apprentissage supervisé que non-supervisé n'ont pas permis de créer un modèle fiable de description ou de prédiction de la qualité du café. Cependant, certains résultats peuvent être mis en avant et certaines critiques peuvent être faites sur les données et les méthodes utilisées. \\
-
-%Relation avec la pluie
-\noindent Concernant les résultats exploitables, une relation a été observée entre la quantité de pluie durant l'année et le nombre de défauts physiques du grain. Plus il y a de pluie, plus il y a de grains ayant des défauts et plus il y a de cafés ayant la note zéro (voir section \ref{SOM}). Rappelons que les grains défectueux sont éliminés par un processus industriel permettant l'élimination des grains ayant une couleur ou une densité anormale. Cependant, certains défauts, comme la présence de trous dûs aux parasites (Broca, ou Broca de punto), sont plus difficilement détectables et peuvent amener un goût désagréable au café. Un seul grain peut modifier le goût d'une tasse ! On remarque aussi que l'année 2011 a beaucoup moins de cafés dont la note dépasse les 80 (voir figure \ref{fig:pointtotauxetc}), score minimal pour avoir ma mention \textit{Specialty Coffee}. Il est donc raisonnable de penser que les fortes quantités de pluie, nuisent à la qualité du café.  
-
-
-% Manque de données
-\noindent Premièrement, les données de qualités de sols ne contenant que le pH, le taux de matières organiques et la texture, toute les relations chimiques éventuelles entre les minéraux du sol et les arômes n'ont pas pu être explorées. La composition chimique du sol n'est pas la seule à avoir une influence possible sur la qualité et les saveurs du café. Les différents traitement du café une fois récoltés, comme la fermentation ou le séchage, peuvent avoir une grande influence mais malheureusement aucune donnée n'a été fournie à ce sujet non plus. \\
-
-\noindent Deuxièmement, les données de dégustation contenaient parfois, de manière difforme, des notes sur les arômes ou saveur du café. Ces données peuvent être décrite comme sur la figure \ref{fig:coffeeflavorwheel} et pourraient permettre de décrire d'une manière plus sensorielle le goût du café et et ainsi faire un éventuel lien avec les composants chimiques du sol et les pratiques culturales ou même le climat. Malheureusement le manque de données en nombre d'une part et d'uniformité d'autre part n'ont pas permis d'intégrer ces informations au set de données et donc d'en analyser les éventuelles corrélations.\\
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=1\linewidth]{img/coffee_flavor_wheel}
-	\caption{Roue des parfums du café}
-	\label{fig:coffeeflavorwheel}
-\end{figure}
-
-%parler des données d'Eric sur la plante du café, de la taille etc
-
-
-
-%Résultat
-\noindent Durant le projet, une réunion a été organisée avec Felipe Rincón, coordonnateur de gestion au comité départemental des caféiculteurs de Risaralda, qui est à l'origine des données sur le café que nous avons reçues. La possibilité m'a été donnée de poser des questions entre autre sur le processus de récolte et de centralisation des données, processus jusqu'alors inexistant. M. Rincón m'a alors confié que les différentes demandes effectuées pour mon travail ainsi que le résultat final de l'agglomération des données disponibles, l'ont poussé à commencer un processus de normalisation de la récolte des données.  
-
 
 
 

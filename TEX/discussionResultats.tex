@@ -1,0 +1,67 @@
+\chapter{Discussion des résultats}
+
+
+%Analyse globale des résultats, discussion sur les résultats 
+%Données manquantes
+
+%Exemple: on sait que la fermentation du grain dans sa pulpe impacte sur la chimie de la graine et peut rendre le café plus ou moins acide -> pas de données sur la fermentation (temps, méthode etc) idem pour le séchage, le stockage, la récolte etc
+
+
+% L'objectif aurait été de définir des gouts (tastewheel ) - pas de données
+
+% Revenir sur les données 
+
+% todo -> améliorer les modèles, changer les index (RMSE, RSquared etc) - nécessite théorie
+
+% Portes qui s'ouvrent 
+
+%TODO - Relire et relire, revenir surle rapport et relire, penser au résumé etc
+
+Les différentes analyses réalisées, tant au niveau de l'apprentissage supervisé que non-supervisé n'ont pas permis de créer un modèle fiable de description ou de prédiction de la qualité du café. Cependant, certains résultats peuvent être mis en avant et certaines critiques peuvent être faites sur les données et les méthodes utilisées. \\
+
+%Relation avec la pluie
+\noindent Concernant les résultats exploitables, une relation a été observée entre la quantité de pluie durant l'année et le nombre de défauts physiques du grain. Plus il y a de pluie, plus il y a de grains ayant des défauts et plus il y a de cafés ayant la note zéro (voir figure \ref{ThirdSOMASNM}). Rappelons que les grains défectueux sont éliminés par un processus industriel permettant l'élimination des grains ayant une couleur ou une densité anormale. Cependant, certains défauts, comme la présence de trous dûs aux parasites (Broca, ou Broca de punto), sont plus difficilement détectables et peuvent amener un goût désagréable au café. Un seul grain peut modifier le goût d'une tasse ! On remarque aussi que l'année 2011 a beaucoup moins de cafés dont la note dépasse les 80 (voir figure \ref{fig:pointtotauxetc}), score minimal pour avoir ma mention \textit{Specialty Coffee}. Il est donc raisonnable de penser que les fortes quantités de pluie, nuisent à la qualité du café.  
+
+
+% Manque de données
+\noindent Premièrement, les données de qualités de sols ne contenant que le pH, le taux de matières organiques et la texture, toute les relations chimiques éventuelles entre les minéraux du sol et les arômes n'ont pas pu être explorées. La composition chimique du sol n'est pas la seule à avoir une influence possible sur la qualité et les saveurs du café. Les différents traitement du café une fois récoltés, comme la fermentation ou le séchage, peuvent avoir une grande influence mais malheureusement aucune donnée n'a été fournie à ce sujet non plus. \\
+
+\noindent Deuxièmement, les données de dégustation contenaient parfois, de manière difforme, des notes sur les arômes ou saveur du café. Ces données peuvent être décrite comme sur la figure \ref{fig:coffeeflavorwheel} et pourraient permettre de décrire d'une manière plus sensorielle le goût du café et et ainsi faire un éventuel lien avec les composants chimiques du sol et les pratiques culturales ou même le climat. Malheureusement le manque de données en nombre d'une part et d'uniformité d'autre part n'ont pas permis d'intégrer ces informations au set de données et donc d'en analyser les éventuelles corrélations.\\
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=1\linewidth]{img/coffee_flavor_wheel}
+	\caption{Roue des parfums du café}
+	\label{fig:coffeeflavorwheel}
+\end{figure}
+
+
+
+%Customisation des méthodes, essais avec d'autres méthodes, traitement des variables catégorielles
+
+%parler des données d'Eric sur la plante du café, de la taille etc
+
+
+
+
+
+
+
+
+
+
+%Résultat
+\noindent Durant le projet, une réunion a été organisée avec Felipe Rincón, coordonnateur de gestion au comité départemental des caféiculteurs de Risaralda, qui est à l'origine des données sur le café que nous avons reçues. La possibilité m'a été donnée de poser des questions entre autre sur le processus de récolte et de centralisation des données, processus jusqu'alors inexistant. M. Rincón m'a alors confié que les différentes demandes effectuées pour mon travail ainsi que le résultat final de l'agglomération des données disponibles, l'ont poussé à commencer un processus de normalisation de la récolte des données.  
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -23,7 +23,9 @@
 \usepackage{pgfplotstable}
 \usepackage[final]{pdfpages}
 
+
 \usepackage[hidelinks]{hyperref}
+\usepackage{minitoc}
 
 \usepackage{cleveref}
 
@@ -44,6 +46,17 @@
 
 % Evite les gros début de chapitre inutiles. 
 \usepackage{titlesec}
+
+% niveaux de table des matières
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{3}
+
+% Liste des abréviations
+\usepackage{nomencl} 
+\makenomenclature 
+\renewcommand{\nomname}{Liste des abréviations}% Pour redéfinir le titre De cette liste
+
+
 
 
 
@@ -110,6 +123,9 @@
 	% -l) Le journal de travail
 	
 	% Page de titre
+	
+	\dominitoc
+
 	\begin{titlepage}
 		\centering
 		
@@ -141,23 +157,42 @@
 	
 	\frontmatter
 	
-	\include{acknowledgements}
+	% Entrées pour la liste des abréviations, compiler -> exécuter la commande ci-dessous -> recompiler
 	
+	% makeindex -s nomencl.ist -t "Bachelor_Schowing2017.nlg" -o "Bachelor_Schowing2017.nls" "Bachelor_Schowing2017.nlo"
+	\nomenclature{SOM}{Self Organizing Map}
+	\nomenclature{FNC}{Fédération Nationale des Caféiculteurs}
+	\nomenclature{DTR}{Diurnal Temperature Range}
+	\nomenclature{SICA}{Sistema de Información Cafetera}
+	\nomenclature{SCAA}{Specialty Coffee Association of America}
+	\nomenclature{CIAT}{Centre Internationnal de recherche pour l'Agriculture Tropicale}
+	\nomenclature{tmax}{Température maximale}
+	\nomenclature{tmin}{Température minimale}
+	\nomenclature{tmean}{Température moyenne}
+	\nomenclature{GIS}{Geographical Information System}
+	\nomenclature{}{}
+	
+	\include{acknowledgements}
 	\afterpage{\blankpage}
+	
+	\include{cdc}
+	\afterpage{\blankpage}
+	
 	
 	\include{summary}
-	
 	\afterpage{\blankpage}
-	
 	
 	\tableofcontents
 	
-	\afterpage{\blankpage}
+	
+
 	
 	\mainmatter
 	\include{body}
 	
 	\include{Results}
+	
+	\include{discussionResultats}
 	
 	\include{Conclusion}
 	
@@ -171,6 +206,8 @@
 	\listoffigures
 	
 	\listoftables
+	
+	\printnomenclature
 	
 	
 	

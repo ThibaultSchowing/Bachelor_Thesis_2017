@@ -33,21 +33,21 @@ Malheureusement, aucune données de ce type n'a été fournies pour la réalisat
 \subsection{Données gustatives}
 Les données gustatives sont très relatives aux sens et à la perception de chaque goutteur. Cependant, la SCAA, \textit{Speciality Coffee Association of America}, dispose d’un système de notation basé sur des hypothèses communautaires reconnues ce qui permet d’avoir une certaine régularité dans les données de dégustations. Les cafés sont notés sur 100 points répartis sur plusieurs critères: parfum/arôme, saveur, arrière-goût, acidité, corps, équilibre, douceur, clean-cup (absence de défauts marqués), uniformité et évaluation personnelle du testeur.  Chacun de ces critères est noté sur 10 mais aussi par des termes qualitatifs. Par exemple, la saveur, c’est-à-dire la combinaison de l’odeur et du goût, la première impression qu’on a en goûtant le café, peut être notée 7/10 et “Caramel”. \\
 
-\noindent Le premier échantillon de données reçu contenait toutes ces informations de manière uniforme mais il s'est avéré que la partie mandante n'avait pas pu uniformiser la totalité des données brutes dans les délais. Ainsi, les données finalement reçues variaient beaucoup d'un document à l'autre, d'une part dans les données de dégustations présentes et dans le type de document mais aussi dans les méta-données permettant d'identifier précisément de quelle café il s'agissait. Il a donc fallut effectuer un tri et ne garder que la masse qu'il était possible d'utiliser. Les critères permettant de garder une dégustation ou non sont les suivants: Identification possible du café grâce au numéro SICA ou au numéro d'identité du caféiculteur, présence des défauts physiques du café, présence des caractéristiques gustatives de manière uniforme. La FNC a été sollicitée afin de compléter les données une fois celles-ci triées afin d'y ajouter les numéros SICA ou les numéros d'identité manquants, et d'y ajouter les coordonnées de chaque parcelle sous la forme de référence spatiale EPSG:3116 en suite converties en coordonnées GPS classiques degrés-décimaux.\\
+\noindent Un premier échantillon de trois cafés contenait toutes ces informations de manière uniforme, mais il s'est avéré que la partie mandante n'avait pas pu uniformiser la totalité des données brutes dans les délais et la tâche d'uniformisation nous a donc été confiée. Ainsi, les données finalement reçues variaient beaucoup d'un document à l'autre, d'une part dans les données de dégustations présentes et dans le type de document mais aussi dans les méta-données permettant d'identifier précisément de quel café il s'agissait. Il a donc fallut effectuer un tri et ne garder que la masse qu'il était possible d'utiliser. Les critères permettant de garder une dégustation ou non sont les suivants: Identification possible du café grâce au numéro SICA ou au numéro d'identité du caféiculteur, présence des défauts physiques du café, présence des caractéristiques gustatives de manière uniforme. La FNC a été sollicitée afin de compléter les données une fois celles-ci triées afin d'y ajouter les numéros SICA ou les numéros d'identité manquants, et d'y ajouter les coordonnées de chaque parcelle sous la forme de référence spatiale EPSG:3116 en suite converties en coordonnées GPS classiques degrés-décimaux.\\
 
-\paragraph{Traitement du café} Pour avoir une vision globale, voici un petit résumé sur la production du café dans une des fermes du département de Risaralda. Cette ferme ne reflète pas la production de toutes les fermes du département cependant elle fait partie des meilleures plantation du secteur. \\
+\paragraph{Traitement du café} Pour avoir une vision d'ensemble, voici un petit résumé concernant la production du café dans une des fermes du département de Risaralda. Cette ferme ne reflète pas la production de toutes les fermes du département cependant elle fait partie des meilleures plantation du secteur, et c'était une occasion pour l'équipe de s'informer directement sur le terrain. \\
 
 \noindent Lorsque les grains de café sont mûrs, ils sont récoltés à la main puis amené dans une grande cuve sous laquelle se trouvent les différentes machines permettant de traiter la baie afin d'en extraire le grain. La première de ces machine c'est la dépulpeuse qui permet d'enlever la partie charnue du grain. La pulpe est récupérée en contre-bas et le grain continue son chemin dans deux directions possibles. Si la ferme en est équipée, une machine appelée \textit{desmucilaginador} va enlever la matière gluante entourant le grain, appelé \textit{miel} ou en français \textit{mucilage}, en le lavant. Si la ferme n'est pas équipé de cette machine, les grains vont être déversés dans une cuve où un processus de fermentation va être lancé variant entre une dizaine d'heures à plusieurs jours ce qui aura pour effet de laver le mucilage des grains. Une fois les grains lavés, ils seront séchés soit à l'air en utilisant la chaleur du soleil dans des grandes terrasse à café, ce processus prends environ dix jours, soit dans des machines à air chaud, plus onéreuse mais permettant de sécher de grandes quantités de grains en quelques heures. Une fois les grains séchés, ils sont vendus et l'étape suivant consiste à retirer de manière industrielle les grains endommagés car un seul grain peut rendre une tasse imbuvable. Des machines analyse les grains et éliminent ceux dont la densité ou la couleur n'est pas normale.\cite{GuideCafe} \\
 
-\noindent Les différentes méthodes de préparation du café ont chacune leurs avantages économiques, écologiques ou gustatifs. La taille de l'arbre après un certain temps peut par exemple se faire de plusieurs manière affectant grandement le rendement. La complexité chimique de la fermentation peut apporter certains arômes tout comme un séchage rapide à l'air chaud peut en enlever. 
+\noindent Les différentes méthodes de préparation du café ont chacune leurs avantages économiques, écologiques ou gustatifs. Par exemple, la taille de l'arbre, obligatoire après un certain nombre d'année, peut se faire de plusieurs manière chacune affectant le rendement de manière différente. La complexité chimique de la fermentation peut apporter certains arômes tout comme un séchage rapide à l'air chaud peut en enlever. %TODO citer qqch sur le café
 
  
 \subsection{Données climatiques}
-Les données climatiques comprennent les températures maximales, minimales et moyennes, la variation de température pendant la journée (DTR) et les quantités de précipitations. Les moyennes de ces mesures ont été calculée pour chaque mois et extrapolées sur une grande partie du territoire (à partir de stations météorologiques), permettant ainsi d’accéder aux mesures selon l’emplacement désiré à environ 500 mètres près. \\
+Les données climatiques comprennent les températures maximales, minimales et moyennes, la variation de température pendant la journée (DTR) et les quantités de précipitations. Les moyennes de ces mesures ont été calculée pour chaque mois et extrapolées sur une grande partie du territoire à partir de données provenant de différentes stations météorologiques du pays, permettant ainsi d’accéder aux mesures selon l’emplacement désiré à environ 500 mètres près. \\
 
-\noindent En prenant par exemple les données de température maximale pour le mois de janvier 2011, en affectant pour chaque valeur une couleur, nous pouvons visualiser les données sous la forme d'une image comme sur la figure \ref{tmax_picture}.\\
+\noindent En prenant par exemple les données de température maximale pour le mois de janvier 2011, en affectant pour les valeurs une échelle de couleurs, nous pouvons visualiser les données sous la forme d'une image comme sur la figure \ref{tmax_picture}.\\
 
-\noindent Les données climatiques sont données de 2011 à 2016. il faudra cependant faire attention au fait qu'un café dégusté en février 2011 a poussé bien plus tôt. Les processus de récolte, de nettoyage, de fermentation, de séchage et de torréfaction du grain prennent du temps. Ce temps a dû être pris en compte afin de sélectionner les bonnes données et a été fixé à 10 mois . 
+\noindent Les données climatiques sont données de 2011 à 2016. il faudra cependant faire attention au fait qu'un café dégusté en février 2011 a poussé bien plus tôt. Les processus de récolte, de nettoyage, de fermentation, de séchage et de torréfaction du grain prennent du temps. Ce temps a dû être pris en compte afin de sélectionner les bonnes données et a été fixé à 10 mois sans prendre en compte le mois précédant la dégustation, qui est estimé comme temps nécessaire à la récolte et au traitement du grain. 
 
 
 \begin{figure}[H]
@@ -56,7 +56,7 @@ Les données climatiques comprennent les températures maximales, minimales et m
 	\caption{\label{tmax_picture} Mise sous forme graphique du tableau des température maximales pour le mois de janvier 2011 }
 \end{figure}
 
-\paragraph{Contexte climatique Colombien}La Colombie se trouvant à proximité de l'équateur, on y trouve que deux saisons: l'été ou saison sèche (de décembre à janvier et de juillet à août) puis l'hiver ou saison des pluies (d'avril à mai et de octobre à novembre). Le relief du pays ainsi que sa taille, font varier le climat de chaud et humide pour la partie amazonienne et la région des caraïbes, désertique pour la région de Guajira tout au nord et glacial pour les zones en haute altitude à plus de 3000 mètres. Le département de Risaralda se trouve dans le centre de la Colombie dans la région de l'Axe du café et jouit de conditions climatiques, géographiques et géologiques idéales pour la culture du café. Les températures oscillent entre 8 et 24 degrés mais un phénomène appelé \textit{El Niño} perturbe régulièrement le climat à l'échelle du continent. 
+\paragraph{Contexte climatique Colombien}La Colombie se trouvant à proximité de l'équateur, on y trouve que deux saisons: l'été ou saison sèche (de décembre à janvier et de juillet à août) puis l'hiver ou saison des pluies (d'avril à mai et de octobre à novembre). Le relief du pays ainsi que sa taille, font varier le climat de chaud et humide pour la partie amazonienne et la région des caraïbes, désertique pour la région de Guajira tout au nord ou le désert de Tatacoa au centre et glacial pour les zones en haute altitude à plus de 3000 mètres. Le département de Risaralda se trouve dans le centre de la Colombie dans la région de l'Axe du café et jouit de conditions climatiques, géographiques et géologiques idéales pour la culture du café. Les températures oscillent entre 8 et 24 degrés mais le phénomène appelé \textit{El Niño} perturbe régulièrement le climat à l'échelle du continent, voir même du monde. 
 
 % http://www.actulatino.com/2016/01/14/colombie-el-nino-provoque-chaleur-et-secheresse-juan-manuel-santos-appelle-a-la-vigilance/
 
@@ -78,7 +78,7 @@ Les données climatiques comprennent les températures maximales, minimales et m
 Les données de qualité de sol sont subdivisées en profils. Chaque profil est séparé en une ou plusieurs couches d’une certaine profondeur dont sont renseignées les caractéristiques comme le pH, la texture ou encore le taux de matière organique. Les différentes textures sont présentées sur la figure \ref{TriangleTexture}. Afin d'avoir des données uniformes, les moyennes sur les 3 premières couches jusqu'à 1 mètre de profondeur ont été réalisées pour le pH et le niveau de matière organique alors que pour la texture, la somme des variable binaire a été effectuée. \\
 
 
-\noindent Les données proviennent d'un GIS \footnote{Geographical Information System}, d'où il a été possible de croiser les données point par point afin d'extraire le profil de sol correspondant à un set de coordonnées GPS. Malheureusement les profils ne contiennent que pH, matière organique et texture. Des données très hétérogènes contenaient d'autres informations sur la composition chimique du sol mais leur structure et leur répartition irrégulière dans la zone de travail ont forcé à abandonner leur utilisation par manque de temps et de ressources.
+\noindent Les données proviennent d'un GIS \footnote{Geographical Information System}, d'où il a été possible de croiser les données point par point afin d'extraire le profil de sol correspondant à un set de coordonnées GPS. Malheureusement les profils ne contiennent que pH, matière organique et texture. D'autres données très hétérogènes contenaient d'autres informations sur la composition chimique du sol mais leur structure et leur répartition irrégulière dans la zone de travail ont forcé à abandonner leur utilisation par manque de temps et de ressources.
 
 % triangulo-del-suelo
 \begin{figure}[H]
@@ -95,7 +95,7 @@ Les données de qualité de sol sont subdivisées en profils. Chaque profil est 
 \newpage
 \section{Quelques chiffres et informations sur les données}
 
-\paragraph{Emplacement des fermes}\label{EmpFermes} L'emplacement des différents cafés par rapport aux nombre de points est présenté sur la figure \ref{FincaVSPoints}. La catégorie 1 (non représentée) correspond aux cafés avec plus de 90 points, la 2 aux cafés avec plus de 85, la 3 aux cafés avec plus de 80 et la 4 aux cafés en dessous de 80, ne correspondant donc pas à la qualité "Specialty". On peut y voir que l'emplacement dans le département n'as pas d'incidence sur les résultats, la répartition des différentes classes étant très uniforme. Les différentes classes attribuée aux cafés sont expliquée au point \ref{categoriesCafe}.
+\paragraph{Emplacement des fermes}\label{EmpFermes} L'emplacement des différents cafés par rapport aux nombre de points est présenté sur la figure \ref{FincaVSPoints}. La catégorie 1 (non représentée) correspond aux cafés avec plus de 90 points, la 2 aux cafés avec plus de 85, la 3 aux cafés avec plus de 80 et la 4 aux cafés en dessous de 80, ne correspondant donc pas à la qualité "Specialty". On peut y voir que l'emplacement dans le département n'a, à première vue, pas d'incidence sur les résultats, la répartition des différentes classes étant très uniforme. Les différentes catégories attribuées aux cafés sont expliquées plus en détail au point \ref{categoriesCafe}.
 
 
 
@@ -115,7 +115,7 @@ Les données de qualité de sol sont subdivisées en profils. Chaque profil est 
 
 
 \newpage
-\paragraph{Altitude et points} \footnote{Les sets de données utilisés ici peuvent différer, certaines données ont été extraites du set de base, contenant des données manquantes (pour certaines variables) et d'autres ont été extraites du set complet utilisé pour les calculs. Les données ne différent que très peu entre ces sets et l'impact est minimal pour le calcul de simple moyennes.}Les plantations sont réparties entre une altitude de 935 mètres et de 2001 mètres alors que nombre de points totaux attribués aux cafés varie entre 0 et 87.75. 
+\paragraph{Altitude et points} \footnote{Les sets de données utilisés ici peuvent différer, certaines données ont été extraites du set de base, contenant des données manquantes (pour certaines variables) et d'autres ont été extraites du set complet utilisé pour les calculs. Les données ne différent que très peu entre ces sets et l'impact est minimal pour le calcul de simple moyennes à titre exploratoire.}Les plantations sont réparties entre une altitude de 935 mètres et de 2001 mètres alors que nombre de points totaux attribués aux cafés varie entre 0 et 87.75. 
 
 \begin{figure}[H]
 	\centering
@@ -135,7 +135,7 @@ Les données de qualité de sol sont subdivisées en profils. Chaque profil est 
 
 
 \newpage
-\paragraph{Précipitations et températures} Les deux années présentes dans les données, 2011 et 2016 sont eux années différentes au niveau climatique, surtout au niveau des précipitations.  
+\paragraph{Précipitations et températures} Les deux années présentes dans les données, 2011 et 2016 sont deux années sensiblement différentes au niveau climatique, surtout au regard des précipitations.  
 
 \begin{table}[H]
 	\centering
@@ -187,7 +187,7 @@ Les données de qualité de sol sont subdivisées en profils. Chaque profil est 
 \end{table}
 
 \newpage
-\paragraph{Points totaux des dégustations} Des différences sont visibles par années en ce qui concerne les moyenne des points. En effet, l'année 2011 possède beaucoup plus de cafés possédant zéro points que l'année 2016 par exemple.
+\paragraph{Points totaux des dégustations} Des différences sont visibles par année en ce qui concerne les moyennes des points. En effet, l'année 2011 possède beaucoup plus de cafés notés avec zéro points que l'année 2016 par exemple.
 
 \begin{table}[H]
 	\centering
@@ -245,7 +245,7 @@ Les données de qualité de sol sont subdivisées en profils. Chaque profil est 
 
 \chapter{Méthodes de modélisation}
 \section{Rappel des objectifs}\label{obj}
-Ce projet a deux principaux objectifs. Le premier est de trouver s'il existe différents groupes de café ayant des relations entre les conditions de culture et les caractéristiques physiques ou sensorielles. On cherche donc dans cette première partie à caractériser les cafés. On peut ici parler de clustering.  Le second objectif serait de prédire les caractéristiques physiques ou sensorielles à partir des données sur les conditions de culture. Nous avons donc ici plusieurs possibilités de manières d'agir. Par exemple, si le clustering a réussi à diviser les cafés en différentes classes, on cherchera à prédire dans quelle classe se situe un nouveau café. Plus spécifiquement, on pourra se concentrer sur certains attributs du café, par exemple l'acidité, afin d'estimer quelle sera la note attribuée. 
+Ce projet a deux principaux objectifs. Le premier est de trouver s'il existe différents groupes de cafés ayant des relations entre les conditions de culture et les caractéristiques physiques ou sensorielles. On cherche donc dans cette première partie à caractériser les cafés. On peut ici parler de clustering.  Le second objectif est de prédire les caractéristiques physiques ou sensorielles à partir des données sur les conditions de culture. Nous avons donc ici plusieurs possibilités de manières d'agir. Par exemple, si le clustering a réussi à diviser les cafés en différentes classes, on cherchera à prédire dans quelle classe se situe un nouveau café. Plus spécifiquement, on pourra se concentrer sur certains attributs du café, par exemple l'acidité, afin d'estimer quelle sera la note attribuée. 
 
 
 
@@ -253,7 +253,7 @@ Ce projet a deux principaux objectifs. Le premier est de trouver s'il existe dif
 
 \section{Apprentissage supervisé}
 % knn, réseaux de neurones etc
-Le but de l'apprentissage supervisé est d'expliquer des sorties (outputs) à partir d'entrées (inputs). Des règles sont calculées à partir de données d'apprentissage selon différents modèles. Par la suite, le modèle est utilisé pour catégoriser des nouvelles données. On essayera ici d'expliquer les données gustatives du café ou ses défauts physiques à l'aide des données climatiques et de sols. 
+Le but de l'apprentissage supervisé est d'expliquer des sorties (outputs) à partir d'entrées (inputs). Des règles sont calculées à partir de données d'apprentissage selon différents modèles. Par la suite, le modèle est utilisé pour prédire des nouvelles données. On essayera ici d'expliquer les données gustatives du café ou ses défauts physiques à l'aide des données climatiques et de sols. 
 
 
 \subsection{Random Forest}
@@ -315,7 +315,15 @@ Contrairement à l'apprentissage supervisé, l'apprentissage non-supervisé tent
 
 \subsection{SOM}
 
-Les différentes classes gustatives d'un café peuvent être considérées comme des entrées afin vérifier s'il est possible de regrouper différents cafés qui se distingueraient. Afin de trouver les différentes catégories de café, nous testerons les capacités de l'algorithme SOM (pour Self Organizing Map ou Cartes Auto Adaptatives en français) qui utilise un réseau de neurones pour étudier la répartition des données dans un espace de grande dimension. 
+
+Les cartes SOM, pour \textit{Self Organizing Map} aussi appelées cartes de Kohonen du nom du statisticien ayant développé la méthode, sont des réseaux de neurones disposés en grille permettant de réduire dans un espace en deux dimensions des données ayant $n$ dimensions.\\
+ 
+
+\noindent La carte est composée de composants appelés noeuds ou neurones. Ces neurones sont associés à un vecteur de poids de dimension identique au données d'entrée (initié aléatoirement) et à une position dans l'espace de la carte. L'algorithme va en suite trouver quelle neurone est le plus proche à la donnée pour chaque observation et va rapprocher les données du neurone dans l'espace de la carte et modifier les poids du neurone afin d'accroitre l'influence du neurone sur les prochaines observations proches\cite{Kohonen:1988:SFT:65669.104428}.\\
+
+
+\noindent On souhaite vérifier s'il est possible de regrouper des cafés qui se distingueraient et à l'aide des différents composants de la carte SOM, comprendre quelles variables ont une influence sur la qualité. \\
+ 
 
 \noindent Un bel exemple de SOM est celui de la carte de la pauvreté mondiale réalisé par le \textit{Department of Computer Science and Engineering} de l'université \textit{Helsinki University of Technology}. 
 
@@ -330,9 +338,6 @@ Les différentes classes gustatives d'un café peuvent être considérées comme
 \end{figure}
 
 
-
-
-% TODO - supprimer ou pas ? c'est chiant la théorie on veut des résultats
 
 \newpage
 \section{Optimisation}

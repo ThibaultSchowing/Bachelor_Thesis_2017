@@ -1,0 +1,27 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{}]\begingroup \nomeqref {0}\nompageref{i}
+  \item [{CIAT}]\begingroup Centre Internationnal de recherche pour l'Agriculture Tropicale\nomeqref {0}
+		\nompageref{i}
+  \item [{DTR}]\begingroup Diurnal Temperature Range\nomeqref {0}
+		\nompageref{i}
+  \item [{FNC}]\begingroup Fédération Nationale des Caféiculteurs\nomeqref {0}
+		\nompageref{i}
+  \item [{GIS}]\begingroup Geographical Information System\nomeqref {0}
+		\nompageref{i}
+  \item [{SCAA}]\begingroup Specialty Coffee Association of America\nomeqref {0}
+		\nompageref{i}
+  \item [{SICA}]\begingroup Sistema de Información Cafetera\nomeqref {0}
+		\nompageref{i}
+  \item [{SOM}]\begingroup Self Organizing Map\nomeqref {0}
+		\nompageref{i}
+  \item [{tmax}]\begingroup Température maximale\nomeqref {0}
+		\nompageref{i}
+  \item [{tmean}]\begingroup Température moyenne\nomeqref {0}
+		\nompageref{i}
+  \item [{tmin}]\begingroup Température minimale\nomeqref {0}
+		\nompageref{i}
+
+\end{thenomenclature}

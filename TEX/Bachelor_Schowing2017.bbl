@@ -25,6 +25,12 @@ Trevor Hastie, Robert Tibshirani, and Jerome Friedman.
   prediction}.
 \newblock Springer, 2 edition, 2009.
 
+\bibitem{Kohonen:1988:SFT:65669.104428}
+Teuvo Kohonen.
+\newblock Neurocomputing: Foundations of research.
+\newblock chapter Self-organized Formation of Topologically Correct Feature
+  Maps, pages 509--521. MIT Press, Cambridge, MA, USA, 1988.
+
 \bibitem{OMM}
 OMMpublic.wmo.int.
 \newblock D’une intensité exceptionnelle, l’épisode el niño a amorcé
