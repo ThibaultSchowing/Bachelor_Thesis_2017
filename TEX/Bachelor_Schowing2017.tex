@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper]{report}
+\documentclass[11pt,a4paper,twoside,openright]{report}
 
 % Packages 
 
@@ -28,6 +28,9 @@
 \usepackage{minitoc}
 
 \usepackage{cleveref}
+
+\usepackage{geometry} 
+
 
 
 \lstset{frame=tb,
@@ -125,7 +128,7 @@
 	% Page de titre
 	
 	\dominitoc
-
+	\newgeometry{hmarginratio=1:1}
 	\begin{titlepage}
 		\centering
 		
@@ -151,8 +154,8 @@
 		
 		
 	\end{titlepage}
-	
-	\afterpage{\blankpage}
+	\restoregeometry 
+	%\afterpage{\blankpage}
 	\pagenumbering{gobble}
 	
 	\frontmatter
@@ -173,6 +176,8 @@
 	\nomenclature{HCPC}{Hierarchical Clustering on Principal Components}
 	\nomenclature{}{}
 	
+	
+	\afterpage{\blankpage}
 	\include{acknowledgements}
 	\afterpage{\blankpage}
 	
