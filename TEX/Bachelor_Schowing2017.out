@@ -22,12 +22,12 @@
 \BOOKMARK [0][-]{chapter.4}{Analyse des donn\351es}{}% 22
 \BOOKMARK [1][-]{section.4.1}{Data Mining - Analyse exploratoire}{chapter.4}% 23
 \BOOKMARK [2][-]{subsection.4.1.1}{Pr\351-traitement}{section.4.1}% 24
-\BOOKMARK [2][-]{subsection.4.1.2}{Analyse exploratoire}{section.4.1}% 25
+\BOOKMARK [2][-]{subsection.4.1.2}{Analyse exploratoire et apprentissage non-supervis\351}{section.4.1}% 25
 \BOOKMARK [3][-]{subsubsection.4.1.2.1}{Corr\351lations entre variables}{subsection.4.1.2}% 26
 \BOOKMARK [3][-]{subsubsection.4.1.2.2}{Principal Component Analysis \(PCA\)}{subsection.4.1.2}% 27
 \BOOKMARK [3][-]{subsubsection.4.1.2.3}{Clustering}{subsection.4.1.2}% 28
 \BOOKMARK [3][-]{subsubsection.4.1.2.4}{Self-Organizing Map}{subsection.4.1.2}% 29
-\BOOKMARK [1][-]{section.4.2}{R\351sultats des pr\351dictions }{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.2}{Apprentissage supervis\351}{chapter.4}% 30
 \BOOKMARK [2][-]{subsection.4.2.1}{Random Forest}{section.4.2}% 31
 \BOOKMARK [3][-]{subsubsection.4.2.1.1}{M\351thode utilis\351e}{subsection.4.2.1}% 32
 \BOOKMARK [3][-]{subsubsection.4.2.1.2}{R\351sultats de classification}{subsection.4.2.1}% 33

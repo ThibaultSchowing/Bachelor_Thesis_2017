@@ -25,17 +25,17 @@
 \addvspace {10\p@ }
 \contentsline {xchapter}{Discussion des r\IeC {\'e}sultats}{62}{chapter.5}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Conclusion}{64}{chapter.6}
+\contentsline {xchapter}{Conclusion}{65}{chapter.6}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Description des donn\IeC {\'e}es}{65}{appendix.A}
-\contentsline {table}{\numberline {A.1}{\ignorespaces Dataset partie 1\relax }}{65}{table.caption.64}
-\contentsline {table}{\numberline {A.2}{\ignorespaces Dataset partie 2\relax }}{66}{table.caption.65}
-\contentsline {table}{\numberline {A.3}{\ignorespaces Dataset partie 3\relax }}{67}{table.caption.66}
-\contentsline {table}{\numberline {A.4}{\ignorespaces Format des donn\IeC {\'e}es climatiques brutes\relax }}{68}{table.caption.67}
+\contentsline {xchapter}{Description des donn\IeC {\'e}es}{66}{appendix.A}
+\contentsline {table}{\numberline {A.1}{\ignorespaces Dataset partie 1\relax }}{66}{table.caption.64}
+\contentsline {table}{\numberline {A.2}{\ignorespaces Dataset partie 2\relax }}{67}{table.caption.65}
+\contentsline {table}{\numberline {A.3}{\ignorespaces Dataset partie 3\relax }}{68}{table.caption.66}
+\contentsline {table}{\numberline {A.4}{\ignorespaces Format des donn\IeC {\'e}es climatiques brutes\relax }}{69}{table.caption.67}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Importances des variables par cluster}{70}{appendix.B}
-\contentsline {table}{\numberline {B.1}{\ignorespaces HCPC avec trois clusters compar\IeC {\'e}s \IeC {\`a} la sortie Acidez\relax }}{70}{table.caption.70}
-\contentsline {table}{\numberline {B.2}{\ignorespaces Tableau des clusters pour la sortie Puntaje Total\relax }}{71}{table.caption.71}
-\contentsline {table}{\numberline {B.3}{\ignorespaces Importance des variables lors de la r\IeC {\'e}alisation des clusters\relax }}{72}{table.caption.72}
+\contentsline {xchapter}{Importances des variables par cluster}{71}{appendix.B}
+\contentsline {table}{\numberline {B.1}{\ignorespaces HCPC avec trois clusters compar\IeC {\'e}s \IeC {\`a} la sortie Acidez\relax }}{71}{table.caption.70}
+\contentsline {table}{\numberline {B.2}{\ignorespaces Tableau des clusters pour la sortie Puntaje Total\relax }}{72}{table.caption.71}
+\contentsline {table}{\numberline {B.3}{\ignorespaces Importance des variables lors de la r\IeC {\'e}alisation des clusters\relax }}{73}{table.caption.72}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Partial Plots - r\IeC {\'e}sultats Random Forest}{74}{appendix.C}
+\contentsline {xchapter}{Partial Plots - r\IeC {\'e}sultats Random Forest}{75}{appendix.C}

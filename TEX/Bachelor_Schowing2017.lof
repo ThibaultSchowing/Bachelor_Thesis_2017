@@ -103,12 +103,12 @@
 \contentsline {xchapter}{Discussion des r\IeC {\'e}sultats}{62}{chapter.5}
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Roue des parfums du caf\IeC {\'e}\relax }}{63}{figure.caption.63}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Conclusion}{64}{chapter.6}
+\contentsline {xchapter}{Conclusion}{65}{chapter.6}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Description des donn\IeC {\'e}es}{65}{appendix.A}
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Shapefile des diff\IeC {\'e}rentes orientations (Nord - Sud - Est - Ouest) des points dans le d\IeC {\'e}partement de Risaralda\relax }}{68}{figure.caption.68}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Shapefile des diff\IeC {\'e}rents profils de sol dans le d\IeC {\'e}partement de Risaralda\relax }}{69}{figure.caption.69}
+\contentsline {xchapter}{Description des donn\IeC {\'e}es}{66}{appendix.A}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Shapefile des diff\IeC {\'e}rentes orientations (Nord - Sud - Est - Ouest) des points dans le d\IeC {\'e}partement de Risaralda\relax }}{69}{figure.caption.68}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Shapefile des diff\IeC {\'e}rents profils de sol dans le d\IeC {\'e}partement de Risaralda\relax }}{70}{figure.caption.69}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Importances des variables par cluster}{70}{appendix.B}
+\contentsline {xchapter}{Importances des variables par cluster}{71}{appendix.B}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Partial Plots - r\IeC {\'e}sultats Random Forest}{74}{appendix.C}
+\contentsline {xchapter}{Partial Plots - r\IeC {\'e}sultats Random Forest}{75}{appendix.C}

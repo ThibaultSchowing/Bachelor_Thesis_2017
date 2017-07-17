@@ -15,7 +15,6 @@
 
 Une grande partie de l'étape de pré-traitement a été réalisée durant l'extraction des données. Il a en effet fallu les extraire d'une manière uniforme et cohérente dès le départ afin de ne pas se retrouver avec des variables présentes uniquement dans certaines parties du set de données ou avec des variables incohérentes comme cela a été le cas de certains cafés qui avaient comme note de dégustation plus de cent points sur cent par exemple. Des éliminations ou des corrections ont été réalisées de manière automatisées et manuelles afin de supprimer les erreurs. On notera parmi les corrections importantes le remplacement de virgules par des points, quelques erreurs de frappes (68.5 points sur 10 au lieu de 6.85 par exemple) ou encore des utilisations d'unités différentes selon les sources. Le dataset résultant est décrit dans l'Annexe A de ce projet. Une fois cette étape de d'extraction et de nettoyage réalisée, les premières informations ont pu être extraites des données.\\
 
-%TODO Annexe A
 
 \noindent Le schéma \ref{DatasetMaking} résume rapidement les différentes éliminations d'observations au cours des étapes de construction du set de données. 
 
@@ -23,11 +22,6 @@ Une grande partie de l'étape de pré-traitement a été réalisée durant l'ext
 	\includegraphics[scale=0.5]{Dataset_2}
 	\caption{\label{DatasetMaking} Étape de construction du set de données et pertes d'observations.}
 \end{figure}
-
-%TODO Vérifier
-
-
-
 
 
 
@@ -56,7 +50,7 @@ Les cafés colombiens sont réputés excellents mais sur les 100 points attribua
 
 
 
-\subsection{Analyse exploratoire}
+\subsection{Analyse exploratoire et apprentissage non-supervisé}
 
 \subsubsection{Corrélations entre variables}
 
@@ -86,12 +80,6 @@ Afin d'avoir une bonne vue d'ensemble sur les variables et leurs liens, les matr
 
 
 
-
-
-
-
-
-%TODO vérifier la version -> ne pas inclure les données de sorties !
 \newpage
 \subsubsection{Principal Component Analysis (PCA)}\label{PCAss}
 La PCA, pour Analyse en Composantes Principales en français, est une méthode qui consiste à transformer un jeu de variables corrélées en nouvelles variables dé-corrélées les unes des autres. Ces nouvelles variables sont appelées composantes principales et permettent de rendre l'information moins redondante. Pour faire plus simple, l'utilité de la Composante Principale est de réduire le nombre de variables tout en gardant un maximum d'information. La figure \ref{PCAdefinition} montre une représentation graphique de la composante principale. 
@@ -104,7 +92,7 @@ La PCA, pour Analyse en Composantes Principales en français, est une méthode q
 
 \paragraph{Résultats de la PCA}
 
-L'analyse sur une version compacte des variables a donné les résultats présentés dans le tableau \ref{TablePCAResult1} et sur la figure \ref{FigurePCAResult1}. Une première analyse avait été effectuée sur le set de données complet, c'est-à-dire avec la totalité des données climatiques et non les moyennes, et les résultats se sont avérés similaires mais plus difficilement lisibles. Il a donc été choisi de résumer les variables pour réaliser la PCA et le clustering. La PCA du tableau \ref{TablePCAResult} ne comprend pas les cafés avec zéro points.
+L'analyse sur une version compacte des variables a donné les résultats présentés dans le tableau \ref{TablePCAResult1} et sur la figure \ref{FigurePCAResult1}. Une première analyse avait été effectuée sur le set de données complet, c'est-à-dire avec la totalité des données climatiques et non les moyennes, et les résultats se sont avérés similaires mais plus difficilement lisibles. Il a donc été choisi de résumer les variables pour réaliser la PCA et le clustering. La PCA du tableau \ref{TablePCAResult1} ne comprend pas les cafés avec zéro points.
 \begin{table}[]
 	\centering
 	\begin{tabular}{lllllll}
@@ -168,14 +156,14 @@ L'analyse sur une version compacte des variables a donné les résultats présen
 
 %https://onlinecourses.science.psu.edu/stat505/node/54
 \newpage
-\subsubsection{Clustering} Afin de vérifier la présence éventuelle de groupes d'individus parmi la population de café, nous réalisons un HCPC, pour \textit{Hierarchical Clustering on Principal Components}, à l'aide de la PCA. La figure \ref{HCT_Suggest} nous montre l'arbre hiérarchique créé ainsi que le nombre de cluster proposé. \\
+\subsubsection{Clustering} Afin de vérifier la présence éventuelle de groupes d'individus parmi la population de café, nous réalisons un HCPC, pour \textit{Hierarchical Clustering on Principal Components}, à l'aide de la PCA. La figure \ref{HCTSuggest} nous montre l'arbre hiérarchique créé ainsi que le nombre de cluster proposé. \\
 
 \begin{figure}[H]
 	\includegraphics[scale=0.45]{HierarchicalClustering_TreeAndSuggestedNbCluster.pdf}
-	\caption{\label{HCT_Suggest} HCPC et proposition de nombre de cluster }
+	\caption{\label{HCTSuggest} HCPC et proposition de nombre de cluster }
 \end{figure}
 
-
+\noindent La figure \ref{HCT_3d} montre une représentation du HCPC en 3D. On reconnais la forme de la PCA mais les clusters sont plutôt décevants car le découpage je fais pas ressortir les groupes éventuellement visibles. Comme on l'a vu précédemment, avec la PCA et les différentes moyennes, les deux années sont très différentes et on aurait pu s'attendre à un clustering plus efficace. 
 
 \begin{figure}[H]
 	\includegraphics[scale=0.6]{HierarchicalClustering3D.pdf}
@@ -216,7 +204,7 @@ L'analyse sur une version compacte des variables a donné les résultats présen
 \end{table}
 
 
-\noindent Les autres résultats ainsi que l'importance des variables pour la génération des clusters se trouvent dans l'annexe \ref{annexe:clust}.
+\noindent Les autres résultats ainsi que l'importance des variables pour la génération des clusters se trouvent dans l'annexe \ref{annexe:clust}.\\
 
 
 \noindent Les variables participent presque toute activement à la séparation en partie (en prenant en compte les 5\% de probabilité critiques ) cependant la séparation n'apporte rien au set de donnée puis-qu'elle ne sépare en rien les différents types de cafés (note basse - note haute).
@@ -392,7 +380,7 @@ La carte auto-organisatrice a été réalisée en incluant toutes les variables 
 
 \newpage
 
-\section{Résultats des prédictions  }
+\section{Apprentissage supervisé}
 %Il a été possible ou non de faire de la prédiction, confusion matrix etc
 %ce que les méthodes comme random forest ont donné
 Le but de cette section est d'analyser la possibilité de prédiction de la qualité des cafés\footnote{La qualité du café fait références aux variables dépendantes citées dans la section \ref{VarDep}.} à l'aide des données climatiques et de qualité de sols à disposition. Les méthodes Random Forest et Partial Least Squares seront utilisées.
