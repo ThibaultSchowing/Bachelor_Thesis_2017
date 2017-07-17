@@ -6,7 +6,7 @@ A partir de données sur le climat, la qualité du sol et les pratiques cultural
 
 
 \section{Contexte du projet}
-Le sujet de ce Travail de Bachelor a été proposé par le « \textit{Centro Internacional de Agricultura Tropical }» (CIAT) qui travaille dans le but d’améliorer la productivité et la gestion de l’agriculture en zone tropicale, et dont les bureaux se trouvent à Cali, en Colombie.\\
+Le sujet de ce Travail de Bachelor a été proposé par le \textit{Centro Internacional de Agricultura Tropical } (CIAT) qui travaille dans le but d’améliorer la productivité et la gestion de l’agriculture en zone tropicale, et dont les bureaux se trouvent à Cali, en Colombie.\\
 
 \noindent À 200 kilomètres de Cali, le comité des caféiculteurs de Risaralda souhaite pouvoir expliquer les différents traits de la qualité en bouche des cafés produits dans les différents secteurs de leur département. La filière café colombienne est en effet en concurrence avec d’autres pays exportateurs sur le marché international, et un des avantages comparatifs de la Colombie est que ses terroirs produisent des cafés de qualité et de caractères affirmés. Il est donc stratégique pour la fédération des caféiculteurs de Colombie d'être en mesure de faire valoir ces spécificités pour aller chercher la valeur ajoutée associée aux produits démarqués du lot.\\
 
@@ -18,6 +18,13 @@ Le sujet de ce Travail de Bachelor a été proposé par le « \textit{Centro Int
 
 
 \noindent Le but de cette collaboration sur le long terme est de permettre au département de Risaralda de mettre en valeur la diversité de ses cafés, principalement à des fins de promotion auprès des acheteurs. \\
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/CIAT_logo_light_PNG/CIAT-Logo-1275x640}
+	
+	\label{fig:ciat-logo-1275x640}
+\end{figure}
 
 
 \chapter{À propos des données}
@@ -39,6 +46,7 @@ Les données gustatives sont très relatives aux sens et à la perception de cha
 \noindent Lorsque les grains de café sont mûrs, ils sont récoltés à la main puis amené dans une grande cuve sous laquelle se trouvent les différentes machines permettant de traiter la baie afin d'en extraire le grain. La première de ces machine c'est la dépulpeuse qui permet d'enlever la partie charnue du grain. La pulpe est récupérée en contre-bas et le grain continue son chemin dans deux directions possibles. Si la ferme en est équipée, une machine appelée \textit{desmucilaginador} va enlever la matière gluante entourant le grain, appelé \textit{miel} ou en français \textit{mucilage}, en le lavant. Si la ferme n'est pas équipé de cette machine, les grains vont être déversés dans une cuve où un processus de fermentation va être lancé variant entre une dizaine d'heures à plusieurs jours ce qui aura pour effet de laver le mucilage des grains. Une fois les grains lavés, ils seront séchés soit à l'air en utilisant la chaleur du soleil dans des grandes terrasse à café, ce processus prends environ dix jours, soit dans des machines à air chaud, plus onéreuse mais permettant de sécher de grandes quantités de grains en quelques heures. Une fois les grains séchés, ils sont vendus et l'étape suivant consiste à retirer de manière industrielle les grains endommagés car un seul grain peut rendre une tasse imbuvable. Des machines analyse les grains et éliminent ceux dont la densité ou la couleur n'est pas normale.\cite{GuideCafe} \\
 
 \noindent Les différentes méthodes de préparation du café ont chacune leurs avantages économiques, écologiques ou gustatifs. Par exemple, la taille de l'arbre, obligatoire après un certain nombre d'année, peut se faire de plusieurs manière chacune affectant le rendement de manière différente. La complexité chimique de la fermentation peut apporter certains arômes tout comme un séchage rapide à l'air chaud peut en enlever. %TODO citer qqch sur le café
+
 
  
 \subsection{Données climatiques}
@@ -112,7 +120,104 @@ Les données de qualité de sol sont subdivisées en profils. Chaque profil est 
 	\caption{\label{FincaVSPoints} Emplacement des fermes avec coloration selon le nombre de points attribués au café. Sud.}
 \end{figure}
 
+\paragraph{Variétés de café} Les variétés suivantes sont représentés parmi les cafés présents dans les données: 
+\begin{itemize}
+	\item CATURRA     335
+	\item COLOMBIA    217
+	\item CASTILLO    185
+	\item TIPICA        9
+\end{itemize}
 
+\noindent Les différentes catégories sont réparties comme sur la figure \ref{fig:variedadmap}. On observe qu'aucune particularité de région n'intervient. Dans les tableaux \ref{VariedadASNM} et \ref{VariedadPoints} aucune différence entre catégorie n'est flagrante. Des analyses plus détaillées sont disponibles dans l'annexe \ref{annexeAutre}.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/Exploration/VariedadMap}
+	\caption{}
+	\label{fig:variedadmap}
+\end{figure}
+
+
+\begin{table}[H]
+	\centering
+	\caption{Nombre de points aux dégustations par catégories}
+	\label{VariedadPoints}
+	\begin{tabular}{llll}
+		CASTILLO & count                              & 185.000000 &  \\
+		&mean     & 73.370270                                      &  \\
+		&std      & 21.859713                                      &  \\
+		&min      & 0.000000                                       &  \\
+		&25\%     & 77.000000                                      &  \\
+		&50\%     & 80.750000                                      &  \\
+		&75\%     & 82.500000                                      &  \\
+		&max      & 86.750000                                      &  \\
+		CATURRA  & count                              & 335.000000 &  \\
+		&mean     & 71.638060                                      &  \\
+		&std      & 24.449360                                      &  \\
+		&min      & 0.000000                                       &  \\
+		&25\%     & 76.500000                                      &  \\
+		&50\%     & 80.250000                                      &  \\
+		&75\%     & 82.500000                                      &  \\
+		&max      & 87.250000                                      &  \\
+		COLOMBIA & count                              & 217.000000 &  \\
+		&mean     & 71.741221                                      &  \\
+		&std      & 23.564094                                      &  \\
+		&min      & 0.000000                                       &  \\
+		&25\%     & 75.750000                                      &  \\
+		&50\%     & 79.000000                                      &  \\
+		&75\%     & 82.500000                                      &  \\
+		&max      & 87.750000                                     &  \\
+		TIPICA   & count                              & 9.000000   &  \\
+		&mean     & 81.138889                                      &  \\
+		&std      & 3.187160                                       &  \\
+		&min      & 78.000000                                      &  \\
+		&25\%     & 79.000000                                      &  \\
+		&50\%     & 80.000000                                      &  \\
+		&75\%     & 82.500000                                      &  \\
+		&max      & 87.250000                  &  
+	\end{tabular}
+\end{table}
+
+
+\begin{table}[H]
+	\centering
+	\caption{Altitude par catégorie}
+	\label{VariedadASNM}
+	\begin{tabular}{llll}
+		CASTILLO & count                                & 185.000000 &  \\
+		&mean     & 1619.178378                                      &  \\
+		&std      & 174.143106                                       &  \\
+		&min      & 1047.000000                                      &  \\
+		&25\%     & 1536.000000                                      &  \\
+		&50\%     & 1637.000000                                      &  \\
+		&75\%     & 1744.000000                                      &  \\
+		&max      & 2001.000000                                      &  \\
+		CATURRA  & count                                & 335.000000 &  \\
+		&mean     & 1641.564179                                      &  \\
+		&std      & 153.884477                                       &  \\
+		&min      & 935.000000                                       &  \\
+		&25\%     & 1552.500000                                      &  \\
+		&50\%     & 1644.000000                                      &  \\
+		&75\%     & 1750.000000                                      &  \\
+		&max      & 1993.000000                                      &  \\
+		COLOMBIA & count                                & 217.000000 &  \\
+		&mean     & 1544.004608                                      &  \\
+		&std      & 149.512464                                       &  \\
+		&min      & 1178.000000                                      &  \\
+		&25\%     & 1452.000000                                      &  \\
+		&50\%     & 1533.000000                                      &  \\
+		&75\%     & 1637.000000                                      &  \\
+		&max      & 1957.000000                                      &  \\
+		TIPICA   & count                                & 9.000000   &  \\
+		&mean     & 1580.555556                                      &  \\
+		&std      & 162.340777                                       &  \\
+		&min      & 1344.000000                                      &  \\
+		&25\%     & 1500.000000                                      &  \\
+		&50\%     & 1596.000000                                      &  \\
+		&75\%     & 1639.000000                                      &  \\
+		&max      & 1810.000000            & 
+	\end{tabular}
+\end{table}
 \newpage
 \paragraph{Altitude et points} \footnote{Les sets de données utilisés ici peuvent différer, certaines données ont été extraites du set de base, contenant des données manquantes (pour certaines variables) et d'autres ont été extraites du set complet utilisé pour les calculs. Les données ne différent que très peu entre ces sets et l'impact est minimal pour le calcul de simple moyennes à titre exploratoire.}Les plantations sont réparties entre une altitude de 935 mètres et de 2001 mètres alors que nombre de points totaux attribués aux cafés varie entre 0 et 87.75. 
 
