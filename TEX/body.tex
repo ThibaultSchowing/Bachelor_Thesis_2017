@@ -2,6 +2,23 @@
 \chapter{Introduction}
 \section{Question de recherche}
 
+% Entrées pour la liste des abréviations, compiler -> exécuter la commande ci-dessous -> recompiler
+
+% makeindex -s nomencl.ist -t "Bachelor_Schowing2017.nlg" -o "Bachelor_Schowing2017.nls" "Bachelor_Schowing2017.nlo"
+\nomenclature{SOM}{Self Organizing Map}
+\nomenclature{FNC}{Fédération Nationale des Caféiculteurs}
+\nomenclature{DTR}{Diurnal Temperature Range}
+\nomenclature{SICA}{Sistema de Información Cafetera}
+\nomenclature{SCAA}{Specialty Coffee Association of America}
+\nomenclature{CIAT}{Centre Internationnal de recherche pour l'Agriculture Tropicale}
+\nomenclature{tmax}{Température maximale}
+\nomenclature{tmin}{Température minimale}
+\nomenclature{tmean}{Température moyenne}
+\nomenclature{GIS}{Geographical Information System}
+\nomenclature{HCPC}{Hierarchical Clustering on Principal Components}
+\nomenclature{EPSG}{European Petroleum Survey Group}
+\nomenclature{SRID}{Spatial Reference System Identifier}
+
 A partir de données sur le climat, la qualité du sol et les pratiques culturales, est-il possible d’expliquer et de prédire les différents traits de la qualité en bouche des cafés du département de Risaralda ?
 
 
@@ -33,44 +50,42 @@ Le sujet de ce Travail de Bachelor a été proposé par le \textit{Centro Intern
 
 \subsection{Le système SICA}Le système SICA, pour \textit{Sistema de Información Cafetera}, est un système géré par la Fédération Nationale des Caféiculteurs (FNC), permettant d'identifier chaque parcelle de production de café en Colombie. C'est un système d'information d'envergure national, accessible via internet permettant de mettre à jour, consulter, analyser, modéliser et visualiser les données géospatiales sur les producteurs et les fermes de beaucoup de caféiculteurs du pays. C'est l'outil d'information stratégique pour la conception, le développement, la cartographie et le suivi des politiques de compétitivité et de la durabilité du café colombien\cite{SICA}. Chaque ferme possède un identifiant SICA, qui sera utilisé dans ce travail comme identifiant unique pour définir un café. Il est important car c'est ce numéro qui permet, via les services de la FNC, d'avoir un identifiant unique pour chaque parcelle et d'y associer des informations la concernant.  
 
-\subsection{Données de pratiques culturales}
-Malheureusement, aucune données de ce type n'a été fournies pour la réalisation de cette analyse. Les seules données à disposition sont des données de pratiques culturales générales issue de la littérature ou d'expériences personnelles.
+\subsection{Données de pratiques culturales et données générales}
+Par pratiques culturales on entend ici les différentes façon de traiter la plante durant sa vie et le traitement des grains une fois récoltés. Malheureusement, aucune données de ce type n'a été fournies pour la réalisation de cette analyse. Les seules données à disposition sont des données de pratiques culturales générales issue de la littérature ou d'expériences personnelles. \cite{CoffeeImport} \cite{CCI} \cite{WikiCafeicultureColombie} \cite{InternationalCoffeeOrganisation} \cite{GuideCafe}
 
 \subsection{Données gustatives}
-Les données gustatives sont très relatives aux sens et à la perception de chaque goutteur. Cependant, la SCAA, \textit{Speciality Coffee Association of America}, dispose d’un système de notation basé sur des hypothèses communautaires reconnues ce qui permet d’avoir une certaine régularité dans les données de dégustations. Les cafés sont notés sur 100 points répartis sur plusieurs critères: parfum/arôme, saveur, arrière-goût, acidité, corps, équilibre, douceur, clean-cup (absence de défauts marqués), uniformité et évaluation personnelle du testeur.  Chacun de ces critères est noté sur 10 mais aussi par des termes qualitatifs. Par exemple, la saveur, c’est-à-dire la combinaison de l’odeur et du goût, la première impression qu’on a en goûtant le café, peut être notée 7/10 et “Caramel”. \\
+Les données gustatives sont très relatives aux sens et à la perception de chaque goutteur. Cependant, la SCAA, \textit{Speciality Coffee Association of America}, dispose d’un système de notation \cite{CupingProtocol} basé sur des hypothèses communautaires reconnues ce qui permet d’avoir une certaine régularité dans les données de dégustations. Les cafés sont notés sur 100 points répartis sur plusieurs critères: parfum/arôme, saveur, arrière-goût, acidité, corps, équilibre, douceur, clean-cup (absence de défauts marqués), uniformité et évaluation personnelle du testeur.  Chacun de ces critères est noté sur 10 mais aussi par des termes qualitatifs. Par exemple, la saveur, c’est-à-dire la combinaison de l’odeur et du goût, la première impression qu’on a en goûtant le café, peut être notée 7/10 et “Caramel”. \\
 
 \noindent Un premier échantillon de trois cafés contenait toutes ces informations de manière uniforme, mais il s'est avéré que la partie mandante n'avait pas pu uniformiser la totalité des données brutes dans les délais et la tâche d'uniformisation nous a donc été confiée. Ainsi, les données finalement reçues variaient beaucoup d'un document à l'autre, d'une part dans les données de dégustations présentes et dans le type de document mais aussi dans les méta-données permettant d'identifier précisément de quel café il s'agissait. Il a donc fallut effectuer un tri et ne garder que la masse qu'il était possible d'utiliser. Les critères permettant de garder une dégustation ou non sont les suivants: Identification possible du café grâce au numéro SICA ou au numéro d'identité du caféiculteur, présence des défauts physiques du café, présence des caractéristiques gustatives de manière uniforme. La FNC a été sollicitée afin de compléter les données une fois celles-ci triées afin d'y ajouter les numéros SICA ou les numéros d'identité manquants, et d'y ajouter les coordonnées de chaque parcelle sous la forme de référence spatiale EPSG:3116 en suite converties en coordonnées GPS classiques degrés-décimaux.\\
 
 \paragraph{Traitement du café} Pour avoir une vision d'ensemble, voici un petit résumé concernant la production du café dans une des fermes du département de Risaralda. Cette ferme ne reflète pas la production de toutes les fermes du département cependant elle fait partie des meilleures plantation du secteur, et c'était une occasion pour l'équipe de s'informer directement sur le terrain. \\
 
-\noindent Lorsque les grains de café sont mûrs, ils sont récoltés à la main puis amené dans une grande cuve sous laquelle se trouvent les différentes machines permettant de traiter la baie afin d'en extraire le grain. La première de ces machine c'est la dépulpeuse qui permet d'enlever la partie charnue du grain. La pulpe est récupérée en contre-bas et le grain continue son chemin dans deux directions possibles. Si la ferme en est équipée, une machine appelée \textit{desmucilaginador} va enlever la matière gluante entourant le grain, appelé \textit{miel} ou en français \textit{mucilage}, en le lavant. Si la ferme n'est pas équipé de cette machine, les grains vont être déversés dans une cuve où un processus de fermentation va être lancé variant entre une dizaine d'heures à plusieurs jours ce qui aura pour effet de laver le mucilage des grains. Une fois les grains lavés, ils seront séchés soit à l'air en utilisant la chaleur du soleil dans des grandes terrasse à café, ce processus prends environ dix jours, soit dans des machines à air chaud, plus onéreuse mais permettant de sécher de grandes quantités de grains en quelques heures. Une fois les grains séchés, ils sont vendus et l'étape suivant consiste à retirer de manière industrielle les grains endommagés car un seul grain peut rendre une tasse imbuvable. Des machines analyse les grains et éliminent ceux dont la densité ou la couleur n'est pas normale.\cite{GuideCafe} \\
+\noindent Lorsque les grains de café sont mûrs, ils sont récoltés à la main puis amené dans une grande cuve sous laquelle se trouvent les différentes machines permettant de traiter la baie afin d'en extraire le grain. La première de ces machine c'est la dépulpeuse qui permet d'enlever la partie charnue du grain. La pulpe est récupérée en contre-bas et le grain continue son chemin dans deux directions possibles. Si la ferme en est équipée, une machine appelée \textit{desmucilaginador} va enlever la matière gluante entourant le grain, appelé \textit{miel} ou en français \textit{mucilage}, en le lavant. Si la ferme n'est pas équipé de cette machine, les grains vont être déversés dans une cuve où un processus de fermentation va être lancé variant entre une dizaine d'heures à plusieurs jours ce qui aura pour effet de laver le mucilage des grains. Une fois les grains lavés, ils seront séchés soit à l'air en utilisant la chaleur du soleil dans des grandes terrasses à café, ce processus prend environ dix jours, soit dans des machines à air chaud, plus onéreuses mais permettant de sécher de grandes quantités de grains en quelques heures. Une fois les grains séchés, ils sont vendus et l'étape suivant consiste à retirer de manière industrielle les grains endommagés car un seul grain peut rendre une tasse imbuvable. Des machines analyse les grains et éliminent ceux dont la densité ou la couleur n'est pas normale.\cite{GuideCafe} \\
 
-\noindent Les différentes méthodes de préparation du café ont chacune leurs avantages économiques, écologiques ou gustatifs. Par exemple, la taille de l'arbre, obligatoire après un certain nombre d'année, peut se faire de plusieurs manière chacune affectant le rendement de manière différente. La complexité chimique de la fermentation peut apporter certains arômes tout comme un séchage rapide à l'air chaud peut en enlever. %TODO citer qqch sur le café
+\noindent Les différentes méthodes de préparation du café ont chacune leurs avantages économiques, écologiques ou gustatifs. Par exemple, la taille de l'arbre, obligatoire après un certain nombre d'années, peut se faire de plusieurs manières, chacune affectant le rendement de manière différente. La complexité chimique de la fermentation peut apporter certains arômes tout comme un séchage rapide à l'air chaud peut en enlever.
 
 
  
 \subsection{Données climatiques}
-Les données climatiques comprennent les températures maximales, minimales et moyennes, la variation de température pendant la journée (DTR) et les quantités de précipitations. Les moyennes de ces mesures ont été calculée pour chaque mois et extrapolées sur une grande partie du territoire à partir de données provenant de différentes stations météorologiques du pays, permettant ainsi d’accéder aux mesures selon l’emplacement désiré à environ 500 mètres près. \\
+Les données climatiques comprennent les températures maximales, minimales et moyennes, la variation de température pendant la journée (DTR) et les quantités de précipitations. Lors d'un précédent projet du CIAT, les moyennes de ces mesures ont été calculées pour chaque mois et extrapolées sur une grande partie du territoire à partir de données provenant de différentes stations météorologiques du pays, permettant ainsi d’accéder aux mesures selon l’emplacement désiré à environ 500 mètres près. \\
 
-\noindent En prenant par exemple les données de température maximale pour le mois de janvier 2011, en affectant pour les valeurs une échelle de couleurs, nous pouvons visualiser les données sous la forme d'une image comme sur la figure \ref{tmax_picture}.\\
+\noindent En prenant par exemple les données de températures maximales pour le mois de janvier 2011, en affectant aux valeurs une échelle de couleurs, nous pouvons visualiser les données sous la forme d'une image comme sur la figure \ref{tmax_picture}.\\
 
-\noindent Les données climatiques sont données de 2011 à 2016. il faudra cependant faire attention au fait qu'un café dégusté en février 2011 a poussé bien plus tôt. Les processus de récolte, de nettoyage, de fermentation, de séchage et de torréfaction du grain prennent du temps. Ce temps a dû être pris en compte afin de sélectionner les bonnes données et a été fixé à 10 mois sans prendre en compte le mois précédant la dégustation, qui est estimé comme temps nécessaire à la récolte et au traitement du grain. 
+\noindent Les données climatiques sont données de 2011 à 2016. il faudra cependant faire attention au fait qu'un café dégusté en février 2011 a poussé bien plus tôt. Les processus de récolte, de nettoyage, de fermentation, de séchage et de torréfaction du grain prennent du temps. Ce temps a dû être pris en compte afin de sélectionner les bonnes données et a été fixé à 10 mois sans prendre en compte le mois précédant la dégustation, qui est estimé comme temps nécessaire à la récolte et au traitement du grain.\footnote{Ce seuil de 10 mois a été approuvé par M. Felipe Rincón, responsable au comité des caféiculteurs de Risaralda.} 
 
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=1]{tmax_picture_1}
-	\caption{\label{tmax_picture} Mise sous forme graphique du tableau des température maximales pour le mois de janvier 2011 }
+	\caption{\label{tmax_picture} Mise sous forme graphique du tableau des températures maximales pour le mois de janvier 2011 }
 \end{figure}
 
-\paragraph{Contexte climatique Colombien}La Colombie se trouvant à proximité de l'équateur, on y trouve que deux saisons: l'été ou saison sèche (de décembre à janvier et de juillet à août) puis l'hiver ou saison des pluies (d'avril à mai et de octobre à novembre). Le relief du pays ainsi que sa taille, font varier le climat de chaud et humide pour la partie amazonienne et la région des caraïbes, désertique pour la région de Guajira tout au nord ou le désert de Tatacoa au centre et glacial pour les zones en haute altitude à plus de 3000 mètres. Le département de Risaralda se trouve dans le centre de la Colombie dans la région de l'Axe du café et jouit de conditions climatiques, géographiques et géologiques idéales pour la culture du café. Les températures oscillent entre 8 et 24 degrés mais le phénomène appelé \textit{El Niño} perturbe régulièrement le climat à l'échelle du continent, voir même du monde. 
-
-% http://www.actulatino.com/2016/01/14/colombie-el-nino-provoque-chaleur-et-secheresse-juan-manuel-santos-appelle-a-la-vigilance/
-
-% https://public.wmo.int/fr/medias/communiqu%C3%A9s-de-presse/d%E2%80%99une-intensit%C3%A9-exceptionnelle-l%E2%80%99%C3%A9pisode-el-ni%C3%B1o-amorc%C3%A9-son-d%C3%A9clin-mais
+\paragraph{Contexte climatique Colombien}La Colombie se trouvant à proximité de l'équateur, on y trouve que deux saisons: l'été ou saison sèche (de décembre à janvier et de juillet à août) puis l'hiver ou saison des pluies (d'avril à mai et de octobre à novembre). Le relief du pays ainsi que sa taille, font varier le climat de chaud et humide pour la partie amazonienne et la région des caraïbes, désertique pour la région de Guajira tout au nord ou le désert de Tatacoa au centre et glacial pour les zones en hautes altitudes à plus de 3000 mètres. Le département de Risaralda se trouve dans le centre de la Colombie dans la région de l'Axe du café et jouit de conditions climatiques, géographiques et géologiques idéales pour la culture du café.\cite{WikiCafeicultureColombie} \cite{IDEAM} \cite{WikiMeteo} Les températures oscillent entre 8 et 24 degrés mais le phénomène appelé \textit{El Niño} perturbe régulièrement le climat à l'échelle du continent, voir même du monde. 
 
 
-\paragraph{El Niño}El Niño désigne un phénomène climatique qui se caractérise par une augmentation des températures de l'eau dans l'est du Pacifique sud due à une perturbation dans la circulation atmosphérique entre les pôles et l'équateur. Ces perturbations déplacent les zones de précipitations, modifient les routes des cyclones ou typhons provoquent à certains endroits de fortes précipitations et à d'autres de longues périodes de sécheresse. Même dans les zones tempérées, les périodes El Niño changent les habitudes climatiques. Durant l'été austral 2015-2016 s'est produit un des épisodes El Niño le plus fort jamais enregistré\cite{OMM}. Si une grande partie de l'Amérique du Sud a été victime de fortes précipitations, la Colombie, elle, a subit une longue période de sécheresse et l'Europe a connu des records de chaleur. Sur la figure \ref{Nino} on peut observer les différents pics correspondants à l'intensité du phénomène ainsi que pour son opposé, La Niña. 
+
+
+\paragraph{El Niño}El Niño désigne un phénomène climatique qui se caractérise par une augmentation des températures de l'eau dans l'est du Pacifique sud due à une perturbation dans la circulation atmosphérique entre les pôles et l'équateur. Ces perturbations déplacent les zones de précipitations, modifient les routes des cyclones ou typhons provoquent à certains endroits de fortes précipitations et à d'autres de longues périodes de sécheresse. Même dans les zones tempérées, les périodes El Niño changent les habitudes climatiques. Durant l'été austral 2015-2016 s'est produit un des épisodes El Niño le plus fort jamais enregistré\cite{OMM} \cite{actulatino_2016}. Si une grande partie de l'Amérique du Sud a été victime de fortes précipitations, la Colombie, elle, a subit une longue période de sécheresse et l'Europe a connu des records de chaleur. Sur la figure \ref{Nino} on peut observer les différents pics correspondants à l'intensité du phénomène ainsi que pour son opposé, La Niña. 
 
 \begin{figure}[H]
 	\centering
@@ -82,10 +97,10 @@ Les données climatiques comprennent les températures maximales, minimales et m
 
 
 \subsection{Données de sols} 
-Les données de qualité de sol sont subdivisées en profils. Chaque profil est séparé en une ou plusieurs couches d’une certaine profondeur dont sont renseignées les caractéristiques comme le pH, la texture ou encore le taux de matière organique. Les différentes textures sont présentées sur la figure \ref{TriangleTexture}. Afin d'avoir des données uniformes, les moyennes sur les 3 premières couches jusqu'à 1 mètre de profondeur ont été réalisées pour le pH et le niveau de matière organique alors que pour la texture, la somme des variable binaire a été effectuée. \\
+Les données de qualité de sol sont subdivisées en profils. Chaque profil est séparé en une ou plusieurs couches d’une certaine profondeur dont sont renseignées les caractéristiques comme le pH, la texture ou encore le taux de matière organique. Les différentes textures sont présentées sur la figure \ref{TriangleTexture}. Afin d'avoir des données uniformes, les moyennes sur les 3 premières couches jusqu'à 1 mètre de profondeur ont été réalisées pour le pH et le niveau de matière organique alors que pour la texture, la somme des variable binaire décrivant la texture des couches a été effectuée. \\
 
 
-\noindent Les données proviennent d'un GIS \footnote{Geographical Information System}, d'où il a été possible de croiser les données point par point afin d'extraire le profil de sol correspondant à un set de coordonnées GPS. Malheureusement les profils ne contiennent que pH, matière organique et texture. D'autres données très hétérogènes contenaient d'autres informations sur la composition chimique du sol mais leur structure et leur répartition irrégulière dans la zone de travail ont forcé à abandonner leur utilisation par manque de temps et de ressources.
+\noindent Les données proviennent d'un GIS \footnote{Geographical Information System}, d'où il a été possible de croiser les données point par point afin d'extraire le profil de sol correspondant à un set de coordonnées GPS. Malheureusement les profils ne contiennent que pH, matière organique et texture. D'autres données très hétérogènes (Système \textit{Pinsat} par exemple) contenaient d'autres informations sur la composition chimique du sol mais leur structures et leurs répartitions irrégulières dans la zone de travail ont forcé l'abandon de leur utilisation par manque de temps et de ressources.
 
 % triangulo-del-suelo
 \begin{figure}[H]
@@ -115,7 +130,7 @@ Les données de qualité de sol sont subdivisées en profils. Chaque profil est 
 	\includegraphics[scale=0.5]{Map_South}
 	
 	\begin{figure}[H]
-		\includegraphics[scale=1]{Legend_Map2}
+		\includegraphics[scale=0.7]{Legend_Map2}
 	\end{figure}
 	\caption{\label{FincaVSPoints} Emplacement des fermes avec coloration selon le nombre de points attribués au café. Sud.}
 \end{figure}
@@ -128,12 +143,12 @@ Les données de qualité de sol sont subdivisées en profils. Chaque profil est 
 	\item TIPICA        9
 \end{itemize}
 
-\noindent Les différentes catégories sont réparties comme sur la figure \ref{fig:variedadmap}. On observe qu'aucune particularité de région n'intervient. Dans les tableaux \ref{VariedadASNM} et \ref{VariedadPoints} aucune différence entre catégorie n'est flagrante. Des analyses plus détaillées sont disponibles dans l'annexe \ref{annexeAutre}.
+\noindent Les différentes catégories sont réparties comme sur la figure \ref{fig:variedadmap}. On observe aucune particularité dans la répartition des variétés. Dans les tableaux \ref{VariedadASNM} et \ref{VariedadPoints} aucune différence entre catégorie n'est flagrante. Des analyses plus détaillées sont disponibles dans l'annexe \ref{annexeAutre}.
 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{img/Exploration/VariedadMap}
-	\caption{}
+	\caption{Répartition des variétés de café dans le département.}
 	\label{fig:variedadmap}
 \end{figure}
 
@@ -232,7 +247,7 @@ Les données de qualité de sol sont subdivisées en profils. Chaque profil est 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{img/Exploration/kdeplotPuntajeTotal}
-	\caption{Répartition des cafés par rapport au nombre de points total}
+	\caption{Répartition des cafés par rapport au nombre de points totaux}
 	\label{fig:kdeplotpuntajetotal}
 \end{figure}
 
@@ -352,9 +367,6 @@ Les données de qualité de sol sont subdivisées en profils. Chaque profil est 
 Ce projet a deux principaux objectifs. Le premier est de trouver s'il existe différents groupes de cafés ayant des relations entre les conditions de culture et les caractéristiques physiques ou sensorielles. On cherche donc dans cette première partie à caractériser les cafés. On peut ici parler de clustering.  Le second objectif est de prédire les caractéristiques physiques ou sensorielles à partir des données sur les conditions de culture. Nous avons donc ici plusieurs possibilités de manières d'agir. Par exemple, si le clustering a réussi à diviser les cafés en différentes classes, on cherchera à prédire dans quelle classe se situe un nouveau café. Plus spécifiquement, on pourra se concentrer sur certains attributs du café, par exemple l'acidité, afin d'estimer quelle sera la note attribuée. 
 
 
-
-\newpage
-
 \section{Apprentissage supervisé}
 % knn, réseaux de neurones etc
 Le but de l'apprentissage supervisé est d'expliquer des sorties (outputs) à partir d'entrées (inputs). Des règles sont calculées à partir de données d'apprentissage selon différents modèles. Par la suite, le modèle est utilisé pour prédire des nouvelles données. On essayera ici d'expliquer les données gustatives du café ou ses défauts physiques à l'aide des données climatiques et de sols. 
@@ -362,7 +374,7 @@ Le but de l'apprentissage supervisé est d'expliquer des sorties (outputs) à pa
 
 \subsection{Random Forest}
 
-La méthode Random Forest, ou \textit{forêts d'arbres décisionnels} en français, fait partie des méthodes ensemblistes\cite{EnsembleMethods}, qui utilisent la combinaison de plusieurs modèles de base, d'apprentissage automatique. Elle combine les concepts de sous-espaces aléatoires et de bagging.\\
+La méthode Random Forest, ou \textit{forêts d'arbres décisionnels} en français, fait partie des méthodes ensemblistes\cite{EnsembleMethods}, qui utilisent la combinaison de plusieurs modèles de base d'apprentissage automatique. Elle combine les concepts de sous-espaces aléatoires et de bagging.\\
 
 \noindent Le bagging\label{bagging}, ou \textit{bootstrap agregation}, consiste à sous-échantillonner (ou ré-échantillonner au hasard avec doublons) le set d'entrainement et de faire générer à l’algorithme voulu un modèle pour chaque sous-échantillon. On utilise le bagging pour réduire la variance de la fonction de prédiction estimée. Le bagging semble bien fonctionner pour les procédures avec une grande variance et un petit biais, comme les arbres de décision. \cite{hastie_09_elements-of.statistical-learning}\\
 
@@ -385,7 +397,7 @@ PLS, originalement pour \textit{Partial Least Squares regression} puis plus réc
 \begin{figure}[H] 
 	\centering
 	\includegraphics[scale=0.5]{PLS_1} 
-	\caption{\label{PLSschema}Méthode PLS. X est représenté par son score t et Y par u. Une première estimation de U est multipliée à travers X pour obtenir une aproximation du poid $ \omega_t $. Le poid est normalisé pour être de longueur 1 et remultiplié à travers X pour produire t. A partir de t et de Y, le poid $ q^T $ est obtenu ce qui donne un nouveau vecteur u. Cette opération est répétée jusqu'à la convergence de t.\cite{CEM:CEM515}} 
+	\caption{\label{PLSschema}Méthode PLS. X est représentée par son score t et Y par u. Une première estimation de U est multipliée à travers X pour obtenir une approximation du poids $ \omega_t $. Le poids est normalisé pour être de longueur 1 et re-multiplié à travers X pour produire t. A partir de t et de Y, le poids $ q^T $ est obtenu ce qui donne un nouveau vecteur u. Cette opération est répétée jusqu'à la convergence de t.\cite{CEM:CEM515}} 
 	% http://www.umb.no/statisk/specmod/mbseminar/Westerhuis1998.pdf 
 \end{figure} 
 
@@ -414,7 +426,7 @@ L'exécution est très similaire à la méthode PLS classique.
 \newpage
 
 \section{Apprentissage non-supervisé}
-Contrairement à l'apprentissage supervisé, l'apprentissage non-supervisé tente de trouver des groupes dans des données hétérogènes. Le but est d'extraire des connaissances à partir de ces données. Comme mentionné dans la partie \ref{obj}, notre but est de découvrir différents groupes de café identifiables. 
+Contrairement à l'apprentissage supervisé, l'apprentissage non-supervisé tente de trouver des groupes dans des données hétérogènes. Le but est d'extraire des connaissances à partir de ces données. Comme mentionné dans la partie \ref{obj}, notre but est de découvrir différents groupes de cafés identifiables. 
 
 
 \subsection{SOM}
@@ -423,7 +435,7 @@ Contrairement à l'apprentissage supervisé, l'apprentissage non-supervisé tent
 Les cartes SOM, pour \textit{Self Organizing Map} aussi appelées cartes de Kohonen du nom du statisticien ayant développé la méthode, sont des réseaux de neurones disposés en grille permettant de réduire dans un espace en deux dimensions des données ayant $n$ dimensions.\\
  
 
-\noindent La carte est composée de composants appelés noeuds ou neurones. Ces neurones sont associés à un vecteur de poids de dimension identique au données d'entrée (initié aléatoirement) et à une position dans l'espace de la carte. L'algorithme va en suite trouver quelle neurone est le plus proche à la donnée pour chaque observation et va rapprocher les données du neurone dans l'espace de la carte et modifier les poids du neurone afin d'accroitre l'influence du neurone sur les prochaines observations proches\cite{Kohonen:1988:SFT:65669.104428}.\\
+\noindent La carte est composée de composants appelés noeuds ou neurones. Ces neurones sont associés à un vecteur de poids de dimension identique au données d'entrée (initialisé aléatoirement) et à une position dans l'espace de la carte. L'algorithme va en suite trouver quelle neurone est le plus proche à la donnée pour chaque observation et va rapprocher les données du neurone dans l'espace de la carte et modifier les poids du neurone afin d'accroitre l'influence du neurone sur les prochaines observations proches\cite{Kohonen:1988:SFT:65669.104428}.\\
 
 
 \noindent On souhaite vérifier s'il est possible de regrouper des cafés qui se distingueraient et à l'aide des différents composants de la carte SOM, comprendre quelles variables ont une influence sur la qualité. \\
@@ -443,17 +455,14 @@ Les cartes SOM, pour \textit{Self Organizing Map} aussi appelées cartes de Koho
 
 
 
-\newpage
 \section{Optimisation}
-
-%Boosting supprimé
 
 \subsection{Cross-Validation}
 
-Contrairement au bagging qui est utilisé pour réduire l'overfitting en entrainant plusieurs modèles sur des données ré échantillonnées (avec répétition) puis en construisant un modèle sur la moyenne de ces modèles, la cross-validation est utilisée pour tester la fiabilité d'un modèle en se basant sur un échantillonnage des données d'entrainement et de test. Il existe plusieurs méthodes: « holdout method », « k-fold cross-validation » et « leave-one-out cross-validation ».\\
+Contrairement au bagging qui est utilisé pour réduire l'overfitting en entrainant plusieurs modèles sur des données ré-échantillonnées (avec répétition) puis en construisant un modèle sur la moyenne de ces modèles, la cross-validation est utilisée pour tester la fiabilité d'un modèle en se basant sur un échantillonnage des données d'entrainement et de test. Il existe plusieurs méthodes: "holdout method", "k-fold cross-validation" et "leave-one-out cross-validation".\\
 
 \noindent La première consiste à diviser le set de données en deux et en utilisant une partie pour entrainer le modèle puis une autre pour le tester. L'erreur est estimée en calculant un score de performance avec une méthode comme MSE (Erreur Quadratique Moyenne ou \textit{Mean Square Error}). \\
 
-\noindent Étant donné que les données sont souvent trop peu nombreuses pour se permettre de laisser tomber dès le départ une partie des données, la k-fold cross-validation devient utile. On divise le set en k échantillons puis on en sélectionne un comme étant le set de test puis les k-1 autres comme étant le set d'entrainement. On répète l'opération en sélectionnant chaque fois un échantillon différent pour le test. Le score de performance est calculé en réalisant la moyenne des scores des k validations effectuées. La méthode « Leave-one out » utilise le même principe mais en ne laissant qu'une seule entrée en dehors du set d'entrainement à chaque tour\cite{hastie_09_elements-of.statistical-learning}. 
+\noindent Étant donné que les données sont souvent trop peu nombreuses pour se permettre de laisser tomber dès le départ une partie des données, la k-fold cross-validation devient utile. On divise le set en k échantillons puis on en sélectionne un comme étant le set de test puis les k-1 autres comme étant le set d'entrainement. On répète l'opération en sélectionnant chaque fois un échantillon différent pour le test. Le score de performance est calculé en réalisant la moyenne des scores des k validations effectuées. La méthode \textit{Leave-one out} utilise le même principe mais en ne laissant qu'une seule entrée en dehors du set d'entrainement à chaque tour\cite{hastie_09_elements-of.statistical-learning}. 
 
 

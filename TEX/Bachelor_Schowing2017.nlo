@@ -1,12 +1,13 @@
-\nomenclatureentry{aSOM@[{SOM}]\begingroup Self Organizing Map\nomeqref {0}|nompageref}{}
-\nomenclatureentry{aFNC@[{FNC}]\begingroup Fédération Nationale des Caféiculteurs\nomeqref {0}|nompageref}{}
-\nomenclatureentry{aDTR@[{DTR}]\begingroup Diurnal Temperature Range\nomeqref {0}|nompageref}{}
-\nomenclatureentry{aSICA@[{SICA}]\begingroup Sistema de Información Cafetera\nomeqref {0}|nompageref}{}
-\nomenclatureentry{aSCAA@[{SCAA}]\begingroup Specialty Coffee Association of America\nomeqref {0}|nompageref}{}
-\nomenclatureentry{aCIAT@[{CIAT}]\begingroup Centre Internationnal de recherche pour l'Agriculture Tropicale\nomeqref {0}|nompageref}{}
-\nomenclatureentry{atmax@[{tmax}]\begingroup Température maximale\nomeqref {0}|nompageref}{}
-\nomenclatureentry{atmin@[{tmin}]\begingroup Température minimale\nomeqref {0}|nompageref}{}
-\nomenclatureentry{atmean@[{tmean}]\begingroup Température moyenne\nomeqref {0}|nompageref}{}
-\nomenclatureentry{aGIS@[{GIS}]\begingroup Geographical Information System\nomeqref {0}|nompageref}{}
-\nomenclatureentry{aHCPC@[{HCPC}]\begingroup Hierarchical Clustering on Principal Components\nomeqref {0}|nompageref}{}
-\nomenclatureentry{a@[{}]\begingroup \nomeqref {0}|nompageref}{}
+\nomenclatureentry{aSOM@[{SOM}]\begingroup Self Organizing Map\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aFNC@[{FNC}]\begingroup Fédération Nationale des Caféiculteurs\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aDTR@[{DTR}]\begingroup Diurnal Temperature Range\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aSICA@[{SICA}]\begingroup Sistema de Información Cafetera\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aSCAA@[{SCAA}]\begingroup Specialty Coffee Association of America\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aCIAT@[{CIAT}]\begingroup Centre Internationnal de recherche pour l'Agriculture Tropicale\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{atmax@[{tmax}]\begingroup Température maximale\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{atmin@[{tmin}]\begingroup Température minimale\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{atmean@[{tmean}]\begingroup Température moyenne\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aGIS@[{GIS}]\begingroup Geographical Information System\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aHCPC@[{HCPC}]\begingroup Hierarchical Clustering on Principal Components\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aEPSG@[{EPSG}]\begingroup European Petroleum Survey Group\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{aSRID@[{SRID}]\begingroup Spatial Reference System Identifier\nomeqref {1.0}|nompageref}{1}

@@ -12,22 +12,22 @@
 
 %Description du set, différentes parties des données, éventuelles données manquantes\\
 
-Une grande partie de l'étape de pré-traitement a été réalisée durant l'extraction des données. Il a en effet fallu les extraire d'une manière uniforme et cohérente dès le départ afin de ne pas se retrouver avec des variables présentes uniquement dans certaines parties du set de données ou avec des variables incohérentes comme cela a été le cas de certains cafés qui avaient comme note de dégustation plus de cent points sur cent par exemple. Des éliminations ou des corrections ont été réalisées de manière automatisées et manuelles afin de supprimer les erreurs. On notera parmi les corrections importantes le remplacement de virgules par des points, quelques erreurs de frappes (68.5 points sur 10 au lieu de 6.85 par exemple) ou encore des utilisations d'unités différentes selon les sources. Le dataset résultant est décrit dans l'Annexe \ref{annexeDataset} de ce projet. Une fois cette étape de d'extraction et de nettoyage réalisée, les premières informations ont pu être extraites des données.\\
+Une grande partie de l'étape de pré-traitement a été réalisée durant l'extraction des données. Il a en effet fallu les extraire d'une manière uniforme et cohérente dès le départ afin de ne pas se retrouver avec des variables présentes uniquement dans certaines parties du set de données ou avec des variables incohérentes comme cela a été le cas de certains cafés qui avaient comme note de dégustation plus de cent points sur cent par exemple. Des éliminations ou des corrections ont été réalisées de manière automatisées et manuelles afin de supprimer les erreurs. On notera parmi les corrections importantes le remplacement de virgules par des points, quelques erreurs de frappes (68.5 points sur 10 au lieu de 6.85 par exemple) ou encore des utilisations d'unités différentes selon les sources. Le dataset résultant est décrit dans l'Annexe \ref{annexeDataset} de ce projet. Une fois cette étape d'extraction et de nettoyage réalisée, les premières informations ont pu être extraites des données.\\
 
 
 \noindent Le schéma \ref{DatasetMaking} résume rapidement les différentes éliminations d'observations au cours des étapes de construction du set de données. 
 
 \begin{figure}[H]
 	\includegraphics[scale=0.5]{Dataset_2}
-	\caption{\label{DatasetMaking} Étape de construction du set de données et pertes d'observations.}
+	\caption{\label{DatasetMaking} Étapes de construction du set de données et pertes d'observations.}
 \end{figure}
 
 
 
-\paragraph{Variables dépendantes\label{VarDep}} Les variables de sorties, ou dépendantes, sont composées des dix analyses de dégustation et éventuellement de la totalité des défauts physiques des grains. Sauf pour les défauts physiques des grains, qui sont éliminés avant la dégustation, les variables de sorties sont très corrélées entre elles et il a été discuté avec le responsable du comité des caféiculteurs de Risaralda, M. Felipe Rincón, de sélectionner les variables les plus importantes. Ces variables sont \textit{Acidez}, \textit{Dulzor} et \textit{Puntaje Total} ainsi que la catégorie décrite dans le paragraphe suivant qui a été ajouté au set de données.  
+\paragraph{Variables dépendantes\label{VarDep}} Les variables de sorties, ou dépendantes, sont composées des dix analyses de dégustation et éventuellement de la totalité des défauts physiques des grains. Sauf pour les défauts physiques des grains, qui sont éliminés avant la dégustation, les variables de sorties sont très corrélées entre elles et il a été discuté avec le coordonnateur de gestion au comité départemental des caféiculteurs de Risaralda, M. Felipe Rincón, de sélectionner les variables les plus importantes. Ces variables sont \textit{Acidez}, \textit{Dulzor} et \textit{Puntaje Total} ainsi que la catégorie décrite dans le paragraphe suivant qui a été ajouté au set de données.  
 
 \paragraph{Catégories}
-Les cafés colombiens sont réputés excellents mais sur les 100 points attribuable lors des dégustations qu'est-ce que cela représente ? Le tableau \ref{categoriesCafe} nous donne une bonne idée de l'échelle de notation. Ces catégories seront utilisées dans le set de données pour tenter de réaliser une classification. 
+Les cafés colombiens sont réputés excellents mais sur les 100 points attribuables lors des dégustations qu'est-ce que cela représente ? Le tableau \ref{categoriesCafe} nous donne une bonne idée de l'échelle de notation. Ces catégories seront utilisées dans le set de données pour tenter de réaliser une classification. 
 \begin{table}[H]
 	\centering
 	\caption{Catégories de cafés d'après le nombre de points \newline Source: http://www.scaa.org/?page=resources\&d=cupping-protocols \label{categoriesCafe}}
@@ -70,12 +70,8 @@ Afin d'avoir une bonne vue d'ensemble sur les variables et leurs liens, les matr
 \end{figure}
 
 
-\noindent On observe que les données de sol sont parfois corrélées entre-elles mais presque pas du tout avec les données climatiques. On peut donc déjà soulever que le climat n'a pas ou peu d'influence sur la texture, le pH ou le taux de matière organique du sol des zones étudiées. Les précipitations ont une influence importante sur les défauts physiques des grains, en revanche nous n'avons aucune variable qui a une corrélation marquée avec les points totaux et donc la qualité du café.   
+\noindent On observe que les données de sol sont parfois corrélées entre-elles mais presque pas du tout avec les données climatiques. On peut donc déjà soulever que le climat n'a pas ou peu d'influence sur la texture, le pH ou le taux de matière organique du sol des zones étudiées. Les précipitations ont une influence visible sur les défauts physiques des grains (3\up{ème} position sur la matrice), en revanche nous n'avons aucune variable qui a une corrélation marquée avec les points totaux et donc la qualité du café.   
 
-
-
-%TODO Parler des variétés de cafés et de quelques données les concernants (Moyennes de points, rendement par variété, altitude etc) 
-%TODO afficher des moyennes par année etc
 
 
 
@@ -162,7 +158,7 @@ L'analyse sur une version compacte des variables a donné les résultats présen
 	\caption{\label{HCTSuggest} HCPC et proposition de nombre de cluster }
 \end{figure}
 
-\noindent La figure \ref{HCT_3d} montre une représentation du HCPC en 3D. On reconnais la forme de la PCA mais les clusters sont plutôt décevants car le découpage je fais pas ressortir les groupes éventuellement visibles. Comme on l'a vu précédemment, avec la PCA et les différentes moyennes, les deux années sont très différentes et on aurait pu s'attendre à un clustering plus efficace. 
+\noindent La figure \ref{HCT_3d} montre une représentation du HCPC en 3D. On reconnait la forme de la PCA mais les clusters sont plutôt décevants car le découpage ne fait pas ressortir les groupes éventuellement visibles. Comme on l'a vu précédemment, avec la PCA et les différentes moyennes, les deux années sont très différentes et on aurait pu s'attendre à un clustering plus efficace. 
 
 \begin{figure}[H]
 	\includegraphics[scale=0.6]{HierarchicalClustering3D.pdf}
@@ -206,37 +202,13 @@ L'analyse sur une version compacte des variables a donné les résultats présen
 \noindent Les autres résultats ainsi que l'importance des variables pour la génération des clusters se trouvent dans l'annexe \ref{annexe:clust}.\\
 
 
-\noindent Les variables participent presque toute activement à la séparation en partie (en prenant en compte les 5\% de probabilité critiques ) cependant la séparation n'apporte rien au set de donnée puis-qu'elle ne sépare en rien les différents types de cafés (note basse - note haute).
-
-
-
-%\paragraph{Analyse des résultats de clustering}
-%TODO - vérifier
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+\noindent Les variables participent presque toutes activement à la séparation en parties cependant la séparation n'apporte rien au set de données puis-qu'elle ne sépare en rien les différentes catégories de cafés.
 
 
 
 \newpage
 \subsubsection{Self-Organizing Map}\label{SOM}
-%TODO 
+
 
 \paragraph{U-Matrix, répartition des cafés par classes et composants} 
 La carte auto-organisatrice a été réalisée en incluant toutes les variables afin de voir où se placent les variables dépendantes par rapport aux variables indépendantes et de permettre d'observer d'éventuels clusters. 
@@ -252,8 +224,7 @@ La carte auto-organisatrice a été réalisée en incluant toutes les variables 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{SOM/SOM_Umatrix_Points_Category}
-	\caption{\label{umatrix_cat}U-Matrix avec les points. En jaune les cafés de catégorie 2,en bleu catégorie 3 et en rouge catégorie 4. Les catégories sont expliquées au point \ref{EmpFermes}}
-	\label{}
+	\caption{\label{umatrix_cat}U-Matrix avec les points. En jaune les cafés de catégorie 2,en bleu catégorie 3 et en rouge catégorie 4. Pour rappel, les catégories sont expliquées au point \ref{EmpFermes}}
 \end{figure}
 
 
@@ -330,7 +301,7 @@ La carte auto-organisatrice a été réalisée en incluant toutes les variables 
 
 
 \begin{figure}[H]
-	\caption{\label{SecondSOMASNM}Altitude et défauts lors d'une seconde exécution du réseau de neurones}
+	\caption{\label{SecondSOMASNM}Altitude, points totaux et défauts lors d'une seconde exécution du réseau de neurones}
 	\centering
 	\subfloat[ASNM]{\includegraphics[width=.5\linewidth]{SOM/SOM_ASNM2}}\hfill
 	\subfloat[Defectos Totales]{\includegraphics[width=.5\linewidth]{SOM/SOM_DefectosTotales2}}
@@ -345,7 +316,7 @@ La carte auto-organisatrice a été réalisée en incluant toutes les variables 
 \end{figure}
 
 
-\noindent Afin de mieux visualiser la répartition des cafés d'année en année sur la carte SOM, une autre exécution a été réalisée\footnote{Les cartes SOM sont initialisées aléatoirement et les exécutions diffèrent les unes des autres. Il est difficile de sauvegarder l'environnement pour ensuite réaliser d'autres opérations sur les cartes.} et les années affichées. 
+\noindent Afin de mieux visualiser la répartition des cafés d'année en année sur la carte SOM, une autre exécution a été réalisée\footnote{Les cartes SOM sont initialisées aléatoirement et les exécutions diffèrent les unes des autres. Il est difficile de sauvegarder l'environnement pour ensuite réaliser d'autres opérations sur les cartes d'une part et de l'autre chaque exécution peut amener une information supplémentaire..} et les années affichées. 
 
 
 \begin{figure}[H]
@@ -360,11 +331,11 @@ La carte auto-organisatrice a été réalisée en incluant toutes les variables 
 	\subfloat[Year, 2011 (Noir), 2016 (Orange)]{\includegraphics[width=.5\linewidth]{SOM/SOM2/umatrix_year}}\hfill
 	\newline
 	\centering 
-	\subfloat[Coffee Class Position, same as \ref{umatrix_cat}]{\includegraphics[width=.5\linewidth]{SOM/SOM2/umatrix_cat}}
+	\subfloat[Coffee Class Position, idem à \ref{umatrix_cat}]{\includegraphics[width=.5\linewidth]{SOM/SOM2/umatrix_cat}}
 \end{figure}
 
 \newpage
-\paragraph{Analyse des cartes}On peut observer que les régions avec beaucoup de précipitations sont aussi celles qui ont le plus de cafés avec peu de points. Lors d'une seconde exécution du réseau on a pu observer une relation proche entre les défauts et l'altitude comme montré sur la figure \ref{SecondSOMASNM}. Cette relation n'était pas clairement visible lors de la première exécution. Le fait est déjà connu que le café qui pousse en altitude est de meilleure qualité cependant ici on remarque que les cafés cultivés aux altitudes les plus hautes sont les plus sujets à une grande quantité de défauts. Les défauts physiques n'interviennent que peu dans la qualité finale du café mais peuvent avoir une influence en cas de mauvais tri. On observe sur la figure \ref{AltPts} que la zone en bas à gauche, là où l'altitude est la plus haute, correspond à une zone possédant peu de cafés ayant eu le score 0 et beaucoup ayant eu des scores entre 85 et 90. Cependant, des cafés ayant un nombre de points de moins de 80 points, en rouge ou compris entre 89 et 85, en bleu, sont présents plus ou moins de manière homogène sur la totalité de la carte, indépendamment de l'altitude. Sur la figure \ref{ThirdSOMASNM} on peut observer que les fortes précipitations sont liées au nombre de défauts mais aussi fortement à l'année. Presque aucun des café de l'année 2011 n'a eu de score compris dans la catégorie 2. 
+\paragraph{Analyse des cartes}On peut observer que les régions avec beaucoup de précipitations sont aussi celles qui ont le plus de cafés avec peu de points. Lors d'une seconde exécution du réseau on a pu observer une relation proche entre les défauts et l'altitude comme montré sur la figure \ref{SecondSOMASNM}. Cette relation n'était pas clairement visible lors de la première exécution. Le fait est déjà connu que le café qui pousse en altitude est de meilleure qualité cependant ici on remarque que les cafés cultivés aux altitudes les plus hautes sont les plus sujets à une grande quantité de défauts. Les défauts physiques n'interviennent que peu dans la qualité finale du café mais peuvent avoir une influence en cas de mauvais tri. On observe sur la figure \ref{SecondSOMASNM} que la zone en bas à gauche, là où l'altitude est la plus haute, correspond à une zone possédant peu de cafés ayant eu le score 0 et beaucoup ayant eu des scores entre 85 et 90. Cependant, des cafés ayant un nombre de points de moins de 80 points, en rouge ou compris entre 89 et 85, en bleu, sont présents plus ou moins de manière homogène sur la totalité de la carte, indépendamment de l'altitude. Sur la figure \ref{ThirdSOMASNM} on peut observer que les fortes précipitations sont liées au nombre de défauts mais aussi fortement à l'année. Presque aucun des café de l'année 2011 n'a eu de score compris dans la catégorie 2. 
 
 
 %TODO trouver le café à 90 points de 2011
@@ -382,22 +353,23 @@ La carte auto-organisatrice a été réalisée en incluant toutes les variables 
 \section{Apprentissage supervisé}
 %Il a été possible ou non de faire de la prédiction, confusion matrix etc
 %ce que les méthodes comme random forest ont donné
-Le but de cette section est d'analyser la possibilité de prédiction de la qualité des cafés\footnote{La qualité du café fait références aux variables dépendantes citées dans la section \ref{VarDep}.} à l'aide des données climatiques et de qualité de sols à disposition. Les méthodes Random Forest et Partial Least Squares seront utilisées.
+Le but de cette section est d'analyser la possibilité de prédiction de la qualité des cafés\footnote{La qualité du café fait référence aux variables dépendantes citées dans la section \ref{VarDep}.} à l'aide des données climatiques et de qualité de sols à disposition. Les méthodes Random Forest et Partial Least Squares seront utilisées.
 
 
 \subsection{Random Forest}
  
-Cette section présente comment la méthode Random Forest a été utilisée et les résultats produits. 
+Cette section présente comment la méthode Random Forest a été utilisée et les résultats produits. Les unités pour mesurer les erreurs sont la RMSE (Root Mean Squared Error), plus elle est proche de zéro, moins les points sont éloigné de la droite estimée lors d'une régression linéaire et R-Squared ou $R^2$, un autre indice d'erreur pour lequel un bon résultat est proche de 1 et un mauvais proche de 0. 
 \subsubsection{Méthode utilisée}
 % détails de la méthode, choix pour la cross validation, variables entrée/sortie 
 Afin de se faire la meilleure idée possible des possibilités de prédiction, quatre variables de sorties ont été testées. Le nombre total de points (Puntaje Total), l'acidité (Acidez), la douceur (Dulzor) et la catégorie, obtenue d'après le tableau à la section \ref{categoriesCafe}. \\
 
-\noindent La méthode Random Forest du package Caret a été utilisée avec une K-Fold Cross Validation ayant comme paramètre K = 10, répétée 3 fois. 
+\noindent La méthode Random Forest du package Caret a été utilisée avec une K-Fold Cross Validation ayant comme paramètre K = 10 (nombre de \textit{folds}), répétée 3 fois. 
 
 \begin{lstlisting}[caption={Fonction d'entrainement et de test du modèle avec Random Forest},captionpos=b]
 	RFmodelCategory=train(x_cat,y_cat,method="rf",
 	tunegrid=tunegrid_cat,
-	trControl=trainControl(method="repeatedcv",number=10,repeats=3),
+	trControl=trainControl(method="repeatedcv",
+	                       number=10,repeats=3),
 	tuneLength=10,importance = TRUE, proximity=T)
 \end{lstlisting}
 
@@ -436,7 +408,7 @@ Re-échantillonnage des résultats parmi les paramètres de réglage:
 	\end{tabular}
 \end{table}
 
-\noindent On observe qu'avec un \textit{mtry}\footnote{À chaque split de l'arbre, l'algorithme va chercher \textit{mtry} variables dans le set. Chaque nouveau split sera composté de \textit{mtry} variables sélectionnées aléatoirement dans le set de donnée principal} de 9, l'\textit{Accuracy} est la meilleure .
+\noindent On observe qu'avec un \textit{mtry}\footnote{À chaque split de l'arbre, l'algorithme va chercher \textit{mtry} variables dans le set. Chaque nouveau split sera composé de \textit{mtry} variables sélectionnées aléatoirement dans le set de données principal} de 9, l'\textit{Accuracy} est la meilleure .
 
 
 \begin{table}[H]
@@ -612,7 +584,7 @@ Balanced Accuracy    0.563657   0.5049   0.5244
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_models_perfs/Pred_PuntajeTotal}
-	\caption{Comparaison des prédiction et des valeurs actuelle pour la variable \textit{Puntaje Total}}
+	\caption{Comparaison des prédictions et des valeurs actuelles pour la variable \textit{Puntaje Total}}
 	\label{fig:predpuntajetotal}
 \end{figure}
 
@@ -649,7 +621,7 @@ Balanced Accuracy    0.563657   0.5049   0.5244
 	\end{tabular}
 \end{table}
 
-\noindent On observe qu'avec un \textit{mtry} de , la RMSE est la plus petite. Cependant, une fois entrainé le modèle donne l'erreur suivante: RMSE = 0.5587  et Rsquared = 0.0261. 
+\noindent On observe qu'avec un \textit{mtry} de 2, la RMSE est la plus petite. Cependant, une fois entrainé le modèle donne l'erreur suivante: RMSE = 0.5587  et Rsquared = 0.0261. 
 
 \begin{figure}[H]
 	\centering
@@ -708,7 +680,7 @@ Balanced Accuracy    0.563657   0.5049   0.5244
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_models_perfs/Pred_ACidez}
-	\caption{Comparaison des prédiction et des valeurs actuelle pour la variable \textit{Acidez}}
+	\caption{Comparaison des prédictions et des valeurs actuelles pour la variable \textit{Acidez}}
 	\label{fig:predacidez}
 \end{figure}
 
@@ -809,7 +781,7 @@ DtrTotal      & 84.98
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_models_perfs/Pred_Dulzor}
-	\caption{Comparaison des prédiction et des valeurs actuelle pour la variable \textit{Dulzor}}
+	\caption{Comparaison des prédictions et des valeurs actuelles pour la variable \textit{Dulzor}}
 	\label{fig:preddulzor}
 \end{figure}
 
@@ -819,7 +791,7 @@ DtrTotal      & 84.98
 
 %TODO Footnote pour kappa
 \paragraph{Discussion des résultats pour Random Forest}
-Avec une \textit{accuracy} de seulement 0.47  (47\% d'échantillons classés correctement) et un test de Kappa d'uniquement 0.0416, la classification à l'aide de Random Forest ne semble pas fiable avec les données en notre possession. \\
+Avec une \textit{accuracy} de seulement 0.47  (47\% d'échantillons classés correctement) et un test de Kappa d'uniquement 0.0416\footnote{Le test kappa de Cohen fournit un résultat proche de 1 si les prédictions sont parfaites, et proche de 0 s'il n'y a aucune correspondance.}, la classification à l'aide de Random Forest ne semble pas fiable avec les données en notre possession. \\
 
 \noindent Pour mesurer la qualité de la régression, nous utiliserons comme mesure le coefficient $r^2$ fournit par les résultats de Random Forest. Plus le coefficient s'approche de $1$ plus la variation totale des sorties prédites par le modèle est faible et donc plus le modèle est bon. Les résultats obtenus avec les 3 variables de sortie différentes sont les suivants: \\
 
@@ -843,7 +815,7 @@ Avec une \textit{accuracy} de seulement 0.47  (47\% d'échantillons classés cor
 
 %TODO finir RF et parler de RF avec les variables sans variance etc
 \subsection{Random Forest avec variables à haute variabilité}
-Afin de tester le modèle sans données inutilement redondantes et fortement corrélées, un second modèle Random Forest a été entrainé avec les variables indépendantes qui avaient un taux de variabilité supérieur à un certain niveau. Le premier niveau a été placé à $10$, ce qui a pour effet de ne garder que $25$ variables. Le second a été placé à $20$, ce qui a pour effet de ne garder que $21$ variables. Les résultats se sont avérés tout aussi imprécis, voir par exemple les résultats de prédiction sur la figure \ref{fig:rfptotalvariability10} avec le seuil à 10 pour la variable \textit{Puntaje Total} et sur la figure \ref{fig:rfptotalvariability20} avec le seuil à 20. Les cafés ayant un total de zéro points ont ici été gardés afin d'observer une éventuelle prédiction correspondante. Sur la figure \ref{fig:rfptotalvariability10} on peut observer qu'un des café ayant zéro points a été prédit à moins de 40 points. Les variables montrée dans le tableau \ref{tab:variability10Variables} sont celles utilisées pour créer le modèle avec un seuil de 10. On peut voir que les précipitations ont une grande importance et cela rejoint l'idée observée dans la section \ref{SOM} que la quantité de précipitations est importante pour la qualité du grain, cependant cela ne permet que d'avoir une approximation de la quantité de défauts physique du grain et non sur la qualité générale. 
+Afin de tester le modèle sans données inutilement redondantes et fortement corrélées, un second modèle Random Forest a été entrainé avec les variables indépendantes qui avaient un taux de variabilité supérieur à un certain niveau. Le premier niveau a été placé à $10$, ce qui a pour effet de ne garder que $25$ variables. Le second a été placé à $20$, ce qui a pour effet de ne garder que $21$ variables. Les résultats se sont avérés tout aussi imprécis, voir par exemple les résultats de prédiction sur la figure \ref{fig:rfptotalvariability10} avec le seuil à 10 pour la variable \textit{Puntaje Total} et sur la figure \ref{fig:rfptotalvariability20} avec le seuil à 20. Les cafés ayant un total de zéro point ont ici été gardés afin d'observer une éventuelle prédiction correspondante. Sur la figure \ref{fig:rfptotalvariability10} on peut observer qu'un des café ayant zéro points a été prédit à moins de 40 points, ce qui signifie que certaines variables indépendantes peuvent tirer la prédiction dans le bon sens. Les variables montrée dans le tableau \ref{tab:variability10Variables} sont celles utilisées pour créer le modèle avec un seuil de 10. On peut voir que les précipitations ont une grande importance et cela rejoint l'idée observée dans la section \ref{SOM} que la quantité de précipitations est importante pour la qualité du grain Cependant cela ne permet que d'avoir une approximation de la quantité de défauts physiques du grain et non de la qualité générale. 
 
 \begin{figure}[H]
 	\centering
@@ -912,25 +884,25 @@ Afin de tester le modèle sans données inutilement redondantes et fortement cor
 
 \subsection{Partial Least Squares}
 % analyser les résultats de prédiction ainsi que les corrélation fournies par PLS - au vus des résultats et de la corrélation entre les variables de sorties pas besoind 'utiliser MBPLS ça serait une perte de temps
-Cette méthode utilise à la fois le principe de régression et d'analyse en composante principale (PCA ou ACP). La méthode \textit{plsreg1} de R fournit en retour plusieurs objets dont les corrélation entre variable dont la représentation graphique permet de visualiser aisément où se placent les variables de sorties choisie. 
+Cette méthode utilise à la fois le principe de régression et d'analyse en composante principale (PCA ou ACP). La méthode \textit{plsreg1} de R fournit en retour plusieurs objets dont les corrélations entre variables. Leur représentation graphique permet de visualiser aisément où se placent les variables de sorties choisie par rapport aux autres. 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.5]{../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS/CircleOfCorrelationPuntajeTotal}
+	\includegraphics[scale=0.4]{../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS/CircleOfCorrelationPuntajeTotal}
 	\caption{Représentation des corrélations entre les variables indépendantes et la variable dépendante \textit{Puntaje Total}}
 	\label{fig:circleofcorrelationpuntajetotal}
 \end{figure}
  
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.5]{../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS/CircleOfCorrelationAcidez}
+	\includegraphics[scale=0.4]{../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS/CircleOfCorrelationAcidez}
 	\caption{Représentation des corrélations entre les variables indépendantes et la variable dépendante \textit{Acidez}}
 	\label{fig:circleofcorrelationacidez}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale=0.5]{../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS/CircleOfCorrelationDulzor}
+	\includegraphics[scale=0.4]{../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS/CircleOfCorrelationDulzor}
 	\caption{Représentation des corrélations entre les variables indépendantes et la variable dépendante \textit{Dulzor}}
 	\label{fig:circleofcorrelationdulzor}
 \end{figure}
@@ -938,12 +910,12 @@ Cette méthode utilise à la fois le principe de régression et d'analyse en com
 
 \subsubsection{Analyse des résultats}
 
-La prédiction avec Partial Least Squares ne donne pas de résultats plus convainquant que Random Forest. Cependant et afin de mitiger ces résultats, la méthode n'a pas été exploitée avec son plein potentiel car un seul block de donnée à été utilisé (la totalité des variables indépendantes) alors que PLS et Multiblock PLS peuvent éventuellement être amélioré en réglant les paramètres plus finement. 
+La prédiction avec Partial Least Squares ne donne pas de résultats plus convaincants que Random Forest. Cependant et afin de mitiger ces résultats, la méthode n'a pas été exploitée avec son plein potentiel car un seul block de données à été utilisé (la totalité des variables indépendantes) alors que PLS et Multiblock PLS peuvent éventuellement être amélioré en réglant les paramètres plus finement. 
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS/ComparisonOfResponsesPuntajeTotal}
-	\caption{Comparaison des prédiction et des valeurs actuelle pour la variable Puntaje Total}
+	\caption{Comparaison des prédictions et des valeurs actuelles pour la variable Puntaje Total}
 	\label{fig:comparisonofresponsespuntajetotal}
 \end{figure}
 
@@ -951,7 +923,7 @@ La prédiction avec Partial Least Squares ne donne pas de résultats plus convai
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS/ComparisonOfResponsesAcidez}
-	\caption{Comparaison des prédiction et des valeurs actuelle pour la variable Acidez}
+	\caption{Comparaison des prédictions et des valeurs actuelles pour la variable Acidez}
 	\label{fig:comparisonofresponsesacidez}
 \end{figure}
 
@@ -960,7 +932,7 @@ La prédiction avec Partial Least Squares ne donne pas de résultats plus convai
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS/ComparisonOfResponsesDulzor}
-	\caption{Comparaison des prédiction et des valeurs actuelle pour la variable Dulzor}
+	\caption{Comparaison des prédictions et des valeurs actuelles pour la variable Dulzor}
 	\label{fig:comparisonofresponsesdulzor}
 \end{figure}
 

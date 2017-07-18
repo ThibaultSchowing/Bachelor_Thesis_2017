@@ -2,28 +2,31 @@
 
  \nomgroup{A}
 
-  \item [{}]\begingroup \nomeqref {0}\nompageref{i}
-  \item [{CIAT}]\begingroup Centre Internationnal de recherche pour l'Agriculture Tropicale\nomeqref {0}
-		\nompageref{i}
-  \item [{DTR}]\begingroup Diurnal Temperature Range\nomeqref {0}
-		\nompageref{i}
-  \item [{FNC}]\begingroup Fédération Nationale des Caféiculteurs\nomeqref {0}
-		\nompageref{i}
-  \item [{GIS}]\begingroup Geographical Information System\nomeqref {0}
-		\nompageref{i}
-  \item [{HCPC}]\begingroup Hierarchical Clustering on Principal Components\nomeqref {0}
-		\nompageref{i}
-  \item [{SCAA}]\begingroup Specialty Coffee Association of America\nomeqref {0}
-		\nompageref{i}
-  \item [{SICA}]\begingroup Sistema de Información Cafetera\nomeqref {0}
-		\nompageref{i}
-  \item [{SOM}]\begingroup Self Organizing Map\nomeqref {0}
-		\nompageref{i}
-  \item [{tmax}]\begingroup Température maximale\nomeqref {0}
-		\nompageref{i}
-  \item [{tmean}]\begingroup Température moyenne\nomeqref {0}
-		\nompageref{i}
-  \item [{tmin}]\begingroup Température minimale\nomeqref {0}
-		\nompageref{i}
+  \item [{CIAT}]\begingroup Centre Internationnal de recherche pour l'Agriculture Tropicale\nomeqref {1.0}
+		\nompageref{1}
+  \item [{DTR}]\begingroup Diurnal Temperature Range\nomeqref {1.0}
+		\nompageref{1}
+  \item [{EPSG}]\begingroup European Petroleum Survey Group\nomeqref {1.0}
+		\nompageref{1}
+  \item [{FNC}]\begingroup Fédération Nationale des Caféiculteurs\nomeqref {1.0}
+		\nompageref{1}
+  \item [{GIS}]\begingroup Geographical Information System\nomeqref {1.0}
+		\nompageref{1}
+  \item [{HCPC}]\begingroup Hierarchical Clustering on Principal Components\nomeqref {1.0}
+		\nompageref{1}
+  \item [{SCAA}]\begingroup Specialty Coffee Association of America\nomeqref {1.0}
+		\nompageref{1}
+  \item [{SICA}]\begingroup Sistema de Información Cafetera\nomeqref {1.0}
+		\nompageref{1}
+  \item [{SOM}]\begingroup Self Organizing Map\nomeqref {1.0}
+		\nompageref{1}
+  \item [{SRID}]\begingroup Spatial Reference System Identifier\nomeqref {1.0}
+		\nompageref{1}
+  \item [{tmax}]\begingroup Température maximale\nomeqref {1.0}
+		\nompageref{1}
+  \item [{tmean}]\begingroup Température moyenne\nomeqref {1.0}
+		\nompageref{1}
+  \item [{tmin}]\begingroup Température minimale\nomeqref {1.0}
+		\nompageref{1}
 
 \end{thenomenclature}

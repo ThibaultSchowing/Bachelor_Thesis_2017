@@ -1,18 +1,48 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Bachelor_Schowing2017.aux
 A level-1 auxiliary file: acknowledgements.aux
+A level-1 auxiliary file: cdc.aux
 A level-1 auxiliary file: summary.aux
 A level-1 auxiliary file: body.aux
 A level-1 auxiliary file: Results.aux
+A level-1 auxiliary file: discussionResultats.aux
 A level-1 auxiliary file: Conclusion.aux
 A level-1 auxiliary file: annexes.aux
 The style file: plain.bst
 Database file #1: mybib.bib
-Warning--entry type for "SICA" isn't style-file defined
---line 62 of file mybib.bib
+Warning--entry type for "EJE" isn't style-file defined
+--line 54 of file mybib.bib
+Warning--entry type for "CoffeeImport" isn't style-file defined
+--line 88 of file mybib.bib
 Warning--entry type for "CCI" isn't style-file defined
---line 83 of file mybib.bib
+--line 96 of file mybib.bib
+Warning--entry type for "SICA" isn't style-file defined
+--line 103 of file mybib.bib
+Warning--entry type for "CupingProtocol" isn't style-file defined
+--line 124 of file mybib.bib
+Warning--entry type for "CafeDeColombia" isn't style-file defined
+--line 134 of file mybib.bib
+Warning--entry type for "WikiCafeicultureColombie" isn't style-file defined
+--line 144 of file mybib.bib
+Warning--entry type for "InternationalCoffeeOrganisation" isn't style-file defined
+--line 157 of file mybib.bib
+Warning--entry type for "IDEAM" isn't style-file defined
+--line 167 of file mybib.bib
+Warning--entry type for "WikiMeteo" isn't style-file defined
+--line 173 of file mybib.bib
 Warning--to sort, need author or key in SICA
+Warning--to sort, need author or key in WikiCafeicultureColombie
+Warning--to sort, need author, editor, or key in GuideCafe
 Warning--to sort, need author or key in CCI
+Warning--to sort, need author or key in CoffeeImport
+Warning--to sort, need author or key in InternationalCoffeeOrganisation
+Warning--to sort, need author or key in CupingProtocol
+Warning--to sort, need author or key in IDEAM
+Warning--to sort, need author or key in WikiMeteo
+Warning--to sort, need author or key in actulatino_2016
+Warning--to sort, need author or key in EJE
+Warning--to sort, need author or key in CafeDeColombia
+Warning--empty author and editor in GuideCafe
+Warning--empty author in actulatino_2016
 Warning--empty booktitle in Kohonen:1988:SFT:65669.104428
 Warning--empty journal in OMM
-(There were 6 warnings)
+(There were 26 warnings)

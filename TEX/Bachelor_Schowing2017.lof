@@ -3,25 +3,25 @@
 \contentsline {xchapter}{Introduction}{1}{chapter.1}
 \addvspace {10\p@ }
 \contentsline {xchapter}{\IeC {\`A} propos des donn\IeC {\'e}es}{3}{chapter.2}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Mise sous forme graphique du tableau des temp\IeC {\'e}rature maximales pour le mois de janvier 2011 \relax }}{5}{figure.caption.3}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Mise sous forme graphique du tableau des temp\IeC {\'e}ratures maximales pour le mois de janvier 2011 \relax }}{5}{figure.caption.3}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Intensit\IeC {\'e} du ph\IeC {\'e}nom\IeC {\`e}ne El Ni\IeC {\~n}o au cours des ans\newline Source: \textit {http://ggweather.com/enso/oni.htm}\relax }}{6}{figure.caption.4}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Triangle repr\IeC {\'e}sentant les diff\IeC {\'e}rentes textures de sols\newline Source: \textit {http://www.construnatura.com/esp/articulo/agricultura-ecol-gica/el-suelo-como-fuente-de-vida--propiedades--ii-}\relax }}{7}{figure.caption.5}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Emplacement des fermes avec coloration selon le nombre de points attribu\IeC {\'e}s au caf\IeC {\'e}. Nord.\relax }}{8}{figure.caption.6}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Emplacement des fermes avec coloration selon le nombre de points attribu\IeC {\'e}s au caf\IeC {\'e}. Sud.\relax }}{9}{figure.caption.7}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces \relax }}{10}{figure.caption.9}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces R\IeC {\'e}partition des vari\IeC {\'e}t\IeC {\'e}s de caf\IeC {\'e} dans le d\IeC {\'e}partement.\relax }}{10}{figure.caption.9}
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Nombre de points totaux vs altitude\relax }}{12}{figure.caption.12}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces R\IeC {\'e}partition des caf\IeC {\'e}s par rapport au nombre de points total\relax }}{12}{figure.caption.13}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces R\IeC {\'e}partition des caf\IeC {\'e}s par rapport au nombre de points totaux\relax }}{12}{figure.caption.13}
 \contentsline {figure}{\numberline {2.9}{\ignorespaces R\IeC {\'e}partition des points totaux par ann\IeC {\'e}e\relax }}{14}{figure.caption.17}
 \addvspace {10\p@ }
 \contentsline {xchapter}{M\IeC {\'e}thodes de mod\IeC {\'e}lisation}{15}{chapter.3}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Sch\IeC {\'e}ma simple du fonctionnement de Random Forest. \newline Source: \textit {https://www.youtube.com/watch?v=ajTc5y3OqSQ}\relax }}{17}{figure.caption.18}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces M\IeC {\'e}thode PLS. X est repr\IeC {\'e}sent\IeC {\'e} par son score t et Y par u. Une premi\IeC {\`e}re estimation de U est multipli\IeC {\'e}e \IeC {\`a} travers X pour obtenir une aproximation du poid $ \omega _t $. Le poid est normalis\IeC {\'e} pour \IeC {\^e}tre de longueur 1 et remultipli\IeC {\'e} \IeC {\`a} travers X pour produire t. A partir de t et de Y, le poid $ q^T $ est obtenu ce qui donne un nouveau vecteur u. Cette op\IeC {\'e}ration est r\IeC {\'e}p\IeC {\'e}t\IeC {\'e}e jusqu'\IeC {\`a} la convergence de t.\cite {CEM:CEM515}\relax }}{18}{figure.caption.19}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces M\IeC {\'e}thode MBPLS. Un score de d\IeC {\'e}part u est r\IeC {\'e}gress\IeC {\'e} sur tous les blocs $ X_b $ pour donner les poids variables du bloc $ w^T_b $ Les poids des variables de blocs sont normalis\IeC {\'e}s \IeC {\`a} la longueur un et multipli\IeC {\'e}s par les blocs pour donner les scores de blocs $ t_b $. Les scores de blocs sont combin\IeC {\'e}s dans le super bloc T. Un cycle PLS entre T et Y est effectu\IeC {\'e} pour donner le poids superieur $ W^T_T $, qui est \IeC {\'e}galement normalis\IeC {\'e} \IeC {\`a} la longueur un, et le super score $ t_T $. L'op\IeC {\'e}ration est r\IeC {\'e}p\IeC {\'e}t\IeC {\'e}e jusqu'\IeC {\`a} la convergence de $ t_T $. \cite {CEM:CEM515}\relax }}{19}{figure.caption.20}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Pays organis\IeC {\'e}s en SOM d'apr\IeC {\`e}s des indicateurs de pauvret\IeC {\'e}. \newline Source: \textit {http://www.cis.hut.fi/research/som-research/worldmap.html}\relax }}{21}{figure.caption.21}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Pays correspondants \IeC {\`a} la carte SOM de la figure \ref {SOMPovertyMap} \newline Source: \textit {http://www.cis.hut.fi/research/som-research/worldmap.html}\relax }}{21}{figure.caption.22}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Sch\IeC {\'e}ma simple du fonctionnement de Random Forest. \newline Source: \textit {https://www.youtube.com/watch?v=ajTc5y3OqSQ}\relax }}{16}{figure.caption.18}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces M\IeC {\'e}thode PLS. X est repr\IeC {\'e}sent\IeC {\'e}e par son score t et Y par u. Une premi\IeC {\`e}re estimation de U est multipli\IeC {\'e}e \IeC {\`a} travers X pour obtenir une approximation du poids $ \omega _t $. Le poids est normalis\IeC {\'e} pour \IeC {\^e}tre de longueur 1 et re-multipli\IeC {\'e} \IeC {\`a} travers X pour produire t. A partir de t et de Y, le poids $ q^T $ est obtenu ce qui donne un nouveau vecteur u. Cette op\IeC {\'e}ration est r\IeC {\'e}p\IeC {\'e}t\IeC {\'e}e jusqu'\IeC {\`a} la convergence de t.\cite {CEM:CEM515}\relax }}{17}{figure.caption.19}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces M\IeC {\'e}thode MBPLS. Un score de d\IeC {\'e}part u est r\IeC {\'e}gress\IeC {\'e} sur tous les blocs $ X_b $ pour donner les poids variables du bloc $ w^T_b $ Les poids des variables de blocs sont normalis\IeC {\'e}s \IeC {\`a} la longueur un et multipli\IeC {\'e}s par les blocs pour donner les scores de blocs $ t_b $. Les scores de blocs sont combin\IeC {\'e}s dans le super bloc T. Un cycle PLS entre T et Y est effectu\IeC {\'e} pour donner le poids superieur $ W^T_T $, qui est \IeC {\'e}galement normalis\IeC {\'e} \IeC {\`a} la longueur un, et le super score $ t_T $. L'op\IeC {\'e}ration est r\IeC {\'e}p\IeC {\'e}t\IeC {\'e}e jusqu'\IeC {\`a} la convergence de $ t_T $. \cite {CEM:CEM515}\relax }}{18}{figure.caption.20}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Pays organis\IeC {\'e}s en SOM d'apr\IeC {\`e}s des indicateurs de pauvret\IeC {\'e}. \newline Source: \textit {http://www.cis.hut.fi/research/som-research/worldmap.html}\relax }}{20}{figure.caption.21}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Pays correspondants \IeC {\`a} la carte SOM de la figure \ref {SOMPovertyMap} \newline Source: \textit {http://www.cis.hut.fi/research/som-research/worldmap.html}\relax }}{20}{figure.caption.22}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Analyse des donn\IeC {\'e}es}{23}{chapter.4}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces \IeC {\'E}tape de construction du set de donn\IeC {\'e}es et pertes d'observations.\relax }}{25}{figure.caption.23}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces \IeC {\'E}tapes de construction du set de donn\IeC {\'e}es et pertes d'observations.\relax }}{25}{figure.caption.23}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Matrice de corr\IeC {\'e}lation entre les diff\IeC {\'e}rentes sorties.\relax }}{27}{figure.caption.25}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Matrice de corr\IeC {\'e}lation entre toutes les variables.\relax }}{28}{figure.caption.26}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Description de l'Analyse en Composante Principale. (A) Description d'un objet simple de mani\IeC {\`e}re compliqu\IeC {\'e}e ( trois dimensions pour par exemple une ellipse en papier) (B) Trouver des nouvelles variables (axes de coordonn\IeC {\'e}es) orthogonaux l'un \IeC {\`a} l'autre qui pointent dans les directions de la plus grande variance (C) Utiliser les nouvelles variables (axes) pour d\IeC {\'e}crire l'objet d'une mani\IeC {\`e}re plus simple. \relax }}{29}{figure.caption.27}
@@ -32,7 +32,7 @@
 \contentsline {figure}{\numberline {4.9}{\ignorespaces HCPC arbre 3D\relax }}{34}{figure.caption.33}
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Saut d'inertie du dendogramme \relax }}{35}{figure.caption.34}
 \contentsline {figure}{\numberline {4.11}{\ignorespaces U-Matrix de la carte SOM\relax }}{36}{figure.caption.36}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces U-Matrix avec les points. En jaune les caf\IeC {\'e}s de cat\IeC {\'e}gorie 2,en bleu cat\IeC {\'e}gorie 3 et en rouge cat\IeC {\'e}gorie 4. Les cat\IeC {\'e}gories sont expliqu\IeC {\'e}es au point \ref {EmpFermes}\relax }}{37}{figure.caption.37}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces U-Matrix avec les points. En jaune les caf\IeC {\'e}s de cat\IeC {\'e}gorie 2,en bleu cat\IeC {\'e}gorie 3 et en rouge cat\IeC {\'e}gorie 4. Pour rappel, les cat\IeC {\'e}gories sont expliqu\IeC {\'e}es au point \ref {EmpFermes}\relax }}{37}{figure.caption.37}
 \contentsline {figure}{\numberline {4.13}{\ignorespaces Composants de qualit\IeC {\'e} - Variables de sortie\relax }}{38}{figure.caption.38}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Acidez}}}{38}{subfigure.13.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Aroma-Fragrancia}}}{38}{subfigure.13.2}
@@ -73,7 +73,7 @@
 \contentsline {subfigure}{\numberline {(m)}{\ignorespaces {Organic}}}{40}{subfigure.15.13}
 \contentsline {subfigure}{\numberline {(n)}{\ignorespaces {Orientation}}}{40}{subfigure.15.14}
 \contentsline {subfigure}{\numberline {(o)}{\ignorespaces {Defectos}}}{40}{subfigure.15.15}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Altitude et d\IeC {\'e}fauts lors d'une seconde ex\IeC {\'e}cution du r\IeC {\'e}seau de neurones\relax }}{41}{figure.caption.41}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Altitude, points totaux et d\IeC {\'e}fauts lors d'une seconde ex\IeC {\'e}cution du r\IeC {\'e}seau de neurones\relax }}{41}{figure.caption.41}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {ASNM}}}{41}{subfigure.16.1}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Defectos Totales}}}{41}{subfigure.16.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {ASNM}}}{41}{subfigure.16.3}
@@ -84,22 +84,22 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Defectos Totales}}}{42}{subfigure.17.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Precipitations}}}{42}{subfigure.17.3}
 \contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Year, 2011 (Noir), 2016 (Orange)}}}{42}{subfigure.17.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Coffee Class Position, same as \ref {umatrix_cat}}}}{42}{subfigure.17.5}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Coffee Class Position, idem \IeC {\`a} \ref {umatrix_cat}}}}{42}{subfigure.17.5}
 \contentsline {figure}{\numberline {4.18}{\ignorespaces Matrice de confusion de la classification avec Random Forest\relax }}{46}{figure.caption.45}
 \contentsline {figure}{\numberline {4.19}{\ignorespaces Performances de la r\IeC {\'e}gression pour la variable \textit {Puntaje Total}\relax }}{48}{figure.caption.47}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Comparaison des pr\IeC {\'e}diction et des valeurs actuelle pour la variable \textit {Puntaje Total}\relax }}{50}{figure.caption.49}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Comparaison des pr\IeC {\'e}dictions et des valeurs actuelles pour la variable \textit {Puntaje Total}\relax }}{50}{figure.caption.49}
 \contentsline {figure}{\numberline {4.21}{\ignorespaces Performances de la r\IeC {\'e}gression pour la variable \textit {Acidez}\relax }}{51}{figure.caption.51}
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Comparaison des pr\IeC {\'e}diction et des valeurs actuelle pour la variable \textit {Acidez}\relax }}{53}{figure.caption.53}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Comparaison des pr\IeC {\'e}dictions et des valeurs actuelles pour la variable \textit {Acidez}\relax }}{53}{figure.caption.53}
 \contentsline {figure}{\numberline {4.23}{\ignorespaces Performances de la r\IeC {\'e}gression pour la variable \textit {Dulzor}\relax }}{54}{figure.caption.55}
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Comparaison des pr\IeC {\'e}diction et des valeurs actuelle pour la variable \textit {Dulzor}\relax }}{56}{figure.caption.57}
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Comparaison des pr\IeC {\'e}dictions et des valeurs actuelles pour la variable \textit {Dulzor}\relax }}{56}{figure.caption.57}
 \contentsline {figure}{\numberline {4.25}{\ignorespaces Pr\IeC {\'e}diction du total de points avec 25 variables ind\IeC {\'e}pendantes\relax }}{58}{figure.caption.58}
 \contentsline {figure}{\numberline {4.26}{\ignorespaces Pr\IeC {\'e}diction du total de points avec 21 variables ind\IeC {\'e}pendantes\relax }}{58}{figure.caption.59}
 \contentsline {figure}{\numberline {4.27}{\ignorespaces Repr\IeC {\'e}sentation des corr\IeC {\'e}lations entre les variables ind\IeC {\'e}pendantes et la variable d\IeC {\'e}pendante \textit {Puntaje Total}\relax }}{60}{figure.caption.61}
 \contentsline {figure}{\numberline {4.28}{\ignorespaces Repr\IeC {\'e}sentation des corr\IeC {\'e}lations entre les variables ind\IeC {\'e}pendantes et la variable d\IeC {\'e}pendante \textit {Acidez}\relax }}{61}{figure.caption.62}
-\contentsline {figure}{\numberline {4.29}{\ignorespaces Repr\IeC {\'e}sentation des corr\IeC {\'e}lations entre les variables ind\IeC {\'e}pendantes et la variable d\IeC {\'e}pendante \textit {Dulzor}\relax }}{62}{figure.caption.63}
-\contentsline {figure}{\numberline {4.30}{\ignorespaces Comparaison des pr\IeC {\'e}diction et des valeurs actuelle pour la variable Puntaje Total\relax }}{63}{figure.caption.64}
-\contentsline {figure}{\numberline {4.31}{\ignorespaces Comparaison des pr\IeC {\'e}diction et des valeurs actuelle pour la variable Acidez\relax }}{63}{figure.caption.65}
-\contentsline {figure}{\numberline {4.32}{\ignorespaces Comparaison des pr\IeC {\'e}diction et des valeurs actuelle pour la variable Dulzor\relax }}{64}{figure.caption.66}
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Repr\IeC {\'e}sentation des corr\IeC {\'e}lations entre les variables ind\IeC {\'e}pendantes et la variable d\IeC {\'e}pendante \textit {Dulzor}\relax }}{61}{figure.caption.63}
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Comparaison des pr\IeC {\'e}dictions et des valeurs actuelles pour la variable Puntaje Total\relax }}{62}{figure.caption.64}
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Comparaison des pr\IeC {\'e}dictions et des valeurs actuelles pour la variable Acidez\relax }}{63}{figure.caption.65}
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Comparaison des pr\IeC {\'e}dictions et des valeurs actuelles pour la variable Dulzor\relax }}{63}{figure.caption.66}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Discussion des r\IeC {\'e}sultats}{65}{chapter.5}
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Roue des parfums du caf\IeC {\'e}\relax }}{66}{figure.caption.67}

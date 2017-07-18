@@ -1,23 +1,54 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{CoffeeImport}
+Cafe import , http://www.cafeimports.com/origin\_colombia.
 
 \bibitem{CCI}
 Centre du commerce international, http://www.intracen.org.
 
+\bibitem{WikiCafeicultureColombie}
+Condensé d'informations sur la caféiculture en colombie,
+  https://fr.wikipedia.org/wiki/caféiculture\_en\_colombie.
+
+\bibitem{IDEAM}
+Ideam - instituto de hidrología, meteorología y estudios ambientales,
+  http://www.ideam.gov.co/.
+
+\bibitem{EJE}
+Informations générales sur la colombie, www.colombia.com.
+
+\bibitem{InternationalCoffeeOrganisation}
+Organisation internationnale du café, http://www.ico.org/.
+
+\bibitem{CupingProtocol}
+Scaa cuping protocol, http://www.scaa.org/pdf/resources/cupping-protocols.pdf.
+
 \bibitem{SICA}
 Sistema information cafetera, www.federaciondecafeteros.org.
+
+\bibitem{CafeDeColombia}
+Toutes les relations avec le café colombien, http://www.cafedecolombia.com.
+
+\bibitem{WikiMeteo}
+Wikipédia - climat colombien,
+  https://fr.wikipedia.org/wiki/climat\_de\_la\_colombie.
+
+\bibitem{GuideCafe}
+{\em Guide de l’exportateur de café. - 3éme éd.}
+\newblock Centre du commerce international, Unité des publications, Palais des
+  Nations, Genève, Switzerland. Phone: +41-22 730 01 11, Fax: +41-22 733 44
+  39, Email: itcreg@intracen.org, URL: http://www.intracen.org, 3 edition,
+  2011.
+
+\bibitem{actulatino_2016}
+Colombie : El niño provoque chaleur et sécheresse, juan manuel santos appelle
+  à la vigilance.
+\newblock {\em Actu Latino}, Jan 2016.
 
 \bibitem{EnsembleMethods}
 Issam~El Alaoui.
 \newblock Les méthodes ensemblistes pour algorithmes de machine learning.
 \newblock {\em Octo blog}, 2014.
-
-\bibitem{GuideCafe}
-Centre du~commerce international.
-\newblock {\em Guide de l’exportateur de café. - 3éme éd.}
-\newblock Centre du commerce international, Unité des publications, Palais des
-  Nations, Genève, Switzerland. Phone: +41-22 730 01 11, Fax: +41-22 733 44
-  39, Email: itcreg@intracen.org, URL: http://www.intracen.org, 3 edition,
-  2011.
 
 \bibitem{hastie_09_elements-of.statistical-learning}
 Trevor Hastie, Robert Tibshirani, and Jerome Friedman.
