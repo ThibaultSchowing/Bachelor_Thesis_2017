@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.22)  18 JUL 2017 13:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.22)  18 JUL 2017 15:12
 entering extended mode
 **./Bachelor_Schowing2017.tex
 (Bachelor_Schowing2017.tex
@@ -1493,6 +1493,12 @@ Package caption Info: End \AtBeginDocument code.
 Package minitoc Info: I0024
 (minitoc)             PREPARING MINITOCS FROM Bachelor_Schowing2017.toc on inpu
 t line 133.
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode 
+Contexte}{\reset@font\mtcPfont i}{Item.6}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode 
+Probl\IeC {\'e}matique}{\reset@font\mtcPfont i}{Item.6}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode 
+Objectif}{\reset@font\mtcPfont i}{Item.6}}
 Package minitoc Info: I0033
 (minitoc)             Writing Bachelor_Schowing2017.mtc1.
 \openout4 = `Bachelor_Schowing2017.mtc1'.
@@ -1639,26 +1645,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.16 \end{abstract}
+l.15 \end{abstract}
                     [1]) [2
 
 
 ] (Bachelor_Schowing2017.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+LaTeX Font Info:    Try loading font information for U+msa on input line 6.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -3005,7 +3006,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 216.
 Here is how much of TeX's memory you used:
  37366 strings out of 493333
  827880 string characters out of 3139193
- 1058530 words of memory out of 3000000
+ 1058536 words of memory out of 3000000
  39535 multiletter control sequences out of 15000+200000
  14884 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3025,7 +3026,7 @@ TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmti9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmtt10.pfb>
-Output written on Bachelor_Schowing2017.pdf (101 pages, 8162817 bytes).
+Output written on Bachelor_Schowing2017.pdf (101 pages, 7869924 bytes).
 PDF statistics:
  1534 PDF objects out of 1728 (max. 8388607)
  374 named destinations out of 1000 (max. 500000)
