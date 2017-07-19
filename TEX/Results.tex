@@ -15,13 +15,20 @@
 Une grande partie de l'étape de pré-traitement a été réalisée durant l'extraction des données. Il a en effet fallu les extraire d'une manière uniforme et cohérente dès le départ afin de ne pas se retrouver avec des variables présentes uniquement dans certaines parties du set de données ou avec des variables incohérentes comme cela a été le cas de certains cafés qui avaient comme note de dégustation plus de cent points sur cent par exemple. Des éliminations ou des corrections ont été réalisées de manière automatisées et manuelles afin de supprimer les erreurs. On notera parmi les corrections importantes le remplacement de virgules par des points, quelques erreurs de frappes (68.5 points sur 10 au lieu de 6.85 par exemple) ou encore des utilisations d'unités différentes selon les sources. Le dataset résultant est décrit dans l'Annexe \ref{annexeDataset} de ce projet. Une fois cette étape d'extraction et de nettoyage réalisée, les premières informations ont pu être extraites des données.\\
 
 
-\noindent Le schéma \ref{DatasetMaking} résume rapidement les différentes éliminations d'observations au cours des étapes de construction du set de données. 
+\noindent Le schéma \ref{DatasetMaking2} résume rapidement les différentes éliminations d'observations au cours des étapes de construction du set de données. 
 
 \begin{figure}[H]
-	\includegraphics[scale=0.5]{Dataset_2}
-	\caption{\label{DatasetMaking} Étapes de construction du set de données et pertes d'observations.}
+	\centering
+	\includegraphics[scale=0.5]{Dataset_3}
+	\caption{\label{DatasetMaking1} Résumé rapide de la construction du dataset.}
 \end{figure}
 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{cleaningDatasetEvolution}
+	\caption{\label{DatasetMaking2} Étapes de construction du set de données et pertes d'observations.}
+\end{figure}
 
 
 \paragraph{Variables dépendantes\label{VarDep}} Les variables de sorties, ou dépendantes, sont composées des dix analyses de dégustation et éventuellement de la totalité des défauts physiques des grains. Sauf pour les défauts physiques des grains, qui sont éliminés avant la dégustation, les variables de sorties sont très corrélées entre elles et il a été discuté avec le coordonnateur de gestion au comité départemental des caféiculteurs de Risaralda, M. Felipe Rincón, de sélectionner les variables les plus importantes. Ces variables sont \textit{Acidez}, \textit{Dulzor} et \textit{Puntaje Total} ainsi que la catégorie décrite dans le paragraphe suivant qui a été ajouté au set de données.  

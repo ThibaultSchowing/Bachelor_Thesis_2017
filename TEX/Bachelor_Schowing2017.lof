@@ -21,94 +21,95 @@
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Pays correspondants \IeC {\`a} la carte SOM de la figure \ref {SOMPovertyMap} \newline Source: \textit {http://www.cis.hut.fi/research/som-research/worldmap.html}\relax }}{20}{figure.caption.22}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Analyse des donn\IeC {\'e}es}{23}{chapter.4}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces \IeC {\'E}tapes de construction du set de donn\IeC {\'e}es et pertes d'observations.\relax }}{25}{figure.caption.23}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Matrice de corr\IeC {\'e}lation entre les diff\IeC {\'e}rentes sorties.\relax }}{27}{figure.caption.25}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Matrice de corr\IeC {\'e}lation entre toutes les variables.\relax }}{28}{figure.caption.26}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Description de l'Analyse en Composante Principale. (A) Description d'un objet simple de mani\IeC {\`e}re compliqu\IeC {\'e}e ( trois dimensions pour par exemple une ellipse en papier) (B) Trouver des nouvelles variables (axes de coordonn\IeC {\'e}es) orthogonaux l'un \IeC {\`a} l'autre qui pointent dans les directions de la plus grande variance (C) Utiliser les nouvelles variables (axes) pour d\IeC {\'e}crire l'objet d'une mani\IeC {\`e}re plus simple. \relax }}{29}{figure.caption.27}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces R\IeC {\'e}sultats de la PCA sous forme graphique. R\IeC {\'e}alis\IeC {\'e} avec la totalit\IeC {\'e} des variables \relax }}{30}{figure.caption.29}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces PCA avec Prcomp: Coloration par ann\IeC {\'e}e\relax }}{31}{figure.caption.30}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces PCA avec Prcomp: Coloration par cat\IeC {\'e}gorie\relax }}{32}{figure.caption.31}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces HCPC et proposition de nombre de cluster \relax }}{33}{figure.caption.32}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces HCPC arbre 3D\relax }}{34}{figure.caption.33}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Saut d'inertie du dendogramme \relax }}{35}{figure.caption.34}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces U-Matrix de la carte SOM\relax }}{36}{figure.caption.36}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces U-Matrix avec les points. En jaune les caf\IeC {\'e}s de cat\IeC {\'e}gorie 2,en bleu cat\IeC {\'e}gorie 3 et en rouge cat\IeC {\'e}gorie 4. Pour rappel, les cat\IeC {\'e}gories sont expliqu\IeC {\'e}es au point \ref {EmpFermes}\relax }}{37}{figure.caption.37}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Composants de qualit\IeC {\'e} - Variables de sortie\relax }}{38}{figure.caption.38}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Acidez}}}{38}{subfigure.13.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Aroma-Fragrancia}}}{38}{subfigure.13.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Cuerpo}}}{38}{subfigure.13.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Balance}}}{38}{subfigure.13.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Uniformidad}}}{38}{subfigure.13.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Taza Limpia}}}{38}{subfigure.13.6}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {Dulzor}}}{38}{subfigure.13.7}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {Sabor}}}{38}{subfigure.13.8}
-\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {Sabor Residual}}}{38}{subfigure.13.9}
-\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {Puntaje Catador}}}{38}{subfigure.13.10}
-\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {Puntaje Total}}}{38}{subfigure.13.11}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Pr\IeC {\'e}cipitations\relax }}{39}{figure.caption.39}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Prec1}}}{39}{subfigure.14.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Prec2}}}{39}{subfigure.14.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Prec3}}}{39}{subfigure.14.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Prec4}}}{39}{subfigure.14.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Prec5}}}{39}{subfigure.14.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Prec6}}}{39}{subfigure.14.6}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {Prec7}}}{39}{subfigure.14.7}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {Prec8}}}{39}{subfigure.14.8}
-\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {Prec9}}}{39}{subfigure.14.9}
-\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {Prec10}}}{39}{subfigure.14.10}
-\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {Average}}}{39}{subfigure.14.11}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces SOM - Autres donn\IeC {\'e}es\relax }}{40}{figure.caption.40}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Temp. Min. Average}}}{40}{subfigure.15.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Temp. Max. Average}}}{40}{subfigure.15.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Temp. Mean. Average}}}{40}{subfigure.15.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Dtr Average}}}{40}{subfigure.15.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ASNM}}}{40}{subfigure.15.5}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Slope}}}{40}{subfigure.15.6}
-\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {Franco}}}{40}{subfigure.15.7}
-\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {Arenoso}}}{40}{subfigure.15.8}
-\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {Arcilloso}}}{40}{subfigure.15.9}
-\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {Limoso}}}{40}{subfigure.15.10}
-\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {Cascajoso}}}{40}{subfigure.15.11}
-\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {pH}}}{40}{subfigure.15.12}
-\contentsline {subfigure}{\numberline {(m)}{\ignorespaces {Organic}}}{40}{subfigure.15.13}
-\contentsline {subfigure}{\numberline {(n)}{\ignorespaces {Orientation}}}{40}{subfigure.15.14}
-\contentsline {subfigure}{\numberline {(o)}{\ignorespaces {Defectos}}}{40}{subfigure.15.15}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Altitude, points totaux et d\IeC {\'e}fauts lors d'une seconde ex\IeC {\'e}cution du r\IeC {\'e}seau de neurones\relax }}{41}{figure.caption.41}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {ASNM}}}{41}{subfigure.16.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Defectos Totales}}}{41}{subfigure.16.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {ASNM}}}{41}{subfigure.16.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Puntaje Total}}}{41}{subfigure.16.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Coffee Class Position}}}{41}{subfigure.16.5}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces R\IeC {\'e}partition par ann\IeC {\'e}e et mise en avant des composants int\IeC {\'e}ressants de la SOM\relax }}{42}{figure.caption.42}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Umatrix}}}{42}{subfigure.17.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Defectos Totales}}}{42}{subfigure.17.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Precipitations}}}{42}{subfigure.17.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Year, 2011 (Noir), 2016 (Orange)}}}{42}{subfigure.17.4}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Coffee Class Position, idem \IeC {\`a} \ref {umatrix_cat}}}}{42}{subfigure.17.5}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Matrice de confusion de la classification avec Random Forest\relax }}{46}{figure.caption.45}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Performances de la r\IeC {\'e}gression pour la variable \textit {Puntaje Total}\relax }}{48}{figure.caption.47}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Comparaison des pr\IeC {\'e}dictions et des valeurs actuelles pour la variable \textit {Puntaje Total}\relax }}{50}{figure.caption.49}
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Performances de la r\IeC {\'e}gression pour la variable \textit {Acidez}\relax }}{51}{figure.caption.51}
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Comparaison des pr\IeC {\'e}dictions et des valeurs actuelles pour la variable \textit {Acidez}\relax }}{53}{figure.caption.53}
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Performances de la r\IeC {\'e}gression pour la variable \textit {Dulzor}\relax }}{54}{figure.caption.55}
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Comparaison des pr\IeC {\'e}dictions et des valeurs actuelles pour la variable \textit {Dulzor}\relax }}{56}{figure.caption.57}
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Pr\IeC {\'e}diction du total de points avec 25 variables ind\IeC {\'e}pendantes\relax }}{58}{figure.caption.58}
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Pr\IeC {\'e}diction du total de points avec 21 variables ind\IeC {\'e}pendantes\relax }}{58}{figure.caption.59}
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Repr\IeC {\'e}sentation des corr\IeC {\'e}lations entre les variables ind\IeC {\'e}pendantes et la variable d\IeC {\'e}pendante \textit {Puntaje Total}\relax }}{60}{figure.caption.61}
-\contentsline {figure}{\numberline {4.28}{\ignorespaces Repr\IeC {\'e}sentation des corr\IeC {\'e}lations entre les variables ind\IeC {\'e}pendantes et la variable d\IeC {\'e}pendante \textit {Acidez}\relax }}{61}{figure.caption.62}
-\contentsline {figure}{\numberline {4.29}{\ignorespaces Repr\IeC {\'e}sentation des corr\IeC {\'e}lations entre les variables ind\IeC {\'e}pendantes et la variable d\IeC {\'e}pendante \textit {Dulzor}\relax }}{61}{figure.caption.63}
-\contentsline {figure}{\numberline {4.30}{\ignorespaces Comparaison des pr\IeC {\'e}dictions et des valeurs actuelles pour la variable Puntaje Total\relax }}{62}{figure.caption.64}
-\contentsline {figure}{\numberline {4.31}{\ignorespaces Comparaison des pr\IeC {\'e}dictions et des valeurs actuelles pour la variable Acidez\relax }}{63}{figure.caption.65}
-\contentsline {figure}{\numberline {4.32}{\ignorespaces Comparaison des pr\IeC {\'e}dictions et des valeurs actuelles pour la variable Dulzor\relax }}{63}{figure.caption.66}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces R\IeC {\'e}sum\IeC {\'e} rapide de la construction du dataset.\relax }}{24}{figure.caption.23}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces \IeC {\'E}tapes de construction du set de donn\IeC {\'e}es et pertes d'observations.\relax }}{25}{figure.caption.24}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Matrice de corr\IeC {\'e}lation entre les diff\IeC {\'e}rentes sorties.\relax }}{27}{figure.caption.26}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Matrice de corr\IeC {\'e}lation entre toutes les variables.\relax }}{28}{figure.caption.27}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Description de l'Analyse en Composante Principale. (A) Description d'un objet simple de mani\IeC {\`e}re compliqu\IeC {\'e}e ( trois dimensions pour par exemple une ellipse en papier) (B) Trouver des nouvelles variables (axes de coordonn\IeC {\'e}es) orthogonaux l'un \IeC {\`a} l'autre qui pointent dans les directions de la plus grande variance (C) Utiliser les nouvelles variables (axes) pour d\IeC {\'e}crire l'objet d'une mani\IeC {\`e}re plus simple. \relax }}{29}{figure.caption.28}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces R\IeC {\'e}sultats de la PCA sous forme graphique. R\IeC {\'e}alis\IeC {\'e} avec la totalit\IeC {\'e} des variables \relax }}{30}{figure.caption.30}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces PCA avec Prcomp: Coloration par ann\IeC {\'e}e\relax }}{31}{figure.caption.31}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces PCA avec Prcomp: Coloration par cat\IeC {\'e}gorie\relax }}{32}{figure.caption.32}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces HCPC et proposition de nombre de cluster \relax }}{33}{figure.caption.33}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces HCPC arbre 3D\relax }}{34}{figure.caption.34}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Saut d'inertie du dendogramme \relax }}{35}{figure.caption.35}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces U-Matrix de la carte SOM\relax }}{36}{figure.caption.37}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces U-Matrix avec les points. En jaune les caf\IeC {\'e}s de cat\IeC {\'e}gorie 2,en bleu cat\IeC {\'e}gorie 3 et en rouge cat\IeC {\'e}gorie 4. Pour rappel, les cat\IeC {\'e}gories sont expliqu\IeC {\'e}es au point \ref {EmpFermes}\relax }}{37}{figure.caption.38}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Composants de qualit\IeC {\'e} - Variables de sortie\relax }}{38}{figure.caption.39}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Acidez}}}{38}{subfigure.14.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Aroma-Fragrancia}}}{38}{subfigure.14.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Cuerpo}}}{38}{subfigure.14.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Balance}}}{38}{subfigure.14.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Uniformidad}}}{38}{subfigure.14.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Taza Limpia}}}{38}{subfigure.14.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {Dulzor}}}{38}{subfigure.14.7}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {Sabor}}}{38}{subfigure.14.8}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {Sabor Residual}}}{38}{subfigure.14.9}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {Puntaje Catador}}}{38}{subfigure.14.10}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {Puntaje Total}}}{38}{subfigure.14.11}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Pr\IeC {\'e}cipitations\relax }}{39}{figure.caption.40}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Prec1}}}{39}{subfigure.15.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Prec2}}}{39}{subfigure.15.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Prec3}}}{39}{subfigure.15.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Prec4}}}{39}{subfigure.15.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Prec5}}}{39}{subfigure.15.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Prec6}}}{39}{subfigure.15.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {Prec7}}}{39}{subfigure.15.7}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {Prec8}}}{39}{subfigure.15.8}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {Prec9}}}{39}{subfigure.15.9}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {Prec10}}}{39}{subfigure.15.10}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {Average}}}{39}{subfigure.15.11}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces SOM - Autres donn\IeC {\'e}es\relax }}{40}{figure.caption.41}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Temp. Min. Average}}}{40}{subfigure.16.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Temp. Max. Average}}}{40}{subfigure.16.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Temp. Mean. Average}}}{40}{subfigure.16.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Dtr Average}}}{40}{subfigure.16.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {ASNM}}}{40}{subfigure.16.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {Slope}}}{40}{subfigure.16.6}
+\contentsline {subfigure}{\numberline {(g)}{\ignorespaces {Franco}}}{40}{subfigure.16.7}
+\contentsline {subfigure}{\numberline {(h)}{\ignorespaces {Arenoso}}}{40}{subfigure.16.8}
+\contentsline {subfigure}{\numberline {(i)}{\ignorespaces {Arcilloso}}}{40}{subfigure.16.9}
+\contentsline {subfigure}{\numberline {(j)}{\ignorespaces {Limoso}}}{40}{subfigure.16.10}
+\contentsline {subfigure}{\numberline {(k)}{\ignorespaces {Cascajoso}}}{40}{subfigure.16.11}
+\contentsline {subfigure}{\numberline {(l)}{\ignorespaces {pH}}}{40}{subfigure.16.12}
+\contentsline {subfigure}{\numberline {(m)}{\ignorespaces {Organic}}}{40}{subfigure.16.13}
+\contentsline {subfigure}{\numberline {(n)}{\ignorespaces {Orientation}}}{40}{subfigure.16.14}
+\contentsline {subfigure}{\numberline {(o)}{\ignorespaces {Defectos}}}{40}{subfigure.16.15}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Altitude, points totaux et d\IeC {\'e}fauts lors d'une seconde ex\IeC {\'e}cution du r\IeC {\'e}seau de neurones\relax }}{41}{figure.caption.42}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {ASNM}}}{41}{subfigure.17.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Defectos Totales}}}{41}{subfigure.17.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {ASNM}}}{41}{subfigure.17.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Puntaje Total}}}{41}{subfigure.17.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Coffee Class Position}}}{41}{subfigure.17.5}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces R\IeC {\'e}partition par ann\IeC {\'e}e et mise en avant des composants int\IeC {\'e}ressants de la SOM\relax }}{42}{figure.caption.43}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Umatrix}}}{42}{subfigure.18.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Defectos Totales}}}{42}{subfigure.18.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Precipitations}}}{42}{subfigure.18.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Year, 2011 (Noir), 2016 (Orange)}}}{42}{subfigure.18.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Coffee Class Position, idem \IeC {\`a} \ref {umatrix_cat}}}}{42}{subfigure.18.5}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Matrice de confusion de la classification avec Random Forest\relax }}{46}{figure.caption.46}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Performances de la r\IeC {\'e}gression pour la variable \textit {Puntaje Total}\relax }}{48}{figure.caption.48}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Comparaison des pr\IeC {\'e}dictions et des valeurs actuelles pour la variable \textit {Puntaje Total}\relax }}{50}{figure.caption.50}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Performances de la r\IeC {\'e}gression pour la variable \textit {Acidez}\relax }}{51}{figure.caption.52}
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Comparaison des pr\IeC {\'e}dictions et des valeurs actuelles pour la variable \textit {Acidez}\relax }}{53}{figure.caption.54}
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Performances de la r\IeC {\'e}gression pour la variable \textit {Dulzor}\relax }}{54}{figure.caption.56}
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Comparaison des pr\IeC {\'e}dictions et des valeurs actuelles pour la variable \textit {Dulzor}\relax }}{56}{figure.caption.58}
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Pr\IeC {\'e}diction du total de points avec 25 variables ind\IeC {\'e}pendantes\relax }}{58}{figure.caption.59}
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Pr\IeC {\'e}diction du total de points avec 21 variables ind\IeC {\'e}pendantes\relax }}{58}{figure.caption.60}
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Repr\IeC {\'e}sentation des corr\IeC {\'e}lations entre les variables ind\IeC {\'e}pendantes et la variable d\IeC {\'e}pendante \textit {Puntaje Total}\relax }}{60}{figure.caption.62}
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Repr\IeC {\'e}sentation des corr\IeC {\'e}lations entre les variables ind\IeC {\'e}pendantes et la variable d\IeC {\'e}pendante \textit {Acidez}\relax }}{61}{figure.caption.63}
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Repr\IeC {\'e}sentation des corr\IeC {\'e}lations entre les variables ind\IeC {\'e}pendantes et la variable d\IeC {\'e}pendante \textit {Dulzor}\relax }}{61}{figure.caption.64}
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Comparaison des pr\IeC {\'e}dictions et des valeurs actuelles pour la variable Puntaje Total\relax }}{62}{figure.caption.65}
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Comparaison des pr\IeC {\'e}dictions et des valeurs actuelles pour la variable Acidez\relax }}{63}{figure.caption.66}
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Comparaison des pr\IeC {\'e}dictions et des valeurs actuelles pour la variable Dulzor\relax }}{63}{figure.caption.67}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Discussion des r\IeC {\'e}sultats}{65}{chapter.5}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Roue des parfums du caf\IeC {\'e}\relax }}{66}{figure.caption.67}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Roue des parfums du caf\IeC {\'e}\relax }}{66}{figure.caption.68}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Conclusion}{69}{chapter.6}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Description des donn\IeC {\'e}es}{71}{appendix.A}
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Shapefile des diff\IeC {\'e}rentes orientations (Nord - Sud - Est - Ouest) des points dans le d\IeC {\'e}partement de Risaralda\relax }}{74}{figure.caption.72}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Shapefile des diff\IeC {\'e}rents profils de sol dans le d\IeC {\'e}partement de Risaralda\relax }}{75}{figure.caption.73}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Shapefile des diff\IeC {\'e}rentes orientations (Nord - Sud - Est - Ouest) des points dans le d\IeC {\'e}partement de Risaralda\relax }}{74}{figure.caption.73}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Shapefile des diff\IeC {\'e}rents profils de sol dans le d\IeC {\'e}partement de Risaralda\relax }}{75}{figure.caption.74}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Importances des variables par cluster}{77}{appendix.B}
 \addvspace {10\p@ }

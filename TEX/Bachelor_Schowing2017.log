@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.22)  18 JUL 2017 15:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2016.11.22)  19 JUL 2017 15:35
 entering extended mode
 **./Bachelor_Schowing2017.tex
 (Bachelor_Schowing2017.tex
@@ -1972,61 +1972,68 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-<img/Dataset_2.png, id=517, 793.96625pt x 937.5025pt>
-File: img/Dataset_2.png Graphic file (type png)
- <use img/Dataset_2.png>
-Package pdftex.def Info: img/Dataset_2.png used on input line 21.
-(pdftex.def)             Requested size: 396.98215pt x 468.7501pt.
+<img/Dataset_3.png, id=517, 387.4475pt x 350.30875pt>
+File: img/Dataset_3.png Graphic file (type png)
+ <use img/Dataset_3.png>
+Package pdftex.def Info: img/Dataset_3.png used on input line 22.
+(pdftex.def)             Requested size: 193.72327pt x 175.15395pt.
+
+<img/cleaningDatasetEvolution.png, id=518, 793.96625pt x 702.625pt>
+File: img/cleaningDatasetEvolution.png Graphic file (type png)
+
+<use img/cleaningDatasetEvolution.png>
+Package pdftex.def Info: img/cleaningDatasetEvolution.png used on input line 29
+.
+(pdftex.def)             Requested size: 396.98215pt x 351.31163pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24]
-[25 <./img/Dataset_2.png (PNG copy)>]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 40.
+ [24 <./img/Dataset_3.png (PNG copy)>]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 47.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 40.
-
-<img/correlation_sorties1.png, id=530, 1136.245pt x 1193.45876pt>
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 47.
+ [25 <./img/cleaningDatasetEvolution.png (PNG copy)>]
+<img/correlation_sorties1.png, id=532, 1136.245pt x 1193.45876pt>
 File: img/correlation_sorties1.png Graphic file (type png)
 
 <use img/correlation_sorties1.png>
-Package pdftex.def Info: img/correlation_sorties1.png used on input line 59.
+Package pdftex.def Info: img/correlation_sorties1.png used on input line 66.
 (pdftex.def)             Requested size: 397.6917pt x 417.71683pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [26]
-<img/correlation_all1.png, id=537, 1133.23375pt x 1190.4475pt>
+<img/correlation_all1.png, id=539, 1133.23375pt x 1190.4475pt>
 File: img/correlation_all1.png Graphic file (type png)
 
 <use img/correlation_all1.png>
-Package pdftex.def Info: img/correlation_all1.png used on input line 68.
+Package pdftex.def Info: img/correlation_all1.png used on input line 75.
 (pdftex.def)             Requested size: 396.63776pt x 416.66287pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27 <./img/correlation_sorties1.png>] [28 <./img/correlation_all1.png>]
-<img/PCA_1.png, id=552, 702.625pt x 261.97874pt>
+<img/PCA_1.png, id=554, 702.625pt x 261.97874pt>
 File: img/PCA_1.png Graphic file (type png)
  <use img/PCA_1.png>
-Package pdftex.def Info: img/PCA_1.png used on input line 84.
+Package pdftex.def Info: img/PCA_1.png used on input line 91.
 (pdftex.def)             Requested size: 351.31163pt x 130.98904pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 91.
+               Default added (so using `tbp') on input line 98.
 
-<img/pca_complete.pdf, id=556, 433.62pt x 289.08pt>
+<img/pca_complete.pdf, id=558, 433.62pt x 289.08pt>
 File: img/pca_complete.pdf Graphic file (type pdf)
  <use img/pca_complete.pdf>
-Package pdftex.def Info: img/pca_complete.pdf used on input line 117.
+Package pdftex.def Info: img/pca_complete.pdf used on input line 124.
 (pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
 
-Overfull \hbox (15.36526pt too wide) in paragraph at lines 117--118
+Overfull \hbox (15.36526pt too wide) in paragraph at lines 124--125
 [][] 
  []
 
@@ -2038,53 +2045,53 @@ Overfull \vbox (19.14893pt too high) has occurred while \output is active []
 
 
 [30 <./img/pca_complete.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  []
 
-<img/PCA/PCAYear.pdf, id=578, 593.21625pt x 409.53pt>
+<img/PCA/PCAYear.pdf, id=580, 593.21625pt x 409.53pt>
 File: img/PCA/PCAYear.pdf Graphic file (type pdf)
 
 <use img/PCA/PCAYear.pdf>
-Package pdftex.def Info: img/PCA/PCAYear.pdf used on input line 132.
+Package pdftex.def Info: img/PCA/PCAYear.pdf used on input line 139.
 (pdftex.def)             Requested size: 292.77629pt x 202.12744pt.
- <img/PCA/PCACat.pdf, id=579, 593.21625pt x 409.53pt>
+ <img/PCA/PCACat.pdf, id=581, 593.21625pt x 409.53pt>
 File: img/PCA/PCACat.pdf Graphic file (type pdf)
 
 <use img/PCA/PCACat.pdf>
-Package pdftex.def Info: img/PCA/PCACat.pdf used on input line 140.
+Package pdftex.def Info: img/PCA/PCACat.pdf used on input line 147.
 (pdftex.def)             Requested size: 292.77629pt x 202.12744pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31 <./img/PCA/PCAYear.pdf>] [32 <./img/PCA/PCACat.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
  []
 
 
-<img/HierarchicalClustering_TreeAndSuggestedNbCluster.pdf, id=605, 1012.78375pt
+<img/HierarchicalClustering_TreeAndSuggestedNbCluster.pdf, id=607, 1012.78375pt
  x 736.7525pt>
 File: img/HierarchicalClustering_TreeAndSuggestedNbCluster.pdf Graphic file (ty
 pe pdf)
  <use img/HierarchicalClustering_TreeAndSuggestedNbCluster.pdf>
 Package pdftex.def Info: img/HierarchicalClustering_TreeAndSuggestedNbCluster.p
-df used on input line 157.
+df used on input line 164.
 (pdftex.def)             Requested size: 455.74847pt x 331.53555pt.
 
-Overfull \hbox (37.4948pt too wide) in paragraph at lines 157--158
+Overfull \hbox (37.4948pt too wide) in paragraph at lines 164--165
 [][] 
  []
 
-<img/HierarchicalClustering3D.pdf, id=607, 698.61pt x 797.98125pt>
+<img/HierarchicalClustering3D.pdf, id=609, 698.61pt x 797.98125pt>
 File: img/HierarchicalClustering3D.pdf Graphic file (type pdf)
 
 <use img/HierarchicalClustering3D.pdf>
-Package pdftex.def Info: img/HierarchicalClustering3D.pdf used on input line 16
-4.
+Package pdftex.def Info: img/HierarchicalClustering3D.pdf used on input line 17
+1.
 (pdftex.def)             Requested size: 419.16924pt x 478.79243pt.
 
-Overfull \hbox (0.91556pt too wide) in paragraph at lines 164--165
+Overfull \hbox (0.91556pt too wide) in paragraph at lines 171--172
 [][] 
  []
 
@@ -2092,197 +2099,197 @@ Overfull \hbox (0.91556pt too wide) in paragraph at lines 164--165
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33 <./img/HierarchicalClustering_TreeAndSuggestedNbCluster.pdf>]
-<img/NbClusterSelectInertiaGain.pdf, id=621, 504.88625pt x 504.88625pt>
+<img/NbClusterSelectInertiaGain.pdf, id=623, 504.88625pt x 504.88625pt>
 File: img/NbClusterSelectInertiaGain.pdf Graphic file (type pdf)
 
 <use img/NbClusterSelectInertiaGain.pdf>
 Package pdftex.def Info: img/NbClusterSelectInertiaGain.pdf used on input line 
-175.
+182.
 (pdftex.def)             Requested size: 277.68828pt x 277.68828pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [34 <./img/HierarchicalClustering3D.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 202--203
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
  []
 
 [35 <./img/NbClusterSelectInertiaGain.pdf>]
-<img/SOM/SOM_Umatrix.png, id=642, 492.84125pt x 315.1775pt>
+<img/SOM/SOM_Umatrix.png, id=644, 492.84125pt x 315.1775pt>
 File: img/SOM/SOM_Umatrix.png Graphic file (type png)
 
 <use img/SOM/SOM_Umatrix.png>
-Package pdftex.def Info: img/SOM/SOM_Umatrix.png used on input line 219.
+Package pdftex.def Info: img/SOM/SOM_Umatrix.png used on input line 226.
 (pdftex.def)             Requested size: 292.77629pt x 187.24197pt.
 
-<img/SOM/SOM_Umatrix_Points_Category.png, id=643, 497.86pt x 315.1775pt>
+<img/SOM/SOM_Umatrix_Points_Category.png, id=645, 497.86pt x 315.1775pt>
 File: img/SOM/SOM_Umatrix_Points_Category.png Graphic file (type png)
 
 <use img/SOM/SOM_Umatrix_Points_Category.png>
 Package pdftex.def Info: img/SOM/SOM_Umatrix_Points_Category.png used on input 
-line 226.
+line 233.
 (pdftex.def)             Requested size: 418.25368pt x 264.78577pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [36 <./img/SOM/SOM_Umatrix.png>]
-<img/SOM/SOM_Acidez.png, id=652, 492.84125pt x 285.065pt>
+<img/SOM/SOM_Acidez.png, id=654, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_Acidez.png Graphic file (type png)
 
 <use img/SOM/SOM_Acidez.png>
-Package pdftex.def Info: img/SOM/SOM_Acidez.png used on input line 234.
+Package pdftex.def Info: img/SOM/SOM_Acidez.png used on input line 241.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_AromaFragrancia.png, id=653, 492.84125pt x 285.065pt>
+<img/SOM/SOM_AromaFragrancia.png, id=655, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_AromaFragrancia.png Graphic file (type png)
 
 <use img/SOM/SOM_AromaFragrancia.png>
-Package pdftex.def Info: img/SOM/SOM_AromaFragrancia.png used on input line 235
+Package pdftex.def Info: img/SOM/SOM_AromaFragrancia.png used on input line 242
 .
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_Cuerpo.png, id=654, 492.84125pt x 285.065pt>
+<img/SOM/SOM_Cuerpo.png, id=656, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_Cuerpo.png Graphic file (type png)
 
 <use img/SOM/SOM_Cuerpo.png>
-Package pdftex.def Info: img/SOM/SOM_Cuerpo.png used on input line 236.
+Package pdftex.def Info: img/SOM/SOM_Cuerpo.png used on input line 243.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_Balance.png, id=655, 492.84125pt x 285.065pt>
+<img/SOM/SOM_Balance.png, id=657, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_Balance.png Graphic file (type png)
 
 <use img/SOM/SOM_Balance.png>
-Package pdftex.def Info: img/SOM/SOM_Balance.png used on input line 238.
+Package pdftex.def Info: img/SOM/SOM_Balance.png used on input line 245.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_Uniformidad.png, id=656, 492.84125pt x 285.065pt>
+<img/SOM/SOM_Uniformidad.png, id=658, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_Uniformidad.png Graphic file (type png)
 
 <use img/SOM/SOM_Uniformidad.png>
-Package pdftex.def Info: img/SOM/SOM_Uniformidad.png used on input line 239.
+Package pdftex.def Info: img/SOM/SOM_Uniformidad.png used on input line 246.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_TazaLimpia.png, id=657, 492.84125pt x 285.065pt>
+<img/SOM/SOM_TazaLimpia.png, id=659, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_TazaLimpia.png Graphic file (type png)
 
 <use img/SOM/SOM_TazaLimpia.png>
-Package pdftex.def Info: img/SOM/SOM_TazaLimpia.png used on input line 240.
+Package pdftex.def Info: img/SOM/SOM_TazaLimpia.png used on input line 247.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_Dulzor.png, id=658, 492.84125pt x 285.065pt>
+<img/SOM/SOM_Dulzor.png, id=660, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_Dulzor.png Graphic file (type png)
 
 <use img/SOM/SOM_Dulzor.png>
-Package pdftex.def Info: img/SOM/SOM_Dulzor.png used on input line 242.
+Package pdftex.def Info: img/SOM/SOM_Dulzor.png used on input line 249.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_Sabor.png, id=659, 492.84125pt x 285.065pt>
+<img/SOM/SOM_Sabor.png, id=661, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_Sabor.png Graphic file (type png)
 
 <use img/SOM/SOM_Sabor.png>
-Package pdftex.def Info: img/SOM/SOM_Sabor.png used on input line 243.
+Package pdftex.def Info: img/SOM/SOM_Sabor.png used on input line 250.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_SaborResidual.png, id=660, 492.84125pt x 285.065pt>
+<img/SOM/SOM_SaborResidual.png, id=662, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_SaborResidual.png Graphic file (type png)
 
 <use img/SOM/SOM_SaborResidual.png>
-Package pdftex.def Info: img/SOM/SOM_SaborResidual.png used on input line 244.
+Package pdftex.def Info: img/SOM/SOM_SaborResidual.png used on input line 251.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_PuntajeCatador.png, id=661, 492.84125pt x 285.065pt>
+<img/SOM/SOM_PuntajeCatador.png, id=663, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_PuntajeCatador.png Graphic file (type png)
 
 <use img/SOM/SOM_PuntajeCatador.png>
-Package pdftex.def Info: img/SOM/SOM_PuntajeCatador.png used on input line 247.
+Package pdftex.def Info: img/SOM/SOM_PuntajeCatador.png used on input line 254.
 
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_PuntajeTotal.png, id=662, 492.84125pt x 285.065pt>
+<img/SOM/SOM_PuntajeTotal.png, id=664, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_PuntajeTotal.png Graphic file (type png)
 
 <use img/SOM/SOM_PuntajeTotal.png>
-Package pdftex.def Info: img/SOM/SOM_PuntajeTotal.png used on input line 248.
+Package pdftex.def Info: img/SOM/SOM_PuntajeTotal.png used on input line 255.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [37 <./img/SOM/SOM_Umatrix_Points_Category.png>]
-<img/SOM/SOM_Prec1.png, id=669, 492.84125pt x 285.065pt>
+<img/SOM/SOM_Prec1.png, id=671, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_Prec1.png Graphic file (type png)
 
 <use img/SOM/SOM_Prec1.png>
-Package pdftex.def Info: img/SOM/SOM_Prec1.png used on input line 257.
+Package pdftex.def Info: img/SOM/SOM_Prec1.png used on input line 264.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_Prec2.png, id=670, 492.84125pt x 285.065pt>
+<img/SOM/SOM_Prec2.png, id=672, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_Prec2.png Graphic file (type png)
 
 <use img/SOM/SOM_Prec2.png>
-Package pdftex.def Info: img/SOM/SOM_Prec2.png used on input line 258.
+Package pdftex.def Info: img/SOM/SOM_Prec2.png used on input line 265.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_Prec3.png, id=671, 492.84125pt x 285.065pt>
+<img/SOM/SOM_Prec3.png, id=673, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_Prec3.png Graphic file (type png)
 
 <use img/SOM/SOM_Prec3.png>
-Package pdftex.def Info: img/SOM/SOM_Prec3.png used on input line 259.
+Package pdftex.def Info: img/SOM/SOM_Prec3.png used on input line 266.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_Prec4.png, id=672, 492.84125pt x 285.065pt>
+<img/SOM/SOM_Prec4.png, id=674, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_Prec4.png Graphic file (type png)
 
 <use img/SOM/SOM_Prec4.png>
-Package pdftex.def Info: img/SOM/SOM_Prec4.png used on input line 261.
+Package pdftex.def Info: img/SOM/SOM_Prec4.png used on input line 268.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_Prec5.png, id=673, 492.84125pt x 285.065pt>
+<img/SOM/SOM_Prec5.png, id=675, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_Prec5.png Graphic file (type png)
 
 <use img/SOM/SOM_Prec5.png>
-Package pdftex.def Info: img/SOM/SOM_Prec5.png used on input line 262.
+Package pdftex.def Info: img/SOM/SOM_Prec5.png used on input line 269.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_Prec6.png, id=674, 492.84125pt x 285.065pt>
+<img/SOM/SOM_Prec6.png, id=676, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_Prec6.png Graphic file (type png)
 
 <use img/SOM/SOM_Prec6.png>
-Package pdftex.def Info: img/SOM/SOM_Prec6.png used on input line 263.
+Package pdftex.def Info: img/SOM/SOM_Prec6.png used on input line 270.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_Prec7.png, id=675, 492.84125pt x 285.065pt>
+<img/SOM/SOM_Prec7.png, id=677, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_Prec7.png Graphic file (type png)
 
 <use img/SOM/SOM_Prec7.png>
-Package pdftex.def Info: img/SOM/SOM_Prec7.png used on input line 265.
+Package pdftex.def Info: img/SOM/SOM_Prec7.png used on input line 272.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_Prec8.png, id=676, 492.84125pt x 285.065pt>
+<img/SOM/SOM_Prec8.png, id=678, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_Prec8.png Graphic file (type png)
 
 <use img/SOM/SOM_Prec8.png>
-Package pdftex.def Info: img/SOM/SOM_Prec8.png used on input line 266.
+Package pdftex.def Info: img/SOM/SOM_Prec8.png used on input line 273.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_Prec9.png, id=677, 492.84125pt x 285.065pt>
+<img/SOM/SOM_Prec9.png, id=679, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_Prec9.png Graphic file (type png)
 
 <use img/SOM/SOM_Prec9.png>
-Package pdftex.def Info: img/SOM/SOM_Prec9.png used on input line 267.
+Package pdftex.def Info: img/SOM/SOM_Prec9.png used on input line 274.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_Prec10.png, id=678, 492.84125pt x 285.065pt>
+<img/SOM/SOM_Prec10.png, id=680, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_Prec10.png Graphic file (type png)
 
 <use img/SOM/SOM_Prec10.png>
-Package pdftex.def Info: img/SOM/SOM_Prec10.png used on input line 270.
+Package pdftex.def Info: img/SOM/SOM_Prec10.png used on input line 277.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_PrecTotalAvg.png, id=679, 492.84125pt x 285.065pt>
+<img/SOM/SOM_PrecTotalAvg.png, id=681, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_PrecTotalAvg.png Graphic file (type png)
 
 <use img/SOM/SOM_PrecTotalAvg.png>
-Package pdftex.def Info: img/SOM/SOM_PrecTotalAvg.png used on input line 271.
+Package pdftex.def Info: img/SOM/SOM_PrecTotalAvg.png used on input line 278.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2291,111 +2298,111 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 SOM_Cuerpo.png> <./img/SOM/SOM_Balance.png> <./img/SOM/SOM_Uniformidad.png> <./
 img/SOM/SOM_TazaLimpia.png> <./img/SOM/SOM_Dulzor.png> <./img/SOM/SOM_Sabor.png
 > <./img/SOM/SOM_SaborResidual.png> <./img/SOM/SOM_PuntajeCatador.png> <./img/S
-OM/SOM_PuntajeTotal.png>] <img/SOM/SOM_TminTotalAvg.png, id=707, 492.84125pt x 
+OM/SOM_PuntajeTotal.png>] <img/SOM/SOM_TminTotalAvg.png, id=709, 492.84125pt x 
 285.065pt>
 File: img/SOM/SOM_TminTotalAvg.png Graphic file (type png)
 
 <use img/SOM/SOM_TminTotalAvg.png>
-Package pdftex.def Info: img/SOM/SOM_TminTotalAvg.png used on input line 279.
+Package pdftex.def Info: img/SOM/SOM_TminTotalAvg.png used on input line 286.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_TmaxTotalAvg.png, id=708, 492.84125pt x 285.065pt>
+<img/SOM/SOM_TmaxTotalAvg.png, id=710, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_TmaxTotalAvg.png Graphic file (type png)
 
 <use img/SOM/SOM_TmaxTotalAvg.png>
-Package pdftex.def Info: img/SOM/SOM_TmaxTotalAvg.png used on input line 280.
+Package pdftex.def Info: img/SOM/SOM_TmaxTotalAvg.png used on input line 287.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_TmeanTotalAvg.png, id=709, 492.84125pt x 285.065pt>
+<img/SOM/SOM_TmeanTotalAvg.png, id=711, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_TmeanTotalAvg.png Graphic file (type png)
 
 <use img/SOM/SOM_TmeanTotalAvg.png>
-Package pdftex.def Info: img/SOM/SOM_TmeanTotalAvg.png used on input line 281.
+Package pdftex.def Info: img/SOM/SOM_TmeanTotalAvg.png used on input line 288.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_DtrTotalAvg.png, id=710, 492.84125pt x 285.065pt>
+<img/SOM/SOM_DtrTotalAvg.png, id=712, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_DtrTotalAvg.png Graphic file (type png)
 
 <use img/SOM/SOM_DtrTotalAvg.png>
-Package pdftex.def Info: img/SOM/SOM_DtrTotalAvg.png used on input line 283.
+Package pdftex.def Info: img/SOM/SOM_DtrTotalAvg.png used on input line 290.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_ASNM.png, id=711, 492.84125pt x 285.065pt>
+<img/SOM/SOM_ASNM.png, id=713, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_ASNM.png Graphic file (type png)
 
 <use img/SOM/SOM_ASNM.png>
-Package pdftex.def Info: img/SOM/SOM_ASNM.png used on input line 284.
+Package pdftex.def Info: img/SOM/SOM_ASNM.png used on input line 291.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_Slope.png, id=712, 492.84125pt x 285.065pt>
+<img/SOM/SOM_Slope.png, id=714, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_Slope.png Graphic file (type png)
 
 <use img/SOM/SOM_Slope.png>
-Package pdftex.def Info: img/SOM/SOM_Slope.png used on input line 285.
+Package pdftex.def Info: img/SOM/SOM_Slope.png used on input line 292.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_Franco.png, id=713, 492.84125pt x 285.065pt>
+<img/SOM/SOM_Franco.png, id=715, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_Franco.png Graphic file (type png)
 
 <use img/SOM/SOM_Franco.png>
-Package pdftex.def Info: img/SOM/SOM_Franco.png used on input line 287.
+Package pdftex.def Info: img/SOM/SOM_Franco.png used on input line 294.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_Arenoso.png, id=714, 492.84125pt x 285.065pt>
+<img/SOM/SOM_Arenoso.png, id=716, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_Arenoso.png Graphic file (type png)
 
 <use img/SOM/SOM_Arenoso.png>
-Package pdftex.def Info: img/SOM/SOM_Arenoso.png used on input line 288.
+Package pdftex.def Info: img/SOM/SOM_Arenoso.png used on input line 295.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_Arcilloso.png, id=715, 492.84125pt x 285.065pt>
+<img/SOM/SOM_Arcilloso.png, id=717, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_Arcilloso.png Graphic file (type png)
 
 <use img/SOM/SOM_Arcilloso.png>
-Package pdftex.def Info: img/SOM/SOM_Arcilloso.png used on input line 289.
+Package pdftex.def Info: img/SOM/SOM_Arcilloso.png used on input line 296.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_Limoso.png, id=716, 492.84125pt x 285.065pt>
+<img/SOM/SOM_Limoso.png, id=718, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_Limoso.png Graphic file (type png)
 
 <use img/SOM/SOM_Limoso.png>
-Package pdftex.def Info: img/SOM/SOM_Limoso.png used on input line 292.
+Package pdftex.def Info: img/SOM/SOM_Limoso.png used on input line 299.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_Cascajoso.png, id=717, 492.84125pt x 285.065pt>
+<img/SOM/SOM_Cascajoso.png, id=719, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_Cascajoso.png Graphic file (type png)
 
 <use img/SOM/SOM_Cascajoso.png>
-Package pdftex.def Info: img/SOM/SOM_Cascajoso.png used on input line 293.
+Package pdftex.def Info: img/SOM/SOM_Cascajoso.png used on input line 300.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_pHAvg.png, id=718, 492.84125pt x 285.065pt>
+<img/SOM/SOM_pHAvg.png, id=720, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_pHAvg.png Graphic file (type png)
 
 <use img/SOM/SOM_pHAvg.png>
-Package pdftex.def Info: img/SOM/SOM_pHAvg.png used on input line 294.
+Package pdftex.def Info: img/SOM/SOM_pHAvg.png used on input line 301.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_OrgAvg.png, id=719, 492.84125pt x 285.065pt>
+<img/SOM/SOM_OrgAvg.png, id=721, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_OrgAvg.png Graphic file (type png)
 
 <use img/SOM/SOM_OrgAvg.png>
-Package pdftex.def Info: img/SOM/SOM_OrgAvg.png used on input line 296.
+Package pdftex.def Info: img/SOM/SOM_OrgAvg.png used on input line 303.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_OrientationDegrees.png, id=720, 492.84125pt x 285.065pt>
+<img/SOM/SOM_OrientationDegrees.png, id=722, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_OrientationDegrees.png Graphic file (type png)
 
 <use img/SOM/SOM_OrientationDegrees.png>
 Package pdftex.def Info: img/SOM/SOM_OrientationDegrees.png used on input line 
-297.
+304.
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
-<img/SOM/SOM_DefectosTotales.png, id=721, 492.84125pt x 285.065pt>
+<img/SOM/SOM_DefectosTotales.png, id=723, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_DefectosTotales.png Graphic file (type png)
 
 <use img/SOM/SOM_DefectosTotales.png>
-Package pdftex.def Info: img/SOM/SOM_DefectosTotales.png used on input line 298
+Package pdftex.def Info: img/SOM/SOM_DefectosTotales.png used on input line 305
 .
 (pdftex.def)             Requested size: 125.47737pt x 72.57533pt.
 
@@ -2405,34 +2412,34 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ng> <./img/SOM/SOM_Prec4.png> <./img/SOM/SOM_Prec5.png> <./img/SOM/SOM_Prec6.pn
 g> <./img/SOM/SOM_Prec7.png> <./img/SOM/SOM_Prec8.png> <./img/SOM/SOM_Prec9.png
 > <./img/SOM/SOM_Prec10.png> <./img/SOM/SOM_PrecTotalAvg.png>]
-<img/SOM/SOM_ASNM2.png, id=750, 492.84125pt x 285.065pt>
+<img/SOM/SOM_ASNM2.png, id=752, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_ASNM2.png Graphic file (type png)
 
 <use img/SOM/SOM_ASNM2.png>
-Package pdftex.def Info: img/SOM/SOM_ASNM2.png used on input line 306.
+Package pdftex.def Info: img/SOM/SOM_ASNM2.png used on input line 313.
 (pdftex.def)             Requested size: 209.12683pt x 120.9618pt.
 
-<img/SOM/SOM_DefectosTotales2.png, id=751, 492.84125pt x 285.065pt>
+<img/SOM/SOM_DefectosTotales2.png, id=753, 492.84125pt x 285.065pt>
 File: img/SOM/SOM_DefectosTotales2.png Graphic file (type png)
 
 <use img/SOM/SOM_DefectosTotales2.png>
-Package pdftex.def Info: img/SOM/SOM_DefectosTotales2.png used on input line 30
-7.
+Package pdftex.def Info: img/SOM/SOM_DefectosTotales2.png used on input line 31
+4.
 (pdftex.def)             Requested size: 209.12683pt x 120.9618pt.
 File: img/SOM/SOM_ASNM2.png Graphic file (type png)
  <use img/SOM/SOM_ASNM2.png>
-Package pdftex.def Info: img/SOM/SOM_ASNM2.png used on input line 311.
+Package pdftex.def Info: img/SOM/SOM_ASNM2.png used on input line 318.
 (pdftex.def)             Requested size: 209.12683pt x 120.9618pt.
 File: img/SOM/SOM_PuntajeTotal.png Graphic file (type png)
 
 <use img/SOM/SOM_PuntajeTotal.png>
-Package pdftex.def Info: img/SOM/SOM_PuntajeTotal.png used on input line 312.
+Package pdftex.def Info: img/SOM/SOM_PuntajeTotal.png used on input line 319.
 (pdftex.def)             Requested size: 209.12683pt x 120.9618pt.
 File: img/SOM/SOM_Umatrix_Points_Category.png Graphic file (type png)
 
 <use img/SOM/SOM_Umatrix_Points_Category.png>
 Package pdftex.def Info: img/SOM/SOM_Umatrix_Points_Category.png used on input 
-line 315.
+line 322.
 (pdftex.def)             Requested size: 209.12683pt x 132.39288pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2443,41 +2450,41 @@ ng> <./img/SOM/SOM_Slope.png> <./img/SOM/SOM_Franco.png> <./img/SOM/SOM_Arenoso
 .png> <./img/SOM/SOM_Arcilloso.png> <./img/SOM/SOM_Limoso.png> <./img/SOM/SOM_C
 ascajoso.png> <./img/SOM/SOM_pHAvg.png> <./img/SOM/SOM_OrgAvg.png> <./img/SOM/S
 OM_OrientationDegrees.png> <./img/SOM/SOM_DefectosTotales.png>]
-<img/SOM/SOM2/umatrix.png, id=788, 492.84125pt x 315.1775pt>
+<img/SOM/SOM2/umatrix.png, id=790, 492.84125pt x 315.1775pt>
 File: img/SOM/SOM2/umatrix.png Graphic file (type png)
 
 <use img/SOM/SOM2/umatrix.png>
-Package pdftex.def Info: img/SOM/SOM2/umatrix.png used on input line 325.
+Package pdftex.def Info: img/SOM/SOM2/umatrix.png used on input line 332.
 (pdftex.def)             Requested size: 209.12683pt x 133.73946pt.
 
-<img/SOM/SOM2/umatrix_defectos.png, id=789, 492.84125pt x 285.065pt>
+<img/SOM/SOM2/umatrix_defectos.png, id=791, 492.84125pt x 285.065pt>
 File: img/SOM/SOM2/umatrix_defectos.png Graphic file (type png)
 
 <use img/SOM/SOM2/umatrix_defectos.png>
 Package pdftex.def Info: img/SOM/SOM2/umatrix_defectos.png used on input line 3
-26.
+33.
 (pdftex.def)             Requested size: 209.12683pt x 120.9618pt.
 
-<img/SOM/SOM2/umatrix_prectotalavg.png, id=790, 492.84125pt x 285.065pt>
+<img/SOM/SOM2/umatrix_prectotalavg.png, id=792, 492.84125pt x 285.065pt>
 File: img/SOM/SOM2/umatrix_prectotalavg.png Graphic file (type png)
 
 <use img/SOM/SOM2/umatrix_prectotalavg.png>
 Package pdftex.def Info: img/SOM/SOM2/umatrix_prectotalavg.png used on input li
-ne 330.
+ne 337.
 (pdftex.def)             Requested size: 209.12683pt x 120.9618pt.
 
-<img/SOM/SOM2/umatrix_year.png, id=791, 497.86pt x 315.1775pt>
+<img/SOM/SOM2/umatrix_year.png, id=793, 497.86pt x 315.1775pt>
 File: img/SOM/SOM2/umatrix_year.png Graphic file (type png)
 
 <use img/SOM/SOM2/umatrix_year.png>
-Package pdftex.def Info: img/SOM/SOM2/umatrix_year.png used on input line 331.
+Package pdftex.def Info: img/SOM/SOM2/umatrix_year.png used on input line 338.
 (pdftex.def)             Requested size: 209.12683pt x 132.39288pt.
 
-<img/SOM/SOM2/umatrix_cat.png, id=792, 497.86pt x 315.1775pt>
+<img/SOM/SOM2/umatrix_cat.png, id=794, 497.86pt x 315.1775pt>
 File: img/SOM/SOM2/umatrix_cat.png Graphic file (type png)
 
 <use img/SOM/SOM2/umatrix_cat.png>
-Package pdftex.def Info: img/SOM/SOM2/umatrix_cat.png used on input line 334.
+Package pdftex.def Info: img/SOM/SOM2/umatrix_cat.png used on input line 341.
 (pdftex.def)             Requested size: 209.12683pt x 132.39288pt.
 
 Underfull \vbox (badness 3590) has occurred while \output is active []
@@ -2486,7 +2493,7 @@ Underfull \vbox (badness 3590) has occurred while \output is active []
 /SOM/SOM2/umatrix.png> <./img/SOM/SOM2/umatrix_defectos.png> <./img/SOM/SOM2/um
 atrix_prectotalavg.png> <./img/SOM/SOM2/umatrix_year.png> <./img/SOM/SOM2/umatr
 ix_cat.png>] [43]
-Underfull \hbox (badness 10000) in paragraph at lines 364--365
+Underfull \hbox (badness 10000) in paragraph at lines 371--372
 
  []
 
@@ -2495,7 +2502,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [45]
 <../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_model
-s_perfs/ConfusionMatrix_RF_Classification_Result.pdf, id=855, 595.22375pt x 412
+s_perfs/ConfusionMatrix_RF_Classification_Result.pdf, id=857, 595.22375pt x 412
 .54124pt>
 File: ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_
 models_perfs/ConfusionMatrix_RF_Classification_Result.pdf Graphic file (type pd
@@ -2505,17 +2512,17 @@ f)
 odels_perfs/ConfusionMatrix_RF_Classification_Result.pdf>
 Package pdftex.def Info: ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects
 /BachelorThesis/RF_models_perfs/ConfusionMatrix_RF_Classification_Result.pdf us
-ed on input line 450.
+ed on input line 457.
 (pdftex.def)             Requested size: 238.08528pt x 165.01357pt.
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 455--489
+Overfull \hbox (17.0pt too wide) in paragraph at lines 462--496
 []$[]$ 
  []
 
 [46 <../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_m
 odels_perfs/ConfusionMatrix_RF_Classification_Result.pdf>] [47]
 <../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_model
-s_perfs/modele_Total_Regression.pdf, id=903, 595.22375pt x 412.54124pt>
+s_perfs/modele_Total_Regression.pdf, id=905, 595.22375pt x 412.54124pt>
 File: ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_
 models_perfs/modele_Total_Regression.pdf Graphic file (type pdf)
 
@@ -2523,24 +2530,24 @@ models_perfs/modele_Total_Regression.pdf Graphic file (type pdf)
 odels_perfs/modele_Total_Regression.pdf>
 Package pdftex.def Info: ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects
 /BachelorThesis/RF_models_perfs/modele_Total_Regression.pdf used on input line 
-529.
+536.
 (pdftex.def)             Requested size: 376.42575pt x 260.89694pt.
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 534--551
+Overfull \hbox (17.0pt too wide) in paragraph at lines 541--558
 []$[]$ 
  []
 
 [48 <../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_m
 odels_perfs/modele_Total_Regression.pdf>]
 <../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_model
-s_perfs/Pred_PuntajeTotal.pdf, id=917, 595.22375pt x 412.54124pt>
+s_perfs/Pred_PuntajeTotal.pdf, id=919, 595.22375pt x 412.54124pt>
 File: ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_
 models_perfs/Pred_PuntajeTotal.pdf Graphic file (type pdf)
 
 <use ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_m
 odels_perfs/Pred_PuntajeTotal.pdf>
 Package pdftex.def Info: ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects
-/BachelorThesis/RF_models_perfs/Pred_PuntajeTotal.pdf used on input line 586.
+/BachelorThesis/RF_models_perfs/Pred_PuntajeTotal.pdf used on input line 593.
 (pdftex.def)             Requested size: 292.77629pt x 202.91495pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2549,7 +2556,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [50 <../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_m
 odels_perfs/Pred_PuntajeTotal.pdf>]
 <../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_model
-s_perfs/modele_Acidez_regression.pdf, id=946, 595.22375pt x 412.54124pt>
+s_perfs/modele_Acidez_regression.pdf, id=948, 595.22375pt x 412.54124pt>
 File: ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_
 models_perfs/modele_Acidez_regression.pdf Graphic file (type pdf)
 
@@ -2557,24 +2564,24 @@ models_perfs/modele_Acidez_regression.pdf Graphic file (type pdf)
 odels_perfs/modele_Acidez_regression.pdf>
 Package pdftex.def Info: ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects
 /BachelorThesis/RF_models_perfs/modele_Acidez_regression.pdf used on input line
- 628.
+ 635.
 (pdftex.def)             Requested size: 376.42575pt x 260.89694pt.
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 634--649
+Overfull \hbox (17.0pt too wide) in paragraph at lines 641--656
 []$[]$ 
  []
 
 [51 <../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_m
 odels_perfs/modele_Acidez_regression.pdf>]
 <../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_model
-s_perfs/Pred_ACidez.pdf, id=960, 595.22375pt x 412.54124pt>
+s_perfs/Pred_ACidez.pdf, id=962, 595.22375pt x 412.54124pt>
 File: ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_
 models_perfs/Pred_ACidez.pdf Graphic file (type pdf)
 
 <use ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_m
 odels_perfs/Pred_ACidez.pdf>
 Package pdftex.def Info: ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects
-/BachelorThesis/RF_models_perfs/Pred_ACidez.pdf used on input line 682.
+/BachelorThesis/RF_models_perfs/Pred_ACidez.pdf used on input line 689.
 (pdftex.def)             Requested size: 292.77629pt x 202.91495pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2583,7 +2590,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [53 <../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_m
 odels_perfs/Pred_ACidez.pdf>]
 <../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_model
-s_perfs/modele_dulzor_regression.pdf, id=988, 595.22375pt x 412.54124pt>
+s_perfs/modele_dulzor_regression.pdf, id=990, 595.22375pt x 412.54124pt>
 File: ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_
 models_perfs/modele_dulzor_regression.pdf Graphic file (type pdf)
 
@@ -2591,24 +2598,24 @@ models_perfs/modele_dulzor_regression.pdf Graphic file (type pdf)
 odels_perfs/modele_dulzor_regression.pdf>
 Package pdftex.def Info: ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects
 /BachelorThesis/RF_models_perfs/modele_dulzor_regression.pdf used on input line
- 727.
+ 734.
 (pdftex.def)             Requested size: 376.42575pt x 260.89694pt.
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 734--749
+Overfull \hbox (17.0pt too wide) in paragraph at lines 741--756
 []$[]$ 
  []
 
 [54 <../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_m
 odels_perfs/modele_dulzor_regression.pdf>]
 <../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_model
-s_perfs/Pred_Dulzor.pdf, id=1001, 793.96625pt x 576.1525pt>
+s_perfs/Pred_Dulzor.pdf, id=1003, 793.96625pt x 576.1525pt>
 File: ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_
 models_perfs/Pred_Dulzor.pdf Graphic file (type pdf)
 
 <use ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_m
 odels_perfs/Pred_Dulzor.pdf>
 Package pdftex.def Info: ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects
-/BachelorThesis/RF_models_perfs/Pred_Dulzor.pdf used on input line 783.
+/BachelorThesis/RF_models_perfs/Pred_Dulzor.pdf used on input line 790.
 (pdftex.def)             Requested size: 292.77629pt x 212.46098pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2616,24 +2623,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [55]
 [56 <../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_m
 odels_perfs/Pred_Dulzor.pdf>]
-Overfull \hbox (1.44142pt too wide) in paragraph at lines 794--795
+Overfull \hbox (1.44142pt too wide) in paragraph at lines 801--802
 \OT1/cmr/m/n/10.95 0.47 (47% d'echantillons classes cor-rec-te-ment) et un te
 st de Kappa d'uni-que-ment 0.0416[][][],
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 794--795
+Underfull \hbox (badness 10000) in paragraph at lines 801--802
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 796--797
+Underfull \hbox (badness 10000) in paragraph at lines 803--804
 
  []
 
 
 <../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_model
-s_perfs/RF_PTotal_Variability10.pdf, id=1034, 593.21625pt x 410.53375pt>
+s_perfs/RF_PTotal_Variability10.pdf, id=1036, 593.21625pt x 410.53375pt>
 File: ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_
 models_perfs/RF_PTotal_Variability10.pdf Graphic file (type pdf)
 
@@ -2641,11 +2648,11 @@ models_perfs/RF_PTotal_Variability10.pdf Graphic file (type pdf)
 odels_perfs/RF_PTotal_Variability10.pdf>
 Package pdftex.def Info: ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects
 /BachelorThesis/RF_models_perfs/RF_PTotal_Variability10.pdf used on input line 
-822.
+829.
 (pdftex.def)             Requested size: 292.77629pt x 202.62286pt.
 
 <../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_model
-s_perfs/RF_PTotal_Variability20.pdf, id=1035, 593.21625pt x 410.53375pt>
+s_perfs/RF_PTotal_Variability20.pdf, id=1037, 593.21625pt x 410.53375pt>
 File: ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/RF_
 models_perfs/RF_PTotal_Variability20.pdf Graphic file (type pdf)
 
@@ -2653,7 +2660,7 @@ models_perfs/RF_PTotal_Variability20.pdf Graphic file (type pdf)
 odels_perfs/RF_PTotal_Variability20.pdf>
 Package pdftex.def Info: ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects
 /BachelorThesis/RF_models_perfs/RF_PTotal_Variability20.pdf used on input line 
-828.
+835.
 (pdftex.def)             Requested size: 292.77629pt x 202.62286pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2666,26 +2673,26 @@ models_perfs/RF_PTotal_Variability10.pdf> <../../Bachelor_Thesis_2017_Sources/N
 otebook/R/Projects/BachelorThesis/RF_models_perfs/RF_PTotal_Variability20.pdf>]
  [59]
 <../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS/Circ
-leOfCorrelationPuntajeTotal.pdf, id=1063, 793.96625pt x 576.1525pt>
+leOfCorrelationPuntajeTotal.pdf, id=1065, 793.96625pt x 576.1525pt>
 File: ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS
 /CircleOfCorrelationPuntajeTotal.pdf Graphic file (type pdf)
 
 <use ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS/
 CircleOfCorrelationPuntajeTotal.pdf>
 Package pdftex.def Info: ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects
-/BachelorThesis/PLS/CircleOfCorrelationPuntajeTotal.pdf used on input line 891.
+/BachelorThesis/PLS/CircleOfCorrelationPuntajeTotal.pdf used on input line 898.
 
 (pdftex.def)             Requested size: 317.58087pt x 230.45691pt.
 
 <../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS/Circ
-leOfCorrelationAcidez.pdf, id=1064, 793.96625pt x 576.1525pt>
+leOfCorrelationAcidez.pdf, id=1066, 793.96625pt x 576.1525pt>
 File: ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS
 /CircleOfCorrelationAcidez.pdf Graphic file (type pdf)
 
 <use ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS/
 CircleOfCorrelationAcidez.pdf>
 Package pdftex.def Info: ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects
-/BachelorThesis/PLS/CircleOfCorrelationAcidez.pdf used on input line 898.
+/BachelorThesis/PLS/CircleOfCorrelationAcidez.pdf used on input line 905.
 (pdftex.def)             Requested size: 317.58087pt x 230.45691pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2693,14 +2700,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [60 <../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS
 /CircleOfCorrelationPuntajeTotal.pdf>]
 <../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS/Circ
-leOfCorrelationDulzor.pdf, id=1078, 793.96625pt x 576.1525pt>
+leOfCorrelationDulzor.pdf, id=1080, 793.96625pt x 576.1525pt>
 File: ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS
 /CircleOfCorrelationDulzor.pdf Graphic file (type pdf)
 
 <use ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS/
 CircleOfCorrelationDulzor.pdf>
 Package pdftex.def Info: ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects
-/BachelorThesis/PLS/CircleOfCorrelationDulzor.pdf used on input line 905.
+/BachelorThesis/PLS/CircleOfCorrelationDulzor.pdf used on input line 912.
 (pdftex.def)             Requested size: 317.58087pt x 230.45691pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2709,26 +2716,26 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 /CircleOfCorrelationAcidez.pdf> <../../Bachelor_Thesis_2017_Sources/Notebook/R/
 Projects/BachelorThesis/PLS/CircleOfCorrelationDulzor.pdf>]
 <../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS/Comp
-arisonOfResponsesPuntajeTotal.pdf, id=1101, 793.96625pt x 576.1525pt>
+arisonOfResponsesPuntajeTotal.pdf, id=1103, 793.96625pt x 576.1525pt>
 File: ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS
 /ComparisonOfResponsesPuntajeTotal.pdf Graphic file (type pdf)
 
 <use ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS/
 ComparisonOfResponsesPuntajeTotal.pdf>
 Package pdftex.def Info: ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects
-/BachelorThesis/PLS/ComparisonOfResponsesPuntajeTotal.pdf used on input line 91
-7.
+/BachelorThesis/PLS/ComparisonOfResponsesPuntajeTotal.pdf used on input line 92
+4.
 (pdftex.def)             Requested size: 292.77629pt x 212.46098pt.
 
 <../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS/Comp
-arisonOfResponsesAcidez.pdf, id=1102, 793.96625pt x 576.1525pt>
+arisonOfResponsesAcidez.pdf, id=1104, 793.96625pt x 576.1525pt>
 File: ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS
 /ComparisonOfResponsesAcidez.pdf Graphic file (type pdf)
 
 <use ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS/
 ComparisonOfResponsesAcidez.pdf>
 Package pdftex.def Info: ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects
-/BachelorThesis/PLS/ComparisonOfResponsesAcidez.pdf used on input line 925.
+/BachelorThesis/PLS/ComparisonOfResponsesAcidez.pdf used on input line 932.
 (pdftex.def)             Requested size: 292.77629pt x 212.46098pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2736,14 +2743,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [62 <../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS
 /ComparisonOfResponsesPuntajeTotal.pdf>]
 <../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS/Comp
-arisonOfResponsesDulzor.pdf, id=1114, 793.96625pt x 576.1525pt>
+arisonOfResponsesDulzor.pdf, id=1116, 793.96625pt x 576.1525pt>
 File: ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS
 /ComparisonOfResponsesDulzor.pdf Graphic file (type pdf)
 
 <use ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PLS/
 ComparisonOfResponsesDulzor.pdf>
 Package pdftex.def Info: ../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects
-/BachelorThesis/PLS/ComparisonOfResponsesDulzor.pdf used on input line 934.
+/BachelorThesis/PLS/ComparisonOfResponsesDulzor.pdf used on input line 941.
 (pdftex.def)             Requested size: 292.77629pt x 212.46098pt.
 ) [63 <../../Bachelor_Thesis_2017_Sources/Notebook/R/Projects/BachelorThesis/PL
 S/ComparisonOfResponsesAcidez.pdf> <../../Bachelor_Thesis_2017_Sources/Notebook
@@ -2776,7 +2783,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-<img/coffee_flavor_wheel.jpg, id=1141, 1053.9375pt x 779.91376pt>
+<img/coffee_flavor_wheel.jpg, id=1143, 1053.9375pt x 779.91376pt>
 File: img/coffee_flavor_wheel.jpg Graphic file (type jpg)
 
 <use img/coffee_flavor_wheel.jpg>
@@ -2850,7 +2857,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [73]
 <../../Bachelor_Thesis_2017_Sources/Notebook/DataAnalysis/data/Slope_Orientatio
-n/Orientation_risaralda.jpg, id=1185, 794.97pt x 614.295pt>
+n/Orientation_risaralda.jpg, id=1187, 794.97pt x 614.295pt>
 File: ../../Bachelor_Thesis_2017_Sources/Notebook/DataAnalysis/data/Slope_Orien
 tation/Orientation_risaralda.jpg Graphic file (type jpg)
 
@@ -2860,7 +2867,7 @@ Package pdftex.def Info: ../../Bachelor_Thesis_2017_Sources/Notebook/DataAnalys
 is/data/Slope_Orientation/Orientation_risaralda.jpg used on input line 150.
 (pdftex.def)             Requested size: 418.25368pt x 323.20332pt.
 
-<img/Exploration/SIGsoils.png, id=1186, 611.886pt x 683.55376pt>
+<img/Exploration/SIGsoils.png, id=1188, 611.886pt x 683.55376pt>
 File: img/Exploration/SIGsoils.png Graphic file (type png)
 
 <use img/Exploration/SIGsoils.png>
@@ -2947,7 +2954,7 @@ esp/articulo/agricultura-ecol-gica/el-
  []
 
 [85]
-Overfull \hbox (0.34834pt too wide) in paragraph at lines 35--35
+Overfull \hbox (0.34834pt too wide) in paragraph at lines 36--36
  [][] [][]\OT1/cmr/m/n/10.95 U-Matrix avec les points. En jaune les cafes de c
 ategorie 2,en bleu categorie 
  []
@@ -3004,10 +3011,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 216.
  ) 
 Here is how much of TeX's memory you used:
- 37366 strings out of 493333
- 827880 string characters out of 3139193
- 1058536 words of memory out of 3000000
- 39535 multiletter control sequences out of 15000+200000
+ 37374 strings out of 493333
+ 828111 string characters out of 3139193
+ 1058708 words of memory out of 3000000
+ 39541 multiletter control sequences out of 15000+200000
  14884 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,11n,98p,1616b,1777s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3026,9 +3033,9 @@ TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
 e1/public/amsfonts/cm/cmti9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmtt10.pfb>
-Output written on Bachelor_Schowing2017.pdf (101 pages, 7870175 bytes).
+Output written on Bachelor_Schowing2017.pdf (101 pages, 7864155 bytes).
 PDF statistics:
- 1534 PDF objects out of 1728 (max. 8388607)
- 374 named destinations out of 1000 (max. 500000)
- 849 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1537 PDF objects out of 1728 (max. 8388607)
+ 375 named destinations out of 1000 (max. 500000)
+ 854 words of extra memory for PDF output out of 10000 (max. 10000000)
 

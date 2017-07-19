@@ -35,19 +35,19 @@
 \contentsline {chapter}{\numberline {4}Analyse des donn\IeC {\'e}es}{23}{chapter.4}
 \contentsline {section}{\numberline {4.1}Data Mining - Analyse exploratoire}{24}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Pr\IeC {\'e}-traitement}{24}{subsection.4.1.1}
-\contentsline {paragraph}{Variables d\IeC {\'e}pendantes}{25}{figure.caption.23}
-\contentsline {paragraph}{Cat\IeC {\'e}gories}{26}{figure.caption.23}
-\contentsline {paragraph}{\IeC {\'E}limination des r\IeC {\'e}sultats avec z\IeC {\'e}ro points}{26}{table.caption.24}
+\contentsline {paragraph}{Variables d\IeC {\'e}pendantes}{25}{figure.caption.24}
+\contentsline {paragraph}{Cat\IeC {\'e}gories}{25}{figure.caption.24}
+\contentsline {paragraph}{\IeC {\'E}limination des r\IeC {\'e}sultats avec z\IeC {\'e}ro points}{26}{table.caption.25}
 \contentsline {subsection}{\numberline {4.1.2}Analyse exploratoire et apprentissage non-supervis\IeC {\'e}}{26}{subsection.4.1.2}
 \contentsline {subsubsection}{\numberline {4.1.2.1}Corr\IeC {\'e}lations entre variables}{26}{subsubsection.4.1.2.1}
 \contentsline {subsubsection}{\numberline {4.1.2.2}Principal Component Analysis (PCA)}{29}{subsubsection.4.1.2.2}
-\contentsline {paragraph}{R\IeC {\'e}sultats de la PCA}{29}{figure.caption.27}
-\contentsline {paragraph}{Analyse des composantes}{31}{figure.caption.29}
-\contentsline {paragraph}{PCA avec prcomp}{31}{figure.caption.29}
+\contentsline {paragraph}{R\IeC {\'e}sultats de la PCA}{29}{figure.caption.28}
+\contentsline {paragraph}{Analyse des composantes}{31}{figure.caption.30}
+\contentsline {paragraph}{PCA avec prcomp}{31}{figure.caption.30}
 \contentsline {subsubsection}{\numberline {4.1.2.3}Clustering}{33}{subsubsection.4.1.2.3}
 \contentsline {subsubsection}{\numberline {4.1.2.4}Self-Organizing Map}{36}{subsubsection.4.1.2.4}
 \contentsline {paragraph}{U-Matrix, r\IeC {\'e}partition des caf\IeC {\'e}s par classes et composants}{36}{subsubsection.4.1.2.4}
-\contentsline {paragraph}{Analyse des cartes}{43}{subfigure.4.17.5}
+\contentsline {paragraph}{Analyse des cartes}{43}{subfigure.4.18.5}
 \contentsline {section}{\numberline {4.2}Apprentissage supervis\IeC {\'e}}{44}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Random Forest}{44}{subsection.4.2.1}
 \contentsline {subsubsection}{\numberline {4.2.1.1}M\IeC {\'e}thode utilis\IeC {\'e}e}{44}{subsubsection.4.2.1.1}
@@ -55,14 +55,14 @@
 \contentsline {subsubsection}{\numberline {4.2.1.3}R\IeC {\'e}gression sur la variable d\IeC {\'e}pendante \textit {Puntaje Total}}{48}{subsubsection.4.2.1.3}
 \contentsline {subsubsection}{\numberline {4.2.1.4}R\IeC {\'e}gression sur la variable d\IeC {\'e}pendante \textit {Acidez}}{51}{subsubsection.4.2.1.4}
 \contentsline {subsubsection}{\numberline {4.2.1.5}R\IeC {\'e}gression sur la variable d\IeC {\'e}pendante \textit {Dulzor}}{54}{subsubsection.4.2.1.5}
-\contentsline {paragraph}{Discussion des r\IeC {\'e}sultats pour Random Forest}{57}{figure.caption.57}
+\contentsline {paragraph}{Discussion des r\IeC {\'e}sultats pour Random Forest}{57}{figure.caption.58}
 \contentsline {subsection}{\numberline {4.2.2}Random Forest avec variables \IeC {\`a} haute variabilit\IeC {\'e}}{57}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {4.2.3}Partial Least Squares}{60}{subsection.4.2.3}
 \contentsline {subsubsection}{\numberline {4.2.3.1}Analyse des r\IeC {\'e}sultats}{62}{subsubsection.4.2.3.1}
 \contentsline {chapter}{\numberline {5}Discussion des r\IeC {\'e}sultats}{65}{chapter.5}
 \contentsline {paragraph}{R\IeC {\'e}sultats exploitables}{65}{chapter.5}
 \contentsline {paragraph}{Donn\IeC {\'e}es disponibles}{65}{chapter.5}
-\contentsline {paragraph}{M\IeC {\'e}thodes utilis\IeC {\'e}es}{67}{figure.caption.67}
+\contentsline {paragraph}{M\IeC {\'e}thodes utilis\IeC {\'e}es}{67}{figure.caption.68}
 \contentsline {chapter}{\numberline {6}Conclusion}{69}{chapter.6}
 \contentsline {chapter}{\numberline {A}Description des donn\IeC {\'e}es}{71}{appendix.A}
 \contentsline {section}{\numberline {A.1}Dataset}{71}{section.A.1}
