@@ -1,7 +1,7 @@
 \select@language {french}
-\contentsline {paragraph}{Contexte}{i}{Item.6}
-\contentsline {paragraph}{Probl\IeC {\'e}matique}{i}{Item.6}
-\contentsline {paragraph}{Objectif}{i}{Item.6}
+\contentsline {paragraph}{Contexte}{iii}{Item.6}
+\contentsline {paragraph}{Probl\IeC {\'e}matique}{iii}{Item.6}
+\contentsline {paragraph}{Objectif}{iii}{Item.6}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Question de recherche}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Contexte du projet}{1}{section.1.2}
@@ -22,51 +22,53 @@
 \contentsline {paragraph}{Altitude et points}{12}{table.caption.11}
 \contentsline {paragraph}{Pr\IeC {\'e}cipitations et temp\IeC {\'e}ratures}{13}{figure.caption.13}
 \contentsline {paragraph}{Points totaux des d\IeC {\'e}gustations}{14}{table.caption.15}
-\contentsline {chapter}{\numberline {3}M\IeC {\'e}thodes de mod\IeC {\'e}lisation}{15}{chapter.3}
-\contentsline {section}{\numberline {3.1}Rappel des objectifs}{15}{section.3.1}
-\contentsline {section}{\numberline {3.2}Apprentissage supervis\IeC {\'e}}{15}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Random Forest}{15}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Partial Least Square (PLS)}{16}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Multi Block PLS}{17}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}Apprentissage non-supervis\IeC {\'e}}{19}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}SOM}{19}{subsection.3.3.1}
-\contentsline {section}{\numberline {3.4}Optimisation}{21}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Cross-Validation}{21}{subsection.3.4.1}
-\contentsline {chapter}{\numberline {4}Analyse des donn\IeC {\'e}es}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}Data Mining - Analyse exploratoire}{24}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Pr\IeC {\'e}-traitement}{24}{subsection.4.1.1}
-\contentsline {paragraph}{Variables d\IeC {\'e}pendantes}{25}{figure.caption.24}
-\contentsline {paragraph}{Cat\IeC {\'e}gories}{25}{figure.caption.24}
-\contentsline {paragraph}{\IeC {\'E}limination des r\IeC {\'e}sultats avec z\IeC {\'e}ro points}{26}{table.caption.25}
-\contentsline {subsection}{\numberline {4.1.2}Analyse exploratoire et apprentissage non-supervis\IeC {\'e}}{26}{subsection.4.1.2}
-\contentsline {subsubsection}{\numberline {4.1.2.1}Corr\IeC {\'e}lations entre variables}{26}{subsubsection.4.1.2.1}
-\contentsline {subsubsection}{\numberline {4.1.2.2}Principal Component Analysis (PCA)}{29}{subsubsection.4.1.2.2}
-\contentsline {paragraph}{R\IeC {\'e}sultats de la PCA}{29}{figure.caption.28}
-\contentsline {paragraph}{Analyse des composantes}{31}{figure.caption.30}
-\contentsline {paragraph}{PCA avec prcomp}{31}{figure.caption.30}
-\contentsline {subsubsection}{\numberline {4.1.2.3}Clustering}{33}{subsubsection.4.1.2.3}
-\contentsline {subsubsection}{\numberline {4.1.2.4}Self-Organizing Map}{36}{subsubsection.4.1.2.4}
-\contentsline {paragraph}{U-Matrix, r\IeC {\'e}partition des caf\IeC {\'e}s par classes et composants}{36}{subsubsection.4.1.2.4}
-\contentsline {paragraph}{Analyse des cartes}{43}{subfigure.4.18.5}
-\contentsline {section}{\numberline {4.2}Apprentissage supervis\IeC {\'e}}{44}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Random Forest}{44}{subsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.1.1}M\IeC {\'e}thode utilis\IeC {\'e}e}{44}{subsubsection.4.2.1.1}
-\contentsline {subsubsection}{\numberline {4.2.1.2}R\IeC {\'e}sultats de classification}{45}{subsubsection.4.2.1.2}
-\contentsline {subsubsection}{\numberline {4.2.1.3}R\IeC {\'e}gression sur la variable d\IeC {\'e}pendante \textit {Puntaje Total}}{48}{subsubsection.4.2.1.3}
-\contentsline {subsubsection}{\numberline {4.2.1.4}R\IeC {\'e}gression sur la variable d\IeC {\'e}pendante \textit {Acidez}}{51}{subsubsection.4.2.1.4}
-\contentsline {subsubsection}{\numberline {4.2.1.5}R\IeC {\'e}gression sur la variable d\IeC {\'e}pendante \textit {Dulzor}}{54}{subsubsection.4.2.1.5}
-\contentsline {paragraph}{Discussion des r\IeC {\'e}sultats pour Random Forest}{57}{figure.caption.58}
-\contentsline {subsection}{\numberline {4.2.2}Random Forest avec variables \IeC {\`a} haute variabilit\IeC {\'e}}{57}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Partial Least Squares}{60}{subsection.4.2.3}
-\contentsline {subsubsection}{\numberline {4.2.3.1}Analyse des r\IeC {\'e}sultats}{62}{subsubsection.4.2.3.1}
-\contentsline {chapter}{\numberline {5}Discussion des r\IeC {\'e}sultats}{65}{chapter.5}
-\contentsline {paragraph}{R\IeC {\'e}sultats exploitables}{65}{chapter.5}
-\contentsline {paragraph}{Donn\IeC {\'e}es disponibles}{65}{chapter.5}
-\contentsline {paragraph}{M\IeC {\'e}thodes utilis\IeC {\'e}es}{67}{figure.caption.68}
-\contentsline {chapter}{\numberline {6}Conclusion}{69}{chapter.6}
-\contentsline {chapter}{\numberline {A}Description des donn\IeC {\'e}es}{71}{appendix.A}
-\contentsline {section}{\numberline {A.1}Dataset}{71}{section.A.1}
-\contentsline {section}{\numberline {A.2}Donn\IeC {\'e}es de d\IeC {\'e}gustation brutes}{73}{section.A.2}
-\contentsline {section}{\numberline {A.3}Donn\IeC {\'e}es climatiques et g\IeC {\'e}ographiques brutes}{73}{section.A.3}
-\contentsline {chapter}{\numberline {B}Importances des variables par cluster}{77}{appendix.B}
-\contentsline {chapter}{\numberline {C}Autres informations }{81}{appendix.C}
+\contentsline {paragraph}{Tableau Public}{15}{figure.caption.17}
+\contentsline {chapter}{\numberline {3}M\IeC {\'e}thodes de mod\IeC {\'e}lisation}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}Rappel des objectifs}{17}{section.3.1}
+\contentsline {section}{\numberline {3.2}Apprentissage supervis\IeC {\'e}}{17}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Random Forest}{17}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Partial Least Square (PLS)}{18}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Multi Block PLS}{19}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Apprentissage non-supervis\IeC {\'e}}{21}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}SOM}{21}{subsection.3.3.1}
+\contentsline {section}{\numberline {3.4}Optimisation}{23}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Cross-Validation}{23}{subsection.3.4.1}
+\contentsline {chapter}{\numberline {4}Analyse des donn\IeC {\'e}es}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}Data Mining - Analyse exploratoire}{26}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Pr\IeC {\'e}-traitement}{26}{subsection.4.1.1}
+\contentsline {paragraph}{Variables d\IeC {\'e}pendantes}{27}{figure.caption.25}
+\contentsline {paragraph}{Cat\IeC {\'e}gories}{27}{figure.caption.25}
+\contentsline {paragraph}{\IeC {\'E}limination des r\IeC {\'e}sultats avec z\IeC {\'e}ro points}{28}{table.caption.26}
+\contentsline {subsection}{\numberline {4.1.2}Analyse exploratoire et apprentissage non-supervis\IeC {\'e}}{28}{subsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2.1}Corr\IeC {\'e}lations entre variables}{28}{subsubsection.4.1.2.1}
+\contentsline {subsubsection}{\numberline {4.1.2.2}Principal Component Analysis (PCA)}{31}{subsubsection.4.1.2.2}
+\contentsline {paragraph}{R\IeC {\'e}sultats de la PCA}{31}{figure.caption.29}
+\contentsline {paragraph}{Analyse des composantes}{33}{figure.caption.31}
+\contentsline {paragraph}{PCA avec prcomp}{33}{figure.caption.31}
+\contentsline {subsubsection}{\numberline {4.1.2.3}Clustering}{35}{subsubsection.4.1.2.3}
+\contentsline {subsubsection}{\numberline {4.1.2.4}Self-Organizing Map}{38}{subsubsection.4.1.2.4}
+\contentsline {paragraph}{U-Matrix, r\IeC {\'e}partition des caf\IeC {\'e}s par classes et composants}{38}{subsubsection.4.1.2.4}
+\contentsline {paragraph}{Analyse des cartes}{45}{subfigure.4.18.5}
+\contentsline {section}{\numberline {4.2}Apprentissage supervis\IeC {\'e}}{46}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Random Forest}{46}{subsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.1.1}M\IeC {\'e}thode utilis\IeC {\'e}e}{46}{subsubsection.4.2.1.1}
+\contentsline {subsubsection}{\numberline {4.2.1.2}R\IeC {\'e}sultats de classification}{47}{subsubsection.4.2.1.2}
+\contentsline {subsubsection}{\numberline {4.2.1.3}R\IeC {\'e}gression sur la variable d\IeC {\'e}pendante \textit {Puntaje Total}}{50}{subsubsection.4.2.1.3}
+\contentsline {subsubsection}{\numberline {4.2.1.4}R\IeC {\'e}gression sur la variable d\IeC {\'e}pendante \textit {Acidez}}{53}{subsubsection.4.2.1.4}
+\contentsline {subsubsection}{\numberline {4.2.1.5}R\IeC {\'e}gression sur la variable d\IeC {\'e}pendante \textit {Dulzor}}{56}{subsubsection.4.2.1.5}
+\contentsline {paragraph}{Discussion des r\IeC {\'e}sultats pour Random Forest}{59}{figure.caption.59}
+\contentsline {subsection}{\numberline {4.2.2}Random Forest avec variables \IeC {\`a} haute variabilit\IeC {\'e}}{59}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Partial Least Squares}{62}{subsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.3.1}Analyse des r\IeC {\'e}sultats}{64}{subsubsection.4.2.3.1}
+\contentsline {chapter}{\numberline {5}Discussion des r\IeC {\'e}sultats}{67}{chapter.5}
+\contentsline {paragraph}{R\IeC {\'e}sultats exploitables}{67}{chapter.5}
+\contentsline {paragraph}{Donn\IeC {\'e}es disponibles}{67}{chapter.5}
+\contentsline {paragraph}{M\IeC {\'e}thodes utilis\IeC {\'e}es}{69}{figure.caption.69}
+\contentsline {chapter}{\numberline {6}Conclusion}{71}{chapter.6}
+\contentsline {chapter}{\numberline {A}Description des donn\IeC {\'e}es}{73}{appendix.A}
+\contentsline {section}{\numberline {A.1}Dataset}{73}{section.A.1}
+\contentsline {section}{\numberline {A.2}Donn\IeC {\'e}es de d\IeC {\'e}gustation brutes}{75}{section.A.2}
+\contentsline {section}{\numberline {A.3}Donn\IeC {\'e}es climatiques et g\IeC {\'e}ographiques brutes}{75}{section.A.3}
+\contentsline {chapter}{\numberline {B}Importances des variables par cluster}{79}{appendix.B}
+\contentsline {chapter}{\numberline {C}Autres informations }{83}{appendix.C}
+\contentsline {chapter}{\numberline {D}NDA}{85}{appendix.D}

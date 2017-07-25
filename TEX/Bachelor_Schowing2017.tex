@@ -103,13 +103,17 @@
 
 \author{Thibault Schowing}
 
-%TODO Trouver un bon titre au travail
-%\title{Amélioration de la productivité de cultures tropicales par des méthodes d'apprentissage automatique}
-%\title{Analyse des relations entre les conditions de culture et la qualité des cafés du département de Risaralda en Colombie }
+
+\usepackage{fancyhdr,graphicx,lastpage}% http://ctan.org/pkg/{fancyhdr,graphicx,lastpage}
+\fancypagestyle{plain}{
+	\fancyhf{}% Clear header/footer
+	\fancyhead[R]{Thibault Schowing}% Right header
+	\fancyhead[L]{\includegraphics[width=0.2\textwidth]{HEIG-VD_Logo_96x29_RVB_ROUGE}}% Left footer
+	\fancyfoot[R]{\thepage}% Right footer
+}
 
 
-% Mise en page et marges
-% https://tex.stackexchange.com/questions/42063/illogical-twoside-margins
+
 
 
 \begin{document}
@@ -128,9 +132,12 @@
 	% -l) Le journal de travail
 	
 	% Page de titre
-	
+	\pagestyle{plain}% Set page style to plain.
 	\dominitoc
 	\newgeometry{hmarginratio=1:1}
+	
+	\pagenumbering{gobble}
+	
 	\begin{titlepage}
 		\centering
 		
@@ -163,16 +170,14 @@
 		
 		
 	\end{titlepage}
+	% Geometry centrée pour page de titre: off
 	\restoregeometry 
 	%\afterpage{\blankpage}
-	\pagenumbering{gobble}
 	
 	\frontmatter
 	
-
 	
 	
-	\afterpage{\blankpage}
 	\include{acknowledgements}
 	\afterpage{\blankpage}
 	
@@ -182,13 +187,13 @@
 	
 	\include{summary}
 	
-	
 	\tableofcontents
 	
 	
-
+	
 	
 	\mainmatter
+	
 	\include{body}
 	
 	\include{Results}
@@ -200,6 +205,20 @@
 	\backmatter
 	
 	\include{annexes}
+	
+	\chapter{NDA}
+	%\includepdf[pages=-,pagecommand={},width=\textwidth]{doc/NDA_TB_Schowing_Signed.pdf}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[page= 1, width=0.75\linewidth]{doc/NDA_TB_Schowing_Signed}
+		\label{fig:ndatbschowingsigned}
+	\end{figure}
+	\begin{figure}[h]
+		\centering
+		\includegraphics[page= 2, width=0.8\linewidth]{doc/NDA_TB_Schowing_Signed}
+		\label{fig:ndatbschowingsigned2}
+	\end{figure}
+	
 	
 	\bibliography{mybib}{}
 	\bibliographystyle{plain}

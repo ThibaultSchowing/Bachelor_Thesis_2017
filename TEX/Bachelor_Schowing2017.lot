@@ -9,35 +9,37 @@
 \contentsline {table}{\numberline {2.4}{\ignorespaces Temp\IeC {\'e}ratures moyennes par ann\IeC {\'e}e\relax }}{13}{table.caption.15}
 \contentsline {table}{\numberline {2.5}{\ignorespaces Points totaux par ann\IeC {\'e}e\relax }}{14}{table.caption.16}
 \addvspace {10\p@ }
-\contentsline {xchapter}{M\IeC {\'e}thodes de mod\IeC {\'e}lisation}{15}{chapter.3}
+\contentsline {xchapter}{M\IeC {\'e}thodes de mod\IeC {\'e}lisation}{17}{chapter.3}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Analyse des donn\IeC {\'e}es}{23}{chapter.4}
-\contentsline {table}{\numberline {4.1}{\ignorespaces Cat\IeC {\'e}gories de caf\IeC {\'e}s d'apr\IeC {\`e}s le nombre de points \newline Source: http://www.scaa.org/?page=resources\&d=cupping-protocols \relax }}{26}{table.caption.25}
-\contentsline {table}{\numberline {4.2}{\ignorespaces Tableau des rotations des six premiers composants de la PCA avec mise en \IeC {\'e}vidence des variables les plus importantes par composante.\relax }}{30}{table.caption.29}
-\contentsline {table}{\numberline {4.3}{\ignorespaces HCPC avec trois clusters compar\IeC {\'e}s \IeC {\`a} la sortie cat\IeC {\'e}gories\relax }}{35}{table.caption.36}
-\contentsline {table}{\numberline {4.4}{\ignorespaces R\IeC {\'e}glage du mod\IeC {\`e}le\relax }}{45}{table.caption.44}
-\contentsline {table}{\numberline {4.5}{\ignorespaces Les vingt variables les plus importantes par cat\IeC {\'e}gorie (sur 72) pour la classification\relax }}{46}{table.caption.45}
-\contentsline {table}{\numberline {4.6}{\ignorespaces R\IeC {\'e}glage du mod\IeC {\`e}le\relax }}{48}{table.caption.47}
-\contentsline {table}{\numberline {4.7}{\ignorespaces Les 20 variables les plus importantes du mod\IeC {\`e}le.\relax }}{49}{table.caption.49}
-\contentsline {table}{\numberline {4.8}{\ignorespaces R\IeC {\'e}glage du mod\IeC {\`e}le\relax }}{51}{table.caption.51}
-\contentsline {table}{\numberline {4.9}{\ignorespaces Les 20 variables les plus importantes du mod\IeC {\`e}le.\relax }}{52}{table.caption.53}
-\contentsline {table}{\numberline {4.10}{\ignorespaces R\IeC {\'e}glage du mod\IeC {\`e}le\relax }}{54}{table.caption.55}
-\contentsline {table}{\numberline {4.11}{\ignorespaces Les 20 variables les plus importantes du mod\IeC {\`e}le.\relax }}{55}{table.caption.57}
-\contentsline {table}{\numberline {4.12}{\ignorespaces Variables \IeC {\`a} haute variabilit\IeC {\'e} avec un coefficient de variabilit\IeC {\'e} sup\IeC {\'e}rieur \IeC {\`a} 10\relax }}{59}{table.caption.61}
+\contentsline {xchapter}{Analyse des donn\IeC {\'e}es}{25}{chapter.4}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Cat\IeC {\'e}gories de caf\IeC {\'e}s d'apr\IeC {\`e}s le nombre de points \newline Source: http://www.scaa.org/?page=resources\&d=cupping-protocols \relax }}{28}{table.caption.26}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Tableau des rotations des six premiers composants de la PCA avec mise en \IeC {\'e}vidence des variables les plus importantes par composante.\relax }}{32}{table.caption.30}
+\contentsline {table}{\numberline {4.3}{\ignorespaces HCPC avec trois clusters compar\IeC {\'e}s \IeC {\`a} la sortie cat\IeC {\'e}gories\relax }}{37}{table.caption.37}
+\contentsline {table}{\numberline {4.4}{\ignorespaces R\IeC {\'e}glage du mod\IeC {\`e}le\relax }}{47}{table.caption.45}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Les vingt variables les plus importantes par cat\IeC {\'e}gorie (sur 72) pour la classification\relax }}{48}{table.caption.46}
+\contentsline {table}{\numberline {4.6}{\ignorespaces R\IeC {\'e}glage du mod\IeC {\`e}le\relax }}{50}{table.caption.48}
+\contentsline {table}{\numberline {4.7}{\ignorespaces Les 20 variables les plus importantes du mod\IeC {\`e}le.\relax }}{51}{table.caption.50}
+\contentsline {table}{\numberline {4.8}{\ignorespaces R\IeC {\'e}glage du mod\IeC {\`e}le\relax }}{53}{table.caption.52}
+\contentsline {table}{\numberline {4.9}{\ignorespaces Les 20 variables les plus importantes du mod\IeC {\`e}le.\relax }}{54}{table.caption.54}
+\contentsline {table}{\numberline {4.10}{\ignorespaces R\IeC {\'e}glage du mod\IeC {\`e}le\relax }}{56}{table.caption.56}
+\contentsline {table}{\numberline {4.11}{\ignorespaces Les 20 variables les plus importantes du mod\IeC {\`e}le.\relax }}{57}{table.caption.58}
+\contentsline {table}{\numberline {4.12}{\ignorespaces Variables \IeC {\`a} haute variabilit\IeC {\'e} avec un coefficient de variabilit\IeC {\'e} sup\IeC {\'e}rieur \IeC {\`a} 10\relax }}{61}{table.caption.62}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Discussion des r\IeC {\'e}sultats}{65}{chapter.5}
+\contentsline {xchapter}{Discussion des r\IeC {\'e}sultats}{67}{chapter.5}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Conclusion}{69}{chapter.6}
+\contentsline {xchapter}{Conclusion}{71}{chapter.6}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Description des donn\IeC {\'e}es}{71}{appendix.A}
-\contentsline {table}{\numberline {A.1}{\ignorespaces Dataset partie 1\relax }}{71}{table.caption.69}
-\contentsline {table}{\numberline {A.2}{\ignorespaces Dataset partie 2\relax }}{72}{table.caption.70}
-\contentsline {table}{\numberline {A.3}{\ignorespaces Dataset partie 3\relax }}{73}{table.caption.71}
-\contentsline {table}{\numberline {A.4}{\ignorespaces Format des donn\IeC {\'e}es climatiques brutes\relax }}{74}{table.caption.72}
+\contentsline {xchapter}{Description des donn\IeC {\'e}es}{73}{appendix.A}
+\contentsline {table}{\numberline {A.1}{\ignorespaces Dataset partie 1\relax }}{73}{table.caption.70}
+\contentsline {table}{\numberline {A.2}{\ignorespaces Dataset partie 2\relax }}{74}{table.caption.71}
+\contentsline {table}{\numberline {A.3}{\ignorespaces Dataset partie 3\relax }}{75}{table.caption.72}
+\contentsline {table}{\numberline {A.4}{\ignorespaces Format des donn\IeC {\'e}es climatiques brutes\relax }}{76}{table.caption.73}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Importances des variables par cluster}{77}{appendix.B}
-\contentsline {table}{\numberline {B.1}{\ignorespaces HCPC avec trois clusters compar\IeC {\'e}s \IeC {\`a} la sortie Acidez\relax }}{77}{table.caption.75}
-\contentsline {table}{\numberline {B.2}{\ignorespaces Tableau des clusters pour la sortie Puntaje Total\relax }}{78}{table.caption.76}
-\contentsline {table}{\numberline {B.3}{\ignorespaces Importance des variables lors de la r\IeC {\'e}alisation des clusters\relax }}{79}{table.caption.77}
+\contentsline {xchapter}{Importances des variables par cluster}{79}{appendix.B}
+\contentsline {table}{\numberline {B.1}{\ignorespaces HCPC avec trois clusters compar\IeC {\'e}s \IeC {\`a} la sortie Acidez\relax }}{79}{table.caption.76}
+\contentsline {table}{\numberline {B.2}{\ignorespaces Tableau des clusters pour la sortie Puntaje Total\relax }}{80}{table.caption.77}
+\contentsline {table}{\numberline {B.3}{\ignorespaces Importance des variables lors de la r\IeC {\'e}alisation des clusters\relax }}{81}{table.caption.78}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Autres informations }{81}{appendix.C}
+\contentsline {xchapter}{Autres informations }{83}{appendix.C}
+\addvspace {10\p@ }
+\contentsline {xchapter}{NDA}{85}{appendix.D}
