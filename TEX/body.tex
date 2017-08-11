@@ -28,13 +28,15 @@ Le sujet de ce Travail de Bachelor a été proposé par le \textit{Centro Intern
 \noindent À 200 kilomètres de Cali, le comité des caféiculteurs de Risaralda souhaite pouvoir expliquer les différents traits de la qualité en bouche des cafés produits dans les différents secteurs de leur département. La filière café colombienne est en effet en concurrence avec d’autres pays exportateurs sur le marché international, et un des avantages comparatifs de la Colombie est que ses terroirs produisent des cafés de qualité et de caractères affirmés. Il est donc stratégique pour la fédération des caféiculteurs de Colombie d'être en mesure de faire valoir ces spécificités pour aller chercher la valeur ajoutée associée aux produits démarqués du lot.\\
 
 
-\noindent Ce projet a pour but de trouver des méthodes de modélisation afin d’identifier les caractéristiques du café spécifiques à chaque secteur de la région en se basant sur des analyses gustatives, des données climatiques et géographiques, et d’autres données de pratiques culturales.\\
+\noindent Ce projet a pour but de trouver des méthodes de modélisation afin d’identifier les caractéristiques du café spécifiques à chaque secteur de la région en se basant sur des analyses gustatives, des données climatiques et géographiques, et d’autres données de pratiques culturales. Une précédente étude avait déjà été réalisée en 2016 sur des données de meilleure qualité mais en plus petit nombre.\cite{Cenicafe}\\
 
 
 \noindent Dans un premier temps, l’objectif est de catégoriser les cafés en tentant de trouver des tendances gustatives par rapport aux conditions de culture. Dans un second temps, il faudra pouvoir prédire la qualité en bouche des cafés par rapport aux conditions environnementales.\\
 
 
 \noindent Le but de cette collaboration sur le long terme est de permettre au département de Risaralda de mettre en valeur la diversité de ses cafés, principalement à des fins de promotion auprès des acheteurs. \\
+
+
 
 \begin{figure}
 	\centering
@@ -54,7 +56,7 @@ Le sujet de ce Travail de Bachelor a été proposé par le \textit{Centro Intern
 Par pratiques culturales on entend ici les différentes façon de traiter la plante durant sa vie et le traitement des grains une fois récoltés. Malheureusement, aucune données de ce type n'a été fournies pour la réalisation de cette analyse. Les seules données à disposition sont des données de pratiques culturales générales issue de la littérature ou d'expériences personnelles. \cite{CoffeeImport} \cite{CCI} \cite{WikiCafeicultureColombie} \cite{InternationalCoffeeOrganisation} \cite{GuideCafe}
 
 \subsection{Données gustatives}
-Les données gustatives sont très relatives aux sens et à la perception de chaque goûteur Cependant, la SCAA, \textit{Speciality Coffee Association of America}, dispose d’un système de notation \cite{CupingProtocol} basé sur des hypothèses communautaires reconnues ce qui permet d’avoir une certaine régularité dans les données de dégustations. Les cafés sont notés sur 100 points répartis sur plusieurs critères: parfum/arôme, saveur, arrière-goût, acidité, corps, équilibre, douceur, clean-cup (absence de défauts marqués), uniformité et évaluation personnelle du testeur.  Chacun de ces critères est noté sur 10 mais aussi par des termes qualitatifs. Par exemple, la saveur, c’est-à-dire la combinaison de l’odeur et du goût, la première impression qu’on a en goûtant le café, peut être notée 7/10 et “Caramel”. \\
+Les données gustatives sont très relatives aux sens et à la perception de chaque goûteur. Cependant, la SCAA, \textit{Speciality Coffee Association of America}, dispose d’un système de notation \cite{CupingProtocol} basé sur des hypothèses communautaires reconnues ce qui permet d’avoir une certaine régularité dans les données de dégustations. Les cafés sont notés sur 100 points répartis sur plusieurs critères: parfum/arôme, saveur, arrière-goût, acidité, corps, équilibre, douceur, clean-cup (absence de défauts marqués), uniformité et évaluation personnelle du testeur.  Chacun de ces critères est noté sur 10 mais aussi par des termes qualitatifs. Par exemple, la saveur, c’est-à-dire la combinaison de l’odeur et du goût, la première impression qu’on a en goûtant le café, peut être notée 7/10 et “Caramel”. \\
 
 \noindent Un premier échantillon de trois cafés contenait toutes ces informations de manière uniforme, mais il s'est avéré que la partie mandante n'avait pas pu uniformiser la totalité des données brutes dans les délais et la tâche d'uniformisation nous a donc été confiée. Ainsi, les données finalement reçues variaient beaucoup d'un document à l'autre, d'une part dans les données de dégustations présentes et dans le type de document mais aussi dans les méta-données permettant d'identifier précisément de quel café il s'agissait. Il a donc fallu effectuer un tri et ne garder que la masse de données qu'il était possible d'utiliser. Les critères permettant de garder une dégustation ou non sont les suivants: Identification possible du café grâce au numéro SICA ou au numéro d'identité du caféiculteur, présence des défauts physiques du café, présence des caractéristiques gustatives de manière uniforme. La FNC a été sollicitée afin de compléter les données une fois celles-ci triées afin d'y ajouter les numéros SICA ou les numéros d'identité manquants, et d'y ajouter les coordonnées de chaque parcelle sous la forme de référence spatiale EPSG:3116 en suite converties en coordonnées GPS classiques degrés-décimaux.\\
 
@@ -351,15 +353,9 @@ Les données de qualité de sol sont subdivisées en profils. Chaque profil est 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{img/tableauOnline}
-	\caption{}
+	\caption{Carte interactive avec Tableau}
 	\label{fig:tableauonline}
 \end{figure}
-
-
-
-
-
-
 
 
 
@@ -401,7 +397,7 @@ PLS, originalement pour \textit{Partial Least Squares regression} puis plus réc
 
 \begin{figure}[H] 
 	\centering
-	\includegraphics[scale=0.5]{PLS_1} 
+	\includegraphics[scale=0.4]{PLS_1} 
 	\caption{\label{PLSschema}Méthode PLS. X est représentée par son score t et Y par u. Une première estimation de U est multipliée à travers X pour obtenir une approximation du poids $ \omega_t $. Le poids est normalisé pour être de longueur 1 et re-multiplié à travers X pour produire t. A partir de t et de Y, le poids $ q^T $ est obtenu ce qui donne un nouveau vecteur u. Cette opération est répétée jusqu'à la convergence de t.\cite{CEM:CEM515}} 
 	% http://www.umb.no/statisk/specmod/mbseminar/Westerhuis1998.pdf 
 \end{figure} 

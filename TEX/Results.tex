@@ -153,7 +153,7 @@ L'analyse sur une version compacte des variables a donné les résultats présen
 
 
 
-\noindent On peut observer que les deux années sont bien différenciées. Les premiers composants de la PCA montrent l'importance des variables climatiques et les différences entre années sont visibles sur ces graphiques. Les catégories sont aussi différemment réparties. En retournant sur les moyennes de chaque année (Voir description des données section \ref{YearlyPuntajeTotal}), on peut voir que l'année 2011 possède en effet moins de café en nombre mais plus de cafés ayant reçu la note de zéro. On peut aussi voir que les conditions climatiques sont différentes entre les deux années, surtout en termes de précipitations. La section \ref{SOM} montre les relations entre le climat et les défauts totaux, qui peuvent influencer la qualité finale du café.  %TODO
+\noindent On peut observer que les deux années sont bien différenciées. Les premiers composants de la PCA montrent l'importance des variables climatiques et les différences entre années sont visibles sur ces graphiques. Les catégories sont aussi différemment réparties. En retournant sur les moyennes de chaque année (Voir description des données section \ref{YearlyPuntajeTotal}), on peut voir que l'année 2011 possède en effet moins de café en nombre mais plus de cafés ayant reçu la note de zéro. On peut aussi voir que les conditions climatiques sont différentes entre les deux années, surtout en termes de précipitations. La section \ref{SOM} montre les relations entre le climat et les défauts totaux, qui peuvent influencer la qualité finale du café.
 % https://georgemdallas.wordpress.com/2013/10/30/principal-component-analysis-4-dummies-eigenvectors-eigenvalues-and-dimension-reduction/
 
 %https://onlinecourses.science.psu.edu/stat505/node/54
@@ -342,15 +342,7 @@ La carte auto-organisatrice a été réalisée en incluant toutes les variables 
 \end{figure}
 
 \newpage
-\paragraph{Analyse des cartes}On peut observer que les régions avec beaucoup de précipitations sont aussi celles qui ont le plus de cafés avec peu de points. Lors d'une seconde exécution du réseau on a pu observer une relation proche entre les défauts et l'altitude comme montré sur la figure \ref{SecondSOMASNM}. Cette relation n'était pas clairement visible lors de la première exécution. Le fait est déjà connu que le café qui pousse en altitude est de meilleure qualité cependant ici on remarque que les cafés cultivés aux altitudes les plus hautes sont les plus sujets à une grande quantité de défauts. Les défauts physiques n'interviennent que peu dans la qualité finale du café mais peuvent avoir une influence en cas de mauvais tri. On observe sur la figure \ref{SecondSOMASNM} que la zone en bas à gauche, là où l'altitude est la plus haute, correspond à une zone possédant peu de cafés ayant eu le score 0 et beaucoup ayant eu des scores entre 85 et 90. Cependant, des cafés ayant un nombre de points de moins de 80 points, en rouge ou compris entre 89 et 85, en bleu, sont présents plus ou moins de manière homogène sur la totalité de la carte, indépendamment de l'altitude. Sur la figure \ref{ThirdSOMASNM} on peut observer que les fortes précipitations sont liées au nombre de défauts mais aussi fortement à l'année. Presque aucun des café de l'année 2011 n'a eu de score compris dans la catégorie 2. 
-
-
-%TODO trouver le café à 90 points de 2011
-
-
-
-
-
+\paragraph{Analyse des cartes}On peut observer que les régions avec beaucoup de précipitations sont aussi celles qui ont le plus de cafés avec peu de points. Lors d'une seconde exécution du réseau on a pu observer une relation proche entre les défauts et l'altitude comme montré sur la figure \ref{SecondSOMASNM}. Cette relation n'était pas clairement visible lors de la première exécution. Le fait est déjà connu que le café qui pousse en altitude est de meilleure qualité cependant ici on remarque que les cafés cultivés aux altitudes les plus hautes sont les plus sujets à une grande quantité de défauts. Les défauts physiques n'interviennent que peu dans la qualité finale du café mais peuvent avoir une influence en cas de mauvais tri. On observe sur la figure \ref{SecondSOMASNM} que la zone en bas à gauche, là où l'altitude est la plus haute, correspond à une zone possédant peu de cafés ayant eu le score 0 et beaucoup ayant eu des scores entre 85 et 90. Cependant, des cafés ayant un nombre de points de moins de 80 points, en rouge ou compris entre 89 et 85, en bleu, sont présents plus ou moins de manière homogène sur la totalité de la carte, indépendamment de l'altitude. Sur la figure \ref{ThirdSOMASNM} on peut observer que les fortes précipitations sont liées au nombre de défauts mais aussi fortement à l'année. Presque aucun des cafés de l'année 2011 n'a eu de score compris dans la catégorie 2. 
 
 
 
@@ -692,10 +684,6 @@ Balanced Accuracy    0.563657   0.5049   0.5244
 \end{figure}
 
 
-%TODO plot acidez vs altitude ou pas
-%LA RMSE est bonne ici -> regarder Rsquared, car pas dépendent de l'unité, si proche de 1 c'est bon sinon c'est dela merde ->  c'est toujours de la merde -> commentj'aie u peur d'un coup !
-
-
 %-----------------------------------------------------------------------
 
 
@@ -796,7 +784,6 @@ DtrTotal      & 84.98
 \newpage
 
 
-%TODO Footnote pour kappa
 \paragraph{Discussion des résultats pour Random Forest}
 Avec une \textit{accuracy} de seulement 0.47  (47\% d'échantillons classés correctement) et un test de Kappa d'uniquement 0.0416\footnote{Le test kappa de Cohen fournit un résultat proche de 1 si les prédictions sont parfaites, et proche de 0 s'il n'y a aucune correspondance.}, la classification à l'aide de Random Forest ne semble pas fiable avec les données en notre possession. \\
 
@@ -812,15 +799,6 @@ Avec une \textit{accuracy} de seulement 0.47  (47\% d'échantillons classés cor
 
 
 
-
-
-
-
-
-
-
-
-%TODO finir RF et parler de RF avec les variables sans variance etc
 \subsection{Random Forest avec variables à haute variabilité}
 Afin de tester le modèle sans données inutilement redondantes et fortement corrélées, un second modèle Random Forest a été entrainé avec les variables indépendantes qui avaient un taux de variabilité supérieur à un certain niveau. Le premier niveau a été placé à $10$, ce qui a pour effet de ne garder que $25$ variables. Le second a été placé à $20$, ce qui a pour effet de ne garder que $21$ variables. Les résultats se sont avérés tout aussi imprécis, voir par exemple les résultats de prédiction sur la figure \ref{fig:rfptotalvariability10} avec le seuil à 10 pour la variable \textit{Puntaje Total} et sur la figure \ref{fig:rfptotalvariability20} avec le seuil à 20. Les cafés ayant un total de zéro point ont ici été gardés afin d'observer une éventuelle prédiction correspondante. Sur la figure \ref{fig:rfptotalvariability10} on peut observer qu'un des café ayant zéro points a été prédit à moins de 40 points, ce qui signifie que certaines variables indépendantes peuvent tirer la prédiction dans le bon sens. Les variables montrée dans le tableau \ref{tab:variability10Variables} sont celles utilisées pour créer le modèle avec un seuil de 10. On peut voir que les précipitations ont une grande importance et cela rejoint l'idée observée dans la section \ref{SOM} que la quantité de précipitations est importante pour la qualité du grain Cependant cela ne permet que d'avoir une approximation de la quantité de défauts physiques du grain et non de la qualité générale. 
 
